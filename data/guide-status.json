@@ -1,0 +1,21 @@
+{
+  "lastChecked": null,
+  "totalGuides": 12,
+  "flaggedCount": 0,
+  "sources": [],
+  "flaggedGuides": [],
+  "allGuideStatuses": [
+    { "id": "outlook-setup-pc", "title": "Sette opp Outlook på PC", "category": "E-post og kalender", "status": "ok", "lastUpdated": "2024-01-15", "flaggedHits": 0 },
+    { "id": "outlook-mobile", "title": "Outlook på mobil", "category": "E-post og kalender", "status": "ok", "lastUpdated": "2024-01-15", "flaggedHits": 0 },
+    { "id": "teams-first-meeting", "title": "Første møte i Teams", "category": "Microsoft Teams", "status": "ok", "lastUpdated": "2024-02-01", "flaggedHits": 0 },
+    { "id": "teams-channels", "title": "Kanaler og chatter i Teams", "category": "Microsoft Teams", "status": "ok", "lastUpdated": "2024-02-01", "flaggedHits": 0 },
+    { "id": "teams-copilot", "title": "Bruke Copilot i Teams", "category": "Microsoft Teams", "status": "ok", "lastUpdated": "2024-03-01", "flaggedHits": 0 },
+    { "id": "onedrive-save", "title": "Lagre filer i OneDrive", "category": "OneDrive og SharePoint", "status": "ok", "lastUpdated": "2024-01-20", "flaggedHits": 0 },
+    { "id": "sharepoint-document-library", "title": "Jobbe med dokumentbibliotek", "category": "OneDrive og SharePoint", "status": "ok", "lastUpdated": "2024-01-20", "flaggedHits": 0 },
+    { "id": "word-autosave", "title": "AutoLagre i Word", "category": "Word, Excel og PowerPoint", "status": "ok", "lastUpdated": "2024-01-10", "flaggedHits": 0 },
+    { "id": "excel-copilot", "title": "Copilot i Excel", "category": "Word, Excel og PowerPoint", "status": "ok", "lastUpdated": "2024-03-10", "flaggedHits": 0 },
+    { "id": "mfa-setup", "title": "Sette opp tofaktorautentisering", "category": "Sikkerhet og innlogging", "status": "ok", "lastUpdated": "2024-01-05", "flaggedHits": 0 },
+    { "id": "password-reset", "title": "Nullstille passord", "category": "Sikkerhet og innlogging", "status": "ok", "lastUpdated": "2024-01-05", "flaggedHits": 0 },
+    { "id": "copilot-365-intro", "title": "Kom i gang med Microsoft 365 Copilot", "category": "Copilot og AI", "status": "ok", "lastUpdated": "2024-03-15", "flaggedHits": 0 }
+  ]
+}
