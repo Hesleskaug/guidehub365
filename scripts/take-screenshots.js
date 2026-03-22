@@ -1,262 +1,222 @@
-/**
- * GuideHub 365 — Automatisk M365 Web Screenshot Collector
- *
- * Bruker Playwright til å logge inn på Microsoft 365 (web)
- * og ta skjermbilder av hvert steg i guidene.
- *
- * Konfigureres via miljøvariabler (GitHub Secrets):
- *   M365_EMAIL    - e-postadresse til testkontoen
- *   M365_PASSWORD - passord til testkontoen
- *
- * Kjøres via: node scripts/take-screenshots.js
- * Eller automatisk via GitHub Actions.
- */
-
 import { chromium } from 'playwright';
 import fs from 'fs';
 import path from 'path';
+import https from 'https';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, '..');
-const SCREENSHOTS_DIR = path.join(ROOT, 'public', 'screenshots');
 
-const EMAIL = process.env.M365_EMAIL;
-const PASSWORD = process.env.M365_PASSWORD;
+const M365_EMAIL = process.env.M365_EMAIL;
+const M365_PASSWORD = process.env.M365_PASSWORD;
+const M365_CLIENT_ID = process.env.M365_CLIENT_ID;
+const M365_TENANT_ID = process.env.M365_TENANT_ID;
+const M365_CLIENT_SECRET = process.env.M365_CLIENT_SECRET;
 
-if (!EMAIL || !PASSWORD) {
-  console.error('❌ Mangler M365_EMAIL eller M365_PASSWORD miljøvariabler');
-  process.exit(1);
-}
+const SESSION_FILE = path.join(__dirname, '..', 'data', 'session-state.json');
+const SCREENSHOT_BASE = path.join(__dirname, '..', 'public', 'screenshots');
+const REGISTRY_FILE = path.join(__dirname, '..', 'data', 'screenshot-registry.json');
 
-// Definisjon av alle skjermbilder som skal tas
-// Hvert steg har: id, url, selector (element som skal vises), beskrivelse
-const SCREENSHOT_TASKS = [
-
-  // ─── OUTLOOK WEB ───────────────────────────────────────────────────────────
+const guides = [
   {
-    guideId: 'outlook-setup-pc',
+    id: 'outlook-setup-pc',
+    name: 'Sette opp Outlook paa PC',
     steps: [
-      {
-        step: 1,
-        url: 'https://outlook.office.com/mail/',
-        waitFor: '[aria-label="New mail"], [aria-label="Ny e-post"]',
-        selector: 'body',
-        clip: null, // full page
-        description: 'Outlook innboks - oversikt'
-      },
-      {
-        step: 2,
-        url: 'https://outlook.office.com/mail/',
-        waitFor: '[aria-label="New mail"], [aria-label="Ny e-post"]',
-        selector: '[aria-label="New mail"], [aria-label="Ny e-post"]',
-        clip: null,
-        description: 'Ny e-post knappen'
-      }
+      { title: 'Aapne Outlook', url: 'https://outlook.office.com/mail/', selector: '[aria-label="Mail"]', description: 'Gaa til Outlook paa nett' },
+      { title: 'Innboks', url: 'https://outlook.office.com/mail/inbox', selector: '.ms-FocusZone', description: 'Din innboks i Outlook' },
+      { title: 'Kalender', url: 'https://outlook.office.com/calendar/view/month', selector: '[aria-label="Calendar"]', description: 'Kalendervisning i Outlook' }
     ]
   },
-
-  // ─── TEAMS WEB ─────────────────────────────────────────────────────────────
   {
-    guideId: 'teams-first-meeting',
+    id: 'teams-first-meeting',
+    name: 'Delta i Teams-moete',
     steps: [
-      {
-        step: 1,
-        url: 'https://teams.microsoft.com/_#/calendarv2',
-        waitFor: '[data-tid="calendar-new-meeting-button"], [aria-label*="New meeting"]',
-        selector: 'body',
-        clip: null,
-        description: 'Teams kalender - oversikt'
-      },
-      {
-        step: 2,
-        url: 'https://teams.microsoft.com/_#/calendarv2',
-        waitFor: '[data-tid="calendar-new-meeting-button"]',
-        selector: '[data-tid="calendar-new-meeting-button"]',
-        clip: null,
-        description: 'Nytt møte-knappen i Teams'
-      }
+      { title: 'Aapne Teams', url: 'https://teams.microsoft.com/', selector: '[data-tid="app-bar"]', description: 'Microsoft Teams hjemskjerm' },
+      { title: 'Kalender og moeter', url: 'https://teams.microsoft.com/_#/calendarv2', selector: '[data-tid="left-rail-calendar-tab"]', description: 'Moetekalender i Teams' }
     ]
   },
-
-  // ─── ONEDRIVE WEB ──────────────────────────────────────────────────────────
   {
-    guideId: 'onedrive-save',
+    id: 'onedrive-save',
+    name: 'Lagre filer i OneDrive',
     steps: [
-      {
-        step: 1,
-        url: 'https://onedrive.live.com/?id=root',
-        waitFor: '[data-automationid="uploadCommand"]',
-        selector: 'body',
-        clip: null,
-        description: 'OneDrive - Mine filer'
-      },
-      {
-        step: 2,
-        url: 'https://onedrive.live.com/?id=root',
-        waitFor: '[data-automationid="uploadCommand"]',
-        selector: '[data-automationid="uploadCommand"]',
-        clip: null,
-        description: 'Last opp-knappen i OneDrive'
-      }
+      { title: 'Aapne OneDrive', url: 'https://onedrive.live.com/?authkey=&id=root', selector: '[aria-label="Files"]', description: 'OneDrive filvisning' }
     ]
   },
-
-  // ─── MFA SETUP ─────────────────────────────────────────────────────────────
   {
-    guideId: 'mfa-setup',
+    id: 'mfa-setup',
+    name: 'Sette opp MFA',
     steps: [
-      {
-        step: 1,
-        url: 'https://mysignins.microsoft.com/security-info',
-        waitFor: 'main, [role="main"]',
-        selector: 'body',
-        clip: null,
-        description: 'Sikkerhetsinformasjon-siden i Microsoft'
-      }
+      { title: 'Min konto', url: 'https://myaccount.microsoft.com/', selector: 'h1', description: 'Microsoft kontooversikt' },
+      { title: 'Sikkerhetsinformasjon', url: 'https://mysignins.microsoft.com/security-info', selector: 'h1', description: 'Min kontosikkerhet' }
     ]
   }
 ];
 
-// Logg inn på Microsoft 365
-async function login(page) {
-  console.log('🔐 Logger inn på Microsoft 365...');
-
-  await page.goto('https://login.microsoftonline.com/', { waitUntil: 'networkidle' });
-
-  // Skriv inn e-post
-  await page.fill('input[type="email"]', EMAIL);
-  await page.click('input[type="submit"]');
-  await page.waitForLoadState('networkidle');
-
-  // Skriv inn passord
-  try {
-    await page.waitForSelector('input[type="password"]', { timeout: 8000 });
-    await page.fill('input[type="password"]', PASSWORD);
-    await page.click('input[type="submit"]');
-    await page.waitForLoadState('networkidle');
-  } catch {
-    console.warn('   ⚠️  Passord-felt ikke funnet — kan allerede være innlogget');
+async function getOAuthToken() {
+  if (!M365_CLIENT_ID || !M365_TENANT_ID || !M365_EMAIL || !M365_PASSWORD) {
+    console.log('Missing OAuth credentials');
+    return null;
   }
-
-  // Håndter "Stay signed in?" prompt
-  try {
-    const staySignedIn = page.locator('input[value="Yes"], input[id="idBtn_Back"]');
-    if (await staySignedIn.count() > 0) {
-      await staySignedIn.first().click();
-      await page.waitForLoadState('networkidle');
-    }
-  } catch { /* ignorer */ }
-
-  // Håndter MFA hvis påkrevd (venter maks 30 sek på manuell godkjenning)
-  const url = page.url();
-  if (url.includes('login') || url.includes('auth')) {
-    console.log('   ⚠️  MFA kan være påkrevd. Venter 30 sekunder...');
-    await page.waitForTimeout(30000);
-  }
-
-  console.log('   ✅ Innlogging fullført');
+  console.log('Attempting ROPC OAuth...');
+  const params = new URLSearchParams({
+    grant_type: 'password',
+    client_id: M365_CLIENT_ID,
+    client_secret: M365_CLIENT_SECRET || '',
+    scope: 'openid offline_access https://graph.microsoft.com/User.Read',
+    username: M365_EMAIL,
+    password: M365_PASSWORD
+  });
+  return new Promise((resolve) => {
+    const postData = params.toString();
+    const options = {
+      hostname: 'login.microsoftonline.com',
+      path: "/" + M365_TENANT_ID + "/oauth2/v2.0/token",
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': Buffer.byteLength(postData) }
+    };
+    const req = https.request(options, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        try {
+          const json = JSON.parse(data);
+          if (json.access_token) { console.log('ROPC token acquired'); resolve(json); }
+          else { console.log('ROPC failed:', json.error_description || json.error); resolve(null); }
+        } catch (e) { resolve(null); }
+      });
+    });
+    req.on('error', () => resolve(null));
+    req.write(postData);
+    req.end();
+  });
 }
 
-// Ta et enkelt skjermbilde
-async function takeScreenshot(page, task, step) {
-  const filename = `steg-${step.step}.png`;
-  const dir = path.join(SCREENSHOTS_DIR, task.guideId);
-  fs.mkdirSync(dir, { recursive: true });
-  const filepath = path.join(dir, filename);
-
-  console.log(`   📸 Steg ${step.step}: ${step.description}`);
-
+function loadSessionState() {
   try {
-    await page.goto(step.url, { waitUntil: 'networkidle', timeout: 30000 });
-
-    if (step.waitFor) {
-      await page.waitForSelector(step.waitFor, { timeout: 15000 }).catch(() => {
-        console.log(`      ⚠️  Element ikke funnet: ${step.waitFor} — tar full screenshot`);
-      });
+    if (fs.existsSync(SESSION_FILE)) {
+      const state = JSON.parse(fs.readFileSync(SESSION_FILE, 'utf8'));
+      const ageHours = (Date.now() - state.savedAt) / (1000 * 60 * 60);
+      if (ageHours < 20) { console.log("Loaded session state"); return state.cookies; }
     }
+  } catch (e) {}
+  return null;
+}
 
-    // Vent litt ekstra for animasjoner
-    await page.waitForTimeout(1500);
+function saveSessionState(cookies) {
+  try {
+    const dir = path.dirname(SESSION_FILE);
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(SESSION_FILE, JSON.stringify({ savedAt: Date.now(), cookies }, null, 2));
+    console.log('Session state saved');
+  } catch (e) {}
+}
 
-    if (step.selector && step.selector !== 'body') {
-      try {
-        const el = page.locator(step.selector).first();
-        await el.screenshot({ path: filepath });
-      } catch {
-        // Fallback til full side
-        await page.screenshot({ path: filepath, fullPage: false });
-      }
-    } else {
+async function performWebLogin(page) {
+  console.log('Performing web login...');
+  await page.goto('https://login.microsoftonline.com/', { waitUntil: 'networkidle' });
+  await page.fill('input[type="email"]', M365_EMAIL);
+  await page.click('input[type="submit"]');
+  await page.waitForTimeout(2000);
+  try {
+    await page.fill('input[type="password"]', M365_PASSWORD);
+    await page.click('input[type="submit"]');
+    await page.waitForTimeout(3000);
+  } catch (e) {}
+  try {
+    const stayBtn = await page.$('input[value="Yes"]') || await page.$('#idSIButton9');
+    if (stayBtn) { await stayBtn.click(); await page.waitForTimeout(2000); }
+  } catch (e) {}
+  console.log('Waiting 30s for possible MFA...');
+  await page.waitForTimeout(30000);
+  await page.goto('https://www.microsoft365.com/', { waitUntil: 'networkidle', timeout: 60000 });
+  const url = page.url();
+  if (url.includes('microsoft365.com') || url.includes('office.com')) { console.log('Web login successful'); return true; }
+  return false;
+}
+
+async function takeGuideScreenshots(page, guide) {
+  console.log("Taking screenshots for: " + guide.name);
+  const guideDir = path.join(SCREENSHOT_BASE, guide.id);
+  if (!fs.existsSync(guideDir)) fs.mkdirSync(guideDir, { recursive: true });
+  const results = [];
+  for (let i = 0; i < guide.steps.length; i++) {
+    const step = guide.steps[i];
+    const stepNum = i + 1;
+    const filename = "steg-" + stepNum + ".png";
+    const filepath = path.join(guideDir, filename);
+    console.log("  Step " + stepNum + ": " + step.title);
+    try {
+      await page.goto(step.url, { waitUntil: 'networkidle', timeout: 30000 });
+      await page.waitForTimeout(3000);
+      if (step.action) await step.action(page);
+      if (step.selector) { try { await page.waitForSelector(step.selector, { timeout: 10000 }); } catch (e) {} }
       await page.screenshot({ path: filepath, fullPage: false });
+      console.log("    Saved: " + filename);
+      results.push({ step: stepNum, title: step.title, description: step.description, filename, capturedAt: new Date().toISOString(), success: true });
+    } catch (e) {
+      console.log("    Failed: " + e.message);
+      results.push({ step: stepNum, title: step.title, description: step.description, filename, capturedAt: new Date().toISOString(), success: false, error: e.message });
     }
-
-    console.log(`      ✅ Lagret: ${path.relative(ROOT, filepath)}`);
-    return true;
-  } catch (err) {
-    console.warn(`      ❌ Feilet: ${err.message}`);
-    return false;
   }
+  return results;
+}
+
+function updateRegistry(guideId, steps) {
+  let registry = {};
+  try { if (fs.existsSync(REGISTRY_FILE)) registry = JSON.parse(fs.readFileSync(REGISTRY_FILE, 'utf8')); } catch (e) {}
+  registry[guideId] = { lastUpdated: new Date().toISOString(), steps };
+  fs.writeFileSync(REGISTRY_FILE, JSON.stringify(registry, null, 2));
+  console.log("Registry updated for " + guideId);
 }
 
 async function main() {
-  console.log('📸 GuideHub 365 — Screenshot Collector\n');
+  const targetGuide = process.env.GUIDE_ID || null;
+  const guidesToProcess = targetGuide ? guides.filter(g => g.id === targetGuide) : guides;
+  console.log("GuideHub365 Screenshot Automation - " + new Date().toISOString());
+  console.log("Processing " + guidesToProcess.length + " guide(s)");
 
-  const browser = await chromium.launch({
-    headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
-  });
-
-  const context = await browser.newContext({
-    viewport: { width: 1280, height: 800 },
-    locale: 'nb-NO',
-    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-  });
-
+  const browser = await chromium.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'] });
+  const context = await browser.newContext({ viewport: { width: 1366, height: 768 }, locale: 'nb-NO', timezoneId: 'Europe/Oslo' });
   const page = await context.newPage();
+  let authenticated = false;
 
-  // Logg inn
-  await login(page);
+  const savedCookies = loadSessionState();
+  if (savedCookies) {
+    try {
+      await context.addCookies(savedCookies);
+      await page.goto('https://www.microsoft365.com/', { waitUntil: 'networkidle', timeout: 30000 });
+      const url = page.url();
+      if (url.includes('microsoft365.com') && !url.includes('login')) { console.log('Restored session'); authenticated = true; }
+    } catch (e) {}
+  }
 
-  // Ta skjermbilder for alle guider
-  let total = 0;
-  let success = 0;
-
-  for (const task of SCREENSHOT_TASKS) {
-    console.log(`\n📋 Guide: ${task.guideId}`);
-    for (const step of task.steps) {
-      total++;
-      const ok = await takeScreenshot(page, task, step);
-      if (ok) success++;
+  if (!authenticated) {
+    const tokenResult = await getOAuthToken();
+    if (tokenResult) {
+      try {
+        await page.goto('https://www.microsoft365.com/', { waitUntil: 'networkidle', timeout: 30000 });
+        const url = page.url();
+        if (!url.includes('login.microsoftonline')) { console.log('Authenticated via ROPC'); authenticated = true; }
+      } catch (e) {}
     }
   }
 
+  if (!authenticated) authenticated = await performWebLogin(page);
+  if (!authenticated) { console.log('Authentication failed'); await browser.close(); process.exit(1); }
+
+  const cookies = await context.cookies();
+  saveSessionState(cookies);
+
+  let totalSuccess = 0, totalFailed = 0;
+  for (const guide of guidesToProcess) {
+    const results = await takeGuideScreenshots(page, guide);
+    updateRegistry(guide.id, results);
+    totalSuccess += results.filter(r => r.success).length;
+    totalFailed += results.filter(r => !r.success).length;
+  }
+
   await browser.close();
-
-  // Oppdater screenshot-register
-  const registry = {
-    lastUpdated: new Date().toISOString(),
-    totalScreenshots: success,
-    guides: SCREENSHOT_TASKS.map(t => ({
-      guideId: t.guideId,
-      steps: t.steps.map(s => ({
-        step: s.step,
-        file: `screenshots/${t.guideId}/steg-${s.step}.png`,
-        description: s.description
-      }))
-    }))
-  };
-
-  fs.writeFileSync(
-    path.join(ROOT, 'data', 'screenshot-registry.json'),
-    JSON.stringify(registry, null, 2)
-  );
-
-  console.log(`\n✅ Ferdig! ${success}/${total} skjermbilder tatt`);
-  console.log(`📄 Register oppdatert: data/screenshot-registry.json`);
+  console.log("Done! " + totalSuccess + " screenshots, " + totalFailed + " failed");
+  if (totalSuccess === 0) process.exit(1);
 }
 
-main().catch(err => {
-  console.error('❌ Kritisk feil:', err);
-  process.exit(1);
-});
+main().catch(err => { console.error('Fatal error:', err); process.exit(1); });
