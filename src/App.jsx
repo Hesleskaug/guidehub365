@@ -217,7 +217,11 @@ function ScreenshotPlaceholder({ name, guideId, domain }) {
 
 // --- MAIN APP COMPONENT ---
 export default function GuideHub365() {
-  const [view, setView] = useState("landing"); // landing | dashboard | category | guide | admin | pricing
+  // Check URL params — ?guides bypasses landing page for end users
+  const urlParams = new URLSearchParams(window.location.search);
+  const isUserMode = urlParams.has("guides") || urlParams.has("start");
+  const [view, setView] = useState(isUserMode ? "dashboard" : "landing"); // landing | dashboard | category | guide | admin | pricing
+  const [userMode] = useState(isUserMode); // true = enkel brukervisning (ingen salg)
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedGuide, setSelectedGuide] = useState(null);
   const [companyDomain, setCompanyDomain] = useState("example.com");
@@ -520,14 +524,16 @@ export default function GuideHub365() {
           <span style={{ fontSize: 11, color: subtleText, background: darkMode ? "#2A2A4A" : "#F0F0F0", padding: "2px 6px", borderRadius: 10 }}>{cat.count}</span>
         </div>
       ))}
-      <div style={{ borderTop: `1px solid ${borderColor}`, margin: "12px 16px 0", paddingTop: 12 }}>
-        <div onClick={() => setView("pricing")} style={{ display: "flex", alignItems: "center", gap: 10, padding: "10px 0", cursor: "pointer", fontSize: 13, color: subtleText }}>
-          <span>💰</span> Priser & Planer
+      {!userMode && (
+        <div style={{ borderTop: `1px solid ${borderColor}`, margin: "12px 16px 0", paddingTop: 12 }}>
+          <div onClick={() => setView("pricing")} style={{ display: "flex", alignItems: "center", gap: 10, padding: "10px 0", cursor: "pointer", fontSize: 13, color: subtleText }}>
+            <span>💰</span> Priser & Planer
+          </div>
+          <div onClick={() => setView("landing")} style={{ display: "flex", alignItems: "center", gap: 10, padding: "10px 0", cursor: "pointer", fontSize: 13, color: subtleText }}>
+            <span>🏠</span> Landingsside
+          </div>
         </div>
-        <div onClick={() => setView("landing")} style={{ display: "flex", alignItems: "center", gap: 10, padding: "10px 0", cursor: "pointer", fontSize: 13, color: subtleText }}>
-          <span>🏠</span> Landingsside
-        </div>
-      </div>
+      )}
     </div>
   );
 
@@ -866,10 +872,20 @@ export default function GuideHub365() {
         <Sidebar />
         <div style={{ flex: 1, padding: "24px 32px" }}>
           {/* Welcome */}
-          <div style={{ background: "linear-gradient(135deg, #0078D4, #106EBE)", borderRadius: 16, padding: "28px 32px", color: "#fff", marginBottom: 28 }}>
-            <h2 style={{ fontSize: 22, fontWeight: 700, margin: "0 0 8px" }}>Velkommen til {companyName} sin brukerhjelp</h2>
-            <p style={{ fontSize: 14, opacity: 0.9, margin: 0 }}>Finn enkle steg-for-steg guider for alt du trenger hjelp med i Microsoft 365.</p>
-          </div>
+          {userMode ? (
+            <div style={{ background: "linear-gradient(135deg, #0078D4, #106EBE)", borderRadius: 16, padding: "28px 32px", color: "#fff", marginBottom: 28, display: "flex", alignItems: "center", gap: 24 }}>
+              <div style={{ fontSize: 48 }}>👋</div>
+              <div>
+                <h2 style={{ fontSize: 24, fontWeight: 700, margin: "0 0 6px" }}>Hei! Her finner du hjelp til Microsoft 365</h2>
+                <p style={{ fontSize: 15, opacity: 0.9, margin: 0 }}>Velg en guide nedenfor, eller bruk søket øverst for å finne det du leter etter. Alt er forklart steg for steg.</p>
+              </div>
+            </div>
+          ) : (
+            <div style={{ background: "linear-gradient(135deg, #0078D4, #106EBE)", borderRadius: 16, padding: "28px 32px", color: "#fff", marginBottom: 28 }}>
+              <h2 style={{ fontSize: 22, fontWeight: 700, margin: "0 0 8px" }}>Velkommen til {companyName} sin brukerhjelp</h2>
+              <p style={{ fontSize: 14, opacity: 0.9, margin: 0 }}>Finn enkle steg-for-steg guider for alt du trenger hjelp med i Microsoft 365.</p>
+            </div>
+          )}
 
           {/* Popular guides */}
           <h3 style={{ fontSize: 17, fontWeight: 600, margin: "0 0 16px" }}>Mest brukte guider</h3>
