@@ -1,64 +1,64 @@
-name: Ta M365 skjermbilder automatisk
+name: Take M365 Screenshots
 
 on:
   schedule:
-    # Kjøres hver mandag kl. 08:00 UTC (10:00 norsk tid)
     - cron: '0 8 * * 1'
   workflow_dispatch:
-    # Kan kjøres manuelt fra GitHub Actions-fanen
+    inputs:
+      guide_id:
+        description: 'Guide ID to screenshot (empty = all)'
+        required: false
+        default: ''
 
 jobs:
-  screenshots:
-    name: Ta M365 web-skjermbilder
+  take-screenshots:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-
     steps:
-      - name: Sjekk ut kode
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Sett opp Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
 
-      - name: Installer avhengigheter
+      - name: Install dependencies
         run: npm ci
 
-      - name: Installer Playwright nettlesere
+      - name: Install Playwright browsers
         run: npx playwright install chromium --with-deps
 
-      - name: Ta skjermbilder av M365 web
+      - name: Create required directories
+        run: |
+          mkdir -p public/screenshots
+          mkdir -p data
+
+      - name: Take screenshots
         env:
           M365_EMAIL: ${{ secrets.M365_EMAIL }}
           M365_PASSWORD: ${{ secrets.M365_PASSWORD }}
+          M365_CLIENT_ID: ${{ secrets.M365_CLIENT_ID }}
+          M365_TENANT_ID: ${{ secrets.M365_TENANT_ID }}
+          M365_CLIENT_SECRET: ${{ secrets.M365_CLIENT_SECRET }}
+          GUIDE_ID: ${{ github.event.inputs.guide_id }}
         run: node scripts/take-screenshots.js
 
-      - name: Sjekk om nye skjermbilder ble tatt
+      - name: Check for new screenshots
         id: diff
         run: |
-          if git diff --quiet public/screenshots/ 2>/dev/null && git diff --quiet data/screenshot-registry.json 2>/dev/null; then
-            echo "changed=false" >> $GITHUB_OUTPUT
+          git add -A public/screenshots/ data/screenshot-registry.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
           else
-            COUNT=$(find public/screenshots -name "*.png" 2>/dev/null | wc -l)
-            echo "changed=true" >> $GITHUB_OUTPUT
-            echo "count=$COUNT" >> $GITHUB_OUTPUT
+            echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Commit nye skjermbilder
-        if: steps.diff.outputs.changed == 'true'
+      - name: Commit and push screenshots
+        if: steps.diff.outputs.has_changes == 'true'
         run: |
           git config user.name "GuideHub365 Bot"
-          git config user.email "bot@guidehub365.no"
-          git add public/screenshots/ data/screenshot-registry.json
-          git commit -m "📸 Auto: Oppdaterte ${{ steps.diff.outputs.count }} M365 skjermbilder [$(date '+%Y-%m-%d')]"
+          git config user.email "bot@guidehub365.com"
+          git commit -m "Auto-update screenshots $(date +'%Y-%m-%d')"
           git push
-
-      - name: Oppsummering
-        run: |
-          echo "✅ Screenshot-jobb fullført!"
-          echo "Endringer: ${{ steps.diff.outputs.changed }}"
-          echo "Antall PNG-filer: ${{ steps.diff.outputs.count || '0' }}"
