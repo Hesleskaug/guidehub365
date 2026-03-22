@@ -1,0 +1,86 @@
+{
+  "outlook-setup-pc": {
+    "lastUpdated": "2026-03-22T20:40:20.445Z",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Aapne Outlook",
+        "description": "Gaa til Outlook paa nett",
+        "filename": "steg-1.png",
+        "capturedAt": "2026-03-22T20:39:51.364Z",
+        "success": true
+      },
+      {
+        "step": 2,
+        "title": "Innboks",
+        "description": "Din innboks i Outlook",
+        "filename": "steg-2.png",
+        "capturedAt": "2026-03-22T20:40:05.895Z",
+        "success": true
+      },
+      {
+        "step": 3,
+        "title": "Kalender",
+        "description": "Kalendervisning i Outlook",
+        "filename": "steg-3.png",
+        "capturedAt": "2026-03-22T20:40:20.444Z",
+        "success": true
+      }
+    ]
+  },
+  "teams-first-meeting": {
+    "lastUpdated": "2026-03-22T20:40:51.436Z",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Aapne Teams",
+        "description": "Microsoft Teams hjemskjerm",
+        "filename": "steg-1.png",
+        "capturedAt": "2026-03-22T20:40:37.411Z",
+        "success": true
+      },
+      {
+        "step": 2,
+        "title": "Kalender og moeter",
+        "description": "Moetekalender i Teams",
+        "filename": "steg-2.png",
+        "capturedAt": "2026-03-22T20:40:51.436Z",
+        "success": true
+      }
+    ]
+  },
+  "onedrive-save": {
+    "lastUpdated": "2026-03-22T20:41:06.144Z",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Aapne OneDrive",
+        "description": "OneDrive filvisning",
+        "filename": "steg-1.png",
+        "capturedAt": "2026-03-22T20:41:06.144Z",
+        "success": true
+      }
+    ]
+  },
+  "mfa-setup": {
+    "lastUpdated": "2026-03-22T20:41:36.124Z",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Min konto",
+        "description": "Microsoft kontooversikt",
+        "filename": "steg-1.png",
+        "capturedAt": "2026-03-22T20:41:21.108Z",
+        "success": true
+      },
+      {
+        "step": 2,
+        "title": "Sikkerhetsinformasjon",
+        "description": "Min kontosikkerhet",
+        "filename": "steg-2.png",
+        "capturedAt": "2026-03-22T20:41:36.124Z",
+        "success": true
+      }
+    ]
+  }
+}
