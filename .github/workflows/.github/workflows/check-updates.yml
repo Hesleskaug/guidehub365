@@ -1,0 +1,89 @@
+name: Sjekk Microsoft 365 oppdateringer
+
+on:
+  schedule:
+    # Kjøres hver dag kl. 07:00 UTC (09:00 norsk tid)
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+    # Kan også kjøres manuelt fra GitHub Actions-fanen
+
+jobs:
+  check-updates:
+    name: Sjekk M365 endringslogg
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Trengs for å committe guide-status.json
+
+    steps:
+      - name: Sjekk ut kode
+        uses: actions/checkout@v4
+
+      - name: Sett opp Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Kjør oppdateringssjekk
+        id: check
+        run: node scripts/check-m365-updates.js
+
+      - name: Sjekk om guide-status.json ble endret
+        id: diff
+        run: |
+          if git diff --quiet data/guide-status.json 2>/dev/null || [ ! -f data/guide-status.json ]; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            FLAGGED=$(node -e "const s=require('./data/guide-status.json'); console.log(s.flaggedCount)")
+            echo "flagged_count=$FLAGGED" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit oppdatert status
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "GuideHub365 Bot"
+          git config user.email "bot@guidehub365.no"
+          git add data/guide-status.json
+          git commit -m "🤖 Auto: Oppdatert guide-status.json [$(date '+%Y-%m-%d')]"
+          git push
+
+      - name: Opprett GitHub Issue hvis guider trenger gjennomgang
+        if: steps.diff.outputs.flagged_count > 0
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const status = JSON.parse(fs.readFileSync('data/guide-status.json', 'utf8'));
+            const flagged = status.flaggedGuides;
+
+            let body = `## 🔄 Microsoft 365 endringer oppdaget\n\n`;
+            body += `**${flagged.length} guide(r)** kan trenge oppdatering basert på nylige M365-endringer.\n\n`;
+            body += `**Sjekket:** ${new Date(status.lastChecked).toLocaleString('nb-NO')}\n\n`;
+            body += `---\n\n`;
+
+            for (const f of flagged) {
+              body += `### 📋 ${f.guideTitle}\n`;
+              body += `Kategori: *${f.category}*\n\n`;
+              for (const h of f.hits) {
+                body += `- **${h.source.slice(0, 100)}**\n`;
+                body += `  Nøkkelord: \`${h.matchedKeywords.join('`, `')}\`\n`;
+                if (h.link) body += `  [Les mer](${h.link})\n`;
+              }
+              body += `\n`;
+            }
+
+            body += `---\n*Automatisk generert av GuideHub365 Update Bot*`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🔄 [Auto] ${flagged.length} guide(r) trenger gjennomgang – ${new Date().toISOString().split('T')[0]}`,
+              body,
+              labels: ['guide-update', 'automated']
+            });
+
+      - name: Oppsummering
+        run: |
+          echo "✅ Sjekk fullført!"
+          echo "Flaggede guider: ${{ steps.diff.outputs.flagged_count || '0' }}"
