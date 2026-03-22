@@ -1,0 +1,64 @@
+name: Ta M365 skjermbilder automatisk
+
+on:
+  schedule:
+    # Kjøres hver mandag kl. 08:00 UTC (10:00 norsk tid)
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+    # Kan kjøres manuelt fra GitHub Actions-fanen
+
+jobs:
+  screenshots:
+    name: Ta M365 web-skjermbilder
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Sjekk ut kode
+        uses: actions/checkout@v4
+
+      - name: Sett opp Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Installer avhengigheter
+        run: npm ci
+
+      - name: Installer Playwright nettlesere
+        run: npx playwright install chromium --with-deps
+
+      - name: Ta skjermbilder av M365 web
+        env:
+          M365_EMAIL: ${{ secrets.M365_EMAIL }}
+          M365_PASSWORD: ${{ secrets.M365_PASSWORD }}
+        run: node scripts/take-screenshots.js
+
+      - name: Sjekk om nye skjermbilder ble tatt
+        id: diff
+        run: |
+          if git diff --quiet public/screenshots/ 2>/dev/null && git diff --quiet data/screenshot-registry.json 2>/dev/null; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            COUNT=$(find public/screenshots -name "*.png" 2>/dev/null | wc -l)
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "count=$COUNT" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit nye skjermbilder
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "GuideHub365 Bot"
+          git config user.email "bot@guidehub365.no"
+          git add public/screenshots/ data/screenshot-registry.json
+          git commit -m "📸 Auto: Oppdaterte ${{ steps.diff.outputs.count }} M365 skjermbilder [$(date '+%Y-%m-%d')]"
+          git push
+
+      - name: Oppsummering
+        run: |
+          echo "✅ Screenshot-jobb fullført!"
+          echo "Endringer: ${{ steps.diff.outputs.changed }}"
+          echo "Antall PNG-filer: ${{ steps.diff.outputs.count || '0' }}"
