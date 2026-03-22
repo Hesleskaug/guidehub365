@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "screenshots": "node scripts/take-screenshots.js",
+    "check-updates": "node scripts/check-m365-updates.js"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -14,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
+    "playwright": "^1.43.0",
     "vite": "^5.0.0"
   }
 }
