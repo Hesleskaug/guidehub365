@@ -146,31 +146,60 @@ const MFA_GUIDE = {
   },
   prerequisites: ["Smarttelefon (iPhone eller Android)", "Microsoft Authenticator-appen installert fra App Store / Google Play", "Du er pålogget på PC-en din"],
   steps: [
-    { number: 1, title: "Gå til sikkerhetssiden", instruction: "Åpne nettleseren din og gå til aka.ms/mfasetup. Du vil se en side fra Microsoft som heter «Sikkerhetsinformasjon».", tip: "Siden kan ta noen sekunder å laste. Hvis du ser en innlogging, logg inn med din vanlige jobb-e-post.", screenshot: "mfa-security-page" },
-    { number: 2, title: "Klikk «Legg til metode»", instruction: "Klikk på knappen «+ Legg til metode» midt på siden. En liten boks dukker opp der du kan velge type.", tip: "", screenshot: "mfa-add-method" },
-    { number: 3, title: "Velg «Autentiseringsapp»", instruction: "Klikk på nedtrekksmenyen i boksen og velg «Autentiseringsapp». Klikk deretter «Legg til».", tip: "Ikke velg «Telefon» — da brukes SMS, som er mindre sikker.", screenshot: "mfa-choose-app" },
-    { number: 4, title: "Skann QR-koden med telefonen", instruction: "Åpne Microsoft Authenticator-appen på telefonen. Trykk på + øverst til høyre og velg «Jobb- eller skolekonto». Hold telefonen over skjermen og skann QR-koden som vises.", tip: "Kommer ikke QR-koden opp? Klikk «Kan ikke skanne bildet» for å skrive inn koden manuelt.", screenshot: "mfa-qr-code" },
-    { number: 5, title: "Bekreft at det fungerer", instruction: "Klikk «Neste» på PC-skjermen. Du vil nå få en forespørsel på telefonen din. Godkjenn den ved å trykke «Godkjenn» i Authenticator-appen.", tip: "", screenshot: "mfa-confirm" },
+    { number: 1, title: "Logg inn med e-postadressen din", instruction: "Åpne nettleseren og gå til portal.office.com. Skriv inn din jobb-e-postadresse og klikk «Neste».", tip: "Bruk din vanlige jobbe-post — for eksempel navn@bedrift.no", screenshot: "steg-1-epost", guideId: "mfa-setup" },
+    { number: 2, title: "Skriv inn passordet ditt", instruction: "Skriv inn passordet ditt og klikk «Logg på». Første gang du logger inn vil Microsoft automatisk starte sikkerhetsoppsettet.", tip: "Har du glemt passordet? Klikk «Jeg har glemt passordet» under passordfeltet.", screenshot: "steg-2-passord", guideId: "mfa-setup" },
+    { number: 3, title: "Microsoft vil sikre kontoen din", instruction: "Du ser en side som heter «La oss sikre kontoen din». Dette er normalt og betyr at bedriften din krever ekstra sikkerhet. Klikk «Neste» for å fortsette.", tip: "Dette skjer kun første gang du logger inn. Etterpå tar det bare 2 sekunder ved fremtidige innlogginger.", screenshot: "steg-3-sikre-konto", guideId: "mfa-setup" },
+    { number: 4, title: "Installer Microsoft Authenticator-appen", instruction: "Last ned Microsoft Authenticator-appen på telefonen din — den er gratis. Finn den i App Store (iPhone) eller Google Play (Android). Klikk «Neste» på PC-en når appen er installert.", tip: "Søk etter «Microsoft Authenticator» — pass på at det er Microsoft sitt logo (blå skjold med person).", screenshot: "steg-4-installer-authenticator", guideId: "mfa-setup" },
+    { number: 5, title: "Skann QR-koden med telefonen", instruction: "Åpne Authenticator-appen på telefonen. Trykk på «+» øverst og velg «Jobb- eller skolekonto». Hold telefonen over QR-koden på PC-skjermen for å skanne den.", tip: "Ser du ikke QR-koden? Klikk «Kan ikke skanne bildet» for å legge inn koden manuelt.", screenshot: "steg-5-qr-kode", guideId: "mfa-setup" },
+    { number: 6, title: "Godkjenn varselet på telefonen", instruction: "Klikk «Neste» på PC-en. Du vil nå få et varsel på telefonen din i Microsoft Authenticator-appen. Trykk «Godkjenn» på telefonen.", tip: "Varselet kan ta noen sekunder å komme. Ikke lukk PC-vinduet mens du venter.", screenshot: "steg-6-godkjenn-varsel", guideId: "mfa-setup" },
+    { number: 7, title: "Ferdig — du er sikret!", instruction: "Du ser nå en bekreftelse om at sikkerhetsinformasjonen er lagret. Klikk «Ferdig» for å gå til Microsoft 365. Fra nå av vil du få et varsel på telefonen din ved innlogging.", tip: "Neste gang du logger inn tar det bare 2 sekunder: åpne telefonen og trykk «Godkjenn».", screenshot: "steg-7-fullfort", guideId: "mfa-setup" },
   ],
 };
 
-// Screenshot placeholder component
-function ScreenshotPlaceholder({ name, domain }) {
+// Screenshot component — viser ekte PNG-bilde hvis tilgjengelig, ellers placeholder
+function ScreenshotPlaceholder({ name, guideId, domain }) {
+  const [imgError, setImgError] = useState(false);
+
+  // Bygg bilde-URL basert på guide-ID og screenshot-navn
+  const imgSrc = guideId ? `/screenshots/${guideId}/${name}.png` : null;
+
+  // Fallback-tekster for placeholder
   const mockScreenshots = {
     "start-menu-outlook": { bg: "#1B1B1B", content: "Windows Start-meny med søk: 'Outlook'" },
     "outlook-email-input": { bg: "#F5F5F5", content: `Outlook — Skriv inn e-post: ola.nordmann@${domain}` },
     "outlook-password": { bg: "#F5F5F5", content: "Microsoft innlogging — Passord-felt" },
     "mfa-approve": { bg: "#F5F5F5", content: "Authenticator-appen — Trykk 'Godkjenn'" },
     "outlook-ready": { bg: "#0078D4", content: "Outlook er klar — Innboks vises" },
-    "mfa-security-page": { bg: "#F5F5F5", content: `aka.ms/mfasetup — Sikkerhetsinformasjon for ${domain}` },
-    "mfa-add-method": { bg: "#F5F5F5", content: "Klikk '+ Legg til metode' — knappen er blå" },
-    "mfa-choose-app": { bg: "#F5F5F5", content: "Velg 'Autentiseringsapp' fra nedtrekksmenyen" },
-    "mfa-qr-code": { bg: "#1B1B1B", content: "QR-kode vises på skjermen — Skann med telefonen" },
-    "mfa-confirm": { bg: "#107C10", content: "Forespørsel sendt til telefon — Trykk Godkjenn" },
+    "steg-1-epost": { bg: "#1a3a3a", content: "Microsoft 365 — Skriv inn e-postadresse" },
+    "steg-2-passord": { bg: "#1a3a3a", content: "Microsoft 365 — Skriv inn passord" },
+    "steg-3-sikre-konto": { bg: "#1a3a3a", content: "La oss sikre kontoen din — klikk Neste" },
+    "steg-4-installer-authenticator": { bg: "#1a3a3a", content: "Installer Microsoft Authenticator-appen" },
+    "steg-5-qr-kode": { bg: "#1a3a3a", content: "Skann QR-koden med Microsoft Authenticator" },
+    "steg-6-godkjenn-varsel": { bg: "#1a3a3a", content: "Godkjenn varselet på telefonen" },
+    "steg-7-fullfort": { bg: "#107C10", content: "Sikkerhetsinformasjon lagret — ferdig!" },
   };
+
+  // Vis ekte bilde hvis tilgjengelig og ikke feilet
+  if (imgSrc && !imgError) {
+    return (
+      <div style={{ margin: "12px 0", borderRadius: 8, overflow: "hidden", border: "1px solid #D1D1D1", background: "#f8f8f8" }}>
+        <img
+          src={imgSrc}
+          alt={`Skjermbilde: ${name}`}
+          onError={() => setImgError(true)}
+          style={{ width: "100%", display: "block", maxHeight: 400, objectFit: "cover", objectPosition: "top" }}
+        />
+        <div style={{ padding: "6px 12px", fontSize: 11, color: "#888", borderTop: "1px solid #eee", display: "flex", alignItems: "center", gap: 6 }}>
+          <span style={{ color: "#107C10" }}>●</span> Automatisk skjermbilde — oppdatert mars 2026
+        </div>
+      </div>
+    );
+  }
+
+  // Fallback placeholder
   const mock = mockScreenshots[name] || { bg: "#E0E0E0", content: name };
   return (
-    <div style={{ background: mock.bg, borderRadius: 8, padding: "32px 24px", margin: "12px 0", border: "1px solid #D1D1D1", textAlign: "center", color: mock.bg === "#1B1B1B" || mock.bg === "#0078D4" ? "#fff" : "#333", minHeight: 120, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 8 }}>
+    <div style={{ background: mock.bg, borderRadius: 8, padding: "32px 24px", margin: "12px 0", border: "1px solid #D1D1D1", textAlign: "center", color: mock.bg === "#1B1B1B" || mock.bg === "#0078D4" || mock.bg === "#1a3a3a" || mock.bg === "#107C10" ? "#fff" : "#333", minHeight: 120, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 8 }}>
       <div style={{ fontSize: 12, opacity: 0.7, textTransform: "uppercase", letterSpacing: 1 }}>Automatisk skjermbilde</div>
       <div style={{ fontSize: 14, fontWeight: 500 }}>{mock.content}</div>
       <div style={{ fontSize: 11, opacity: 0.5, marginTop: 4 }}>Oppdatert: mars 2026</div>
@@ -704,7 +733,7 @@ export default function GuideHub365() {
                       <p style={{ fontSize: 14, lineHeight: 1.6, color: darkMode ? "#C0C0D0" : "#424242", margin: "0 0 12px" }}>
                         {step.instruction.replace("{domain}", companyDomain)}
                       </p>
-                      <ScreenshotPlaceholder name={step.screenshot} domain={companyDomain} />
+                      <ScreenshotPlaceholder name={step.screenshot} guideId={step.guideId || selectedGuide?.id} domain={companyDomain} />
                       {step.tip && (
                         <div style={{ marginTop: 12, padding: "10px 14px", background: darkMode ? "#1A2744" : "#E3F2FD", borderRadius: 8, fontSize: 13, color: darkMode ? "#90CAF9" : "#0D47A1", display: "flex", gap: 8 }}>
                           <span>💡</span> {step.tip}
