@@ -1,0 +1,102 @@
+{
+  "version": "1.0.0",
+  "lastChecked": null,
+  "guides": [
+    {
+      "id": "outlook-setup-pc",
+      "title": "Sette opp Outlook på PC",
+      "category": "E-post og kalender",
+      "keywords": ["outlook", "email", "mail", "setup", "configure", "desktop app"],
+      "lastUpdated": "2024-01-15",
+      "status": "ok"
+    },
+    {
+      "id": "outlook-mobile",
+      "title": "Outlook på mobil",
+      "category": "E-post og kalender",
+      "keywords": ["outlook", "mobile", "ios", "android", "app"],
+      "lastUpdated": "2024-01-15",
+      "status": "ok"
+    },
+    {
+      "id": "teams-first-meeting",
+      "title": "Første møte i Teams",
+      "category": "Microsoft Teams",
+      "keywords": ["teams", "meeting", "video", "call", "join"],
+      "lastUpdated": "2024-02-01",
+      "status": "ok"
+    },
+    {
+      "id": "teams-channels",
+      "title": "Kanaler og chatter i Teams",
+      "category": "Microsoft Teams",
+      "keywords": ["teams", "channel", "chat", "post", "message"],
+      "lastUpdated": "2024-02-01",
+      "status": "ok"
+    },
+    {
+      "id": "teams-copilot",
+      "title": "Bruke Copilot i Teams",
+      "category": "Microsoft Teams",
+      "keywords": ["copilot", "ai", "teams", "summarize", "meeting recap"],
+      "lastUpdated": "2024-03-01",
+      "status": "ok"
+    },
+    {
+      "id": "onedrive-save",
+      "title": "Lagre filer i OneDrive",
+      "category": "OneDrive og SharePoint",
+      "keywords": ["onedrive", "save", "sync", "backup", "cloud storage"],
+      "lastUpdated": "2024-01-20",
+      "status": "ok"
+    },
+    {
+      "id": "sharepoint-document-library",
+      "title": "Jobbe med dokumentbibliotek",
+      "category": "OneDrive og SharePoint",
+      "keywords": ["sharepoint", "document library", "files", "collaborate"],
+      "lastUpdated": "2024-01-20",
+      "status": "ok"
+    },
+    {
+      "id": "word-autosave",
+      "title": "AutoLagre i Word",
+      "category": "Word, Excel og PowerPoint",
+      "keywords": ["word", "autosave", "cloud", "onedrive", "save automatically"],
+      "lastUpdated": "2024-01-10",
+      "status": "ok"
+    },
+    {
+      "id": "excel-copilot",
+      "title": "Copilot i Excel",
+      "category": "Word, Excel og PowerPoint",
+      "keywords": ["excel", "copilot", "ai", "formula", "analyze data"],
+      "lastUpdated": "2024-03-10",
+      "status": "ok"
+    },
+    {
+      "id": "mfa-setup",
+      "title": "Sette opp tofaktorautentisering",
+      "category": "Sikkerhet og innlogging",
+      "keywords": ["mfa", "two factor", "authenticator", "security", "login", "2fa"],
+      "lastUpdated": "2024-01-05",
+      "status": "ok"
+    },
+    {
+      "id": "password-reset",
+      "title": "Nullstille passord",
+      "category": "Sikkerhet og innlogging",
+      "keywords": ["password", "reset", "forgot", "sspr", "self service"],
+      "lastUpdated": "2024-01-05",
+      "status": "ok"
+    },
+    {
+      "id": "copilot-365-intro",
+      "title": "Kom i gang med Microsoft 365 Copilot",
+      "category": "Copilot og AI",
+      "keywords": ["copilot", "microsoft 365 copilot", "ai assistant", "prompt", "m365 copilot"],
+      "lastUpdated": "2024-03-15",
+      "status": "ok"
+    }
+  ]
+}
