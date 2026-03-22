@@ -48,6 +48,14 @@ const GUIDES = {
     { id: "teams-mobile", title: "Bruke Teams på mobil", difficulty: "Enkel", time: "5 min", popular: false },
     { id: "outlook-mobile", title: "Outlook-appen på mobil", difficulty: "Enkel", time: "5 min", popular: false },
   ],
+  security: [
+    { id: "setup-mfa", title: "Sette opp totrinnsbekreftelse (MFA)", difficulty: "Enkel", time: "5 min", popular: true },
+    { id: "password-reset", title: "Tilbakestille passord", difficulty: "Enkel", time: "3 min", popular: true },
+    { id: "sspr-setup", title: "Sette opp selvbetjent passordtilbakestilling", difficulty: "Enkel", time: "5 min", popular: false },
+    { id: "conditional-access", title: "Forstå betinget tilgang", difficulty: "Middels", time: "10 min", popular: false },
+    { id: "account-locked", title: "Hva gjør du når kontoen er låst?", difficulty: "Enkel", time: "3 min", popular: true },
+    { id: "suspicious-email", title: "Rapportere mistenkelig e-post", difficulty: "Enkel", time: "5 min", popular: false },
+  ],
 };
 
 // Detailed guide content (sample for "Sette opp Outlook på PC")
@@ -611,7 +619,7 @@ export default function GuideHub365() {
 
   // ---- GUIDE DETAIL VIEW ----
   if (view === "guide") {
-    const guide = demoGuide === "mfa" ? MFA_GUIDE : DETAILED_GUIDE;
+    const guide = (selectedGuide?.id === "setup-mfa" || demoGuide === "mfa") ? MFA_GUIDE : DETAILED_GUIDE;
     const stepsCompleted = Object.values(showCompletionCheck).filter(Boolean).length;
     const allDone = stepsCompleted === guide.steps.length;
 
