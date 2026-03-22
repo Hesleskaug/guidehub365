@@ -127,6 +127,134 @@ const DETAILED_GUIDE = {
   ],
 };
 
+// ─── FRAVÆRSMELDING ───────────────────────────────────────────────
+const OUT_OF_OFFICE_GUIDE = {
+  id: "out-of-office",
+  title: "Sette opp fraværsmelding (automatisk svar)",
+  lastUpdated: "22. mars 2026",
+  version: "Outlook på nett",
+  difficulty: "Enkel",
+  time: "3 min",
+  description: "Når du er på ferie eller borte fra jobb, kan du sette opp en automatisk melding som sendes til alle som e-poster deg. Da vet kollegaer og kunder at du er utilgjengelig — og hvem de kan kontakte i stedet.",
+  prerequisites: ["Du er logget inn på Outlook på nett (outlook.office.com)", "Du vet hvem som kan kontaktes mens du er borte"],
+  steps: [
+    { number: 1, title: "Åpne Outlook innstillinger", instruction: "Gå til outlook.office.com og logg inn. Klikk på tannhjulikonet ⚙️ øverst til høyre.", tip: "Ser du ikke tannhjulet? Sørg for at du er i Outlook — ikke Teams eller OneDrive.", screenshot: "steg-1-innstillinger", guideId: "out-of-office" },
+    { number: 2, title: "Finn 'Automatiske svar'", instruction: "En meny åpner seg på høyre side. Klikk på «Vis alle Outlook-innstillinger» nederst. Gå deretter til E-post → Automatiske svar.", tip: "Du kan også søke etter 'fraværsmelding' i søkefeltet øverst i innstillingsmenyen.", screenshot: "steg-2-automatiske-svar", guideId: "out-of-office" },
+    { number: 3, title: "Slå på automatiske svar", instruction: "Klikk på «Send automatiske svar». Sett gjerne dato for når du reiser og når du er tilbake — da slår meldingen seg av automatisk.", tip: "Huk av «Send bare svar i denne tidsperioden» og fyll inn datoer for å slippe å huske å slå det av.", screenshot: "steg-3-slaa-paa", guideId: "out-of-office" },
+    { number: 4, title: "Skriv fraværsmeldingen", instruction: "Skriv meldingen din i tekstfeltet. Fortell når du er tilbake, og hvem som kan kontaktes i din fravær. Du kan ha én melding til kollegaer og én til folk utenfor bedriften.", tip: "Eksempel: 'Jeg er på ferie t.o.m. 15. april. For haster, kontakt Kari på kari@bedrift.no'", screenshot: "steg-4-skriv-melding", guideId: "out-of-office" },
+    { number: 5, title: "Lagre — du er klar!", instruction: "Klikk «Lagre» øverst til høyre. En blå linje øverst i Outlook bekrefter at automatiske svar er aktivert. Husk å slå det av når du er tilbake!", tip: "En gul banner øverst i innboksen din vil alltid minne deg på at fraværsmeldingen er på.", screenshot: "steg-5-lagre", guideId: "out-of-office" },
+  ],
+  confirmation: { title: "Slik ser du at det fungerer", checks: ["En gul/blå banner vises øverst i innboksen din", "Be en kollega sende deg en test-e-post — de skal få automatisk svar"] },
+  support: { label: "IT-support", phone: "22 00 00 00", email: "it@{domain}", portal: "https://support.{domain}", hours: "Man–fre 08:00–16:00" },
+};
+
+// ─── E-POSTSIGNATUR ───────────────────────────────────────────────
+const EMAIL_SIGNATURE_GUIDE = {
+  id: "email-signature",
+  title: "Lage e-postsignatur i Outlook",
+  lastUpdated: "22. mars 2026",
+  version: "Outlook på nett",
+  difficulty: "Enkel",
+  time: "10 min",
+  description: "En profesjonell e-postsignatur med navn, tittel og kontaktinfo gir et godt inntrykk og gjør det enkelt for mottakere å ta kontakt. Her viser vi deg hvordan du lager og aktiverer signaturen i Outlook på nett.",
+  prerequisites: ["Du er logget inn på Outlook på nett (outlook.office.com)", "Du har klar: navn, tittel, telefonnummer"],
+  steps: [
+    { number: 1, title: "Åpne Outlook innstillinger", instruction: "Gå til outlook.office.com. Klikk på tannhjulikonet ⚙️ øverst til høyre, deretter «Vis alle Outlook-innstillinger» nederst i menyen.", tip: "Snarveien er: Innstillinger → E-post → Skriv og svar.", screenshot: "steg-1-innstillinger", guideId: "email-signature" },
+    { number: 2, title: "Gå til 'Skriv og svar'", instruction: "I innstillingsvinduet, klikk på «E-post» i venstre meny, deretter «Skriv og svar». Her finner du signaturinnstillingene.", tip: "Ser du ikke «Skriv og svar»? Sørg for at du har klikket «E-post» i venstremenyen først.", screenshot: "steg-2-skriv-og-svar", guideId: "email-signature" },
+    { number: 3, title: "Skriv signaturen din", instruction: "Klikk på «Ny signatur», gi den et navn (f.eks. 'Jobb'), og skriv signaturen i tekstfeltet. Bruk verktøylinjen til å formatere tekst med fet skrift, farge osv.", tip: "Hold det enkelt: Navn, tittel, bedrift, telefon og e-post er alt du trenger.", screenshot: "steg-3-skriv-signatur", guideId: "email-signature" },
+    { number: 4, title: "Aktiver automatisk signatur", instruction: "Under signaturen er det to nedtrekksmenyer: «For nye meldinger» og «For svar/videresendinger». Velg signaturen din i begge for at den legges til automatisk.", tip: "Vil du ikke ha signatur på svar og videresendinger? La «For svar/videresendinger» stå på Ingen.", screenshot: "steg-4-aktiver", guideId: "email-signature" },
+    { number: 5, title: "Lagre signaturen", instruction: "Klikk «Lagre» øverst i vinduet. Neste gang du skriver en ny e-post vil signaturen ligge klar automatisk nederst i e-posten.", tip: "Test det: Klikk «Ny e-post» og sjekk at signaturen dukker opp automatisk.", screenshot: "steg-5-lagre", guideId: "email-signature" },
+  ],
+  confirmation: { title: "Slik ser du at det fungerer", checks: ["Åpne en ny e-post — signaturen skal vises automatisk nederst", "Teksten, farge og formatering ser riktig ut"] },
+  support: { label: "IT-support", phone: "22 00 00 00", email: "it@{domain}", portal: "https://support.{domain}", hours: "Man–fre 08:00–16:00" },
+};
+
+// ─── DELT POSTKASSE ───────────────────────────────────────────────
+const SHARED_MAILBOX_GUIDE = {
+  id: "shared-mailbox",
+  title: "Åpne en delt postkasse i Outlook",
+  lastUpdated: "22. mars 2026",
+  version: "Outlook på nett",
+  difficulty: "Enkel",
+  time: "5 min",
+  description: "En delt postkasse er en felles e-postkasse som flere i bedriften kan lese og svare fra — for eksempel post@bedrift.no eller support@bedrift.no. Her viser vi deg hvordan du legger den til i Outlook.",
+  prerequisites: ["Du er logget inn på Outlook på nett (outlook.office.com)", "IT har gitt deg tilgang til den delte postkassen"],
+  steps: [
+    { number: 1, title: "Åpne Outlook på nett", instruction: "Gå til outlook.office.com og logg inn med din vanlige jobbe-post. Du skal nå se din vanlige innboks.", tip: "Bruker du Outlook-appen på PC? Delte postkasser du har tilgang til dukker ofte opp automatisk der.", screenshot: "steg-1-outlook-innboks", guideId: "shared-mailbox" },
+    { number: 2, title: "Høyreklikk på 'Mapper'", instruction: "I venstre meny, finn «Mapper» eller din e-postadresse øverst. Høyreklikk på den. En meny dukker opp med ulike valg.", tip: "Ser du ikke venstremenyen? Klikk på de tre strekene ☰ øverst til venstre for å åpne den.", screenshot: "steg-2-hoyreklikk", guideId: "shared-mailbox" },
+    { number: 3, title: "Velg 'Legg til delt mappe'", instruction: "I menyen som dukker opp, klikk på «Legg til delt mappe eller postkasse». Et søkefelt åpner seg.", tip: "Ser du ikke dette alternativet? IT-avdelingen må gi deg tilgang til postkassen først.", screenshot: "steg-3-legg-til", guideId: "shared-mailbox" },
+    { number: 4, title: "Søk og legg til postkassen", instruction: "Skriv inn navnet eller e-postadressen til den delte postkassen (f.eks. 'post' eller 'support'). Klikk på riktig postkasse i listen og trykk «Legg til».", tip: "Usikker på e-postadressen? Spør IT-avdelingen om det nøyaktige navnet.", screenshot: "steg-4-sok-postkasse", guideId: "shared-mailbox" },
+    { number: 5, title: "Postkassen er klar til bruk", instruction: "Den delte postkassen vises nå i venstre meny under din vanlige innboks. Klikk på den for å se e-poster. For å sende fra den, velg «Fra»-feltet når du skriver ny e-post.", tip: "Innboksen oppdateres automatisk. Du kan svare på e-poster som om du var postkassen.", screenshot: "steg-5-ferdig", guideId: "shared-mailbox" },
+  ],
+  confirmation: { title: "Slik ser du at det fungerer", checks: ["Den delte postkassen vises i venstre meny i Outlook", "Du kan klikke deg inn og se e-postene", "Når du skriver ny e-post kan du velge postkassen i «Fra»-feltet"] },
+  support: { label: "IT-support", phone: "22 00 00 00", email: "it@{domain}", portal: "https://support.{domain}", hours: "Man–fre 08:00–16:00" },
+};
+
+// ─── LAST NED OFFICE ──────────────────────────────────────────────
+const INSTALL_OFFICE_GUIDE = {
+  id: "install-office",
+  title: "Laste ned og installere Microsoft 365 på PC",
+  lastUpdated: "22. mars 2026",
+  version: "Microsoft 365 Apps",
+  difficulty: "Enkel",
+  time: "15 min",
+  description: "Du kan installere Word, Excel, PowerPoint, Outlook og mer gratis via din jobbkonto. Nedlastingen tar ca. 5 minutter, og installasjonen gjøres automatisk i bakgrunnen.",
+  prerequisites: ["PC med Windows 10/11 eller Mac", "Internettforbindelse", "Din jobb-e-post og passord"],
+  steps: [
+    { number: 1, title: "Gå til portal.office.com", instruction: "Åpne nettleseren og gå til portal.office.com. Logg inn med din jobb-e-post og passord.", tip: "Bruk Edge eller Chrome for best opplevelse. Godkjenn gjerne MFA-varselet på telefonen.", screenshot: "steg-1-portal", guideId: "install-office" },
+    { number: 2, title: "Klikk 'Installer Office'", instruction: "Øverst til høyre på forsiden ser du en knapp som heter «Installer Office» eller «Installer apper». Klikk på den.", tip: "Ser du ikke knappen? Klikk på de ni prikkene (app-ikonet) øverst til venstre og se etter Office-installasjonen.", screenshot: "steg-2-installer-knapp", guideId: "install-office" },
+    { number: 3, title: "Start nedlastingen", instruction: "Velg «Microsoft 365-apper» fra menyen. En .exe-fil (Windows) eller .pkg-fil (Mac) lastes ned automatisk. Klikk «Lagre fil» hvis nettleseren spør.", tip: "Nedlastingen kan ta 2–5 minutter avhengig av internettforbindelsen.", screenshot: "steg-3-nedlasting", guideId: "install-office" },
+    { number: 4, title: "Kjør installasjonsfilen", instruction: "Åpne den nedlastede filen (se i nedlastingsmappen din eller klikk på filen i nettleseren). Klikk «Ja» hvis Windows spør om tillatelse. Installasjonen starter automatisk.", tip: "Ikke lukk dette vinduet! Office installerer i bakgrunnen — det kan ta 10–20 minutter.", screenshot: "steg-4-installer", guideId: "install-office" },
+    { number: 5, title: "Logg inn og aktiver Office", instruction: "Når installasjonen er ferdig, åpne f.eks. Word fra Start-menyen. Logg inn med din jobb-e-post for å aktivere Office. Du er klar til å bruke alle appene!", tip: "Bruker du Mac? Finn Office-appene i Finder → Programmer.", screenshot: "steg-5-aktiver", guideId: "install-office" },
+  ],
+  confirmation: { title: "Slik ser du at det fungerer", checks: ["Word, Excel og PowerPoint finnes i Start-menyen", "Åpne Word — øverst ser du at du er logget inn med jobb-e-posten din", "Du kan lagre filer direkte til OneDrive"] },
+  support: { label: "IT-support", phone: "22 00 00 00", email: "it@{domain}", portal: "https://support.{domain}", hours: "Man–fre 08:00–16:00" },
+};
+
+// ─── TILBAKESTILLE PASSORD ────────────────────────────────────────
+const PASSWORD_RESET_GUIDE = {
+  id: "password-reset",
+  title: "Tilbakestille passordet ditt selv",
+  lastUpdated: "22. mars 2026",
+  version: "Microsoft SSPR",
+  difficulty: "Enkel",
+  time: "3 min",
+  description: "Har du glemt passordet eller blitt låst ute? Du kan tilbakestille passordet selv på under 3 minutter — uten å vente på IT-support. Alt du trenger er tilgang til telefonen eller e-posten du registrerte.",
+  why: "Selvbetjent passordtilbakestilling (SSPR) sparer deg for ventetid og IT-avdelingen for unødvendige henvendelser. For at dette skal fungere må du ha registrert en alternativ e-post eller telefonnummer på forhånd.\n\nHar du ikke satt opp dette ennå? Gå til mysignins.microsoft.com mens du er innlogget, og legg til en sikkerhetskontaktmetode under «Sikkerhetsinformasjon».",
+  prerequisites: ["Tilgang til telefonen eller e-posten du registrerte hos IT", "En nettleser (du trenger ikke logge inn)"],
+  steps: [
+    { number: 1, title: "Gå til tilbakestillingssiden", instruction: "Åpne nettleseren og gå til aka.ms/sspr (eller passwordreset.microsoftonline.com). Du trenger ikke være logget inn.", tip: "Kan du ikke huske adressen? På innloggingssiden til Microsoft er det en lenke: «Kan ikke logge på kontoen?»", screenshot: "steg-1-sspr", guideId: "password-reset" },
+    { number: 2, title: "Skriv inn e-postadressen din", instruction: "Skriv inn din jobb-e-postadresse og skriv av sikkerhetsbildet (CAPTCHA). Klikk «Neste».", tip: "Bruk den fulle e-postadressen din, f.eks. navn@bedrift.no", screenshot: "steg-2-epost", guideId: "password-reset" },
+    { number: 3, title: "Velg bekreftelsesmetode", instruction: "Velg hvordan du vil bekrefte hvem du er: via SMS til telefonen din, e-post til alternativ e-post, eller Microsoft Authenticator-appen. Klikk «Send».", tip: "Bruk den metoden du registrerte — vanligvis SMS eller Authenticator-appen.", screenshot: "steg-3-bekreft-metode", guideId: "password-reset" },
+    { number: 4, title: "Bekreft koden", instruction: "Skriv inn koden du fikk på SMS, e-post eller fra Authenticator-appen. Klikk «Neste».", tip: "Koden er gyldig i noen minutter. Fikk du ikke koden? Sjekk søppelpost eller prøv en annen metode.", screenshot: "steg-4-skriv-kode", guideId: "password-reset" },
+    { number: 5, title: "Sett nytt passord", instruction: "Skriv inn et nytt passord to ganger. Passordet må oppfylle bedriftens krav (vanligvis minst 8 tegn, store og små bokstaver, tall). Klikk «Fullfør».", tip: "Bruk et passord du husker, men ikke bruk navn, fødselsdato eller enkle ord.", screenshot: "steg-5-nytt-passord", guideId: "password-reset" },
+    { number: 6, title: "Passordet er endret!", instruction: "Du ser en bekreftelse om at passordet er endret. Gå til portal.office.com og logg inn med det nye passordet ditt.", tip: "Husk å oppdatere passordet på telefonen din også, ellers kan kontoen bli låst.", screenshot: "steg-6-ferdig", guideId: "password-reset" },
+  ],
+  confirmation: { title: "Slik ser du at det fungerer", checks: ["Du kan logge inn på portal.office.com med det nye passordet", "Oppdater passordet på telefon og andre enheter"] },
+  support: { label: "IT-support", phone: "22 00 00 00", email: "it@{domain}", portal: "https://support.{domain}", hours: "Man–fre 08:00–16:00" },
+};
+
+// ─── ONEDRIVE SYNKRONISERING ──────────────────────────────────────
+const ONEDRIVE_SYNC_GUIDE = {
+  id: "onedrive-sync",
+  title: "Synkronisere filer med OneDrive",
+  lastUpdated: "22. mars 2026",
+  version: "OneDrive for Business",
+  difficulty: "Enkel",
+  time: "7 min",
+  description: "Med OneDrive kan du lagre filer i skyen slik at de er tilgjengelige på alle enhetene dine — og er sikkerhetskopiert automatisk. Du finner filene dine i Windows Utforsker, akkurat som vanlige mapper.",
+  prerequisites: ["Windows 10 eller 11 (OneDrive er innebygd)", "Din jobb-e-post og passord", "Internettforbindelse"],
+  steps: [
+    { number: 1, title: "Åpne OneDrive", instruction: "Klikk på skysymbolet i systemstatusfeltet (nede til høyre ved klokken). Ser du ikke skyikonet? Søk etter «OneDrive» i Start-menyen og åpne appen.", tip: "OneDrive er allerede installert på de fleste Windows 10/11-maskiner.", screenshot: "steg-1-aapne", guideId: "onedrive-sync" },
+    { number: 2, title: "Logg inn med jobbkontoen", instruction: "Klikk «Logg på» og skriv inn din jobb-e-postadresse. Klikk «Logg på», skriv inn passordet, og godkjenn MFA om du blir bedt om det.", tip: "Sørg for å logge inn med din jobb-e-post (@bedrift.no), ikke en privat Microsoft-konto.", screenshot: "steg-2-logg-inn", guideId: "onedrive-sync" },
+    { number: 3, title: "Velg OneDrive-mappen", instruction: "OneDrive spør deg om hvor du vil lagre synkroniserte filer på PC-en. Standardplasseringen er fin — klikk «Neste» for å godta.", tip: "Du kan alltid flytte mappen senere via OneDrive-innstillinger.", screenshot: "steg-3-velg-mappe", guideId: "onedrive-sync" },
+    { number: 4, title: "Filene synkroniseres", instruction: "OneDrive begynner å synkronisere filene dine. En blå sirkel betyr «synkroniserer», en grønn hake betyr «ferdig». Dette kan ta noen minutter første gang.", tip: "Du kan bruke PC-en som normalt mens synkroniseringen pågår.", screenshot: "steg-4-synkroniserer", guideId: "onedrive-sync" },
+    { number: 5, title: "Finn filene i Utforsker", instruction: "Åpne Windows Utforsker (mappeikonet i oppgavelinjen). Du ser nå «OneDrive – Bedriftsnavn» i venstremenyen. Her finner du alle skyfilene dine som vanlige filer.", tip: "Lagrer du filer i OneDrive-mappen er de automatisk sikkerhetskopiert. Aldri mer tapte filer!", screenshot: "steg-5-utforsker", guideId: "onedrive-sync" },
+  ],
+  confirmation: { title: "Slik ser du at det fungerer", checks: ["Et grønt hakemerke vises på skyikonet nede til høyre", "«OneDrive – Bedriftsnavn» vises i Windows Utforsker", "Filer du lagrer i OneDrive-mappen dukker opp på alle dine enheter"] },
+  support: { label: "IT-support", phone: "22 00 00 00", email: "it@{domain}", portal: "https://support.{domain}", hours: "Man–fre 08:00–16:00" },
+};
+
 const MFA_GUIDE = {
   id: "setup-mfa",
   title: "Sette opp totrinnsbekreftelse (ekstra sikkerhet)",
@@ -625,7 +753,16 @@ export default function GuideHub365() {
 
   // ---- GUIDE DETAIL VIEW ----
   if (view === "guide") {
-    const guide = (selectedGuide?.id === "setup-mfa" || demoGuide === "mfa") ? MFA_GUIDE : DETAILED_GUIDE;
+    const GUIDE_MAP = {
+      "setup-mfa": MFA_GUIDE,
+      "out-of-office": OUT_OF_OFFICE_GUIDE,
+      "email-signature": EMAIL_SIGNATURE_GUIDE,
+      "shared-mailbox": SHARED_MAILBOX_GUIDE,
+      "install-office": INSTALL_OFFICE_GUIDE,
+      "password-reset": PASSWORD_RESET_GUIDE,
+      "onedrive-sync": ONEDRIVE_SYNC_GUIDE,
+    };
+    const guide = GUIDE_MAP[selectedGuide?.id] || (demoGuide === "mfa" ? MFA_GUIDE : DETAILED_GUIDE);
     const stepsCompleted = Object.values(showCompletionCheck).filter(Boolean).length;
     const allDone = stepsCompleted === guide.steps.length;
 
