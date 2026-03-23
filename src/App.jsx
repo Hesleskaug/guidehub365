@@ -344,6 +344,99 @@ function ScreenshotPlaceholder({ name, guideId, domain }) {
 }
 
 // --- MAIN APP COMPONENT ---
+// ─── WAITLIST SECTION ─────────────────────────────────────────
+// Formspree endpoint: gå til formspree.io, opprett konto, lag nytt skjema
+// og lim inn din form-ID nedenfor (erstatt XXXXXXXX):
+const FORMSPREE_ID = "xwkjlbna"; // TODO: bytt med din egen Formspree-ID
+
+function WaitlistSection() {
+  const [email, setEmail] = useState("");
+  const [role, setRole] = useState("");
+  const [status, setStatus] = useState("idle"); // idle | sending | success | error
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    setStatus("sending");
+    try {
+      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({ email, role, _subject: "Ny waitlist-påmelding — GuideHub 365" }),
+      });
+      if (res.ok) {
+        setStatus("success");
+        setEmail("");
+        setRole("");
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
+  }
+
+  return (
+    <div style={{ textAlign: "center", padding: "70px 40px" }}>
+      <div style={{ maxWidth: 580, margin: "0 auto" }}>
+        <div style={{ display: "inline-block", background: "rgba(255,255,255,0.15)", borderRadius: 20, padding: "4px 14px", fontSize: 12, fontWeight: 600, letterSpacing: 1, marginBottom: 20, textTransform: "uppercase" }}>
+          Tidlig tilgang
+        </div>
+        <h2 style={{ fontSize: 30, fontWeight: 700, margin: "0 0 14px" }}>
+          Bli med på ventelisten
+        </h2>
+        <p style={{ fontSize: 16, opacity: 0.85, margin: "0 0 36px", lineHeight: 1.6 }}>
+          Vi åpner for pilot-kunder snart. Meld deg på og få beskjed først — og tilbud om gratis pilot i 60 dager.
+        </p>
+
+        {status === "success" ? (
+          <div style={{ background: "rgba(255,255,255,0.2)", borderRadius: 12, padding: "28px 32px", border: "1px solid rgba(255,255,255,0.3)" }}>
+            <div style={{ fontSize: 36, marginBottom: 12 }}>✅</div>
+            <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>Du er på lista!</div>
+            <div style={{ fontSize: 14, opacity: 0.85 }}>Vi tar kontakt så snart pilot-plassene åpner. Sjekk e-posten din.</div>
+          </div>
+        ) : (
+          <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+            <input
+              type="email"
+              required
+              placeholder="Din e-postadresse"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
+              style={{ padding: "14px 18px", borderRadius: 8, border: "none", fontSize: 15, outline: "none", width: "100%", boxSizing: "border-box" }}
+            />
+            <select
+              value={role}
+              onChange={e => setRole(e.target.value)}
+              style={{ padding: "14px 18px", borderRadius: 8, border: "none", fontSize: 15, color: role ? "#242424" : "#888", outline: "none", width: "100%", boxSizing: "border-box" }}
+            >
+              <option value="" disabled>Hvem er du? (valgfritt)</option>
+              <option value="smb">Leder / ansatt i en bedrift</option>
+              <option value="msp">IT-konsulent / MSP</option>
+              <option value="it-ansatt">IT-ansatt i bedrift</option>
+              <option value="annet">Annet</option>
+            </select>
+            <button
+              type="submit"
+              disabled={status === "sending"}
+              style={{ background: "#fff", color: "#0078D4", border: "none", borderRadius: 8, padding: "15px 32px", fontWeight: 700, fontSize: 16, cursor: status === "sending" ? "wait" : "pointer", boxShadow: "0 4px 16px rgba(0,0,0,0.15)", transition: "opacity 0.2s", opacity: status === "sending" ? 0.7 : 1 }}
+            >
+              {status === "sending" ? "Sender..." : "Meld meg på — gratis"}
+            </button>
+            {status === "error" && (
+              <div style={{ fontSize: 13, color: "rgba(255,200,200,1)" }}>
+                Noe gikk galt. Send en e-post direkte til mhesleskaug@gmail.com
+              </div>
+            )}
+            <div style={{ fontSize: 12, opacity: 0.65, marginTop: 4 }}>
+              Ingen spam. Kun én e-post når vi åpner. Du kan melde deg av når som helst.
+            </div>
+          </form>
+        )}
+      </div>
+    </div>
+  );
+}
+
 export default function GuideHub365() {
   // Check URL params — ?guides bypasses landing page for end users
   const urlParams = new URLSearchParams(window.location.search);
@@ -480,14 +573,8 @@ export default function GuideHub365() {
           </div>
         </div>
 
-        {/* CTA */}
-        <div style={{ textAlign: "center", padding: "60px 40px" }}>
-          <h2 style={{ fontSize: 28, fontWeight: 700, marginBottom: 16 }}>Klar til å redusere supporttrykket?</h2>
-          <p style={{ fontSize: 16, opacity: 0.9, marginBottom: 32 }}>Start gratis prøveperiode i 14 dager. Ingen kredittkort nødvendig.</p>
-          <button onClick={() => setView("dashboard")} style={{ background: "#fff", color: "#0078D4", border: "none", borderRadius: 8, padding: "14px 36px", fontWeight: 700, fontSize: 16, cursor: "pointer" }}>
-            Prøv gratis i 14 dager
-          </button>
-        </div>
+        {/* Waitlist */}
+        <WaitlistSection />
       </div>
     );
   }
