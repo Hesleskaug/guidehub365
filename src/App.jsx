@@ -11,16 +11,51 @@ const BRAND = {
   tagline: "Brukervennlige M365-guider som alltid er oppdatert",
 };
 
+// ── SVG icon library ──────────────────────────────────────────
+const Ic = ({ id, size = 18, color = "currentColor", strokeWidth = 2 }) => {
+  const s = { width: size, height: size, display: "block", flexShrink: 0 };
+  const p = { fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round" };
+  const paths = {
+    monitor:   <><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></>,
+    mail:      <><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></>,
+    file:      <><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></>,
+    chat:      <><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"/></>,
+    cloud:     <><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9z"/></>,
+    shield:    <><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></>,
+    phone:     <><rect x="5" y="2" width="14" height="20" rx="2"/><circle cx="12" cy="17" r="1" fill={color} stroke="none"/></>,
+    wrench:    <><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></>,
+    menu:      <><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></>,
+    search:    <><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></>,
+    sun:       <><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></>,
+    moon:      <><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></>,
+    settings:  <><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></>,
+    home:      <><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></>,
+    dollar:    <><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></>,
+    chevron:   <><polyline points="9 18 15 12 9 6"/></>,
+    arrowR:    <><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></>,
+    check:     <><polyline points="20 6 9 17 4 12"/></>,
+    star:      <path d="m12 2 3.09 6.26 6.91.99-5 4.87 1.18 6.88L12 17.77l-6.18 3.23L7 14.12 2 9.25l6.91-.99z" fill={color} stroke="none"/>,
+    users:     <><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></>,
+    bar:       <><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></>,
+    lightning: <><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></>,
+    globe:     <><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></>,
+    refresh:   <><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></>,
+    lock:      <><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></>,
+    phone2:    <><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></>,
+  };
+  return <svg viewBox="0 0 24 24" style={s} {...p}>{paths[id]}</svg>;
+};
+
 // Sample guide data
 const CATEGORIES = [
-  { id: "onboarding", icon: "🖥️", label: "Kom i gang", count: 8, color: "#0078D4" },
-  { id: "email", icon: "📧", label: "E-post & Kalender", count: 12, color: "#0F6CBD" },
-  { id: "office", icon: "📄", label: "Office-apper", count: 15, color: "#107C10" },
-  { id: "teams", icon: "💬", label: "Teams", count: 10, color: "#6264A7" },
-  { id: "onedrive", icon: "☁️", label: "OneDrive & Filer", count: 7, color: "#0078D4" },
-  { id: "security", icon: "🔒", label: "Sikkerhet & Passord", count: 6, color: "#D83B01" },
-  { id: "mobile", icon: "📱", label: "Mobil & Nettbrett", count: 9, color: "#8764B8" },
-  { id: "troubleshoot", icon: "🔧", label: "Feilsøking", count: 11, color: "#CA5010" },
+  { id: "onboarding", icon: "monitor", label: "Kom i gang",          count: 8,  color: "#F59E0B", bg: "#FEF3C7" },
+  { id: "email",      icon: "mail",    label: "E-post & Kalender",   count: 12, color: "#3B82F6", bg: "#DBEAFE" },
+  { id: "office",     icon: "file",    label: "Office-apper",        count: 15, color: "#10B981", bg: "#D1FAE5" },
+  { id: "teams",      icon: "chat",    label: "Teams",               count: 10, color: "#8B5CF6", bg: "#EDE9FE" },
+  { id: "onedrive",   icon: "cloud",   label: "OneDrive & Filer",    count: 7,  color: "#0EA5E9", bg: "#E0F2FE" },
+  { id: "security",   icon: "shield",  label: "Sikkerhet & Passord", count: 6,  color: "#EF4444", bg: "#FEE2E2" },
+  { id: "mobile",     icon: "phone",   label: "Mobil & Nettbrett",   count: 9,  color: "#F97316", bg: "#FFEDD5" },
+  { id: "troubleshoot",icon:"wrench",  label: "Feilsøking",          count: 11, color: "#6366F1", bg: "#E0E7FF" },
 ];
 
 const GUIDES = {
@@ -527,11 +562,16 @@ export default function GuideHub365() {
   const [showAdminSaved, setShowAdminSaved] = useState(false);
   const [demoGuide, setDemoGuide] = useState("outlook");
 
-  const bg = darkMode ? "#1A1A2E" : "#F8F9FA";
-  const cardBg = darkMode ? "#16213E" : "#FFFFFF";
-  const textColor = darkMode ? "#E0E0E0" : "#242424";
-  const subtleText = darkMode ? "#A0A0B0" : "#616161";
-  const borderColor = darkMode ? "#2A2A4A" : "#E0E0E0";
+  const bg         = darkMode ? "#0F0E1A"              : "#F5F6FA";
+  const cardBg     = darkMode ? "#1C1A2E"              : "#FFFFFF";
+  const textColor  = darkMode ? "#F3F4F6"              : "#111827";
+  const subtleText = darkMode ? "#9CA3AF"              : "#6B7280";
+  const borderColor= darkMode ? "rgba(255,255,255,.07)": "rgba(0,0,0,.06)";
+  const sidebarBg  = darkMode ? "#0D0B1A"              : "#1E1B4B";
+  const primary    = "#7C3AED";
+  const primaryHover = "#6D28D9";
+  const shadow     = "0 1px 4px rgba(0,0,0,.06), 0 4px 24px rgba(0,0,0,.04)";
+  const shadowMd   = "0 4px 16px rgba(0,0,0,.10), 0 1px 4px rgba(0,0,0,.06)";
 
   // Filter guides based on search
   const allGuides = Object.entries(GUIDES).flatMap(([cat, guides]) =>
@@ -543,99 +583,129 @@ export default function GuideHub365() {
 
   // ---- LANDING PAGE ----
   if (view === "landing") {
+    const features = [
+      { icon: "refresh",   color: "#7C3AED", bg: "#EDE9FE", title: "Alltid oppdatert",        desc: "Automatisk overvåking av M365-endringer. Oppdatert innen 24 timer." },
+      { icon: "settings",  color: "#0EA5E9", bg: "#E0F2FE", title: "Tilpasset din bedrift",   desc: "Bedriftens domene, logo og farger satt automatisk i alle guider." },
+      { icon: "monitor",   color: "#10B981", bg: "#D1FAE5", title: "Automatiske skjermbilder",desc: "Skjermbilder oppdateres automatisk. Aldri mer utdaterte bilder." },
+      { icon: "users",     color: "#F59E0B", bg: "#FEF3C7", title: "For vanlige brukere",     desc: "Enkelt språk, tydelige steg. Ingen IT-bakgrunn nødvendig." },
+      { icon: "bar",       color: "#EF4444", bg: "#FEE2E2", title: "Innsikt & Analytics",     desc: "Se hvilke guider som brukes mest og mål effekten på support." },
+      { icon: "globe",     color: "#8B5CF6", bg: "#EDE9FE", title: "Enkel integrasjon",       desc: "Teams, intranett, ServiceNow. SSO med Azure AD." },
+    ];
     return (
-      <div style={{ fontFamily: "'Segoe UI', -apple-system, sans-serif", background: "linear-gradient(135deg, #0078D4 0%, #106EBE 40%, #005A9E 100%)", minHeight: "100vh", color: "#fff" }}>
+      <div style={{ fontFamily: "'Inter','Segoe UI',-apple-system,sans-serif", background: "#0F0E1A", minHeight: "100vh", color: "#fff" }}>
+
         {/* Nav */}
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "20px 40px", maxWidth: 1200, margin: "0 auto" }}>
-          <div style={{ fontSize: 22, fontWeight: 700, letterSpacing: -0.5 }}>
-            <span style={{ opacity: 0.9 }}>Guide</span>Hub <span style={{ fontWeight: 400, fontSize: 16, opacity: 0.8 }}>365</span>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "18px 48px", maxWidth: 1240, margin: "0 auto", borderBottom: "1px solid rgba(255,255,255,.07)" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <div style={{ width: 30, height: 30, background: "linear-gradient(135deg, #7C3AED, #9333EA)", borderRadius: 8, display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <Ic id="file" size={15} color="#fff" />
+            </div>
+            <span style={{ fontSize: 18, fontWeight: 700, letterSpacing: -0.3 }}>GuideHub<span style={{ color: "#9333EA" }}>365</span></span>
           </div>
-          <div style={{ display: "flex", gap: 24, alignItems: "center" }}>
-            <span onClick={() => setView("pricing")} style={{ cursor: "pointer", opacity: 0.9, fontSize: 14 }}>Priser</span>
-            <span style={{ opacity: 0.9, fontSize: 14, cursor: "pointer" }}>Funksjoner</span>
-            <span style={{ opacity: 0.9, fontSize: 14, cursor: "pointer" }}>Kontakt</span>
-            <button onClick={() => setView("dashboard")} style={{ background: "#fff", color: "#0078D4", border: "none", borderRadius: 6, padding: "8px 20px", fontWeight: 600, cursor: "pointer", fontSize: 14 }}>
-              Demo
+          <div style={{ display: "flex", gap: 32, alignItems: "center" }}>
+            {["Funksjoner", "Integrasjoner", "Kontakt"].map(lbl => (
+              <span key={lbl} style={{ cursor: "pointer", fontSize: 14, color: "rgba(255,255,255,.65)", fontWeight: 500, transition: "color .15s" }}
+                onMouseEnter={e => e.currentTarget.style.color = "#fff"}
+                onMouseLeave={e => e.currentTarget.style.color = "rgba(255,255,255,.65)"}>{lbl}</span>
+            ))}
+            <span onClick={() => setView("pricing")} style={{ cursor: "pointer", fontSize: 14, color: "rgba(255,255,255,.65)", fontWeight: 500 }}>Priser</span>
+            <button onClick={() => setView("dashboard")} style={{ background: "linear-gradient(135deg, #7C3AED, #9333EA)", color: "#fff", border: "none", borderRadius: 24, padding: "9px 22px", fontWeight: 600, cursor: "pointer", fontSize: 14, boxShadow: "0 4px 14px rgba(124,58,237,.4)" }}>
+              Se live demo →
             </button>
           </div>
         </div>
 
         {/* Hero */}
-        <div style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 40px 60px", display: "flex", gap: 60, alignItems: "center" }}>
-          <div style={{ flex: 1 }}>
-            <div style={{ fontSize: 13, fontWeight: 600, textTransform: "uppercase", letterSpacing: 2, opacity: 0.8, marginBottom: 16 }}>
-              For bedrifter som bruker Microsoft 365
+        <div style={{ maxWidth: 1240, margin: "0 auto", padding: "80px 48px 60px", display: "flex", gap: 72, alignItems: "center" }}>
+          <div style={{ flex: 1, maxWidth: 560 }}>
+            <div style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "rgba(124,58,237,.18)", border: "1px solid rgba(124,58,237,.4)", borderRadius: 24, padding: "5px 14px", fontSize: 12, fontWeight: 600, color: "#C4B5FD", marginBottom: 24, letterSpacing: 0.5 }}>
+              <Ic id="lightning" size={13} color="#A78BFA" /> For bedrifter med Microsoft 365
             </div>
-            <h1 style={{ fontSize: 44, fontWeight: 700, lineHeight: 1.15, margin: "0 0 24px" }}>
-              Brukervennlige guider som <span style={{ background: "rgba(255,255,255,0.2)", padding: "2px 8px", borderRadius: 6 }}>alltid er oppdatert</span>
+            <h1 style={{ fontSize: 50, fontWeight: 800, lineHeight: 1.1, margin: "0 0 24px", letterSpacing: -1.5 }}>
+              Brukervennlige M365-guider som{" "}
+              <span style={{ background: "linear-gradient(135deg, #A78BFA, #EC4899)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>alltid er oppdatert</span>
             </h1>
-            <p style={{ fontSize: 18, lineHeight: 1.6, opacity: 0.9, margin: "0 0 36px", maxWidth: 500 }}>
-              Reduser supporthenvendelser med opptil 40%. Gi dine ansatte steg-for-steg guider tilpasset deres tekniske nivå - automatisk oppdatert når Microsoft endrer noe.
+            <p style={{ fontSize: 17, lineHeight: 1.7, color: "rgba(255,255,255,.7)", margin: "0 0 36px" }}>
+              Reduser supporthenvendelser med opptil 40%. Gi dine ansatte steg-for-steg guider tilpasset deres tekniske nivå — automatisk oppdatert når Microsoft endrer noe.
             </p>
-            <div style={{ display: "flex", gap: 16, alignItems: "center" }}>
-              <button onClick={() => setView("dashboard")} style={{ background: "#fff", color: "#0078D4", border: "none", borderRadius: 8, padding: "14px 32px", fontWeight: 700, fontSize: 16, cursor: "pointer", boxShadow: "0 4px 16px rgba(0,0,0,0.15)" }}>
+            <div style={{ display: "flex", gap: 14, alignItems: "center" }}>
+              <button onClick={() => setView("dashboard")}
+                style={{ background: "linear-gradient(135deg, #7C3AED, #9333EA)", color: "#fff", border: "none", borderRadius: 28, padding: "14px 32px", fontWeight: 700, fontSize: 15, cursor: "pointer", boxShadow: "0 4px 20px rgba(124,58,237,.45)" }}>
                 Se live demo
               </button>
-              <button onClick={() => setView("pricing")} style={{ background: "rgba(255,255,255,0.15)", color: "#fff", border: "1px solid rgba(255,255,255,0.3)", borderRadius: 8, padding: "14px 32px", fontWeight: 600, fontSize: 16, cursor: "pointer" }}>
+              <button onClick={() => setView("pricing")}
+                style={{ background: "rgba(255,255,255,.06)", color: "#fff", border: "1px solid rgba(255,255,255,.15)", borderRadius: 28, padding: "14px 28px", fontWeight: 600, fontSize: 15, cursor: "pointer" }}>
                 Se priser
               </button>
             </div>
           </div>
-          <div style={{ flex: 1, background: "rgba(255,255,255,0.1)", borderRadius: 16, padding: 32, backdropFilter: "blur(10px)", border: "1px solid rgba(255,255,255,0.15)" }}>
-            <div style={{ background: "#fff", borderRadius: 12, padding: 24, color: "#242424" }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 16 }}>
-                <div style={{ width: 40, height: 40, borderRadius: 8, background: "#0078D4", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 }}>📧</div>
-                <div>
-                  <div style={{ fontWeight: 600, fontSize: 15 }}>Sette opp Outlook på PC</div>
-                  <div style={{ fontSize: 12, color: "#616161" }}>Oppdatert: mars 2026 | 8 min</div>
-                </div>
-              </div>
-              <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-                {["Åpne Outlook", "Skriv inn e-postadressen din", "Logg inn med passord", "Godkjenn med MFA"].map((step, i) => (
-                  <div key={i} style={{ display: "flex", alignItems: "center", gap: 10, padding: "8px 12px", background: i < 2 ? "#E8F5E9" : "#F5F5F5", borderRadius: 8, fontSize: 13 }}>
-                    <div style={{ width: 24, height: 24, borderRadius: "50%", background: i < 2 ? "#4CAF50" : "#E0E0E0", color: i < 2 ? "#fff" : "#999", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 12, fontWeight: 600, flexShrink: 0 }}>
-                      {i < 2 ? "✓" : i + 1}
-                    </div>
-                    <span style={{ color: i < 2 ? "#2E7D32" : "#616161" }}>{step}</span>
+          <div style={{ flex: 1, maxWidth: 480 }}>
+            <div style={{ background: "rgba(255,255,255,.04)", borderRadius: 20, padding: 4, border: "1px solid rgba(255,255,255,.10)", boxShadow: "0 32px 80px rgba(0,0,0,.5)" }}>
+              <div style={{ background: "#1C1A2E", borderRadius: 17, padding: "22px 24px" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 18, paddingBottom: 16, borderBottom: "1px solid rgba(255,255,255,.07)" }}>
+                  <div style={{ width: 38, height: 38, borderRadius: 10, background: "#DBEAFE", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <Ic id="mail" size={19} color="#3B82F6" />
                   </div>
-                ))}
+                  <div>
+                    <div style={{ fontWeight: 700, fontSize: 14, color: "#F3F4F6" }}>Sette opp Outlook på PC</div>
+                    <div style={{ fontSize: 11, color: "rgba(255,255,255,.45)", marginTop: 2 }}>Oppdatert: mars 2026 · 8 min · Enkel</div>
+                  </div>
+                  <div style={{ marginLeft: "auto", fontSize: 11, background: "#D1FAE5", color: "#065F46", padding: "3px 10px", borderRadius: 20, fontWeight: 700 }}>Live</div>
+                </div>
+                <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                  {[
+                    { title: "Åpne Outlook", done: true },
+                    { title: "Skriv inn e-postadressen din", done: true },
+                    { title: "Logg inn med passord", done: false },
+                    { title: "Godkjenn med MFA", done: false },
+                  ].map((step, i) => (
+                    <div key={i} style={{ display: "flex", alignItems: "center", gap: 12, padding: "10px 14px", background: step.done ? "rgba(16,185,129,.1)" : "rgba(255,255,255,.04)", borderRadius: 10, border: `1px solid ${step.done ? "rgba(16,185,129,.25)" : "rgba(255,255,255,.07)"}` }}>
+                      <div style={{ width: 26, height: 26, borderRadius: 7, background: step.done ? "#10B981" : "rgba(255,255,255,.08)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                        {step.done ? <Ic id="check" size={13} color="#fff" strokeWidth={3} /> : <span style={{ fontSize: 11, fontWeight: 700, color: "rgba(255,255,255,.4)" }}>{i + 1}</span>}
+                      </div>
+                      <span style={{ fontSize: 13, color: step.done ? "#6EE7B7" : "rgba(255,255,255,.55)" }}>{step.title}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Key stats */}
-        <div style={{ maxWidth: 1200, margin: "0 auto", padding: "40px 40px 80px", display: "flex", gap: 40, justifyContent: "center" }}>
-          {[
-            { number: "40%", label: "Færre supporthenvendelser" },
-            { number: "78+", label: "Ferdiglagde guider" },
-            { number: "24t", label: "Maks tid til oppdatering" },
-            { number: "100%", label: "Tilpasset din bedrift" },
-          ].map((stat, i) => (
-            <div key={i} style={{ textAlign: "center" }}>
-              <div style={{ fontSize: 36, fontWeight: 700 }}>{stat.number}</div>
-              <div style={{ fontSize: 14, opacity: 0.8 }}>{stat.label}</div>
-            </div>
-          ))}
+        {/* Stats strip */}
+        <div style={{ borderTop: "1px solid rgba(255,255,255,.07)", borderBottom: "1px solid rgba(255,255,255,.07)", padding: "36px 48px" }}>
+          <div style={{ maxWidth: 900, margin: "0 auto", display: "flex", gap: 0, justifyContent: "space-around" }}>
+            {[
+              { number: "40%", label: "Færre supporthenvendelser" },
+              { number: "78+", label: "Ferdiglagde guider" },
+              { number: "< 24t", label: "Til oppdatering" },
+              { number: "100%", label: "Tilpasset din bedrift" },
+            ].map((stat, i) => (
+              <div key={i} style={{ textAlign: "center" }}>
+                <div style={{ fontSize: 36, fontWeight: 800, letterSpacing: -1, background: "linear-gradient(135deg, #A78BFA, #60A5FA)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>{stat.number}</div>
+                <div style={{ fontSize: 13, color: "rgba(255,255,255,.55)", marginTop: 4 }}>{stat.label}</div>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Features */}
-        <div style={{ background: "rgba(0,0,0,0.15)", padding: "60px 40px" }}>
-          <div style={{ maxWidth: 1200, margin: "0 auto" }}>
-            <h2 style={{ textAlign: "center", fontSize: 28, fontWeight: 700, marginBottom: 48 }}>Hvorfor velge GuideHub 365?</h2>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 24 }}>
-              {[
-                { icon: "🔄", title: "Alltid oppdatert", desc: "Automatisk overvåking av endringer i M365. Guidene oppdateres innen 24 timer når Microsoft ruller ut nytt design eller nye funksjoner." },
-                { icon: "🏢", title: "Tilpasset din bedrift", desc: "Alle guider bruker bedriftens domene, logo og farger. Brukerne ser sine egne e-postadresser i eksemplene." },
-                { icon: "📸", title: "Automatiske skjermbilder", desc: "Skjermbildene oppdateres automatisk når grensesnittene endres. Aldri mer utdaterte bilder i guidene." },
-                { icon: "🎯", title: "For vanlige brukere", desc: "Skrevet for folk uten IT-bakgrunn. Klart, enkelt språk med tydelige steg-for-steg instruksjoner." },
-                { icon: "📊", title: "Innsikt & Analytics", desc: "Se hvilke guider som brukes mest, hvor brukere sliter, og mål effekten på supporthenvendelser." },
-                { icon: "🔗", title: "Enkel integrasjon", desc: "Bygg inn guidene i intranett, Teams eller ServiceNow. SSO-støtte med Azure AD." },
-              ].map((f, i) => (
-                <div key={i} style={{ background: "rgba(255,255,255,0.1)", borderRadius: 12, padding: 24, border: "1px solid rgba(255,255,255,0.1)" }}>
-                  <div style={{ fontSize: 28, marginBottom: 12 }}>{f.icon}</div>
-                  <div style={{ fontWeight: 600, fontSize: 16, marginBottom: 8 }}>{f.title}</div>
-                  <div style={{ fontSize: 14, lineHeight: 1.6, opacity: 0.85 }}>{f.desc}</div>
+        <div style={{ padding: "80px 48px" }}>
+          <div style={{ maxWidth: 1240, margin: "0 auto" }}>
+            <div style={{ textAlign: "center", marginBottom: 56 }}>
+              <h2 style={{ fontSize: 36, fontWeight: 800, letterSpacing: -0.8, margin: "0 0 12px" }}>Hvorfor velge GuideHub 365?</h2>
+              <p style={{ fontSize: 16, color: "rgba(255,255,255,.55)", margin: 0 }}>Alt du trenger for å hjelpe ansatte med Microsoft 365</p>
+            </div>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 20 }}>
+              {features.map((f, i) => (
+                <div key={i} style={{ background: "rgba(255,255,255,.04)", borderRadius: 16, padding: "28px 26px", border: "1px solid rgba(255,255,255,.08)", transition: "border-color .2s, transform .2s" }}
+                  onMouseEnter={e => { e.currentTarget.style.borderColor = "rgba(124,58,237,.4)"; e.currentTarget.style.transform = "translateY(-3px)"; }}
+                  onMouseLeave={e => { e.currentTarget.style.borderColor = "rgba(255,255,255,.08)"; e.currentTarget.style.transform = "translateY(0)"; }}>
+                  <div style={{ width: 44, height: 44, borderRadius: 12, background: f.bg, display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 18 }}>
+                    <Ic id={f.icon} size={22} color={f.color} />
+                  </div>
+                  <div style={{ fontWeight: 700, fontSize: 16, marginBottom: 8, color: "#F3F4F6" }}>{f.title}</div>
+                  <div style={{ fontSize: 14, lineHeight: 1.65, color: "rgba(255,255,255,.55)" }}>{f.desc}</div>
                 </div>
               ))}
             </div>
@@ -660,6 +730,7 @@ export default function GuideHub365() {
         features: ["Alle standard-guider (78+)", "Bedriftstilpasning (logo, domene, farger)", "Automatiske oppdateringer", "Norsk og engelsk", "E-post support"],
         cta: "Start gratis prøveperiode",
         popular: false,
+        accentColor: "#6366F1",
       },
       {
         name: "Professional",
@@ -670,6 +741,7 @@ export default function GuideHub365() {
         features: ["Alt i SMB +", "Bruksanalyse & rapporter", "Egendefinerte guider", "Teams-integrasjon", "SSO med Azure AD", "Prioritert support", "Embed i intranett"],
         cta: "Start gratis prøveperiode",
         popular: true,
+        accentColor: "#7C3AED",
       },
       {
         name: "MSP / Partner",
@@ -680,55 +752,64 @@ export default function GuideHub365() {
         features: ["Alt i Professional +", "Multi-tenant administrasjon", "White-label (ditt merke)", "Automatisk onboarding av kunder", "API-tilgang", "Dedikert Customer Success", "Volumprising per tenant"],
         cta: "Book en demo",
         popular: false,
+        accentColor: "#0EA5E9",
       },
     ];
     return (
-      <div style={{ fontFamily: "'Segoe UI', -apple-system, sans-serif", background: "linear-gradient(135deg, #0078D4, #005A9E)", minHeight: "100vh", color: "#fff" }}>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "20px 40px", maxWidth: 1200, margin: "0 auto" }}>
-          <div onClick={() => setView("landing")} style={{ fontSize: 22, fontWeight: 700, cursor: "pointer" }}>
-            Guide<span style={{ opacity: 0.8 }}>Hub</span> <span style={{ fontWeight: 400, fontSize: 16, opacity: 0.8 }}>365</span>
+      <div style={{ fontFamily: "'Inter','Segoe UI',-apple-system,sans-serif", background: "#0F0E1A", minHeight: "100vh", color: "#fff" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "18px 48px", maxWidth: 1240, margin: "0 auto", borderBottom: "1px solid rgba(255,255,255,.07)" }}>
+          <div onClick={() => setView("landing")} style={{ display: "flex", alignItems: "center", gap: 10, cursor: "pointer" }}>
+            <div style={{ width: 28, height: 28, background: "linear-gradient(135deg, #7C3AED, #9333EA)", borderRadius: 7, display: "flex", alignItems: "center", justifyContent: "center" }}><Ic id="file" size={14} color="#fff" /></div>
+            <span style={{ fontSize: 16, fontWeight: 700 }}>GuideHub<span style={{ color: "#9333EA" }}>365</span></span>
           </div>
-          <button onClick={() => setView("landing")} style={{ background: "rgba(255,255,255,0.15)", color: "#fff", border: "none", borderRadius: 6, padding: "8px 20px", cursor: "pointer", fontSize: 14 }}>Tilbake</button>
+          <button onClick={() => setView("landing")} style={{ background: "rgba(255,255,255,.06)", color: "rgba(255,255,255,.7)", border: "1px solid rgba(255,255,255,.12)", borderRadius: 20, padding: "8px 20px", cursor: "pointer", fontSize: 13, fontWeight: 500 }}>← Tilbake</button>
         </div>
-        <div style={{ maxWidth: 1200, margin: "0 auto", padding: "40px 40px 80px" }}>
-          <div style={{ textAlign: "center", marginBottom: 48 }}>
-            <h1 style={{ fontSize: 36, fontWeight: 700, marginBottom: 12 }}>Enkel, forutsigbar prising</h1>
-            <p style={{ fontSize: 16, opacity: 0.9 }}>Velg planen som passer din bedrift. Alle planer inkluderer 14 dagers gratis prøveperiode.</p>
+        <div style={{ maxWidth: 1100, margin: "0 auto", padding: "60px 48px 100px" }}>
+          <div style={{ textAlign: "center", marginBottom: 56 }}>
+            <h1 style={{ fontSize: 40, fontWeight: 800, letterSpacing: -1, marginBottom: 14 }}>Enkel, forutsigbar prising</h1>
+            <p style={{ fontSize: 16, color: "rgba(255,255,255,.55)", margin: 0 }}>Velg planen som passer din bedrift. Alle planer inkluderer 14 dagers gratis prøveperiode.</p>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 24, alignItems: "start" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 20, alignItems: "start" }}>
             {plans.map((plan, i) => (
-              <div key={i} style={{ background: "#fff", borderRadius: 16, padding: 32, color: "#242424", position: "relative", transform: plan.popular ? "scale(1.05)" : "none", boxShadow: plan.popular ? "0 8px 40px rgba(0,0,0,0.25)" : "0 2px 8px rgba(0,0,0,0.1)" }}>
+              <div key={i} style={{ background: plan.popular ? "linear-gradient(160deg, rgba(124,58,237,.25), rgba(147,51,234,.15))" : "rgba(255,255,255,.04)", borderRadius: 20, padding: "32px 28px", position: "relative", border: plan.popular ? "1.5px solid rgba(124,58,237,.5)" : "1px solid rgba(255,255,255,.08)", boxShadow: plan.popular ? "0 8px 40px rgba(124,58,237,.2)" : "none", transition: "transform .2s" }}
+                onMouseEnter={e => e.currentTarget.style.transform = "translateY(-4px)"}
+                onMouseLeave={e => e.currentTarget.style.transform = "translateY(0)"}>
                 {plan.popular && (
-                  <div style={{ position: "absolute", top: -12, left: "50%", transform: "translateX(-50%)", background: "#107C10", color: "#fff", padding: "4px 16px", borderRadius: 20, fontSize: 12, fontWeight: 600 }}>
-                    Mest populær
+                  <div style={{ position: "absolute", top: -14, left: "50%", transform: "translateX(-50%)", background: "linear-gradient(135deg, #7C3AED, #9333EA)", color: "#fff", padding: "5px 18px", borderRadius: 20, fontSize: 12, fontWeight: 700, whiteSpace: "nowrap", boxShadow: "0 4px 14px rgba(124,58,237,.4)" }}>
+                    ★ Mest populær
                   </div>
                 )}
-                <div style={{ fontSize: 13, color: "#0078D4", fontWeight: 600, textTransform: "uppercase", letterSpacing: 1 }}>{plan.name}</div>
-                <div style={{ fontSize: 13, color: "#616161", marginBottom: 16 }}>{plan.subtitle}</div>
+                <div style={{ fontSize: 12, color: plan.accentColor, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 6 }}>{plan.name}</div>
+                <div style={{ fontSize: 13, color: "rgba(255,255,255,.5)", marginBottom: 20 }}>{plan.subtitle}</div>
                 <div style={{ display: "flex", alignItems: "baseline", gap: 4, marginBottom: 4 }}>
-                  <span style={{ fontSize: plan.price === "Kontakt oss" ? 24 : 40, fontWeight: 700 }}>
+                  <span style={{ fontSize: plan.price === "Kontakt oss" ? 26 : 42, fontWeight: 800, letterSpacing: -1, color: "#F3F4F6" }}>
                     {plan.price !== "Kontakt oss" ? `kr ${plan.price}` : plan.price}
                   </span>
-                  <span style={{ fontSize: 14, color: "#616161" }}>{plan.period}</span>
+                  <span style={{ fontSize: 14, color: "rgba(255,255,255,.4)" }}>{plan.period}</span>
                 </div>
-                <div style={{ fontSize: 13, color: "#616161", marginBottom: 24, paddingBottom: 24, borderBottom: "1px solid #E0E0E0" }}>{plan.users}</div>
+                <div style={{ fontSize: 12, color: "rgba(255,255,255,.4)", marginBottom: 24, paddingBottom: 24, borderBottom: "1px solid rgba(255,255,255,.08)" }}>{plan.users}</div>
                 <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 28 }}>
                   {plan.features.map((f, j) => (
-                    <div key={j} style={{ display: "flex", alignItems: "flex-start", gap: 8, fontSize: 14, color: "#424242" }}>
-                      <span style={{ color: "#107C10", fontWeight: 700, fontSize: 14, marginTop: 1 }}>✓</span>
-                      <span>{f}</span>
+                    <div key={j} style={{ display: "flex", alignItems: "flex-start", gap: 10, fontSize: 13, color: "rgba(255,255,255,.75)" }}>
+                      <div style={{ width: 18, height: 18, borderRadius: 5, background: "rgba(16,185,129,.2)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 1 }}>
+                        <Ic id="check" size={11} color="#10B981" strokeWidth={3} />
+                      </div>
+                      {f}
                     </div>
                   ))}
                 </div>
-                <button onClick={() => setView("dashboard")} style={{ width: "100%", background: plan.popular ? "#0078D4" : "#F5F5F5", color: plan.popular ? "#fff" : "#242424", border: "none", borderRadius: 8, padding: "12px 0", fontWeight: 600, fontSize: 14, cursor: "pointer" }}>
+                <button onClick={() => setView("dashboard")} style={{ width: "100%", background: plan.popular ? "linear-gradient(135deg, #7C3AED, #9333EA)" : "rgba(255,255,255,.08)", color: "#fff", border: plan.popular ? "none" : "1px solid rgba(255,255,255,.12)", borderRadius: 12, padding: "13px 0", fontWeight: 700, fontSize: 14, cursor: "pointer", boxShadow: plan.popular ? "0 4px 16px rgba(124,58,237,.4)" : "none" }}>
                   {plan.cta}
                 </button>
               </div>
             ))}
           </div>
-          <div style={{ textAlign: "center", marginTop: 48, padding: 32, background: "rgba(255,255,255,0.1)", borderRadius: 16 }}>
-            <h3 style={{ fontSize: 20, fontWeight: 600, marginBottom: 8 }}>MSP Partnerprogram</h3>
-            <p style={{ fontSize: 14, opacity: 0.9, maxWidth: 600, margin: "0 auto", lineHeight: 1.6 }}>
+          <div style={{ textAlign: "center", marginTop: 48, padding: "32px 40px", background: "rgba(255,255,255,.04)", borderRadius: 20, border: "1px solid rgba(255,255,255,.08)" }}>
+            <div style={{ width: 44, height: 44, borderRadius: 12, background: "#EDE9FE", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 16px" }}>
+              <Ic id="users" size={22} color="#7C3AED" />
+            </div>
+            <h3 style={{ fontSize: 20, fontWeight: 700, marginBottom: 10 }}>MSP Partnerprogram</h3>
+            <p style={{ fontSize: 14, color: "rgba(255,255,255,.55)", maxWidth: 580, margin: "0 auto", lineHeight: 1.7 }}>
               Tilby GuideHub 365 som en del av din managed service. Gi alle dine kunder tilpassede guider under ditt eget merke, med sentralisert administrasjon og volumprising fra kr 490/tenant/mnd.
             </p>
           </div>
@@ -758,149 +839,222 @@ export default function GuideHub365() {
 
   // Top bar
   const TopBar = () => (
-    <div style={{ background: cardBg, borderBottom: `1px solid ${borderColor}`, padding: "12px 24px", display: "flex", alignItems: "center", justifyContent: "space-between", position: "sticky", top: 0, zIndex: 100 }}>
-      <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-        <button onClick={() => setSidebarOpen(!sidebarOpen)} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 18, color: textColor, padding: 4 }}>☰</button>
+    <div style={{ background: cardBg, borderBottom: `1px solid ${borderColor}`, padding: "0 24px", height: 56, display: "flex", alignItems: "center", justifyContent: "space-between", position: "sticky", top: 0, zIndex: 100, boxShadow: "0 1px 0 rgba(0,0,0,.05)" }}>
+      {/* Left: hamburger + brand */}
+      <div style={{ display: "flex", alignItems: "center", gap: 16, minWidth: 200 }}>
+        <button onClick={() => setSidebarOpen(!sidebarOpen)} style={{ background: "none", border: "none", cursor: "pointer", color: subtleText, padding: 6, borderRadius: 8, display: "flex", alignItems: "center", transition: "background .15s" }}
+          onMouseEnter={e => e.currentTarget.style.background = darkMode ? "rgba(255,255,255,.06)" : "#F3F4F6"}
+          onMouseLeave={e => e.currentTarget.style.background = "none"}>
+          <Ic id="menu" size={20} color={subtleText} />
+        </button>
         <div onClick={() => { setView("dashboard"); setSelectedCategory(null); setSelectedGuide(null); }} style={{ cursor: "pointer", display: "flex", alignItems: "center", gap: 8 }}>
-          <span style={{ fontSize: 18, fontWeight: 700, color: "#0078D4" }}>GuideHub</span>
-          <span style={{ fontSize: 14, color: subtleText }}>365</span>
-          <span style={{ fontSize: 12, color: subtleText, marginLeft: 8 }}>|</span>
-          <span style={{ fontSize: 13, color: subtleText, marginLeft: 8 }}>{companyName}</span>
+          <div style={{ width: 28, height: 28, background: `linear-gradient(135deg, ${primary}, #9333EA)`, borderRadius: 7, display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <Ic id="file" size={14} color="#fff" />
+          </div>
+          <span style={{ fontSize: 16, fontWeight: 700, color: textColor, letterSpacing: -0.3 }}>GuideHub<span style={{ color: primary }}>365</span></span>
+          <span style={{ fontSize: 11, color: subtleText, background: darkMode ? "rgba(255,255,255,.07)" : "#F3F4F6", padding: "2px 8px", borderRadius: 20, fontWeight: 500, marginLeft: 4 }}>{companyName}</span>
         </div>
       </div>
-      <div style={{ display: "flex", alignItems: "center", gap: 12, flex: 1, maxWidth: 400, margin: "0 24px", position: "relative" }}>
+
+      {/* Center: search */}
+      <div style={{ flex: 1, maxWidth: 420, margin: "0 24px", position: "relative" }}>
+        <div style={{ position: "absolute", left: 12, top: "50%", transform: "translateY(-50%)" }}>
+          <Ic id="search" size={16} color={subtleText} />
+        </div>
         <input
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           onFocus={() => setSearchFocused(true)}
           onBlur={() => setTimeout(() => setSearchFocused(false), 200)}
           placeholder="Søk i guider..."
-          style={{ width: "100%", padding: "8px 12px 8px 36px", borderRadius: 8, border: `1px solid ${borderColor}`, background: darkMode ? "#0E1628" : "#F5F5F5", color: textColor, fontSize: 13, outline: "none" }}
+          style={{ width: "100%", padding: "9px 14px 9px 38px", borderRadius: 24, border: `1.5px solid ${darkMode ? "rgba(255,255,255,.10)" : "#E5E7EB"}`, background: darkMode ? "rgba(255,255,255,.05)" : "#F9FAFB", color: textColor, fontSize: 13, outline: "none", boxSizing: "border-box", transition: "border-color .15s" }}
+          onFocus2={e => { e.target.style.borderColor = primary; }}
         />
-        <span style={{ position: "absolute", left: 12, top: "50%", transform: "translateY(-50%)", fontSize: 14, color: subtleText }}>🔍</span>
         {searchFocused && searchQuery && filteredGuides.length > 0 && (
-          <div style={{ position: "absolute", top: "100%", left: 0, right: 0, background: cardBg, border: `1px solid ${borderColor}`, borderRadius: 8, marginTop: 4, boxShadow: "0 4px 16px rgba(0,0,0,0.15)", maxHeight: 300, overflow: "auto", zIndex: 200 }}>
-            {filteredGuides.slice(0, 6).map((g, i) => (
-              <div key={i} onClick={() => { handleGuideClick(g); setSearchQuery(""); }} style={{ padding: "10px 14px", cursor: "pointer", borderBottom: `1px solid ${borderColor}`, fontSize: 13, color: textColor }}>
-                <div style={{ fontWeight: 500 }}>{g.title}</div>
-                <div style={{ fontSize: 11, color: subtleText, marginTop: 2 }}>{CATEGORIES.find((c) => c.id === g.category)?.label} · {g.time}</div>
-              </div>
-            ))}
+          <div style={{ position: "absolute", top: "calc(100% + 6px)", left: 0, right: 0, background: cardBg, border: `1px solid ${borderColor}`, borderRadius: 12, boxShadow: shadowMd, maxHeight: 320, overflow: "auto", zIndex: 200 }}>
+            {filteredGuides.slice(0, 6).map((g, i) => {
+              const cat = CATEGORIES.find((c) => c.id === g.category);
+              return (
+                <div key={i} onClick={() => { handleGuideClick(g); setSearchQuery(""); }}
+                  style={{ padding: "10px 16px", cursor: "pointer", borderBottom: i < 5 ? `1px solid ${borderColor}` : "none", fontSize: 13, color: textColor, display: "flex", alignItems: "center", gap: 12 }}
+                  onMouseEnter={e => e.currentTarget.style.background = darkMode ? "rgba(255,255,255,.04)" : "#F9FAFB"}
+                  onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
+                  <div style={{ width: 32, height: 32, borderRadius: 8, background: cat?.bg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                    <Ic id={cat?.icon} size={16} color={cat?.color} />
+                  </div>
+                  <div>
+                    <div style={{ fontWeight: 500 }}>{g.title}</div>
+                    <div style={{ fontSize: 11, color: subtleText, marginTop: 1 }}>{cat?.label} · {g.time}</div>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         )}
       </div>
-      <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-        <button onClick={() => setDarkMode(!darkMode)} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 16 }}>{darkMode ? "☀️" : "🌙"}</button>
-        <button onClick={() => setView("admin")} style={{ background: "none", border: `1px solid ${borderColor}`, borderRadius: 6, padding: "6px 12px", cursor: "pointer", fontSize: 12, color: subtleText }}>Admin</button>
-        <div style={{ width: 32, height: 32, borderRadius: "50%", background: "#0078D4", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13, fontWeight: 600 }}>ON</div>
+
+      {/* Right: actions */}
+      <div style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 160, justifyContent: "flex-end" }}>
+        <button onClick={() => setDarkMode(!darkMode)}
+          style={{ background: "none", border: "none", cursor: "pointer", padding: 8, borderRadius: 8, display: "flex", alignItems: "center", color: subtleText, transition: "background .15s" }}
+          onMouseEnter={e => e.currentTarget.style.background = darkMode ? "rgba(255,255,255,.06)" : "#F3F4F6"}
+          onMouseLeave={e => e.currentTarget.style.background = "none"}>
+          <Ic id={darkMode ? "sun" : "moon"} size={18} color={subtleText} />
+        </button>
+        <button onClick={() => setView("admin")}
+          style={{ background: "none", border: `1.5px solid ${borderColor}`, borderRadius: 8, padding: "6px 14px", cursor: "pointer", fontSize: 12, fontWeight: 600, color: subtleText, display: "flex", alignItems: "center", gap: 6, transition: "all .15s" }}
+          onMouseEnter={e => { e.currentTarget.style.borderColor = primary; e.currentTarget.style.color = primary; }}
+          onMouseLeave={e => { e.currentTarget.style.borderColor = borderColor; e.currentTarget.style.color = subtleText; }}>
+          <Ic id="settings" size={14} color="currentColor" /> Admin
+        </button>
+        <div style={{ width: 34, height: 34, borderRadius: "50%", background: `linear-gradient(135deg, ${primary}, #9333EA)`, color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 12, fontWeight: 700, letterSpacing: 0.5, cursor: "pointer" }}>ON</div>
       </div>
     </div>
   );
 
   // Sidebar
   const Sidebar = () => (
-    <div style={{ width: sidebarOpen ? 240 : 0, overflow: "hidden", transition: "width 0.2s", background: cardBg, borderRight: `1px solid ${borderColor}`, flexShrink: 0, height: "calc(100vh - 53px)", position: "sticky", top: 53 }}>
-      <div style={{ padding: "16px 16px 8px", fontSize: 11, fontWeight: 600, color: subtleText, textTransform: "uppercase", letterSpacing: 1 }}>Kategorier</div>
-      {CATEGORIES.map((cat) => (
-        <div key={cat.id} onClick={() => handleCategoryClick(cat.id)} style={{ display: "flex", alignItems: "center", gap: 10, padding: "10px 16px", cursor: "pointer", background: selectedCategory === cat.id ? (darkMode ? "#1A2744" : "#EBF5FF") : "transparent", borderLeft: selectedCategory === cat.id ? "3px solid #0078D4" : "3px solid transparent", fontSize: 13, color: textColor }}>
-          <span>{cat.icon}</span>
-          <span style={{ flex: 1 }}>{cat.label}</span>
-          <span style={{ fontSize: 11, color: subtleText, background: darkMode ? "#2A2A4A" : "#F0F0F0", padding: "2px 6px", borderRadius: 10 }}>{cat.count}</span>
-        </div>
-      ))}
-      {!userMode && (
-        <div style={{ borderTop: `1px solid ${borderColor}`, margin: "12px 16px 0", paddingTop: 12 }}>
-          <div onClick={() => setView("pricing")} style={{ display: "flex", alignItems: "center", gap: 10, padding: "10px 0", cursor: "pointer", fontSize: 13, color: subtleText }}>
-            <span>💰</span> Priser & Planer
-          </div>
-          <div onClick={() => setView("landing")} style={{ display: "flex", alignItems: "center", gap: 10, padding: "10px 0", cursor: "pointer", fontSize: 13, color: subtleText }}>
-            <span>🏠</span> Landingsside
-          </div>
-        </div>
-      )}
+    <div style={{ width: sidebarOpen ? 244 : 0, overflow: "hidden", transition: "width 0.22s cubic-bezier(.4,0,.2,1)", background: sidebarBg, flexShrink: 0, height: "calc(100vh - 56px)", position: "sticky", top: 56, display: "flex", flexDirection: "column" }}>
+      <div style={{ padding: "20px 12px 8px", overflowY: "auto", flex: 1 }}>
+        <div style={{ fontSize: 10, fontWeight: 700, color: "rgba(255,255,255,.35)", textTransform: "uppercase", letterSpacing: 1.2, padding: "0 8px", marginBottom: 6 }}>Kategorier</div>
+        {CATEGORIES.map((cat) => {
+          const active = selectedCategory === cat.id;
+          return (
+            <div key={cat.id} onClick={() => handleCategoryClick(cat.id)}
+              style={{ display: "flex", alignItems: "center", gap: 10, padding: "9px 10px", cursor: "pointer", borderRadius: 10, marginBottom: 2, background: active ? "rgba(124,58,237,.30)" : "transparent", transition: "background .15s" }}
+              onMouseEnter={e => { if (!active) e.currentTarget.style.background = "rgba(255,255,255,.07)"; }}
+              onMouseLeave={e => { if (!active) e.currentTarget.style.background = "transparent"; }}>
+              <div style={{ width: 32, height: 32, borderRadius: 8, background: active ? cat.color : "rgba(255,255,255,.10)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, transition: "background .15s" }}>
+                <Ic id={cat.icon} size={16} color={active ? "#fff" : "rgba(255,255,255,.70)"} />
+              </div>
+              <span style={{ flex: 1, fontSize: 13, fontWeight: active ? 600 : 400, color: active ? "#fff" : "rgba(255,255,255,.75)", whiteSpace: "nowrap" }}>{cat.label}</span>
+              <span style={{ fontSize: 11, fontWeight: 600, color: active ? "rgba(255,255,255,.9)" : "rgba(255,255,255,.35)", background: active ? "rgba(255,255,255,.18)" : "rgba(255,255,255,.08)", padding: "1px 7px", borderRadius: 10 }}>{cat.count}</span>
+            </div>
+          );
+        })}
+
+        {!userMode && (
+          <>
+            <div style={{ borderTop: "1px solid rgba(255,255,255,.08)", margin: "14px 4px 10px" }} />
+            <div style={{ fontSize: 10, fontWeight: 700, color: "rgba(255,255,255,.35)", textTransform: "uppercase", letterSpacing: 1.2, padding: "0 8px", marginBottom: 6 }}>Navigasjon</div>
+            {[
+              { icon: "dollar", label: "Priser & Planer", action: () => setView("pricing") },
+              { icon: "home",   label: "Landingsside",    action: () => setView("landing") },
+            ].map((item) => (
+              <div key={item.label} onClick={item.action}
+                style={{ display: "flex", alignItems: "center", gap: 10, padding: "9px 10px", cursor: "pointer", borderRadius: 10, marginBottom: 2, transition: "background .15s" }}
+                onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,.07)"}
+                onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
+                <div style={{ width: 32, height: 32, borderRadius: 8, background: "rgba(255,255,255,.10)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                  <Ic id={item.icon} size={16} color="rgba(255,255,255,.70)" />
+                </div>
+                <span style={{ fontSize: 13, color: "rgba(255,255,255,.65)" }}>{item.label}</span>
+              </div>
+            ))}
+          </>
+        )}
+      </div>
+
+      {/* Bottom version tag */}
+      <div style={{ padding: "12px 20px", borderTop: "1px solid rgba(255,255,255,.06)", fontSize: 11, color: "rgba(255,255,255,.25)", fontWeight: 500 }}>GuideHub365 · Mars 2026</div>
     </div>
   );
 
   // ---- ADMIN VIEW ----
   if (view === "admin") {
+    const inputStyle = { width: "100%", padding: "10px 14px", borderRadius: 10, border: `1.5px solid ${borderColor}`, background: darkMode ? "rgba(255,255,255,.04)" : "#F9FAFB", color: textColor, fontSize: 14, outline: "none", boxSizing: "border-box", fontFamily: "inherit", transition: "border-color .15s" };
     return (
-      <div style={{ fontFamily: "'Segoe UI', -apple-system, sans-serif", background: bg, minHeight: "100vh", color: textColor }}>
+      <div style={{ fontFamily: "'Inter','Segoe UI',-apple-system,sans-serif", background: bg, minHeight: "100vh", color: textColor }}>
         <TopBar />
         <div style={{ display: "flex" }}>
           <Sidebar />
-          <div style={{ flex: 1, padding: 32, maxWidth: 800 }}>
-            <h2 style={{ fontSize: 24, fontWeight: 700, margin: "0 0 8px" }}>Bedriftsinnstillinger</h2>
-            <p style={{ color: subtleText, fontSize: 14, margin: "0 0 32px" }}>Tilpass guidene til din bedrift. Alle endringer oppdateres umiddelbart i alle guider.</p>
+          <div style={{ flex: 1, padding: "28px 36px", maxWidth: 820 }}>
+            <div style={{ marginBottom: 28 }}>
+              <h2 style={{ fontSize: 22, fontWeight: 700, margin: "0 0 6px", letterSpacing: -0.4 }}>Bedriftsinnstillinger</h2>
+              <p style={{ color: subtleText, fontSize: 14, margin: 0 }}>Tilpass guidene til din bedrift. Alle endringer oppdateres umiddelbart.</p>
+            </div>
 
-            <div style={{ background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, padding: 24, marginBottom: 24 }}>
-              <h3 style={{ fontSize: 16, fontWeight: 600, margin: "0 0 20px" }}>Generelt</h3>
-              <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-                <div>
-                  <label style={{ display: "block", fontSize: 13, fontWeight: 500, marginBottom: 6 }}>Bedriftsnavn</label>
-                  <input value={companyName} onChange={(e) => setCompanyName(e.target.value)} style={{ width: "100%", padding: "10px 12px", borderRadius: 8, border: `1px solid ${borderColor}`, background: darkMode ? "#0E1628" : "#F8F8F8", color: textColor, fontSize: 14, outline: "none", boxSizing: "border-box" }} />
-                </div>
-                <div>
-                  <label style={{ display: "block", fontSize: 13, fontWeight: 500, marginBottom: 6 }}>E-postdomene (UPN)</label>
-                  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                    <span style={{ color: subtleText, fontSize: 14 }}>bruker@</span>
-                    <input value={companyDomain} onChange={(e) => setCompanyDomain(e.target.value)} style={{ flex: 1, padding: "10px 12px", borderRadius: 8, border: `1px solid ${borderColor}`, background: darkMode ? "#0E1628" : "#F8F8F8", color: textColor, fontSize: 14, outline: "none" }} />
+            {/* Stats */}
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 14, marginBottom: 24 }}>
+              {[
+                { label: "Guide-visninger", value: "1 247", change: "+12%", icon: "bar",   color: "#7C3AED", bg: "#EDE9FE" },
+                { label: "Unike brukere",   value: "89",    change: "+8%",  icon: "users", color: "#0EA5E9", bg: "#E0F2FE" },
+                { label: "Fullført",        value: "634",   change: "+23%", icon: "check", color: "#10B981", bg: "#D1FAE5" },
+              ].map((stat, i) => (
+                <div key={i} style={{ background: cardBg, borderRadius: 16, border: `1px solid ${borderColor}`, padding: "20px 22px", boxShadow: shadow, display: "flex", alignItems: "center", gap: 16 }}>
+                  <div style={{ width: 44, height: 44, borderRadius: 12, background: stat.bg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                    <Ic id={stat.icon} size={22} color={stat.color} />
                   </div>
-                  <p style={{ fontSize: 12, color: subtleText, marginTop: 6 }}>Alle guider vil automatisk bruke dette domenet i eksempler (f.eks. ola.nordmann@{companyDomain})</p>
+                  <div>
+                    <div style={{ fontSize: 26, fontWeight: 800, color: textColor, letterSpacing: -0.5 }}>{stat.value}</div>
+                    <div style={{ fontSize: 12, color: subtleText }}>{stat.label} <span style={{ color: "#10B981", fontWeight: 700 }}>{stat.change}</span></div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Settings card */}
+            <div style={{ background: cardBg, borderRadius: 16, border: `1px solid ${borderColor}`, padding: "24px 26px", marginBottom: 18, boxShadow: shadow }}>
+              <h3 style={{ fontSize: 15, fontWeight: 700, margin: "0 0 20px", color: textColor }}>Bedriftsprofil</h3>
+              <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
+                <div>
+                  <label style={{ display: "block", fontSize: 13, fontWeight: 600, marginBottom: 7, color: textColor }}>Bedriftsnavn</label>
+                  <input value={companyName} onChange={(e) => setCompanyName(e.target.value)} style={inputStyle} onFocus={e => e.target.style.borderColor = primary} onBlur={e => e.target.style.borderColor = borderColor} />
                 </div>
                 <div>
-                  <label style={{ display: "block", fontSize: 13, fontWeight: 500, marginBottom: 6 }}>Primærfarge</label>
-                  <div style={{ display: "flex", gap: 8 }}>
-                    {["#0078D4", "#107C10", "#D83B01", "#5C2D91", "#008575"].map((c) => (
-                      <div key={c} style={{ width: 36, height: 36, borderRadius: 8, background: c, cursor: "pointer", border: "2px solid transparent" }} />
+                  <label style={{ display: "block", fontSize: 13, fontWeight: 600, marginBottom: 7, color: textColor }}>E-postdomene (UPN)</label>
+                  <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                    <span style={{ color: subtleText, fontSize: 14, fontWeight: 500 }}>bruker@</span>
+                    <input value={companyDomain} onChange={(e) => setCompanyDomain(e.target.value)} style={{ ...inputStyle, flex: 1 }} onFocus={e => e.target.style.borderColor = primary} onBlur={e => e.target.style.borderColor = borderColor} />
+                  </div>
+                  <p style={{ fontSize: 12, color: subtleText, marginTop: 7 }}>Eksempel: ola.nordmann@{companyDomain}</p>
+                </div>
+                <div>
+                  <label style={{ display: "block", fontSize: 13, fontWeight: 600, marginBottom: 10, color: textColor }}>Primærfarge</label>
+                  <div style={{ display: "flex", gap: 10 }}>
+                    {["#7C3AED","#2563EB","#0891B2","#059669","#DC2626"].map((c) => (
+                      <div key={c} style={{ width: 38, height: 38, borderRadius: 10, background: c, cursor: "pointer", border: "2px solid transparent", boxShadow: "0 2px 8px rgba(0,0,0,.15)", transition: "transform .15s" }}
+                        onMouseEnter={e => e.currentTarget.style.transform = "scale(1.12)"}
+                        onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"} />
                     ))}
                   </div>
                 </div>
               </div>
             </div>
 
-            <div style={{ background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, padding: 24, marginBottom: 24 }}>
-              <h3 style={{ fontSize: 16, fontWeight: 600, margin: "0 0 20px" }}>Integrasjoner</h3>
-              <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+            {/* Integrations */}
+            <div style={{ background: cardBg, borderRadius: 16, border: `1px solid ${borderColor}`, padding: "24px 26px", marginBottom: 24, boxShadow: shadow }}>
+              <h3 style={{ fontSize: 15, fontWeight: 700, margin: "0 0 18px", color: textColor }}>Integrasjoner</h3>
+              <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
                 {[
-                  { name: "Microsoft Teams", desc: "Vis guider som Teams-faner og bot", active: true },
-                  { name: "Azure AD SSO", desc: "Single Sign-On for alle brukere", active: true },
-                  { name: "ServiceNow", desc: "Lenke guider fra support-tickets", active: false },
-                  { name: "SharePoint Intranett", desc: "Embed guider i intranett-sider", active: false },
-                ].map((integration, i) => (
-                  <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "12px 16px", background: darkMode ? "#0E1628" : "#F8F8F8", borderRadius: 8 }}>
-                    <div>
-                      <div style={{ fontWeight: 500, fontSize: 14 }}>{integration.name}</div>
-                      <div style={{ fontSize: 12, color: subtleText }}>{integration.desc}</div>
+                  { name: "Microsoft Teams", desc: "Vis guider som Teams-faner og bot", active: true,  icon: "chat",  color: "#8B5CF6", bg: "#EDE9FE" },
+                  { name: "Azure AD SSO",    desc: "Single Sign-On for alle brukere",  active: true,  icon: "shield", color: "#10B981", bg: "#D1FAE5" },
+                  { name: "ServiceNow",      desc: "Lenke guider fra support-tickets", active: false, icon: "wrench", color: "#F59E0B", bg: "#FEF3C7" },
+                  { name: "SharePoint",      desc: "Embed guider i intranett-sider",   active: false, icon: "globe",  color: "#0EA5E9", bg: "#E0F2FE" },
+                ].map((intg, i) => (
+                  <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "14px 16px", background: darkMode ? "rgba(255,255,255,.03)" : "#F9FAFB", borderRadius: 12, border: `1px solid ${borderColor}` }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+                      <div style={{ width: 36, height: 36, borderRadius: 9, background: intg.bg, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                        <Ic id={intg.icon} size={18} color={intg.color} />
+                      </div>
+                      <div>
+                        <div style={{ fontWeight: 600, fontSize: 14, color: textColor }}>{intg.name}</div>
+                        <div style={{ fontSize: 12, color: subtleText }}>{intg.desc}</div>
+                      </div>
                     </div>
-                    <div style={{ width: 44, height: 24, borderRadius: 12, background: integration.active ? "#107C10" : "#CCC", cursor: "pointer", position: "relative" }}>
-                      <div style={{ width: 20, height: 20, borderRadius: "50%", background: "#fff", position: "absolute", top: 2, left: integration.active ? 22 : 2, transition: "left 0.2s" }} />
+                    <div style={{ width: 44, height: 24, borderRadius: 12, background: intg.active ? "#7C3AED" : (darkMode ? "rgba(255,255,255,.15)" : "#D1D5DB"), cursor: "pointer", position: "relative", flexShrink: 0 }}>
+                      <div style={{ width: 18, height: 18, borderRadius: "50%", background: "#fff", position: "absolute", top: 3, left: intg.active ? 23 : 3, transition: "left 0.2s", boxShadow: "0 1px 4px rgba(0,0,0,.2)" }} />
                     </div>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div style={{ background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, padding: 24 }}>
-              <h3 style={{ fontSize: 16, fontWeight: 600, margin: "0 0 20px" }}>Bruksstatistikk (siste 30 dager)</h3>
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 16 }}>
-                {[
-                  { label: "Guide-visninger", value: "1 247", change: "+12%" },
-                  { label: "Unike brukere", value: "89", change: "+8%" },
-                  { label: "Fullførte guider", value: "634", change: "+23%" },
-                ].map((stat, i) => (
-                  <div key={i} style={{ textAlign: "center", padding: 16, background: darkMode ? "#0E1628" : "#F8F8F8", borderRadius: 8 }}>
-                    <div style={{ fontSize: 28, fontWeight: 700, color: "#0078D4" }}>{stat.value}</div>
-                    <div style={{ fontSize: 12, color: subtleText, marginTop: 4 }}>{stat.label}</div>
-                    <div style={{ fontSize: 12, color: "#107C10", marginTop: 4, fontWeight: 600 }}>{stat.change}</div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <button onClick={() => { setShowAdminSaved(true); setTimeout(() => setShowAdminSaved(false), 2000); }} style={{ marginTop: 24, background: "#0078D4", color: "#fff", border: "none", borderRadius: 8, padding: "12px 32px", fontWeight: 600, fontSize: 14, cursor: "pointer" }}>
+            <button onClick={() => { setShowAdminSaved(true); setTimeout(() => setShowAdminSaved(false), 2000); }}
+              style={{ background: `linear-gradient(135deg, ${primary}, #9333EA)`, color: "#fff", border: "none", borderRadius: 12, padding: "12px 32px", fontWeight: 700, fontSize: 14, cursor: "pointer", boxShadow: `0 4px 14px rgba(124,58,237,.35)` }}>
               Lagre endringer
             </button>
-            {showAdminSaved && <span style={{ marginLeft: 12, color: "#107C10", fontSize: 13, fontWeight: 500 }}>Lagret!</span>}
+            {showAdminSaved && <span style={{ marginLeft: 14, color: "#10B981", fontSize: 13, fontWeight: 700 }}>✓ Lagret!</span>}
           </div>
         </div>
       </div>
@@ -926,86 +1080,91 @@ export default function GuideHub365() {
     const allDone = stepsCompleted === guide.steps.length;
 
     // Section label component
-    const SectionLabel = ({ number, title, color = "#0078D4", bg = "#EBF5FF" }) => (
-      <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 12 }}>
-        <div style={{ width: 28, height: 28, borderRadius: "50%", background: color, color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13, fontWeight: 700, flexShrink: 0 }}>{number}</div>
-        <span style={{ fontSize: 15, fontWeight: 700, color }}>{title}</span>
+    const SectionLabel = ({ number, title, color = primary }) => (
+      <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
+        <div style={{ width: 28, height: 28, borderRadius: 8, background: color, color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13, fontWeight: 700, flexShrink: 0 }}>{number}</div>
+        <span style={{ fontSize: 15, fontWeight: 700, color, letterSpacing: -0.2 }}>{title}</span>
       </div>
     );
 
     return (
-      <div style={{ fontFamily: "'Segoe UI', -apple-system, sans-serif", background: bg, minHeight: "100vh", color: textColor }}>
+      <div style={{ fontFamily: "'Inter','Segoe UI',-apple-system,sans-serif", background: bg, minHeight: "100vh", color: textColor }}>
         <TopBar />
         <div style={{ display: "flex" }}>
           <Sidebar />
-          <div style={{ flex: 1, padding: "24px 32px", maxWidth: 820, margin: "0 auto" }}>
+          <div style={{ flex: 1, padding: "28px 36px", maxWidth: 860, minWidth: 0 }}>
 
             {/* Breadcrumb */}
-            <div style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 13, color: subtleText, marginBottom: 16 }}>
-              <span onClick={() => setView("dashboard")} style={{ cursor: "pointer" }}>Hjem</span>
-              <span>/</span>
-              <span onClick={() => { setView("category"); setSelectedCategory("email"); }} style={{ cursor: "pointer" }}>E-post & Kalender</span>
-              <span>/</span>
-              <span style={{ color: textColor }}>{guide.title}</span>
+            <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 13, color: subtleText, marginBottom: 20 }}>
+              <span onClick={() => setView("dashboard")} style={{ cursor: "pointer", color: primary, fontWeight: 500 }}>Hjem</span>
+              <Ic id="chevron" size={13} color={subtleText} />
+              <span onClick={() => { setView("category"); setSelectedCategory("email"); }} style={{ cursor: "pointer", color: primary, fontWeight: 500 }}>E-post & Kalender</span>
+              <Ic id="chevron" size={13} color={subtleText} />
+              <span style={{ color: textColor, fontWeight: 500 }}>{guide.title}</span>
             </div>
 
             {/* Demo switcher */}
-            <div style={{ background: darkMode ? "#1A2744" : "#EBF5FF", borderRadius: 10, padding: "10px 16px", marginBottom: 20, display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap" }}>
-              <span style={{ fontSize: 12, color: subtleText, fontWeight: 600 }}>DEMO — Velg guide:</span>
-              <button onClick={() => { setDemoGuide("outlook"); setShowCompletionCheck({}); }} style={{ padding: "5px 14px", borderRadius: 6, border: "none", background: demoGuide === "outlook" ? "#0078D4" : (darkMode ? "#2A3A5C" : "#fff"), color: demoGuide === "outlook" ? "#fff" : textColor, cursor: "pointer", fontSize: 12, fontWeight: 600 }}>
-                📧 Sette opp Outlook (uten «Hvorfor»)
+            <div style={{ background: darkMode ? "rgba(124,58,237,.1)" : "#F5F3FF", borderRadius: 12, padding: "10px 16px", marginBottom: 20, display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap", border: `1px solid ${darkMode ? "rgba(124,58,237,.2)" : "#DDD6FE"}` }}>
+              <span style={{ fontSize: 11, color: primary, fontWeight: 700, textTransform: "uppercase", letterSpacing: 0.8 }}>Demo</span>
+              <button onClick={() => { setDemoGuide("outlook"); setShowCompletionCheck({}); }}
+                style={{ padding: "5px 14px", borderRadius: 20, border: "none", background: demoGuide === "outlook" ? primary : (darkMode ? "rgba(255,255,255,.08)" : "#fff"), color: demoGuide === "outlook" ? "#fff" : textColor, cursor: "pointer", fontSize: 12, fontWeight: 600, boxShadow: demoGuide === "outlook" ? `0 2px 8px rgba(124,58,237,.35)` : "none" }}>
+                ✉ Outlook (uten «Hvorfor»)
               </button>
-              <button onClick={() => { setDemoGuide("mfa"); setShowCompletionCheck({}); }} style={{ padding: "5px 14px", borderRadius: 6, border: "none", background: demoGuide === "mfa" ? "#CA5010" : (darkMode ? "#2A3A5C" : "#fff"), color: demoGuide === "mfa" ? "#fff" : textColor, cursor: "pointer", fontSize: 12, fontWeight: 600 }}>
-                🛡️ MFA-oppsett (med «Hvorfor»)
+              <button onClick={() => { setDemoGuide("mfa"); setShowCompletionCheck({}); }}
+                style={{ padding: "5px 14px", borderRadius: 20, border: "none", background: demoGuide === "mfa" ? "#EA580C" : (darkMode ? "rgba(255,255,255,.08)" : "#fff"), color: demoGuide === "mfa" ? "#fff" : textColor, cursor: "pointer", fontSize: 12, fontWeight: 600, boxShadow: demoGuide === "mfa" ? "0 2px 8px rgba(234,88,12,.35)" : "none" }}>
+                🛡 MFA (med «Hvorfor»)
               </button>
             </div>
 
             {/* Guide header with metadata */}
-            <div style={{ background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, padding: "24px 28px", marginBottom: 20 }}>
-              <h1 style={{ fontSize: 24, fontWeight: 700, margin: "0 0 12px" }}>{guide.title}</h1>
-              <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
-                <span style={{ fontSize: 12, padding: "4px 12px", background: "#E8F5E9", color: "#2E7D32", borderRadius: 20 }}>{guide.difficulty}</span>
-                <span style={{ fontSize: 12, padding: "4px 12px", background: darkMode ? "#1A2744" : "#E3F2FD", color: "#0078D4", borderRadius: 20 }}>⏱ {guide.time}</span>
-                <span style={{ fontSize: 12, padding: "4px 12px", background: darkMode ? "#2A2A4A" : "#F5F5F5", color: subtleText, borderRadius: 20 }}>Oppdatert: {guide.lastUpdated}</span>
-                <span style={{ fontSize: 12, padding: "4px 12px", background: darkMode ? "#2A2A4A" : "#F5F5F5", color: subtleText, borderRadius: 20 }}>{guide.version}</span>
+            <div style={{ background: cardBg, borderRadius: 16, border: `1px solid ${borderColor}`, padding: "24px 28px", marginBottom: 20, boxShadow: shadow }}>
+              <h1 style={{ fontSize: 24, fontWeight: 700, margin: "0 0 14px", letterSpacing: -0.4, color: textColor }}>{guide.title}</h1>
+              <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+                <span style={{ fontSize: 12, padding: "4px 12px", background: "#D1FAE5", color: "#065F46", borderRadius: 20, fontWeight: 600 }}>{guide.difficulty}</span>
+                <span style={{ fontSize: 12, padding: "4px 12px", background: darkMode ? "rgba(59,130,246,.15)" : "#DBEAFE", color: "#2563EB", borderRadius: 20, fontWeight: 600 }}>⏱ {guide.time}</span>
+                <span style={{ fontSize: 12, padding: "4px 12px", background: darkMode ? "rgba(255,255,255,.07)" : "#F3F4F6", color: subtleText, borderRadius: 20 }}>🔄 {guide.lastUpdated}</span>
+                <span style={{ fontSize: 12, padding: "4px 12px", background: darkMode ? "rgba(255,255,255,.07)" : "#F3F4F6", color: subtleText, borderRadius: 20 }}>{guide.version}</span>
               </div>
             </div>
 
             {/* Quick navigation */}
             <div style={{ display: "flex", gap: 8, marginBottom: 24, flexWrap: "wrap" }}>
               {[
-                { label: "1 · Beskrivelse", color: "#0078D4" },
-                ...(guide.why ? [{ label: "2 · Hvorfor?", color: "#CA5010" }] : []),
-                { label: guide.why ? "3 · Steg for steg" : "2 · Steg for steg", color: "#0078D4" },
-                { label: guide.why ? "4 · Sjekk resultatet" : "3 · Sjekk resultatet", color: "#107C10" },
-                { label: guide.why ? "5 · Trenger du hjelp?" : "4 · Trenger du hjelp?", color: "#003F7D" },
+                { label: "1 · Beskrivelse",   color: primary },
+                ...(guide.why ? [{ label: "2 · Hvorfor?", color: "#EA580C" }] : []),
+                { label: guide.why ? "3 · Steg for steg" : "2 · Steg for steg", color: primary },
+                { label: guide.why ? "4 · Sjekk resultatet" : "3 · Sjekk resultatet", color: "#10B981" },
+                { label: guide.why ? "5 · Trenger du hjelp?" : "4 · Trenger du hjelp?", color: "#4F46E5" },
               ].map((item, i) => (
-                <span key={i} style={{ fontSize: 12, padding: "5px 12px", borderRadius: 20, border: `1px solid ${item.color}`, color: item.color, cursor: "pointer", fontWeight: 500 }}>{item.label}</span>
+                <span key={i} style={{ fontSize: 12, padding: "5px 14px", borderRadius: 20, border: `1.5px solid ${item.color}`, color: item.color, cursor: "pointer", fontWeight: 600 }}>{item.label}</span>
               ))}
             </div>
 
             {/* Før du begynner */}
-            <div style={{ background: darkMode ? "#1A2744" : "#FFF8E1", borderRadius: 12, border: `1px solid ${darkMode ? "#2A3A5C" : "#FFE082"}`, padding: 20, marginBottom: 20 }}>
-              <div style={{ fontWeight: 600, fontSize: 14, marginBottom: 10, color: darkMode ? "#FFE082" : "#F57F17" }}>⚡ Før du begynner — ha dette klart:</div>
+            <div style={{ background: darkMode ? "rgba(245,158,11,.10)" : "#FFFBEB", borderRadius: 14, border: `1.5px solid ${darkMode ? "rgba(245,158,11,.25)" : "#FDE68A"}`, padding: "16px 20px", marginBottom: 20 }}>
+              <div style={{ fontWeight: 700, fontSize: 14, marginBottom: 10, color: "#B45309", display: "flex", alignItems: "center", gap: 8 }}>
+                <Ic id="lightning" size={16} color="#F59E0B" /> Før du begynner — ha dette klart:
+              </div>
               {guide.prerequisites.map((p, i) => (
-                <div key={i} style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 13, marginBottom: 6, color: darkMode ? "#E0E0E0" : "#424242" }}>
-                  <span style={{ color: darkMode ? "#FFE082" : "#FFA000" }}>•</span> {p}
+                <div key={i} style={{ display: "flex", alignItems: "center", gap: 10, fontSize: 13, marginBottom: i < guide.prerequisites.length - 1 ? 8 : 0, color: darkMode ? "#E0D090" : "#78350F" }}>
+                  <div style={{ width: 6, height: 6, borderRadius: "50%", background: "#F59E0B", flexShrink: 0 }} />
+                  {p}
                 </div>
               ))}
             </div>
 
             {/* ── ELEMENT 1: Beskrivelse ── */}
-            <div style={{ background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, padding: 24, marginBottom: 16 }}>
-              <SectionLabel number="1" title="Beskrivelse" color="#0078D4" />
-              <p style={{ fontSize: 15, lineHeight: 1.7, color: darkMode ? "#C8D0E0" : "#3C3C3C", margin: 0 }}>
+            <div style={{ background: cardBg, borderRadius: 16, border: `1px solid ${borderColor}`, padding: "22px 24px", marginBottom: 14, boxShadow: shadow }}>
+              <SectionLabel number="1" title="Beskrivelse" color={primary} />
+              <p style={{ fontSize: 15, lineHeight: 1.75, color: darkMode ? "#C8D0E0" : "#374151", margin: 0 }}>
                 {guide.description}
               </p>
             </div>
 
             {/* ── ELEMENT 2: Hvorfor gjør vi dette? (valgfri) ── */}
             {guide.why && (
-              <div style={{ background: darkMode ? "#1E1A10" : "#FFF8E1", borderRadius: 12, border: `1px solid ${darkMode ? "#4A3A10" : "#FFD54F"}`, padding: 24, marginBottom: 16 }}>
-                <SectionLabel number="2" title="Hvorfor gjør vi dette?" color="#CA5010" />
+              <div style={{ background: darkMode ? "rgba(249,115,22,.08)" : "#FFF7ED", borderRadius: 16, border: `1.5px solid ${darkMode ? "rgba(249,115,22,.2)" : "#FED7AA"}`, padding: "22px 24px", marginBottom: 14, boxShadow: shadow }}>
+                <SectionLabel number="2" title="Hvorfor gjør vi dette?" color="#EA580C" />
                 {guide.why.split("\n\n").map((para, i) => para.trim() && (
                   <p key={i} style={{ fontSize: 14, lineHeight: 1.7, color: darkMode ? "#E0D0A0" : "#4A3000", margin: i === 0 ? 0 : "12px 0 0" }}>
                     {para}
@@ -1015,38 +1174,38 @@ export default function GuideHub365() {
             )}
 
             {/* ── ELEMENT 3: Steg for steg (Hvordan gjør jeg det?) ── */}
-            <div style={{ background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, padding: 24, marginBottom: 16 }}>
-              <SectionLabel number={guide.why ? "3" : "2"} title="Hvordan gjør jeg det? — Steg for steg" color="#0078D4" />
+            <div style={{ background: cardBg, borderRadius: 16, border: `1px solid ${borderColor}`, padding: "22px 24px", marginBottom: 14, boxShadow: shadow }}>
+              <SectionLabel number={guide.why ? "3" : "2"} title="Hvordan gjør jeg det? — Steg for steg" color={primary} />
 
               {/* Progress */}
               <div style={{ marginBottom: 20 }}>
-                <div style={{ display: "flex", justifyContent: "space-between", fontSize: 12, color: subtleText, marginBottom: 6 }}>
+                <div style={{ display: "flex", justifyContent: "space-between", fontSize: 12, color: subtleText, marginBottom: 8, fontWeight: 500 }}>
                   <span>Fremgang</span>
-                  <span>{stepsCompleted} av {guide.steps.length} steg fullført</span>
+                  <span style={{ color: stepsCompleted === guide.steps.length ? "#10B981" : subtleText, fontWeight: stepsCompleted === guide.steps.length ? 700 : 500 }}>{stepsCompleted} av {guide.steps.length} steg fullført</span>
                 </div>
-                <div style={{ height: 6, background: darkMode ? "#2A2A4A" : "#E0E0E0", borderRadius: 3 }}>
-                  <div style={{ height: 6, background: "#107C10", borderRadius: 3, width: `${(stepsCompleted / guide.steps.length) * 100}%`, transition: "width 0.3s" }} />
+                <div style={{ height: 7, background: darkMode ? "rgba(255,255,255,.08)" : "#E5E7EB", borderRadius: 10, overflow: "hidden" }}>
+                  <div style={{ height: 7, background: stepsCompleted === guide.steps.length ? "#10B981" : `linear-gradient(90deg, ${primary}, #9333EA)`, borderRadius: 10, width: `${(stepsCompleted / guide.steps.length) * 100}%`, transition: "width 0.35s cubic-bezier(.4,0,.2,1)" }} />
                 </div>
               </div>
 
               {guide.steps.map((step, i) => (
-                <div key={i} style={{ border: `1px solid ${showCompletionCheck[step.number] ? "#A5D6A7" : borderColor}`, borderRadius: 10, padding: 20, marginBottom: 12, background: showCompletionCheck[step.number] ? (darkMode ? "#0E2010" : "#F0FBF0") : "transparent", transition: "all 0.3s" }}>
+                <div key={i} style={{ border: `1.5px solid ${showCompletionCheck[step.number] ? "#86EFAC" : borderColor}`, borderRadius: 14, padding: "18px 20px", marginBottom: 10, background: showCompletionCheck[step.number] ? (darkMode ? "rgba(16,185,129,.06)" : "#F0FDF4") : (darkMode ? "rgba(255,255,255,.01)" : "transparent"), transition: "all 0.25s" }}>
                   <div style={{ display: "flex", alignItems: "start", gap: 14 }}>
                     <div
                       onClick={() => handleStepComplete(step.number)}
-                      style={{ width: 32, height: 32, borderRadius: "50%", background: showCompletionCheck[step.number] ? "#4CAF50" : "#0078D4", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14, fontWeight: 700, cursor: "pointer", flexShrink: 0, transition: "background 0.3s" }}
+                      style={{ width: 34, height: 34, borderRadius: 10, background: showCompletionCheck[step.number] ? "#10B981" : primary, color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14, fontWeight: 700, cursor: "pointer", flexShrink: 0, transition: "background 0.25s", boxShadow: showCompletionCheck[step.number] ? "0 2px 8px rgba(16,185,129,.35)" : `0 2px 8px rgba(124,58,237,.3)` }}
                     >
-                      {showCompletionCheck[step.number] ? "✓" : step.number}
+                      {showCompletionCheck[step.number] ? <Ic id="check" size={16} color="#fff" strokeWidth={3} /> : step.number}
                     </div>
                     <div style={{ flex: 1 }}>
-                      <h3 style={{ fontSize: 15, fontWeight: 600, margin: "4px 0 8px", color: showCompletionCheck[step.number] ? "#2E7D32" : textColor }}>{step.title}</h3>
-                      <p style={{ fontSize: 14, lineHeight: 1.6, color: darkMode ? "#C0C0D0" : "#424242", margin: "0 0 12px" }}>
+                      <h3 style={{ fontSize: 15, fontWeight: 600, margin: "2px 0 8px", color: showCompletionCheck[step.number] ? "#059669" : textColor }}>{step.title}</h3>
+                      <p style={{ fontSize: 14, lineHeight: 1.65, color: darkMode ? "#C0C0D0" : "#374151", margin: "0 0 12px" }}>
                         {step.instruction.replace("{domain}", companyDomain)}
                       </p>
                       <ScreenshotPlaceholder name={step.screenshot} guideId={step.guideId || selectedGuide?.id} domain={companyDomain} />
                       {step.tip && (
-                        <div style={{ marginTop: 12, padding: "10px 14px", background: darkMode ? "#1A2744" : "#E3F2FD", borderRadius: 8, fontSize: 13, color: darkMode ? "#90CAF9" : "#0D47A1", display: "flex", gap: 8 }}>
-                          <span>💡</span> {step.tip}
+                        <div style={{ marginTop: 12, padding: "10px 14px", background: darkMode ? "rgba(59,130,246,.12)" : "#EFF6FF", borderRadius: 10, fontSize: 13, color: darkMode ? "#93C5FD" : "#1D4ED8", display: "flex", gap: 8, alignItems: "flex-start", border: `1px solid ${darkMode ? "rgba(59,130,246,.2)" : "#BFDBFE"}` }}>
+                          <span style={{ flexShrink: 0 }}>💡</span> {step.tip}
                         </div>
                       )}
                     </div>
@@ -1056,44 +1215,48 @@ export default function GuideHub365() {
             </div>
 
             {/* ── ELEMENT 4: Hvordan vet jeg at jeg har gjort riktig? ── */}
-            <div style={{ background: allDone ? (darkMode ? "#0A200A" : "#F0FBF0") : cardBg, borderRadius: 12, border: `2px solid ${allDone ? "#4CAF50" : borderColor}`, padding: 24, marginBottom: 16, transition: "all 0.4s" }}>
-              <SectionLabel number={guide.why ? "4" : "3"} title="Hvordan vet jeg at jeg har gjort riktig?" color="#107C10" />
+            <div style={{ background: allDone ? (darkMode ? "rgba(16,185,129,.06)" : "#F0FDF4") : cardBg, borderRadius: 16, border: `1.5px solid ${allDone ? "#6EE7B7" : borderColor}`, padding: "22px 24px", marginBottom: 14, transition: "all 0.4s", boxShadow: shadow }}>
+              <SectionLabel number={guide.why ? "4" : "3"} title="Hvordan vet jeg at jeg har gjort riktig?" color="#10B981" />
               {allDone && (
-                <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "10px 16px", background: "#E8F5E9", borderRadius: 8, marginBottom: 16, border: "1px solid #A5D6A7" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "12px 16px", background: "#DCFCE7", borderRadius: 10, marginBottom: 16, border: "1px solid #86EFAC" }}>
                   <span style={{ fontSize: 20 }}>🎉</span>
-                  <span style={{ fontSize: 14, fontWeight: 600, color: "#2E7D32" }}>Flott! Du har fullført alle stegene.</span>
+                  <span style={{ fontSize: 14, fontWeight: 700, color: "#15803D" }}>Flott! Du har fullført alle stegene.</span>
                 </div>
               )}
-              <p style={{ fontSize: 14, color: subtleText, margin: "0 0 14px" }}>Etter at du har fulgt alle stegene, skal dette se riktig ut:</p>
+              <p style={{ fontSize: 14, color: subtleText, margin: "0 0 12px" }}>Etter at du har fulgt alle stegene, skal dette se riktig ut:</p>
               {guide.confirmation.checks.map((check, i) => (
-                <div key={i} style={{ display: "flex", alignItems: "start", gap: 10, padding: "10px 14px", background: allDone ? (darkMode ? "#0E2A0E" : "#E8F5E9") : (darkMode ? "#1A2A1A" : "#F5FBF5"), borderRadius: 8, marginBottom: 8, border: `1px solid ${allDone ? "#A5D6A7" : borderColor}` }}>
-                  <span style={{ color: allDone ? "#4CAF50" : subtleText, fontSize: 16, flexShrink: 0, marginTop: 1 }}>{allDone ? "✅" : "○"}</span>
-                  <span style={{ fontSize: 14, color: allDone ? (darkMode ? "#A0D4A0" : "#2E7D32") : (darkMode ? "#C0C0D0" : "#424242") }}>{check}</span>
+                <div key={i} style={{ display: "flex", alignItems: "start", gap: 12, padding: "10px 14px", background: allDone ? (darkMode ? "rgba(16,185,129,.08)" : "#DCFCE7") : (darkMode ? "rgba(255,255,255,.03)" : "#F8FAF8"), borderRadius: 10, marginBottom: 8, border: `1px solid ${allDone ? "#86EFAC" : borderColor}`, transition: "all 0.3s" }}>
+                  <div style={{ width: 22, height: 22, borderRadius: 6, background: allDone ? "#10B981" : (darkMode ? "rgba(255,255,255,.1)" : "#E5E7EB"), display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                    {allDone && <Ic id="check" size={13} color="#fff" strokeWidth={3} />}
+                  </div>
+                  <span style={{ fontSize: 14, color: allDone ? (darkMode ? "#A0D4A0" : "#15803D") : (darkMode ? "#C0C0D0" : "#374151") }}>{check}</span>
                 </div>
               ))}
               {!allDone && (
-                <p style={{ fontSize: 12, color: subtleText, margin: "12px 0 0", fontStyle: "italic" }}>
+                <p style={{ fontSize: 12, color: subtleText, margin: "10px 0 0", fontStyle: "italic" }}>
                   Huk av hvert steg ovenfor når du er ferdig — så ser du her om alt er riktig.
                 </p>
               )}
             </div>
 
             {/* ── ELEMENT 5: Hvem kontakter jeg? ── */}
-            <div style={{ background: darkMode ? "#0E1628" : "#F0F4FF", borderRadius: 12, border: `1px solid ${darkMode ? "#2A3A5C" : "#C5D3F0"}`, padding: 24, marginBottom: 20 }}>
-              <SectionLabel number={guide.why ? "5" : "4"} title="Hvem kontakter jeg hvis jeg trenger hjelp?" color="#003F7D" />
-              <p style={{ fontSize: 14, color: subtleText, margin: "0 0 16px" }}>Stod du fast eller trenger du hjelp fra noen? Ta kontakt med din IT-support:</p>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
+            <div style={{ background: darkMode ? "rgba(99,102,241,.08)" : "#EEF2FF", borderRadius: 16, border: `1.5px solid ${darkMode ? "rgba(99,102,241,.2)" : "#C7D2FE"}`, padding: "22px 24px", marginBottom: 20, boxShadow: shadow }}>
+              <SectionLabel number={guide.why ? "5" : "4"} title="Hvem kontakter jeg hvis jeg trenger hjelp?" color="#4F46E5" />
+              <p style={{ fontSize: 14, color: subtleText, margin: "0 0 14px" }}>Stod du fast? Ta kontakt med din IT-support:</p>
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
                 {[
-                  { icon: "📞", label: "Telefon", value: guide.support.phone },
-                  { icon: "✉️", label: "E-post", value: guide.support.email.replace("{domain}", companyDomain) },
-                  { icon: "🌐", label: "Support-portal", value: guide.support.portal.replace("{domain}", companyDomain) },
-                  { icon: "🕐", label: "Åpningstider", value: guide.support.hours },
+                  { icn: "phone2", label: "Telefon",       value: guide.support.phone,                                      color: "#7C3AED", bg: "#EDE9FE" },
+                  { icn: "mail",   label: "E-post",        value: guide.support.email.replace("{domain}", companyDomain),   color: "#3B82F6", bg: "#DBEAFE" },
+                  { icn: "globe",  label: "Support-portal",value: guide.support.portal.replace("{domain}", companyDomain),  color: "#0EA5E9", bg: "#E0F2FE" },
+                  { icn: "sun",    label: "Åpningstider",  value: guide.support.hours,                                      color: "#F59E0B", bg: "#FEF3C7" },
                 ].map((item, i) => (
-                  <div key={i} style={{ display: "flex", alignItems: "center", gap: 10, padding: "12px 16px", background: cardBg, borderRadius: 8, border: `1px solid ${borderColor}` }}>
-                    <span style={{ fontSize: 18 }}>{item.icon}</span>
+                  <div key={i} style={{ display: "flex", alignItems: "center", gap: 12, padding: "12px 14px", background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, boxShadow: shadow }}>
+                    <div style={{ width: 36, height: 36, borderRadius: 9, background: item.bg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                      <Ic id={item.icn} size={18} color={item.color} />
+                    </div>
                     <div>
-                      <div style={{ fontSize: 11, color: subtleText, fontWeight: 600, textTransform: "uppercase", letterSpacing: 0.5 }}>{item.label}</div>
-                      <div style={{ fontSize: 14, fontWeight: 500, color: textColor, marginTop: 2 }}>{item.value}</div>
+                      <div style={{ fontSize: 10, color: subtleText, fontWeight: 700, textTransform: "uppercase", letterSpacing: 0.8 }}>{item.label}</div>
+                      <div style={{ fontSize: 13, fontWeight: 600, color: textColor, marginTop: 2 }}>{item.value}</div>
                     </div>
                   </div>
                 ))}
@@ -1101,11 +1264,15 @@ export default function GuideHub365() {
             </div>
 
             {/* Feedback */}
-            <div style={{ padding: 20, background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, textAlign: "center", marginBottom: 32 }}>
-              <div style={{ fontSize: 14, marginBottom: 12, color: subtleText }}>Var denne guiden nyttig for deg?</div>
-              <div style={{ display: "flex", justifyContent: "center", gap: 12 }}>
-                <button style={{ padding: "8px 28px", borderRadius: 8, border: "1px solid #4CAF50", background: darkMode ? "#0E2010" : "#E8F5E9", cursor: "pointer", fontSize: 20 }}>👍</button>
-                <button style={{ padding: "8px 28px", borderRadius: 8, border: `1px solid ${borderColor}`, background: cardBg, cursor: "pointer", fontSize: 20 }}>👎</button>
+            <div style={{ padding: "20px 24px", background: cardBg, borderRadius: 16, border: `1px solid ${borderColor}`, textAlign: "center", marginBottom: 32, boxShadow: shadow }}>
+              <div style={{ fontSize: 14, marginBottom: 14, color: subtleText, fontWeight: 500 }}>Var denne guiden nyttig for deg?</div>
+              <div style={{ display: "flex", justifyContent: "center", gap: 10 }}>
+                <button style={{ padding: "9px 28px", borderRadius: 24, border: "1.5px solid #86EFAC", background: "#F0FDF4", cursor: "pointer", fontSize: 18, fontWeight: 600, color: "#15803D", transition: "all .15s" }}
+                  onMouseEnter={e => e.currentTarget.style.background = "#DCFCE7"}
+                  onMouseLeave={e => e.currentTarget.style.background = "#F0FDF4"}>👍 Ja</button>
+                <button style={{ padding: "9px 28px", borderRadius: 24, border: `1.5px solid ${borderColor}`, background: darkMode ? "rgba(255,255,255,.05)" : "#F9FAFB", cursor: "pointer", fontSize: 18, fontWeight: 600, color: subtleText, transition: "all .15s" }}
+                  onMouseEnter={e => e.currentTarget.style.background = darkMode ? "rgba(255,255,255,.08)" : "#F3F4F6"}
+                  onMouseLeave={e => e.currentTarget.style.background = darkMode ? "rgba(255,255,255,.05)" : "#F9FAFB"}>👎 Nei</button>
               </div>
             </div>
 
@@ -1119,37 +1286,58 @@ export default function GuideHub365() {
   if (view === "category" && selectedCategory) {
     const cat = CATEGORIES.find((c) => c.id === selectedCategory);
     const guides = GUIDES[selectedCategory] || [];
+    const diffColor = { Enkel: { bg: "#D1FAE5", color: "#065F46" }, Middels: { bg: "#FEF3C7", color: "#92400E" }, Avansert: { bg: "#FEE2E2", color: "#991B1B" } };
     return (
-      <div style={{ fontFamily: "'Segoe UI', -apple-system, sans-serif", background: bg, minHeight: "100vh", color: textColor }}>
+      <div style={{ fontFamily: "'Inter','Segoe UI',-apple-system,sans-serif", background: bg, minHeight: "100vh", color: textColor }}>
         <TopBar />
         <div style={{ display: "flex" }}>
           <Sidebar />
-          <div style={{ flex: 1, padding: "24px 32px" }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 13, color: subtleText, marginBottom: 20 }}>
-              <span onClick={() => setView("dashboard")} style={{ cursor: "pointer" }}>Hjem</span>
-              <span>/</span>
-              <span style={{ color: textColor }}>{cat?.label}</span>
+          <div style={{ flex: 1, padding: "28px 36px", maxWidth: 900 }}>
+
+            {/* Breadcrumb */}
+            <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 13, color: subtleText, marginBottom: 24 }}>
+              <span onClick={() => setView("dashboard")} style={{ cursor: "pointer", color: primary, fontWeight: 500 }}>Hjem</span>
+              <Ic id="chevron" size={14} color={subtleText} />
+              <span style={{ color: textColor, fontWeight: 500 }}>{cat?.label}</span>
             </div>
-            <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 32 }}>
-              <div style={{ width: 48, height: 48, borderRadius: 12, background: cat?.color, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 24 }}>{cat?.icon}</div>
+
+            {/* Category header */}
+            <div style={{ display: "flex", alignItems: "center", gap: 18, marginBottom: 28, background: cardBg, borderRadius: 16, padding: "20px 24px", border: `1px solid ${borderColor}`, boxShadow: shadow }}>
+              <div style={{ width: 56, height: 56, borderRadius: 16, background: cat?.bg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                <Ic id={cat?.icon} size={26} color={cat?.color} />
+              </div>
               <div>
-                <h2 style={{ fontSize: 22, fontWeight: 700, margin: 0 }}>{cat?.label}</h2>
-                <p style={{ fontSize: 13, color: subtleText, margin: "4px 0 0" }}>{guides.length} guider tilgjengelig</p>
+                <h2 style={{ fontSize: 22, fontWeight: 700, margin: "0 0 4px", color: textColor }}>{cat?.label}</h2>
+                <p style={{ fontSize: 13, color: subtleText, margin: 0 }}><span style={{ fontWeight: 700, color: cat?.color }}>{guides.length}</span> guider tilgjengelig · Oppdatert mars 2026</p>
               </div>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+
+            {/* Guide list */}
+            <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
               {guides.map((guide, i) => (
-                <div key={i} onClick={() => handleGuideClick(guide)} style={{ background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, padding: "16px 20px", cursor: "pointer", display: "flex", justifyContent: "space-between", alignItems: "center", transition: "box-shadow 0.2s" }}>
+                <div key={i} onClick={() => handleGuideClick(guide)}
+                  style={{ background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, padding: "16px 20px", cursor: "pointer", display: "flex", justifyContent: "space-between", alignItems: "center", boxShadow: shadow, transition: "transform .15s, box-shadow .15s" }}
+                  onMouseEnter={e => { e.currentTarget.style.transform = "translateX(3px)"; e.currentTarget.style.boxShadow = shadowMd; }}
+                  onMouseLeave={e => { e.currentTarget.style.transform = "translateX(0)"; e.currentTarget.style.boxShadow = shadow; }}>
                   <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-                    <div style={{ width: 8, height: 8, borderRadius: "50%", background: guide.difficulty === "Enkel" ? "#4CAF50" : guide.difficulty === "Middels" ? "#FF9800" : "#F44336" }} />
+                    <div style={{ width: 36, height: 36, borderRadius: 9, background: cat?.bg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                      <Ic id={cat?.icon} size={18} color={cat?.color} />
+                    </div>
                     <div>
-                      <div style={{ fontWeight: 500, fontSize: 14 }}>{guide.title}</div>
-                      <div style={{ fontSize: 12, color: subtleText, marginTop: 4 }}>{guide.difficulty} · {guide.time}</div>
+                      <div style={{ fontWeight: 600, fontSize: 14, color: textColor }}>{guide.title}</div>
+                      <div style={{ fontSize: 12, color: subtleText, marginTop: 4, display: "flex", alignItems: "center", gap: 8 }}>
+                        <span style={{ padding: "1px 7px", borderRadius: 20, fontWeight: 600, ...(diffColor[guide.difficulty] || { bg: "#F3F4F6", color: "#6B7280" }) }}>{guide.difficulty}</span>
+                        <span>⏱ {guide.time}</span>
+                      </div>
                     </div>
                   </div>
-                  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                    {guide.popular && <span style={{ fontSize: 11, padding: "3px 10px", background: darkMode ? "#1A2744" : "#E3F2FD", color: "#0078D4", borderRadius: 20 }}>Populær</span>}
-                    <span style={{ color: subtleText, fontSize: 16 }}>→</span>
+                  <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                    {guide.popular && (
+                      <span style={{ fontSize: 11, padding: "3px 10px", background: darkMode ? "rgba(124,58,237,.2)" : "#EDE9FE", color: primary, borderRadius: 20, fontWeight: 600 }}>★ Populær</span>
+                    )}
+                    <div style={{ width: 32, height: 32, borderRadius: "50%", background: darkMode ? "rgba(255,255,255,.07)" : "#F5F6FA", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                      <Ic id="arrowR" size={16} color={subtleText} />
+                    </div>
                   </div>
                 </div>
               ))}
@@ -1162,42 +1350,67 @@ export default function GuideHub365() {
 
   // ---- DASHBOARD VIEW (default) ----
   return (
-    <div style={{ fontFamily: "'Segoe UI', -apple-system, sans-serif", background: bg, minHeight: "100vh", color: textColor }}>
+    <div style={{ fontFamily: "'Inter','Segoe UI',-apple-system,sans-serif", background: bg, minHeight: "100vh", color: textColor }}>
       <TopBar />
       <div style={{ display: "flex" }}>
         <Sidebar />
-        <div style={{ flex: 1, padding: "24px 32px" }}>
-          {/* Welcome */}
-          {userMode ? (
-            <div style={{ background: "linear-gradient(135deg, #0078D4, #106EBE)", borderRadius: 16, padding: "28px 32px", color: "#fff", marginBottom: 28, display: "flex", alignItems: "center", gap: 24 }}>
-              <div style={{ fontSize: 48 }}>👋</div>
-              <div>
-                <h2 style={{ fontSize: 24, fontWeight: 700, margin: "0 0 6px" }}>Hei! Her finner du hjelp til Microsoft 365</h2>
-                <p style={{ fontSize: 15, opacity: 0.9, margin: 0 }}>Velg en guide nedenfor, eller bruk søket øverst for å finne det du leter etter. Alt er forklart steg for steg.</p>
-              </div>
+        <div style={{ flex: 1, padding: "28px 36px", maxWidth: 1100, minWidth: 0 }}>
+
+          {/* Welcome banner */}
+          <div style={{ background: `linear-gradient(130deg, ${primary} 0%, #9333EA 60%, #EC4899 100%)`, borderRadius: 18, padding: "28px 36px", color: "#fff", marginBottom: 32, display: "flex", alignItems: "center", justifyContent: "space-between", overflow: "hidden", position: "relative" }}>
+            <div style={{ position: "absolute", top: -40, right: -40, width: 180, height: 180, borderRadius: "50%", background: "rgba(255,255,255,.07)" }} />
+            <div style={{ position: "absolute", bottom: -60, right: 120, width: 240, height: 240, borderRadius: "50%", background: "rgba(255,255,255,.05)" }} />
+            <div style={{ position: "relative" }}>
+              <div style={{ fontSize: 12, fontWeight: 600, letterSpacing: 1.2, textTransform: "uppercase", opacity: 0.75, marginBottom: 8 }}>Microsoft 365 brukerhjelp</div>
+              <h2 style={{ fontSize: 22, fontWeight: 700, margin: "0 0 8px", letterSpacing: -0.3 }}>
+                {userMode ? "Hei! Her finner du hjelp til Microsoft 365" : `Velkommen til ${companyName} sin brukerhjelp`}
+              </h2>
+              <p style={{ fontSize: 14, opacity: 0.85, margin: 0, maxWidth: 480, lineHeight: 1.6 }}>
+                {userMode
+                  ? "Velg en guide nedenfor, eller bruk søket øverst. Alt er forklart steg for steg."
+                  : "Finn enkle steg-for-steg guider for alt du trenger hjelp med i Microsoft 365."}
+              </p>
             </div>
-          ) : (
-            <div style={{ background: "linear-gradient(135deg, #0078D4, #106EBE)", borderRadius: 16, padding: "28px 32px", color: "#fff", marginBottom: 28 }}>
-              <h2 style={{ fontSize: 22, fontWeight: 700, margin: "0 0 8px" }}>Velkommen til {companyName} sin brukerhjelp</h2>
-              <p style={{ fontSize: 14, opacity: 0.9, margin: 0 }}>Finn enkle steg-for-steg guider for alt du trenger hjelp med i Microsoft 365.</p>
+            <div style={{ position: "relative", display: "flex", gap: 10, flexShrink: 0 }}>
+              {[
+                { val: "78+", lbl: "Guider" },
+                { val: "24t", lbl: "Oppdateringstid" },
+                { val: "10×", lbl: "Enklere" },
+              ].map((s, i) => (
+                <div key={i} style={{ background: "rgba(255,255,255,.15)", borderRadius: 12, padding: "14px 20px", textAlign: "center", backdropFilter: "blur(4px)", border: "1px solid rgba(255,255,255,.2)" }}>
+                  <div style={{ fontSize: 22, fontWeight: 700 }}>{s.val}</div>
+                  <div style={{ fontSize: 11, opacity: 0.8, marginTop: 2 }}>{s.lbl}</div>
+                </div>
+              ))}
             </div>
-          )}
+          </div>
 
           {/* Popular guides */}
-          <h3 style={{ fontSize: 17, fontWeight: 600, margin: "0 0 16px" }}>Mest brukte guider</h3>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260, 1fr))", gap: 16, marginBottom: 32 }}>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 16 }}>
+            <h3 style={{ fontSize: 16, fontWeight: 700, margin: 0, color: textColor }}>Mest brukte guider</h3>
+            <div style={{ display: "flex", alignItems: "center", gap: 4, fontSize: 13, color: primary, fontWeight: 600, cursor: "pointer" }}>
+              Se alle <Ic id="chevron" size={14} color={primary} />
+            </div>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: 14, marginBottom: 36 }}>
             {allGuides.filter((g) => g.popular).slice(0, 6).map((guide, i) => {
               const cat = CATEGORIES.find((c) => c.id === guide.category);
               return (
-                <div key={i} onClick={() => handleGuideClick(guide)} style={{ background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, padding: "16px 20px", cursor: "pointer", transition: "box-shadow 0.2s" }}>
-                  <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 10 }}>
-                    <span style={{ fontSize: 16 }}>{cat?.icon}</span>
-                    <span style={{ fontSize: 11, color: subtleText }}>{cat?.label}</span>
+                <div key={i} onClick={() => handleGuideClick(guide)}
+                  style={{ background: cardBg, borderRadius: 14, border: `1px solid ${borderColor}`, padding: "18px 20px", cursor: "pointer", boxShadow: shadow, transition: "transform .15s, box-shadow .15s" }}
+                  onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = shadowMd; }}
+                  onMouseLeave={e => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = shadow; }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 12 }}>
+                    <div style={{ width: 34, height: 34, borderRadius: 9, background: cat?.bg, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                      <Ic id={cat?.icon} size={17} color={cat?.color} />
+                    </div>
+                    <span style={{ fontSize: 11, fontWeight: 600, color: cat?.color, background: cat?.bg, padding: "2px 8px", borderRadius: 20 }}>{cat?.label}</span>
                   </div>
-                  <div style={{ fontWeight: 600, fontSize: 14, marginBottom: 8 }}>{guide.title}</div>
-                  <div style={{ display: "flex", gap: 8 }}>
-                    <span style={{ fontSize: 11, padding: "2px 8px", background: "#E8F5E9", color: "#2E7D32", borderRadius: 12 }}>{guide.difficulty}</span>
-                    <span style={{ fontSize: 11, padding: "2px 8px", background: darkMode ? "#2A2A4A" : "#F5F5F5", color: subtleText, borderRadius: 12 }}>{guide.time}</span>
+                  <div style={{ fontWeight: 600, fontSize: 14, marginBottom: 12, lineHeight: 1.4, color: textColor }}>{guide.title}</div>
+                  <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
+                    <span style={{ fontSize: 11, padding: "3px 9px", background: "#D1FAE5", color: "#065F46", borderRadius: 20, fontWeight: 600 }}>{guide.difficulty}</span>
+                    <span style={{ fontSize: 11, padding: "3px 9px", background: darkMode ? "rgba(255,255,255,.07)" : "#F3F4F6", color: subtleText, borderRadius: 20 }}>⏱ {guide.time}</span>
+                    {guide.popular && <span style={{ fontSize: 11, padding: "3px 9px", background: darkMode ? "rgba(124,58,237,.2)" : "#EDE9FE", color: primary, borderRadius: 20, fontWeight: 600, marginLeft: "auto" }}>★ Populær</span>}
                   </div>
                 </div>
               );
@@ -1205,16 +1418,26 @@ export default function GuideHub365() {
           </div>
 
           {/* Categories */}
-          <h3 style={{ fontSize: 17, fontWeight: 600, margin: "0 0 16px" }}>Alle kategorier</h3>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200, 1fr))", gap: 16 }}>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 16 }}>
+            <h3 style={{ fontSize: 16, fontWeight: 700, margin: 0, color: textColor }}>Alle kategorier</h3>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(190px, 1fr))", gap: 14 }}>
             {CATEGORIES.map((cat) => (
-              <div key={cat.id} onClick={() => handleCategoryClick(cat.id)} style={{ background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, padding: "20px", cursor: "pointer", textAlign: "center", transition: "box-shadow 0.2s" }}>
-                <div style={{ fontSize: 28, marginBottom: 8 }}>{cat.icon}</div>
-                <div style={{ fontWeight: 600, fontSize: 14, marginBottom: 4 }}>{cat.label}</div>
-                <div style={{ fontSize: 12, color: subtleText }}>{cat.count} guider</div>
+              <div key={cat.id} onClick={() => handleCategoryClick(cat.id)}
+                style={{ background: cardBg, borderRadius: 14, border: `1px solid ${borderColor}`, padding: "22px 20px", cursor: "pointer", boxShadow: shadow, transition: "transform .15s, box-shadow .15s" }}
+                onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = shadowMd; }}
+                onMouseLeave={e => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = shadow; }}>
+                <div style={{ width: 46, height: 46, borderRadius: 13, background: cat.bg, display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 14 }}>
+                  <Ic id={cat.icon} size={22} color={cat.color} />
+                </div>
+                <div style={{ fontWeight: 700, fontSize: 14, marginBottom: 4, color: textColor }}>{cat.label}</div>
+                <div style={{ fontSize: 12, color: subtleText, display: "flex", alignItems: "center", gap: 4 }}>
+                  <span style={{ fontWeight: 700, color: cat.color }}>{cat.count}</span> guider
+                </div>
               </div>
             ))}
           </div>
+
         </div>
       </div>
     </div>
