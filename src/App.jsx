@@ -1370,19 +1370,20 @@ export default function GuideHub365() {
           </div>
 
           {/* Stats strip */}
-          <div style={{ display: "flex", gap: 12, marginBottom: 32 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 12, marginBottom: 32 }}>
             {[
-              { val: "78+",  lbl: "Tilgjengelige guider", icon: "file",     color: "#6366F1", bg: "#EEF2FF" },
-              { val: "24t",  lbl: "Maks oppdateringstid", icon: "refresh",  color: "#10B981", bg: "#ECFDF5" },
-              { val: "100%", lbl: "Tilpasset din bedrift", icon: "settings", color: "#F59E0B", bg: "#FFFBEB" },
+              { val: "78+",  lbl: "Tilgjengelige guider", icon: "file",     color: "#6366F1", bg: "#EEF2FF", trend: "+6 denne måneden" },
+              { val: "24t",  lbl: "Maks oppdateringstid", icon: "refresh",  color: "#10B981", bg: "#ECFDF5", trend: "Alltid aktuell" },
+              { val: "100%", lbl: "Tilpasset din bedrift", icon: "settings", color: "#F59E0B", bg: "#FFFBEB", trend: "Logo, navn & domene" },
             ].map((s, i) => (
-              <div key={i} style={{ background: cardBg, border: `1px solid ${borderColor}`, borderRadius: 12, padding: "16px 20px", display: "flex", alignItems: "center", gap: 14, flex: 1, boxShadow: shadow }}>
-                <div style={{ width: 38, height: 38, borderRadius: 10, background: s.bg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
-                  <Ic id={s.icon} size={19} color={s.color} />
+              <div key={i} style={{ background: cardBg, border: `1px solid ${borderColor}`, borderRadius: 14, padding: "18px 22px", display: "flex", alignItems: "center", gap: 16, boxShadow: shadow }}>
+                <div style={{ width: 44, height: 44, borderRadius: 12, background: s.bg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                  <Ic id={s.icon} size={21} color={s.color} />
                 </div>
-                <div>
-                  <div style={{ fontSize: 22, fontWeight: 800, color: textColor, letterSpacing: -0.5 }}>{s.val}</div>
-                  <div style={{ fontSize: 11, color: subtleText, marginTop: 1 }}>{s.lbl}</div>
+                <div style={{ minWidth: 0 }}>
+                  <div style={{ fontSize: 24, fontWeight: 800, color: textColor, letterSpacing: -0.8, lineHeight: 1 }}>{s.val}</div>
+                  <div style={{ fontSize: 12, fontWeight: 600, color: textColor, marginTop: 3, marginBottom: 2 }}>{s.lbl}</div>
+                  <div style={{ fontSize: 11, color: subtleText }}>{s.trend}</div>
                 </div>
               </div>
             ))}
@@ -1390,28 +1391,33 @@ export default function GuideHub365() {
 
           {/* Popular guides */}
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
-            <h2 style={{ fontSize: 15, fontWeight: 700, margin: 0, color: textColor }}>Mest brukte guider</h2>
-            <span style={{ fontSize: 12, color: subtleText, cursor: "pointer", display: "flex", alignItems: "center", gap: 3 }}>Se alle <Ic id="chevron" size={13} color={subtleText} /></span>
+            <div>
+              <h2 style={{ fontSize: 15, fontWeight: 700, margin: 0, letterSpacing: -0.2, color: textColor }}>Mest brukte guider</h2>
+              <p style={{ fontSize: 12, color: subtleText, margin: "2px 0 0" }}>De guidene kolleger åpner oftest</p>
+            </div>
+            <span style={{ fontSize: 12, color: accent, fontWeight: 600, cursor: "pointer", display: "flex", alignItems: "center", gap: 3 }}>Se alle <Ic id="chevron" size={13} color={accent} /></span>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))", gap: 12, marginBottom: 36 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 12, marginBottom: 36 }}>
             {allGuides.filter((g) => g.popular).slice(0, 6).map((guide, i) => {
               const cat = CATEGORIES.find((c) => c.id === guide.category);
               return (
                 <div key={i} onClick={() => handleGuideClick(guide)}
-                  style={{ background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, padding: "16px 18px", cursor: "pointer", boxShadow: shadow, transition: "box-shadow .15s, transform .15s" }}
-                  onMouseEnter={e => { e.currentTarget.style.boxShadow = shadowMd; e.currentTarget.style.transform = "translateY(-1px)"; }}
+                  style={{ background: cardBg, borderRadius: 14, border: `1px solid ${borderColor}`, padding: "18px 20px", cursor: "pointer", boxShadow: shadow, transition: "box-shadow .18s ease, transform .18s ease" }}
+                  onMouseEnter={e => { e.currentTarget.style.boxShadow = shadowMd; e.currentTarget.style.transform = "translateY(-2px)"; }}
                   onMouseLeave={e => { e.currentTarget.style.boxShadow = shadow; e.currentTarget.style.transform = "none"; }}>
-                  <div style={{ display: "flex", alignItems: "center", gap: 9, marginBottom: 10 }}>
-                    <div style={{ width: 30, height: 30, borderRadius: 8, background: cat?.bg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
-                      <Ic id={cat?.icon} size={15} color={cat?.color} />
+                  <div style={{ display: "flex", alignItems: "center", gap: 9, marginBottom: 12 }}>
+                    <div style={{ width: 32, height: 32, borderRadius: 9, background: cat?.bg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                      <Ic id={cat?.icon} size={16} color={cat?.color} />
                     </div>
-                    <span style={{ fontSize: 11, fontWeight: 600, color: subtleText }}>{cat?.label}</span>
-                    {guide.popular && <span style={{ marginLeft: "auto", fontSize: 11, color: accent, fontWeight: 700 }}>★</span>}
+                    <span style={{ fontSize: 11, fontWeight: 600, color: subtleText, letterSpacing: 0.2 }}>{cat?.label}</span>
+                    {guide.popular && (
+                      <span style={{ marginLeft: "auto", fontSize: 10, color: "#F59E0B", fontWeight: 700, background: "#FFFBEB", padding: "2px 7px", borderRadius: 20 }}>Populær</span>
+                    )}
                   </div>
-                  <div style={{ fontWeight: 600, fontSize: 13, marginBottom: 10, lineHeight: 1.45, color: textColor }}>{guide.title}</div>
-                  <div style={{ display: "flex", gap: 6 }}>
-                    <span style={{ fontSize: 11, padding: "2px 8px", background: "#ECFDF5", color: "#059669", borderRadius: 20, fontWeight: 600 }}>{guide.difficulty}</span>
-                    <span style={{ fontSize: 11, padding: "2px 8px", background: darkMode ? "rgba(255,255,255,.07)" : "#F4F5F8", color: subtleText, borderRadius: 20 }}>{guide.time}</span>
+                  <div style={{ fontWeight: 600, fontSize: 13.5, marginBottom: 12, lineHeight: 1.5, color: textColor, letterSpacing: -0.1 }}>{guide.title}</div>
+                  <div style={{ display: "flex", gap: 6, borderTop: `1px solid ${borderColor}`, paddingTop: 10, marginTop: 2 }}>
+                    <span style={{ fontSize: 11, padding: "3px 9px", background: "#ECFDF5", color: "#059669", borderRadius: 20, fontWeight: 600 }}>{guide.difficulty}</span>
+                    <span style={{ fontSize: 11, padding: "3px 9px", background: darkMode ? "rgba(255,255,255,.07)" : "#F4F5F8", color: subtleText, borderRadius: 20 }}>{guide.time}</span>
                   </div>
                 </div>
               );
@@ -1419,18 +1425,27 @@ export default function GuideHub365() {
           </div>
 
           {/* Categories */}
-          <h2 style={{ fontSize: 15, fontWeight: 700, margin: "0 0 14px", color: textColor }}>Alle kategorier</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(180px, 1fr))", gap: 12 }}>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
+            <div>
+              <h2 style={{ fontSize: 15, fontWeight: 700, margin: 0, letterSpacing: -0.2, color: textColor }}>Alle kategorier</h2>
+              <p style={{ fontSize: 12, color: subtleText, margin: "2px 0 0" }}>Finn guider etter tema</p>
+            </div>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 12 }}>
             {CATEGORIES.map((cat) => (
               <div key={cat.id} onClick={() => handleCategoryClick(cat.id)}
-                style={{ background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, padding: "20px 18px", cursor: "pointer", boxShadow: shadow, transition: "box-shadow .15s, transform .15s" }}
-                onMouseEnter={e => { e.currentTarget.style.boxShadow = shadowMd; e.currentTarget.style.transform = "translateY(-1px)"; }}
+                style={{ background: cardBg, borderRadius: 14, border: `1px solid ${borderColor}`, padding: "20px 18px", cursor: "pointer", boxShadow: shadow, transition: "box-shadow .18s ease, transform .18s ease" }}
+                onMouseEnter={e => { e.currentTarget.style.boxShadow = shadowMd; e.currentTarget.style.transform = "translateY(-2px)"; }}
                 onMouseLeave={e => { e.currentTarget.style.boxShadow = shadow; e.currentTarget.style.transform = "none"; }}>
-                <div style={{ width: 42, height: 42, borderRadius: 11, background: cat.bg, display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 12 }}>
-                  <Ic id={cat.icon} size={20} color={cat.color} />
+                <div style={{ width: 44, height: 44, borderRadius: 12, background: cat.bg, display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 13 }}>
+                  <Ic id={cat.icon} size={21} color={cat.color} />
                 </div>
-                <div style={{ fontWeight: 700, fontSize: 13, marginBottom: 3, color: textColor }}>{cat.label}</div>
-                <div style={{ fontSize: 12, color: subtleText }}><span style={{ fontWeight: 700, color: cat.color }}>{cat.count}</span> guider</div>
+                <div style={{ fontWeight: 700, fontSize: 13, marginBottom: 4, color: textColor, letterSpacing: -0.1 }}>{cat.label}</div>
+                <div style={{ fontSize: 12, color: subtleText, display: "flex", alignItems: "center", gap: 4 }}>
+                  <span style={{ fontWeight: 700, color: cat.color }}>{cat.count}</span>
+                  <span>guider</span>
+                  <Ic id="chevron" size={12} color={subtleText} style={{ marginLeft: "auto" }} />
+                </div>
               </div>
             ))}
           </div>
