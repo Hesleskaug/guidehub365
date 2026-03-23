@@ -1,117 +1,747 @@
 {
-  "lastChecked": "2026-03-22T13:12:27.357Z",
+  "lastChecked": "2026-03-23T08:03:34.828Z",
   "totalGuides": 12,
-  "flaggedCount": 0,
+  "flaggedCount": 12,
   "sources": [
     {
-      "name": "Microsoft 365 Roadmap",
+      "name": "Microsoft 365 Blog",
+      "itemCount": 10,
+      "ok": true
+    },
+    {
+      "name": "Microsoft Tech Community M365",
       "itemCount": 0,
       "ok": true
     },
     {
-      "name": "Microsoft 365 Blog",
-      "itemCount": 0,
-      "ok": false,
-      "error": "Invalid URL"
+      "name": "Microsoft Learn M365 Whats New",
+      "itemCount": 100,
+      "ok": true
     }
   ],
-  "flaggedGuides": [],
+  "flaggedGuides": [
+    {
+      "guideId": "outlook-setup-pc",
+      "guideTitle": "Sette opp Outlook på PC",
+      "category": "E-post og kalender",
+      "hits": [
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
+          "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
+          "source": "Send email as a distribution list - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
+          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "outlook-mobile",
+      "guideTitle": "Outlook på mobil",
+      "category": "E-post og kalender",
+      "hits": [
+        {
+          "source": "Deploy Office Add-ins in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+          "pubDate": "Sat, 21 Mar 2026 03:18:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Requirements to use centralized deployment for Office Add-ins - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/centralized-deployment-of-add-ins",
+          "pubDate": "Thu, 19 Mar 2026 22:45:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Send email as a distribution list - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Microsoft 365 U.S. Government GCC High endpoints - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "teams-first-meeting",
+      "guideTitle": "Første møte i Teams",
+      "category": "Microsoft Teams",
+      "hits": [
+        {
+          "source": "Microsoft 365 Groups overview for administrators - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "call"
+          ]
+        },
+        {
+          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        },
+        {
+          "source": "Guests in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/about-guest-users",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "teams",
+            "meeting"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "teams-channels",
+      "guideTitle": "Kanaler og chatter i Teams",
+      "category": "Microsoft Teams",
+      "hits": [
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "message"
+          ]
+        },
+        {
+          "source": "Send email as a distribution list - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "message"
+          ]
+        },
+        {
+          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        },
+        {
+          "source": "Guests in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/about-guest-users",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "teams",
+            "chat"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "teams-copilot",
+      "guideTitle": "Bruke Copilot i Teams",
+      "category": "Microsoft Teams",
+      "hits": [
+        {
+          "source": "Deploy Office Add-ins in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+          "pubDate": "Sat, 21 Mar 2026 03:18:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Compare types of groups in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/compare-groups",
+          "pubDate": "Fri, 13 Mar 2026 22:01:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Requirements to use centralized deployment for Office Add-ins - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/centralized-deployment-of-add-ins",
+          "pubDate": "Thu, 19 Mar 2026 22:45:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Multi-Geo - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
+          "pubDate": "Tue, 17 Mar 2026 22:44:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
+          "pubDate": "Thu, 12 Mar 2026 20:47:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Plan for multitenant organizations in Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/plan-multi-tenant-org-overview",
+          "pubDate": "Fri, 13 Mar 2026 22:01:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Groups overview for administrators - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Agent Overview Page in Microsoft 365 Admin Center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
+          "pubDate": "Wed, 11 Mar 2026 22:43:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 usage analytics overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/usage-analytics/usage-analytics",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Send email as a distribution list - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "teams",
+            "summarize"
+          ]
+        },
+        {
+          "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Managing Microsoft 365 endpoints - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/managing-office-365-endpoints",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Guests in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/about-guest-users",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "onedrive-save",
+      "guideTitle": "Lagre filer i OneDrive",
+      "category": "OneDrive og SharePoint",
+      "hits": [
+        {
+          "source": "Restore data in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
+          "pubDate": "Fri, 20 Mar 2026 08:44:00 GMT",
+          "matchedKeywords": [
+            "onedrive",
+            "backup"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "sharepoint-document-library",
+      "guideTitle": "Jobbe med dokumentbibliotek",
+      "category": "OneDrive og SharePoint",
+      "hits": [
+        {
+          "source": "Restore data in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
+          "pubDate": "Fri, 20 Mar 2026 08:44:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "word-autosave",
+      "guideTitle": "AutoLagre i Word",
+      "category": "Word, Excel og PowerPoint",
+      "hits": [
+        {
+          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        },
+        {
+          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "word"
+          ]
+        },
+        {
+          "source": "Restore data in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
+          "pubDate": "Fri, 20 Mar 2026 08:44:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
+        {
+          "source": "Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings",
+          "pubDate": "Fri, 13 Mar 2026 22:01:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        },
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "excel-copilot",
+      "guideTitle": "Copilot i Excel",
+      "category": "Word, Excel og PowerPoint",
+      "hits": [
+        {
+          "source": "Deploy Office Add-ins in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+          "pubDate": "Sat, 21 Mar 2026 03:18:00 GMT",
+          "matchedKeywords": [
+            "copilot"
+          ]
+        },
+        {
+          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
+          "pubDate": "Thu, 12 Mar 2026 20:47:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Plan for multitenant organizations in Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/plan-multi-tenant-org-overview",
+          "pubDate": "Fri, 13 Mar 2026 22:01:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Agent Overview Page in Microsoft 365 Admin Center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
+          "pubDate": "Wed, 11 Mar 2026 22:43:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Microsoft 365 usage analytics overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/usage-analytics/usage-analytics",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Send email as a distribution list - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "mfa-setup",
+      "guideTitle": "Sette opp tofaktorautentisering",
+      "category": "Sikkerhet og innlogging",
+      "hits": [
+        {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "matchedKeywords": [
+            "security"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "password-reset",
+      "guideTitle": "Nullstille passord",
+      "category": "Sikkerhet og innlogging",
+      "hits": [
+        {
+          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "password"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "copilot-365-intro",
+      "guideTitle": "Kom i gang med Microsoft 365 Copilot",
+      "category": "Copilot og AI",
+      "hits": [
+        {
+          "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+          "pubDate": "Sat, 21 Mar 2026 03:18:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "microsoft 365 copilot"
+          ]
+        }
+      ]
+    }
+  ],
   "allGuideStatuses": [
     {
       "id": "outlook-setup-pc",
       "title": "Sette opp Outlook på PC",
       "category": "E-post og kalender",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 0
+      "flaggedHits": 4
     },
     {
       "id": "outlook-mobile",
       "title": "Outlook på mobil",
       "category": "E-post og kalender",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 0
+      "flaggedHits": 7
     },
     {
       "id": "teams-first-meeting",
       "title": "Første møte i Teams",
       "category": "Microsoft Teams",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 0
+      "flaggedHits": 3
     },
     {
       "id": "teams-channels",
       "title": "Kanaler og chatter i Teams",
       "category": "Microsoft Teams",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 0
+      "flaggedHits": 4
     },
     {
       "id": "teams-copilot",
       "title": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 0
+      "flaggedHits": 23
     },
     {
       "id": "onedrive-save",
       "title": "Lagre filer i OneDrive",
       "category": "OneDrive og SharePoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "sharepoint-document-library",
       "title": "Jobbe med dokumentbibliotek",
       "category": "OneDrive og SharePoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "word-autosave",
       "title": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 0
+      "flaggedHits": 5
     },
     {
       "id": "excel-copilot",
       "title": "Copilot i Excel",
       "category": "Word, Excel og PowerPoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 0
+      "flaggedHits": 14
     },
     {
       "id": "mfa-setup",
       "title": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "password-reset",
       "title": "Nullstille passord",
       "category": "Sikkerhet og innlogging",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "copilot-365-intro",
       "title": "Kom i gang med Microsoft 365 Copilot",
       "category": "Copilot og AI",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 0
+      "flaggedHits": 1
     }
   ]
 }
