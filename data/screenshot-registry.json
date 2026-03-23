@@ -1,13 +1,13 @@
 {
   "outlook-setup-pc": {
-    "lastUpdated": "2026-03-22T20:40:20.445Z",
+    "lastUpdated": "2026-03-23T09:09:33.898Z",
     "steps": [
       {
         "step": 1,
         "title": "Aapne Outlook",
         "description": "Gaa til Outlook paa nett",
         "filename": "steg-1.png",
-        "capturedAt": "2026-03-22T20:39:51.364Z",
+        "capturedAt": "2026-03-23T09:09:04.568Z",
         "success": true
       },
       {
@@ -15,7 +15,7 @@
         "title": "Innboks",
         "description": "Din innboks i Outlook",
         "filename": "steg-2.png",
-        "capturedAt": "2026-03-22T20:40:05.895Z",
+        "capturedAt": "2026-03-23T09:09:19.214Z",
         "success": true
       },
       {
@@ -23,20 +23,20 @@
         "title": "Kalender",
         "description": "Kalendervisning i Outlook",
         "filename": "steg-3.png",
-        "capturedAt": "2026-03-22T20:40:20.444Z",
+        "capturedAt": "2026-03-23T09:09:33.898Z",
         "success": true
       }
     ]
   },
   "teams-first-meeting": {
-    "lastUpdated": "2026-03-22T20:40:51.436Z",
+    "lastUpdated": "2026-03-23T09:10:04.885Z",
     "steps": [
       {
         "step": 1,
         "title": "Aapne Teams",
         "description": "Microsoft Teams hjemskjerm",
         "filename": "steg-1.png",
-        "capturedAt": "2026-03-22T20:40:37.411Z",
+        "capturedAt": "2026-03-23T09:09:50.863Z",
         "success": true
       },
       {
@@ -44,33 +44,33 @@
         "title": "Kalender og moeter",
         "description": "Moetekalender i Teams",
         "filename": "steg-2.png",
-        "capturedAt": "2026-03-22T20:40:51.436Z",
+        "capturedAt": "2026-03-23T09:10:04.885Z",
         "success": true
       }
     ]
   },
   "onedrive-save": {
-    "lastUpdated": "2026-03-22T20:41:06.144Z",
+    "lastUpdated": "2026-03-23T09:10:19.513Z",
     "steps": [
       {
         "step": 1,
         "title": "Aapne OneDrive",
         "description": "OneDrive filvisning",
         "filename": "steg-1.png",
-        "capturedAt": "2026-03-22T20:41:06.144Z",
+        "capturedAt": "2026-03-23T09:10:19.513Z",
         "success": true
       }
     ]
   },
   "mfa-setup": {
-    "lastUpdated": "2026-03-22T20:41:36.124Z",
+    "lastUpdated": "2026-03-23T09:10:49.476Z",
     "steps": [
       {
         "step": 1,
         "title": "Min konto",
         "description": "Microsoft kontooversikt",
         "filename": "steg-1.png",
-        "capturedAt": "2026-03-22T20:41:21.108Z",
+        "capturedAt": "2026-03-23T09:10:34.196Z",
         "success": true
       },
       {
@@ -78,7 +78,7 @@
         "title": "Sikkerhetsinformasjon",
         "description": "Min kontosikkerhet",
         "filename": "steg-2.png",
-        "capturedAt": "2026-03-22T20:41:36.124Z",
+        "capturedAt": "2026-03-23T09:10:49.476Z",
         "success": true
       }
     ]
