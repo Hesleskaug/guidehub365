@@ -32,15 +32,23 @@ const GUIDES = {
     { id: "setup-vpn", title: "Koble til bedriftens VPN", difficulty: "Enkel", time: "8 min", popular: false },
     { id: "windows-hello", title: "Sette opp Windows Hello (ansiktsgjenkjenning)", difficulty: "Enkel", time: "5 min", popular: false },
     { id: "onedrive-sync", title: "Synkronisere filer med OneDrive", difficulty: "Enkel", time: "7 min", popular: true },
+    { id: "onedrive-save", title: "Lagre filer fra PC til OneDrive", difficulty: "Enkel", time: "5 min", popular: true },
     { id: "company-portal", title: "Bruke Bedriftsportalen for apper", difficulty: "Enkel", time: "5 min", popular: false },
   ],
   email: [
-    { id: "setup-outlook", title: "Sette opp Outlook på PC", difficulty: "Enkel", time: "8 min", popular: true },
+    { id: "outlook-setup-pc", title: "Sette opp Outlook på PC", difficulty: "Enkel", time: "15 min", popular: true },
+    { id: "setup-outlook", title: "Konfigurere Outlook (eksisterende installasjon)", difficulty: "Enkel", time: "8 min", popular: false },
     { id: "setup-email-phone", title: "Sette opp e-post på mobil", difficulty: "Enkel", time: "5 min", popular: true },
     { id: "shared-mailbox", title: "Åpne en delt postkasse", difficulty: "Middels", time: "5 min", popular: true },
     { id: "email-signature", title: "Lage e-postsignatur", difficulty: "Enkel", time: "10 min", popular: true },
     { id: "calendar-share", title: "Dele kalender med kollegaer", difficulty: "Enkel", time: "5 min", popular: false },
     { id: "out-of-office", title: "Sette opp fraværsmelding", difficulty: "Enkel", time: "3 min", popular: true },
+  ],
+  teams: [
+    { id: "teams-first-meeting", title: "Delta i ditt første Teams-møte", difficulty: "Enkel", time: "5 min", popular: true },
+    { id: "teams-mobile", title: "Bruke Teams på mobil", difficulty: "Enkel", time: "5 min", popular: false },
+    { id: "teams-share-screen", title: "Dele skjerm i Teams-møte", difficulty: "Enkel", time: "3 min", popular: false },
+    { id: "teams-chat", title: "Sende meldinger i Teams", difficulty: "Enkel", time: "5 min", popular: true },
   ],
   mobile: [
     { id: "enroll-phone", title: "Innrullere mobiltelefon i Intune", difficulty: "Enkel", time: "10 min", popular: true },
@@ -252,6 +260,67 @@ const ONEDRIVE_SYNC_GUIDE = {
     { number: 5, title: "Finn filene i Utforsker", instruction: "Åpne Windows Utforsker (mappeikonet i oppgavelinjen). Du ser nå «OneDrive – Bedriftsnavn» i venstremenyen. Her finner du alle skyfilene dine som vanlige filer.", tip: "Lagrer du filer i OneDrive-mappen er de automatisk sikkerhetskopiert. Aldri mer tapte filer!", screenshot: "steg-5-utforsker", guideId: "onedrive-sync" },
   ],
   confirmation: { title: "Slik ser du at det fungerer", checks: ["Et grønt hakemerke vises på skyikonet nede til høyre", "«OneDrive – Bedriftsnavn» vises i Windows Utforsker", "Filer du lagrer i OneDrive-mappen dukker opp på alle dine enheter"] },
+  support: { label: "IT-support", phone: "22 00 00 00", email: "it@{domain}", portal: "https://support.{domain}", hours: "Man–fre 08:00–16:00" },
+};
+
+const TEAMS_MEETING_GUIDE = {
+  id: "teams-first-meeting",
+  title: "Delta i ditt første Teams-møte",
+  lastUpdated: "23. mars 2026",
+  version: "Microsoft Teams (nett/app)",
+  difficulty: "Enkel",
+  time: "5 min",
+  description: "Fått en møteinvitasjon på e-post eller i Teams-kalenderen? Denne guiden viser deg steg for steg hvordan du finner møtet og deltar uten problemer — enten du bruker nettleser, Teams-appen eller mobil.",
+  prerequisites: ["Microsoft Teams-appen installert, eller nettleseren Chrome/Edge", "En aktiv Microsoft 365-konto", "Mikrofon (og gjerne kamera)"],
+  steps: [
+    { number: 1, title: "Åpne Teams og gå til Kalender", instruction: "Åpne Teams-appen og klikk på Kalender-ikonet i venstre meny. Her ser du alle kommende møter. Finner du ikke møtet? Sjekk e-posten din — innkallingen inneholder alltid en lenke.", tip: "Du kan også klikke direkte på møtelenken i e-posten for å bli med uten å åpne Teams-appen.", screenshot: "steg-1-aapne-teams", guideId: "teams-first-meeting" },
+    { number: 2, title: "Klikk på møtet for å se detaljer", instruction: "Klikk én gang på møtet i kalenderen. Et panel åpnes til høyre med tidspunkt, organisator og hvem som er invitert. Her finner du også knappen for å delta.", tip: "Ser du en lenke «Bli med i Teams-møte»? Den tar deg direkte inn i møterommet.", screenshot: "steg-2-se-motedetaljer", guideId: "teams-first-meeting" },
+    { number: 3, title: "Klikk 'Delta i møte'", instruction: "Klikk på den grønne «Delta i møte»-knappen. Teams åpner et nytt vindu der du kan sjekke lyd og kamera før du går inn.", tip: "Du kan bli med opp til 15 minutter før møtet starter — ingen grunn til å vente til eksakt starttid.", screenshot: "steg-3-delta-klikk", guideId: "teams-first-meeting" },
+    { number: 4, title: "Sjekk lyd og kamera", instruction: "Før du går inn ser du en forhåndsvisning. Slå på eller av mikrofon og kamera etter ønske. Klikk deretter «Delta nå» for å gå inn i møterommet.", tip: "Usikker på om mikrofonen fungerer? Du kan alltid skru den på/av inne i møtet. Start med mikrofon av hvis du er i et støyende miljø.", screenshot: "steg-4-sjekk-lyd-video", guideId: "teams-first-meeting" },
+    { number: 5, title: "Du er inne i møtet!", instruction: "Nå er du inne i møterommet. Bruk kontrollene nederst for å slå av/på mikrofon og kamera, dele skjermen, eller forlate møtet. Møte-chatten finner du øverst til høyre.", tip: "Vil du si noe? Slå på mikrofonen og snakk, eller skriv i møte-chatten.", screenshot: "steg-5-inne-i-motet", guideId: "teams-first-meeting" },
+  ],
+  confirmation: { title: "Slik vet du at du er i møtet", checks: ["Du ser de andre deltakerne som videofelt eller initialer", "Kontrollene for mikrofon/kamera vises nederst", "Møtetittelen vises øverst i vinduet"] },
+  support: { label: "IT-support", phone: "22 00 00 00", email: "it@{domain}", portal: "https://support.{domain}", hours: "Man–fre 08:00–16:00" },
+};
+
+const ONEDRIVE_SAVE_GUIDE = {
+  id: "onedrive-save",
+  title: "Lagre filer fra PC til OneDrive",
+  lastUpdated: "23. mars 2026",
+  version: "OneDrive for Business",
+  difficulty: "Enkel",
+  time: "5 min",
+  description: "OneDrive lar deg lagre filer i skyen slik at de aldri går tapt — og er tilgjengelige på alle enheter. Denne guiden viser deg hvordan du enkelt lagrer filer fra PC-en din til OneDrive.",
+  prerequisites: ["Windows 10 eller 11 med OneDrive installert", "Innlogget med jobbkontoen i OneDrive", "Filen du ønsker å lagre"],
+  steps: [
+    { number: 1, title: "Finn OneDrive i systemstatusfeltet", instruction: "Se ned i høyre hjørne av skjermen (ved klokken). Klikk på det blå sky-ikonet for å åpne OneDrive-menyen. Ser du ikke ikonet? Klikk på den lille pilen '∧' for å vise skjulte ikoner.", tip: "Ikonet er blått hvis OneDrive er koblet til jobbkontoen. Hvitt sky-ikon betyr privat Microsoft-konto.", screenshot: "steg-1-systemtray", guideId: "onedrive-save" },
+    { number: 2, title: "Åpne OneDrive-mappen", instruction: "Klikk «Åpne OneDrive-mappen» i menyen. Windows Utforsker åpner seg og viser din OneDrive-mappe med alle synkroniserte filer.", tip: "Du kan også gå direkte til OneDrive-mappen via «OneDrive – Bedrift» i venstre meny i Windows Utforsker.", screenshot: "steg-2-onedrive-mappe", guideId: "onedrive-save" },
+    { number: 3, title: "Dra filen din hit", instruction: "Åpne en annen Windows Utforsker-fane der filen din ligger. Dra og slipp filen inn i OneDrive-mappen. Du kan også bruke Kopier (Ctrl+C) og Lim inn (Ctrl+V).", tip: "Alternativt: klikk «Last opp» i OneDrive-menylinjen og velg filen.", screenshot: "steg-3-dra-fil", guideId: "onedrive-save" },
+    { number: 4, title: "Filen lastes opp", instruction: "En liten blå synk-pil vises på filens ikon. Det betyr at filen lastes opp til skyen. Du ser også synk-aktivitet i sky-ikonet nede til høyre.", tip: "Ikke slå av PC-en eller internettforbindelsen under opplasting av store filer.", screenshot: "steg-4-synkroniserer", guideId: "onedrive-save" },
+    { number: 5, title: "Grønt hake — filen er trygt lagret", instruction: "Når det grønne hake-ikonet vises på filen er opplastingen ferdig. Filen er nå lagret i skyen og tilgjengelig fra alle enheter og via office.com.", tip: "Du kan sjekke alle filene dine på nett ved å gå til office.com og klikke OneDrive.", screenshot: "steg-5-ferdig-synkronisert", guideId: "onedrive-save" },
+  ],
+  confirmation: { title: "Slik vet du at det fungerer", checks: ["Grønt hake-ikon vises på filen i OneDrive-mappen", "Filen er synlig når du logger inn på office.com → OneDrive", "Sky-ikonet nede til høyre viser 'Oppdatert'"] },
+  support: { label: "IT-support", phone: "22 00 00 00", email: "it@{domain}", portal: "https://support.{domain}", hours: "Man–fre 08:00–16:00" },
+};
+
+const OUTLOOK_SETUP_GUIDE = {
+  id: "outlook-setup-pc",
+  title: "Sette opp Outlook på Windows PC",
+  lastUpdated: "23. mars 2026",
+  version: "Microsoft 365 / Outlook 2024",
+  difficulty: "Enkel",
+  time: "15 min",
+  description: "Denne guiden viser deg hvordan du laster ned og setter opp Outlook på din Windows-PC, slik at du får tilgang til e-post, kalender og kontakter direkte fra skrivebordet.",
+  prerequisites: ["Windows 10 eller 11", "Microsoft 365-lisens (sjekk med IT om du er usikker)", "Din jobb-e-postadresse og passord"],
+  steps: [
+    { number: 1, title: "Gå til portal.office.com og last ned Office", instruction: "Åpne en nettleser og gå til portal.office.com. Logg inn med din jobb-e-post. Klikk «Installer apper» øverst til høyre, og velg «Microsoft 365-apper». En installeringsfil lastes ned.", tip: "Har bedriften din allerede installert Office? Søk etter «Outlook» i Start-menyen — kanskje det allerede er der!", screenshot: "steg-1-portal", guideId: "outlook-setup-pc" },
+    { number: 2, title: "Kjør installasjonsfilen", instruction: "Når nedlastingen er ferdig, klikk på filen (OfficeSetup.exe) i nedlastingsfeltet i nettleseren. Klikk «Åpne fil» og «Ja» hvis Windows spør om tillatelse.", tip: "Filen havner vanligvis i Nedlastinger-mappen din. Du kan også finne den via Windows Utforsker.", screenshot: "steg-2-kjor-installasjon", guideId: "outlook-setup-pc" },
+    { number: 3, title: "Vent mens Office installeres", instruction: "En fremdriftslinje viser installeringsstatusen. Dette tar vanligvis 5–15 minutter avhengig av internettforbindelsen. La PC-en stå på og ikke lukk vinduet.", tip: "Lukk andre programmer under installasjonen for å gå raskere.", screenshot: "steg-3-installerer", guideId: "outlook-setup-pc" },
+    { number: 4, title: "Start Outlook og skriv inn e-postadressen", instruction: "Søk etter «Outlook» i Start-menyen og åpne programmet. Skriv inn din jobb-e-postadresse i feltet og klikk «Koble til».", tip: "Bruk alltid jobb-e-posten din her (navn@bedrift.no), ikke en privat Gmail eller Hotmail-adresse.", screenshot: "steg-4-legg-til-konto", guideId: "outlook-setup-pc" },
+    { number: 5, title: "Logg inn og godkjenn MFA", instruction: "Skriv inn passordet ditt og klikk «Logg på». Du vil bli bedt om å godkjenne innloggingen i Authenticator-appen på mobilen. Åpne appen og trykk «Godkjenn».", tip: "Har du ikke satt opp Authenticator-appen ennå? Se guiden «Sett opp MFA».", screenshot: "steg-5-logg-inn", guideId: "outlook-setup-pc" },
+    { number: 6, title: "Outlook er klar — innboksen er åpen!", instruction: "Outlook åpner seg med innboksen din. E-poster, kalender og kontakter er nå tilgjengelig. Outlook synkroniserer automatisk nye e-poster i bakgrunnen.", tip: "Vil du ha Outlook på oppgavelinjen? Høyreklikk Outlook-ikonet og velg «Fest til oppgavelinjen».", screenshot: "steg-6-ferdig-innboks", guideId: "outlook-setup-pc" },
+  ],
+  confirmation: { title: "Slik vet du at Outlook er riktig satt opp", checks: ["Innboksen din vises med e-poster", "Kalender-ikonet i venstre meny viser møtene dine", "Nye e-poster ankommer automatisk"] },
   support: { label: "IT-support", phone: "22 00 00 00", email: "it@{domain}", portal: "https://support.{domain}", hours: "Man–fre 08:00–16:00" },
 };
 
@@ -848,6 +917,9 @@ export default function GuideHub365() {
       "install-office": INSTALL_OFFICE_GUIDE,
       "password-reset": PASSWORD_RESET_GUIDE,
       "onedrive-sync": ONEDRIVE_SYNC_GUIDE,
+      "teams-first-meeting": TEAMS_MEETING_GUIDE,
+      "onedrive-save": ONEDRIVE_SAVE_GUIDE,
+      "outlook-setup-pc": OUTLOOK_SETUP_GUIDE,
     };
     const guide = GUIDE_MAP[selectedGuide?.id] || (demoGuide === "mfa" ? MFA_GUIDE : DETAILED_GUIDE);
     const stepsCompleted = Object.values(showCompletionCheck).filter(Boolean).length;
