@@ -562,16 +562,20 @@ export default function GuideHub365() {
   const [showAdminSaved, setShowAdminSaved] = useState(false);
   const [demoGuide, setDemoGuide] = useState("outlook");
 
-  const bg         = darkMode ? "#0F0E1A"              : "#F5F6FA";
-  const cardBg     = darkMode ? "#1C1A2E"              : "#FFFFFF";
-  const textColor  = darkMode ? "#F3F4F6"              : "#111827";
-  const subtleText = darkMode ? "#9CA3AF"              : "#6B7280";
-  const borderColor= darkMode ? "rgba(255,255,255,.07)": "rgba(0,0,0,.06)";
-  const sidebarBg  = darkMode ? "#0D0B1A"              : "#1E1B4B";
-  const primary    = "#7C3AED";
-  const primaryHover = "#6D28D9";
-  const shadow     = "0 1px 4px rgba(0,0,0,.06), 0 4px 24px rgba(0,0,0,.04)";
-  const shadowMd   = "0 4px 16px rgba(0,0,0,.10), 0 1px 4px rgba(0,0,0,.06)";
+  const bg         = darkMode ? "#111118"              : "#F4F5F8";
+  const cardBg     = darkMode ? "#1C1B26"              : "#FFFFFF";
+  const textColor  = darkMode ? "#F1F1F3"              : "#0D0D12";
+  const subtleText = darkMode ? "#8B8B99"              : "#71717A";
+  const borderColor= darkMode ? "rgba(255,255,255,.07)": "rgba(0,0,0,.07)";
+  const sidebarBg  = darkMode ? "#16151F"              : "#FFFFFF";
+  const sidebarBorder = darkMode ? "rgba(255,255,255,.07)" : "rgba(0,0,0,.07)";
+  // Near-black primary (Salesforce-stil: sort pill-knapp)
+  const primary    = darkMode ? "#E8E8F0"              : "#111118";
+  const primaryFg  = darkMode ? "#111118"              : "#FFFFFF";
+  // Aksentfarge for ikoner / aktive elementer
+  const accent     = "#6366F1";
+  const shadow     = "0 1px 3px rgba(0,0,0,.06), 0 2px 8px rgba(0,0,0,.04)";
+  const shadowMd   = "0 4px 20px rgba(0,0,0,.09), 0 1px 4px rgba(0,0,0,.05)";
 
   // Filter guides based on search
   const allGuides = Object.entries(GUIDES).flatMap(([cat, guides]) =>
@@ -592,120 +596,119 @@ export default function GuideHub365() {
       { icon: "globe",     color: "#8B5CF6", bg: "#EDE9FE", title: "Enkel integrasjon",       desc: "Teams, intranett, ServiceNow. SSO med Azure AD." },
     ];
     return (
-      <div style={{ fontFamily: "'Inter','Segoe UI',-apple-system,sans-serif", background: "#0F0E1A", minHeight: "100vh", color: "#fff" }}>
+      <div style={{ fontFamily: "'Inter','Segoe UI',-apple-system,sans-serif", background: "#FAFAFC", minHeight: "100vh", color: "#0D0D12" }}>
 
         {/* Nav */}
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "18px 48px", maxWidth: 1240, margin: "0 auto", borderBottom: "1px solid rgba(255,255,255,.07)" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 48px", height: 58, maxWidth: 1240, margin: "0 auto", borderBottom: "1px solid rgba(0,0,0,.07)" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <div style={{ width: 30, height: 30, background: "linear-gradient(135deg, #7C3AED, #9333EA)", borderRadius: 8, display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <Ic id="file" size={15} color="#fff" />
+            <div style={{ width: 28, height: 28, background: "#111118", borderRadius: 7, display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <Ic id="file" size={14} color="#fff" />
             </div>
-            <span style={{ fontSize: 18, fontWeight: 700, letterSpacing: -0.3 }}>GuideHub<span style={{ color: "#9333EA" }}>365</span></span>
+            <span style={{ fontSize: 16, fontWeight: 800, letterSpacing: -0.4, color: "#0D0D12" }}>GuideHub<span style={{ color: accent }}>365</span></span>
           </div>
-          <div style={{ display: "flex", gap: 32, alignItems: "center" }}>
+          <div style={{ display: "flex", gap: 28, alignItems: "center" }}>
             {["Funksjoner", "Integrasjoner", "Kontakt"].map(lbl => (
-              <span key={lbl} style={{ cursor: "pointer", fontSize: 14, color: "rgba(255,255,255,.65)", fontWeight: 500, transition: "color .15s" }}
-                onMouseEnter={e => e.currentTarget.style.color = "#fff"}
-                onMouseLeave={e => e.currentTarget.style.color = "rgba(255,255,255,.65)"}>{lbl}</span>
+              <span key={lbl} style={{ cursor: "pointer", fontSize: 13, color: "#71717A", fontWeight: 500 }}
+                onMouseEnter={e => e.currentTarget.style.color = "#0D0D12"}
+                onMouseLeave={e => e.currentTarget.style.color = "#71717A"}>{lbl}</span>
             ))}
-            <span onClick={() => setView("pricing")} style={{ cursor: "pointer", fontSize: 14, color: "rgba(255,255,255,.65)", fontWeight: 500 }}>Priser</span>
-            <button onClick={() => setView("dashboard")} style={{ background: "linear-gradient(135deg, #7C3AED, #9333EA)", color: "#fff", border: "none", borderRadius: 24, padding: "9px 22px", fontWeight: 600, cursor: "pointer", fontSize: 14, boxShadow: "0 4px 14px rgba(124,58,237,.4)" }}>
-              Se live demo →
+            <span onClick={() => setView("pricing")} style={{ cursor: "pointer", fontSize: 13, color: "#71717A", fontWeight: 500 }}>Priser</span>
+            <button onClick={() => setView("dashboard")} style={{ background: "#111118", color: "#fff", border: "none", borderRadius: 22, padding: "9px 20px", fontWeight: 600, cursor: "pointer", fontSize: 13 }}>
+              Se demo →
             </button>
           </div>
         </div>
 
         {/* Hero */}
-        <div style={{ maxWidth: 1240, margin: "0 auto", padding: "80px 48px 60px", display: "flex", gap: 72, alignItems: "center" }}>
-          <div style={{ flex: 1, maxWidth: 560 }}>
-            <div style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "rgba(124,58,237,.18)", border: "1px solid rgba(124,58,237,.4)", borderRadius: 24, padding: "5px 14px", fontSize: 12, fontWeight: 600, color: "#C4B5FD", marginBottom: 24, letterSpacing: 0.5 }}>
-              <Ic id="lightning" size={13} color="#A78BFA" /> For bedrifter med Microsoft 365
+        <div style={{ maxWidth: 1240, margin: "0 auto", padding: "72px 48px 60px", display: "flex", gap: 64, alignItems: "center" }}>
+          <div style={{ flex: 1, maxWidth: 540 }}>
+            <div style={{ display: "inline-flex", alignItems: "center", gap: 7, background: "#EEF2FF", borderRadius: 22, padding: "4px 12px 4px 8px", fontSize: 12, fontWeight: 600, color: accent, marginBottom: 22 }}>
+              <div style={{ width: 18, height: 18, borderRadius: 5, background: accent, display: "flex", alignItems: "center", justifyContent: "center" }}><Ic id="lightning" size={10} color="#fff" /></div>
+              For bedrifter med Microsoft 365
             </div>
-            <h1 style={{ fontSize: 50, fontWeight: 800, lineHeight: 1.1, margin: "0 0 24px", letterSpacing: -1.5 }}>
-              Brukervennlige M365-guider som{" "}
-              <span style={{ background: "linear-gradient(135deg, #A78BFA, #EC4899)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>alltid er oppdatert</span>
+            <h1 style={{ fontSize: 46, fontWeight: 800, lineHeight: 1.1, margin: "0 0 20px", letterSpacing: -1.5, color: "#0D0D12" }}>
+              M365-guider som<br/><span style={{ color: accent }}>alltid er oppdatert</span>
             </h1>
-            <p style={{ fontSize: 17, lineHeight: 1.7, color: "rgba(255,255,255,.7)", margin: "0 0 36px" }}>
-              Reduser supporthenvendelser med opptil 40%. Gi dine ansatte steg-for-steg guider tilpasset deres tekniske nivå — automatisk oppdatert når Microsoft endrer noe.
+            <p style={{ fontSize: 16, lineHeight: 1.75, color: "#71717A", margin: "0 0 32px" }}>
+              Reduser supporthenvendelser med 40%. Steg-for-steg guider for alle ansatte — automatisk oppdatert når Microsoft endrer noe.
             </p>
-            <div style={{ display: "flex", gap: 14, alignItems: "center" }}>
+            <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
               <button onClick={() => setView("dashboard")}
-                style={{ background: "linear-gradient(135deg, #7C3AED, #9333EA)", color: "#fff", border: "none", borderRadius: 28, padding: "14px 32px", fontWeight: 700, fontSize: 15, cursor: "pointer", boxShadow: "0 4px 20px rgba(124,58,237,.45)" }}>
+                style={{ background: "#111118", color: "#fff", border: "none", borderRadius: 26, padding: "13px 28px", fontWeight: 700, fontSize: 14, cursor: "pointer" }}>
                 Se live demo
               </button>
               <button onClick={() => setView("pricing")}
-                style={{ background: "rgba(255,255,255,.06)", color: "#fff", border: "1px solid rgba(255,255,255,.15)", borderRadius: 28, padding: "14px 28px", fontWeight: 600, fontSize: 15, cursor: "pointer" }}>
+                style={{ background: "#fff", color: "#0D0D12", border: "1px solid rgba(0,0,0,.12)", borderRadius: 26, padding: "13px 24px", fontWeight: 600, fontSize: 14, cursor: "pointer" }}>
                 Se priser
               </button>
             </div>
           </div>
           <div style={{ flex: 1, maxWidth: 480 }}>
-            <div style={{ background: "rgba(255,255,255,.04)", borderRadius: 20, padding: 4, border: "1px solid rgba(255,255,255,.10)", boxShadow: "0 32px 80px rgba(0,0,0,.5)" }}>
-              <div style={{ background: "#1C1A2E", borderRadius: 17, padding: "22px 24px" }}>
-                <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 18, paddingBottom: 16, borderBottom: "1px solid rgba(255,255,255,.07)" }}>
-                  <div style={{ width: 38, height: 38, borderRadius: 10, background: "#DBEAFE", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                    <Ic id="mail" size={19} color="#3B82F6" />
-                  </div>
-                  <div>
-                    <div style={{ fontWeight: 700, fontSize: 14, color: "#F3F4F6" }}>Sette opp Outlook på PC</div>
-                    <div style={{ fontSize: 11, color: "rgba(255,255,255,.45)", marginTop: 2 }}>Oppdatert: mars 2026 · 8 min · Enkel</div>
-                  </div>
-                  <div style={{ marginLeft: "auto", fontSize: 11, background: "#D1FAE5", color: "#065F46", padding: "3px 10px", borderRadius: 20, fontWeight: 700 }}>Live</div>
+            {/* Clean app preview card */}
+            <div style={{ background: "#fff", borderRadius: 16, border: "1px solid rgba(0,0,0,.08)", boxShadow: "0 8px 40px rgba(0,0,0,.10), 0 1px 4px rgba(0,0,0,.04)", padding: "20px 22px" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 16, paddingBottom: 14, borderBottom: "1px solid rgba(0,0,0,.06)" }}>
+                <div style={{ width: 36, height: 36, borderRadius: 9, background: "#DBEAFE", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                  <Ic id="mail" size={17} color="#3B82F6" />
                 </div>
-                <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-                  {[
-                    { title: "Åpne Outlook", done: true },
-                    { title: "Skriv inn e-postadressen din", done: true },
-                    { title: "Logg inn med passord", done: false },
-                    { title: "Godkjenn med MFA", done: false },
-                  ].map((step, i) => (
-                    <div key={i} style={{ display: "flex", alignItems: "center", gap: 12, padding: "10px 14px", background: step.done ? "rgba(16,185,129,.1)" : "rgba(255,255,255,.04)", borderRadius: 10, border: `1px solid ${step.done ? "rgba(16,185,129,.25)" : "rgba(255,255,255,.07)"}` }}>
-                      <div style={{ width: 26, height: 26, borderRadius: 7, background: step.done ? "#10B981" : "rgba(255,255,255,.08)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
-                        {step.done ? <Ic id="check" size={13} color="#fff" strokeWidth={3} /> : <span style={{ fontSize: 11, fontWeight: 700, color: "rgba(255,255,255,.4)" }}>{i + 1}</span>}
-                      </div>
-                      <span style={{ fontSize: 13, color: step.done ? "#6EE7B7" : "rgba(255,255,255,.55)" }}>{step.title}</span>
+                <div>
+                  <div style={{ fontWeight: 700, fontSize: 13, color: "#0D0D12" }}>Sette opp Outlook på PC</div>
+                  <div style={{ fontSize: 11, color: "#71717A", marginTop: 1 }}>Oppdatert mars 2026 · 8 min</div>
+                </div>
+                <span style={{ marginLeft: "auto", fontSize: 11, background: "#ECFDF5", color: "#059669", padding: "2px 9px", borderRadius: 20, fontWeight: 700 }}>Enkel</span>
+              </div>
+              <div style={{ display: "flex", flexDirection: "column", gap: 7 }}>
+                {[
+                  { title: "Åpne Outlook", done: true },
+                  { title: "Skriv inn e-postadressen din", done: true },
+                  { title: "Logg inn med passord", done: false },
+                  { title: "Godkjenn med MFA", done: false },
+                ].map((step, i) => (
+                  <div key={i} style={{ display: "flex", alignItems: "center", gap: 10, padding: "9px 12px", background: step.done ? "#F0FDF4" : "#FAFAFA", borderRadius: 9, border: `1px solid ${step.done ? "#BBF7D0" : "rgba(0,0,0,.06)"}` }}>
+                    <div style={{ width: 24, height: 24, borderRadius: 7, background: step.done ? "#10B981" : "#F1F1F5", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                      {step.done ? <Ic id="check" size={12} color="#fff" strokeWidth={3} /> : <span style={{ fontSize: 11, fontWeight: 700, color: "#A1A1AA" }}>{i + 1}</span>}
                     </div>
-                  ))}
-                </div>
+                    <span style={{ fontSize: 13, color: step.done ? "#059669" : "#71717A", fontWeight: step.done ? 600 : 400 }}>{step.title}</span>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
         </div>
 
         {/* Stats strip */}
-        <div style={{ borderTop: "1px solid rgba(255,255,255,.07)", borderBottom: "1px solid rgba(255,255,255,.07)", padding: "36px 48px" }}>
-          <div style={{ maxWidth: 900, margin: "0 auto", display: "flex", gap: 0, justifyContent: "space-around" }}>
+        <div style={{ borderTop: "1px solid rgba(0,0,0,.07)", borderBottom: "1px solid rgba(0,0,0,.07)", padding: "28px 48px", background: "#fff" }}>
+          <div style={{ maxWidth: 860, margin: "0 auto", display: "flex", justifyContent: "space-around" }}>
             {[
               { number: "40%", label: "Færre supporthenvendelser" },
-              { number: "78+", label: "Ferdiglagde guider" },
+              { number: "78+",  label: "Ferdiglagde guider" },
               { number: "< 24t", label: "Til oppdatering" },
               { number: "100%", label: "Tilpasset din bedrift" },
             ].map((stat, i) => (
               <div key={i} style={{ textAlign: "center" }}>
-                <div style={{ fontSize: 36, fontWeight: 800, letterSpacing: -1, background: "linear-gradient(135deg, #A78BFA, #60A5FA)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>{stat.number}</div>
-                <div style={{ fontSize: 13, color: "rgba(255,255,255,.55)", marginTop: 4 }}>{stat.label}</div>
+                <div style={{ fontSize: 32, fontWeight: 800, letterSpacing: -1, color: "#0D0D12" }}>{stat.number}</div>
+                <div style={{ fontSize: 12, color: "#71717A", marginTop: 3, fontWeight: 500 }}>{stat.label}</div>
               </div>
             ))}
           </div>
         </div>
 
         {/* Features */}
-        <div style={{ padding: "80px 48px" }}>
-          <div style={{ maxWidth: 1240, margin: "0 auto" }}>
-            <div style={{ textAlign: "center", marginBottom: 56 }}>
-              <h2 style={{ fontSize: 36, fontWeight: 800, letterSpacing: -0.8, margin: "0 0 12px" }}>Hvorfor velge GuideHub 365?</h2>
-              <p style={{ fontSize: 16, color: "rgba(255,255,255,.55)", margin: 0 }}>Alt du trenger for å hjelpe ansatte med Microsoft 365</p>
+        <div style={{ padding: "72px 48px", background: "#FAFAFC" }}>
+          <div style={{ maxWidth: 1100, margin: "0 auto" }}>
+            <div style={{ textAlign: "center", marginBottom: 48 }}>
+              <h2 style={{ fontSize: 32, fontWeight: 800, letterSpacing: -0.8, margin: "0 0 10px", color: "#0D0D12" }}>Hvorfor velge GuideHub 365?</h2>
+              <p style={{ fontSize: 15, color: "#71717A", margin: 0 }}>Alt du trenger for å hjelpe ansatte med Microsoft 365</p>
             </div>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 20 }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 16 }}>
               {features.map((f, i) => (
-                <div key={i} style={{ background: "rgba(255,255,255,.04)", borderRadius: 16, padding: "28px 26px", border: "1px solid rgba(255,255,255,.08)", transition: "border-color .2s, transform .2s" }}
-                  onMouseEnter={e => { e.currentTarget.style.borderColor = "rgba(124,58,237,.4)"; e.currentTarget.style.transform = "translateY(-3px)"; }}
-                  onMouseLeave={e => { e.currentTarget.style.borderColor = "rgba(255,255,255,.08)"; e.currentTarget.style.transform = "translateY(0)"; }}>
-                  <div style={{ width: 44, height: 44, borderRadius: 12, background: f.bg, display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 18 }}>
-                    <Ic id={f.icon} size={22} color={f.color} />
+                <div key={i} style={{ background: "#fff", borderRadius: 14, padding: "24px 22px", border: "1px solid rgba(0,0,0,.07)", boxShadow: "0 1px 4px rgba(0,0,0,.05)", transition: "box-shadow .2s, transform .2s" }}
+                  onMouseEnter={e => { e.currentTarget.style.boxShadow = "0 8px 24px rgba(0,0,0,.09)"; e.currentTarget.style.transform = "translateY(-2px)"; }}
+                  onMouseLeave={e => { e.currentTarget.style.boxShadow = "0 1px 4px rgba(0,0,0,.05)"; e.currentTarget.style.transform = "none"; }}>
+                  <div style={{ width: 40, height: 40, borderRadius: 11, background: f.bg, display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 14 }}>
+                    <Ic id={f.icon} size={20} color={f.color} />
                   </div>
-                  <div style={{ fontWeight: 700, fontSize: 16, marginBottom: 8, color: "#F3F4F6" }}>{f.title}</div>
-                  <div style={{ fontSize: 14, lineHeight: 1.65, color: "rgba(255,255,255,.55)" }}>{f.desc}</div>
+                  <div style={{ fontWeight: 700, fontSize: 14, marginBottom: 6, color: "#0D0D12" }}>{f.title}</div>
+                  <div style={{ fontSize: 13, lineHeight: 1.65, color: "#71717A" }}>{f.desc}</div>
                 </div>
               ))}
             </div>
@@ -756,61 +759,61 @@ export default function GuideHub365() {
       },
     ];
     return (
-      <div style={{ fontFamily: "'Inter','Segoe UI',-apple-system,sans-serif", background: "#0F0E1A", minHeight: "100vh", color: "#fff" }}>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "18px 48px", maxWidth: 1240, margin: "0 auto", borderBottom: "1px solid rgba(255,255,255,.07)" }}>
-          <div onClick={() => setView("landing")} style={{ display: "flex", alignItems: "center", gap: 10, cursor: "pointer" }}>
-            <div style={{ width: 28, height: 28, background: "linear-gradient(135deg, #7C3AED, #9333EA)", borderRadius: 7, display: "flex", alignItems: "center", justifyContent: "center" }}><Ic id="file" size={14} color="#fff" /></div>
-            <span style={{ fontSize: 16, fontWeight: 700 }}>GuideHub<span style={{ color: "#9333EA" }}>365</span></span>
+      <div style={{ fontFamily: "'Inter','Segoe UI',-apple-system,sans-serif", background: "#FAFAFC", minHeight: "100vh", color: "#0D0D12" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 48px", height: 56, borderBottom: "1px solid rgba(0,0,0,.07)", background: "#fff" }}>
+          <div onClick={() => setView("landing")} style={{ display: "flex", alignItems: "center", gap: 9, cursor: "pointer" }}>
+            <div style={{ width: 26, height: 26, background: "#111118", borderRadius: 7, display: "flex", alignItems: "center", justifyContent: "center" }}><Ic id="file" size={13} color="#fff" /></div>
+            <span style={{ fontSize: 15, fontWeight: 800, letterSpacing: -0.4 }}>GuideHub<span style={{ color: accent }}>365</span></span>
           </div>
-          <button onClick={() => setView("landing")} style={{ background: "rgba(255,255,255,.06)", color: "rgba(255,255,255,.7)", border: "1px solid rgba(255,255,255,.12)", borderRadius: 20, padding: "8px 20px", cursor: "pointer", fontSize: 13, fontWeight: 500 }}>← Tilbake</button>
+          <button onClick={() => setView("landing")} style={{ background: "#fff", color: "#0D0D12", border: "1px solid rgba(0,0,0,.10)", borderRadius: 22, padding: "7px 18px", cursor: "pointer", fontSize: 13, fontWeight: 500 }}>← Tilbake</button>
         </div>
-        <div style={{ maxWidth: 1100, margin: "0 auto", padding: "60px 48px 100px" }}>
-          <div style={{ textAlign: "center", marginBottom: 56 }}>
-            <h1 style={{ fontSize: 40, fontWeight: 800, letterSpacing: -1, marginBottom: 14 }}>Enkel, forutsigbar prising</h1>
-            <p style={{ fontSize: 16, color: "rgba(255,255,255,.55)", margin: 0 }}>Velg planen som passer din bedrift. Alle planer inkluderer 14 dagers gratis prøveperiode.</p>
+        <div style={{ maxWidth: 1060, margin: "0 auto", padding: "56px 48px 96px" }}>
+          <div style={{ textAlign: "center", marginBottom: 48 }}>
+            <h1 style={{ fontSize: 36, fontWeight: 800, letterSpacing: -0.8, marginBottom: 10, color: "#0D0D12" }}>Enkel, forutsigbar prising</h1>
+            <p style={{ fontSize: 15, color: "#71717A", margin: 0 }}>Alle planer inkluderer 14 dagers gratis prøveperiode.</p>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 20, alignItems: "start" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 18, alignItems: "start" }}>
             {plans.map((plan, i) => (
-              <div key={i} style={{ background: plan.popular ? "linear-gradient(160deg, rgba(124,58,237,.25), rgba(147,51,234,.15))" : "rgba(255,255,255,.04)", borderRadius: 20, padding: "32px 28px", position: "relative", border: plan.popular ? "1.5px solid rgba(124,58,237,.5)" : "1px solid rgba(255,255,255,.08)", boxShadow: plan.popular ? "0 8px 40px rgba(124,58,237,.2)" : "none", transition: "transform .2s" }}
-                onMouseEnter={e => e.currentTarget.style.transform = "translateY(-4px)"}
-                onMouseLeave={e => e.currentTarget.style.transform = "translateY(0)"}>
+              <div key={i} style={{ background: "#fff", borderRadius: 16, padding: "28px 24px", position: "relative", border: plan.popular ? `2px solid ${accent}` : "1px solid rgba(0,0,0,.08)", boxShadow: plan.popular ? "0 8px 32px rgba(99,102,241,.12)" : "0 1px 4px rgba(0,0,0,.05)", transition: "transform .2s, box-shadow .2s" }}
+                onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.boxShadow = "0 12px 40px rgba(0,0,0,.10)"; }}
+                onMouseLeave={e => { e.currentTarget.style.transform = "none"; e.currentTarget.style.boxShadow = plan.popular ? "0 8px 32px rgba(99,102,241,.12)" : "0 1px 4px rgba(0,0,0,.05)"; }}>
                 {plan.popular && (
-                  <div style={{ position: "absolute", top: -14, left: "50%", transform: "translateX(-50%)", background: "linear-gradient(135deg, #7C3AED, #9333EA)", color: "#fff", padding: "5px 18px", borderRadius: 20, fontSize: 12, fontWeight: 700, whiteSpace: "nowrap", boxShadow: "0 4px 14px rgba(124,58,237,.4)" }}>
-                    ★ Mest populær
+                  <div style={{ position: "absolute", top: -13, left: "50%", transform: "translateX(-50%)", background: "#111118", color: "#fff", padding: "4px 16px", borderRadius: 20, fontSize: 11, fontWeight: 700, whiteSpace: "nowrap" }}>
+                    Mest populær
                   </div>
                 )}
-                <div style={{ fontSize: 12, color: plan.accentColor, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 6 }}>{plan.name}</div>
-                <div style={{ fontSize: 13, color: "rgba(255,255,255,.5)", marginBottom: 20 }}>{plan.subtitle}</div>
-                <div style={{ display: "flex", alignItems: "baseline", gap: 4, marginBottom: 4 }}>
-                  <span style={{ fontSize: plan.price === "Kontakt oss" ? 26 : 42, fontWeight: 800, letterSpacing: -1, color: "#F3F4F6" }}>
+                <div style={{ fontSize: 11, color: plan.accentColor, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 4 }}>{plan.name}</div>
+                <div style={{ fontSize: 13, color: "#71717A", marginBottom: 18 }}>{plan.subtitle}</div>
+                <div style={{ display: "flex", alignItems: "baseline", gap: 3, marginBottom: 3 }}>
+                  <span style={{ fontSize: plan.price === "Kontakt oss" ? 24 : 38, fontWeight: 800, letterSpacing: -1, color: "#0D0D12" }}>
                     {plan.price !== "Kontakt oss" ? `kr ${plan.price}` : plan.price}
                   </span>
-                  <span style={{ fontSize: 14, color: "rgba(255,255,255,.4)" }}>{plan.period}</span>
+                  <span style={{ fontSize: 13, color: "#71717A" }}>{plan.period}</span>
                 </div>
-                <div style={{ fontSize: 12, color: "rgba(255,255,255,.4)", marginBottom: 24, paddingBottom: 24, borderBottom: "1px solid rgba(255,255,255,.08)" }}>{plan.users}</div>
-                <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 28 }}>
+                <div style={{ fontSize: 12, color: "#71717A", marginBottom: 20, paddingBottom: 20, borderBottom: "1px solid rgba(0,0,0,.07)" }}>{plan.users}</div>
+                <div style={{ display: "flex", flexDirection: "column", gap: 9, marginBottom: 24 }}>
                   {plan.features.map((f, j) => (
-                    <div key={j} style={{ display: "flex", alignItems: "flex-start", gap: 10, fontSize: 13, color: "rgba(255,255,255,.75)" }}>
-                      <div style={{ width: 18, height: 18, borderRadius: 5, background: "rgba(16,185,129,.2)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 1 }}>
-                        <Ic id="check" size={11} color="#10B981" strokeWidth={3} />
+                    <div key={j} style={{ display: "flex", alignItems: "flex-start", gap: 9, fontSize: 13, color: "#374151" }}>
+                      <div style={{ width: 17, height: 17, borderRadius: 5, background: "#ECFDF5", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 1 }}>
+                        <Ic id="check" size={10} color="#10B981" strokeWidth={3} />
                       </div>
                       {f}
                     </div>
                   ))}
                 </div>
-                <button onClick={() => setView("dashboard")} style={{ width: "100%", background: plan.popular ? "linear-gradient(135deg, #7C3AED, #9333EA)" : "rgba(255,255,255,.08)", color: "#fff", border: plan.popular ? "none" : "1px solid rgba(255,255,255,.12)", borderRadius: 12, padding: "13px 0", fontWeight: 700, fontSize: 14, cursor: "pointer", boxShadow: plan.popular ? "0 4px 16px rgba(124,58,237,.4)" : "none" }}>
+                <button onClick={() => setView("dashboard")} style={{ width: "100%", background: plan.popular ? "#111118" : "#F4F5F8", color: plan.popular ? "#fff" : "#0D0D12", border: "none", borderRadius: 11, padding: "12px 0", fontWeight: 700, fontSize: 13, cursor: "pointer" }}>
                   {plan.cta}
                 </button>
               </div>
             ))}
           </div>
-          <div style={{ textAlign: "center", marginTop: 48, padding: "32px 40px", background: "rgba(255,255,255,.04)", borderRadius: 20, border: "1px solid rgba(255,255,255,.08)" }}>
-            <div style={{ width: 44, height: 44, borderRadius: 12, background: "#EDE9FE", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 16px" }}>
-              <Ic id="users" size={22} color="#7C3AED" />
+          <div style={{ textAlign: "center", marginTop: 40, padding: "28px 40px", background: "#fff", borderRadius: 16, border: "1px solid rgba(0,0,0,.07)" }}>
+            <div style={{ width: 40, height: 40, borderRadius: 11, background: "#EEF2FF", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 14px" }}>
+              <Ic id="users" size={20} color={accent} />
             </div>
-            <h3 style={{ fontSize: 20, fontWeight: 700, marginBottom: 10 }}>MSP Partnerprogram</h3>
-            <p style={{ fontSize: 14, color: "rgba(255,255,255,.55)", maxWidth: 580, margin: "0 auto", lineHeight: 1.7 }}>
-              Tilby GuideHub 365 som en del av din managed service. Gi alle dine kunder tilpassede guider under ditt eget merke, med sentralisert administrasjon og volumprising fra kr 490/tenant/mnd.
+            <h3 style={{ fontSize: 18, fontWeight: 800, marginBottom: 8, color: "#0D0D12" }}>MSP Partnerprogram</h3>
+            <p style={{ fontSize: 13, color: "#71717A", maxWidth: 540, margin: "0 auto", lineHeight: 1.7 }}>
+              Tilby GuideHub 365 som en del av din managed service. Sentralisert administrasjon og volumprising fra kr 490/tenant/mnd.
             </p>
           </div>
         </div>
@@ -839,27 +842,29 @@ export default function GuideHub365() {
 
   // Top bar
   const TopBar = () => (
-    <div style={{ background: cardBg, borderBottom: `1px solid ${borderColor}`, padding: "0 24px", height: 56, display: "flex", alignItems: "center", justifyContent: "space-between", position: "sticky", top: 0, zIndex: 100, boxShadow: "0 1px 0 rgba(0,0,0,.05)" }}>
-      {/* Left: hamburger + brand */}
-      <div style={{ display: "flex", alignItems: "center", gap: 16, minWidth: 200 }}>
-        <button onClick={() => setSidebarOpen(!sidebarOpen)} style={{ background: "none", border: "none", cursor: "pointer", color: subtleText, padding: 6, borderRadius: 8, display: "flex", alignItems: "center", transition: "background .15s" }}
-          onMouseEnter={e => e.currentTarget.style.background = darkMode ? "rgba(255,255,255,.06)" : "#F3F4F6"}
+    <div style={{ background: cardBg, borderBottom: `1px solid ${borderColor}`, padding: "0 20px 0 0", height: 54, display: "flex", alignItems: "center", justifyContent: "space-between", position: "sticky", top: 0, zIndex: 100 }}>
+      {/* Left: logo block matches sidebar width */}
+      <div style={{ width: sidebarOpen ? 244 : 54, flexShrink: 0, display: "flex", alignItems: "center", padding: "0 16px", gap: 10, borderRight: `1px solid ${borderColor}`, height: "100%", transition: "width 0.22s cubic-bezier(.4,0,.2,1)", overflow: "hidden" }}>
+        <button onClick={() => setSidebarOpen(!sidebarOpen)}
+          style={{ background: "none", border: "none", cursor: "pointer", padding: 6, borderRadius: 7, display: "flex", alignItems: "center", flexShrink: 0, transition: "background .15s" }}
+          onMouseEnter={e => e.currentTarget.style.background = darkMode ? "rgba(255,255,255,.07)" : "#F1F1F4"}
           onMouseLeave={e => e.currentTarget.style.background = "none"}>
-          <Ic id="menu" size={20} color={subtleText} />
+          <Ic id="menu" size={18} color={subtleText} />
         </button>
-        <div onClick={() => { setView("dashboard"); setSelectedCategory(null); setSelectedGuide(null); }} style={{ cursor: "pointer", display: "flex", alignItems: "center", gap: 8 }}>
-          <div style={{ width: 28, height: 28, background: `linear-gradient(135deg, ${primary}, #9333EA)`, borderRadius: 7, display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <Ic id="file" size={14} color="#fff" />
+        {sidebarOpen && (
+          <div onClick={() => { setView("dashboard"); setSelectedCategory(null); setSelectedGuide(null); }} style={{ cursor: "pointer", display: "flex", alignItems: "center", gap: 8, whiteSpace: "nowrap" }}>
+            <div style={{ width: 26, height: 26, background: "#111118", borderRadius: 7, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+              <Ic id="file" size={13} color="#fff" />
+            </div>
+            <span style={{ fontSize: 15, fontWeight: 800, color: textColor, letterSpacing: -0.5 }}>GuideHub<span style={{ color: accent }}>365</span></span>
           </div>
-          <span style={{ fontSize: 16, fontWeight: 700, color: textColor, letterSpacing: -0.3 }}>GuideHub<span style={{ color: primary }}>365</span></span>
-          <span style={{ fontSize: 11, color: subtleText, background: darkMode ? "rgba(255,255,255,.07)" : "#F3F4F6", padding: "2px 8px", borderRadius: 20, fontWeight: 500, marginLeft: 4 }}>{companyName}</span>
-        </div>
+        )}
       </div>
 
       {/* Center: search */}
-      <div style={{ flex: 1, maxWidth: 420, margin: "0 24px", position: "relative" }}>
+      <div style={{ flex: 1, maxWidth: 400, margin: "0 20px", position: "relative" }}>
         <div style={{ position: "absolute", left: 12, top: "50%", transform: "translateY(-50%)" }}>
-          <Ic id="search" size={16} color={subtleText} />
+          <Ic id="search" size={15} color={subtleText} />
         </div>
         <input
           value={searchQuery}
@@ -867,8 +872,7 @@ export default function GuideHub365() {
           onFocus={() => setSearchFocused(true)}
           onBlur={() => setTimeout(() => setSearchFocused(false), 200)}
           placeholder="Søk i guider..."
-          style={{ width: "100%", padding: "9px 14px 9px 38px", borderRadius: 24, border: `1.5px solid ${darkMode ? "rgba(255,255,255,.10)" : "#E5E7EB"}`, background: darkMode ? "rgba(255,255,255,.05)" : "#F9FAFB", color: textColor, fontSize: 13, outline: "none", boxSizing: "border-box", transition: "border-color .15s" }}
-          onFocus2={e => { e.target.style.borderColor = primary; }}
+          style={{ width: "100%", padding: "8px 14px 8px 36px", borderRadius: 22, border: `1px solid ${borderColor}`, background: darkMode ? "rgba(255,255,255,.05)" : "#F4F5F8", color: textColor, fontSize: 13, outline: "none", boxSizing: "border-box" }}
         />
         {searchFocused && searchQuery && filteredGuides.length > 0 && (
           <div style={{ position: "absolute", top: "calc(100% + 6px)", left: 0, right: 0, background: cardBg, border: `1px solid ${borderColor}`, borderRadius: 12, boxShadow: shadowMd, maxHeight: 320, overflow: "auto", zIndex: 200 }}>
@@ -877,13 +881,13 @@ export default function GuideHub365() {
               return (
                 <div key={i} onClick={() => { handleGuideClick(g); setSearchQuery(""); }}
                   style={{ padding: "10px 16px", cursor: "pointer", borderBottom: i < 5 ? `1px solid ${borderColor}` : "none", fontSize: 13, color: textColor, display: "flex", alignItems: "center", gap: 12 }}
-                  onMouseEnter={e => e.currentTarget.style.background = darkMode ? "rgba(255,255,255,.04)" : "#F9FAFB"}
+                  onMouseEnter={e => e.currentTarget.style.background = darkMode ? "rgba(255,255,255,.04)" : "#F8F8FB"}
                   onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
-                  <div style={{ width: 32, height: 32, borderRadius: 8, background: cat?.bg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
-                    <Ic id={cat?.icon} size={16} color={cat?.color} />
+                  <div style={{ width: 30, height: 30, borderRadius: 8, background: cat?.bg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                    <Ic id={cat?.icon} size={15} color={cat?.color} />
                   </div>
                   <div>
-                    <div style={{ fontWeight: 500 }}>{g.title}</div>
+                    <div style={{ fontWeight: 600, fontSize: 13 }}>{g.title}</div>
                     <div style={{ fontSize: 11, color: subtleText, marginTop: 1 }}>{cat?.label} · {g.time}</div>
                   </div>
                 </div>
@@ -894,69 +898,67 @@ export default function GuideHub365() {
       </div>
 
       {/* Right: actions */}
-      <div style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 160, justifyContent: "flex-end" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
         <button onClick={() => setDarkMode(!darkMode)}
-          style={{ background: "none", border: "none", cursor: "pointer", padding: 8, borderRadius: 8, display: "flex", alignItems: "center", color: subtleText, transition: "background .15s" }}
-          onMouseEnter={e => e.currentTarget.style.background = darkMode ? "rgba(255,255,255,.06)" : "#F3F4F6"}
+          style={{ background: "none", border: "none", cursor: "pointer", padding: 8, borderRadius: 8, display: "flex", alignItems: "center", transition: "background .15s" }}
+          onMouseEnter={e => e.currentTarget.style.background = darkMode ? "rgba(255,255,255,.07)" : "#F1F1F4"}
           onMouseLeave={e => e.currentTarget.style.background = "none"}>
-          <Ic id={darkMode ? "sun" : "moon"} size={18} color={subtleText} />
+          <Ic id={darkMode ? "sun" : "moon"} size={17} color={subtleText} />
         </button>
         <button onClick={() => setView("admin")}
-          style={{ background: "none", border: `1.5px solid ${borderColor}`, borderRadius: 8, padding: "6px 14px", cursor: "pointer", fontSize: 12, fontWeight: 600, color: subtleText, display: "flex", alignItems: "center", gap: 6, transition: "all .15s" }}
-          onMouseEnter={e => { e.currentTarget.style.borderColor = primary; e.currentTarget.style.color = primary; }}
-          onMouseLeave={e => { e.currentTarget.style.borderColor = borderColor; e.currentTarget.style.color = subtleText; }}>
-          <Ic id="settings" size={14} color="currentColor" /> Admin
+          style={{ background: "none", border: `1px solid ${borderColor}`, borderRadius: 22, padding: "6px 14px", cursor: "pointer", fontSize: 12, fontWeight: 600, color: subtleText, display: "flex", alignItems: "center", gap: 6, transition: "all .15s" }}
+          onMouseEnter={e => { e.currentTarget.style.background = darkMode ? "rgba(255,255,255,.07)" : "#F1F1F4"; }}
+          onMouseLeave={e => { e.currentTarget.style.background = "none"; }}>
+          <Ic id="settings" size={13} color={subtleText} /> Admin
         </button>
-        <div style={{ width: 34, height: 34, borderRadius: "50%", background: `linear-gradient(135deg, ${primary}, #9333EA)`, color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 12, fontWeight: 700, letterSpacing: 0.5, cursor: "pointer" }}>ON</div>
+        <div style={{ width: 32, height: 32, borderRadius: "50%", background: "#111118", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 11, fontWeight: 700, cursor: "pointer" }}>ON</div>
       </div>
     </div>
   );
 
   // Sidebar
   const Sidebar = () => (
-    <div style={{ width: sidebarOpen ? 244 : 0, overflow: "hidden", transition: "width 0.22s cubic-bezier(.4,0,.2,1)", background: sidebarBg, flexShrink: 0, height: "calc(100vh - 56px)", position: "sticky", top: 56, display: "flex", flexDirection: "column" }}>
-      <div style={{ padding: "20px 12px 8px", overflowY: "auto", flex: 1 }}>
-        <div style={{ fontSize: 10, fontWeight: 700, color: "rgba(255,255,255,.35)", textTransform: "uppercase", letterSpacing: 1.2, padding: "0 8px", marginBottom: 6 }}>Kategorier</div>
+    <div style={{ width: sidebarOpen ? 244 : 0, overflow: "hidden", transition: "width 0.22s cubic-bezier(.4,0,.2,1)", background: sidebarBg, borderRight: `1px solid ${sidebarBorder}`, flexShrink: 0, height: "calc(100vh - 54px)", position: "sticky", top: 54, display: "flex", flexDirection: "column" }}>
+      <div style={{ padding: "12px 10px 8px", overflowY: "auto", flex: 1 }}>
+        <div style={{ fontSize: 10, fontWeight: 700, color: subtleText, textTransform: "uppercase", letterSpacing: 1.2, padding: "8px 10px 6px", whiteSpace: "nowrap" }}>Kategorier</div>
         {CATEGORIES.map((cat) => {
           const active = selectedCategory === cat.id;
           return (
             <div key={cat.id} onClick={() => handleCategoryClick(cat.id)}
-              style={{ display: "flex", alignItems: "center", gap: 10, padding: "9px 10px", cursor: "pointer", borderRadius: 10, marginBottom: 2, background: active ? "rgba(124,58,237,.30)" : "transparent", transition: "background .15s" }}
-              onMouseEnter={e => { if (!active) e.currentTarget.style.background = "rgba(255,255,255,.07)"; }}
+              style={{ display: "flex", alignItems: "center", gap: 10, padding: "8px 10px", cursor: "pointer", borderRadius: 9, marginBottom: 1, background: active ? (darkMode ? "rgba(99,102,241,.15)" : "#EDEDF8") : "transparent", transition: "background .15s", whiteSpace: "nowrap" }}
+              onMouseEnter={e => { if (!active) e.currentTarget.style.background = darkMode ? "rgba(255,255,255,.05)" : "#F4F4F8"; }}
               onMouseLeave={e => { if (!active) e.currentTarget.style.background = "transparent"; }}>
-              <div style={{ width: 32, height: 32, borderRadius: 8, background: active ? cat.color : "rgba(255,255,255,.10)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, transition: "background .15s" }}>
-                <Ic id={cat.icon} size={16} color={active ? "#fff" : "rgba(255,255,255,.70)"} />
+              <div style={{ width: 30, height: 30, borderRadius: 8, background: active ? cat.bg : (darkMode ? "rgba(255,255,255,.07)" : "#F1F1F5"), display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, transition: "background .15s" }}>
+                <Ic id={cat.icon} size={15} color={active ? cat.color : subtleText} />
               </div>
-              <span style={{ flex: 1, fontSize: 13, fontWeight: active ? 600 : 400, color: active ? "#fff" : "rgba(255,255,255,.75)", whiteSpace: "nowrap" }}>{cat.label}</span>
-              <span style={{ fontSize: 11, fontWeight: 600, color: active ? "rgba(255,255,255,.9)" : "rgba(255,255,255,.35)", background: active ? "rgba(255,255,255,.18)" : "rgba(255,255,255,.08)", padding: "1px 7px", borderRadius: 10 }}>{cat.count}</span>
+              <span style={{ flex: 1, fontSize: 13, fontWeight: active ? 700 : 400, color: active ? (darkMode ? "#E0E0F0" : "#111118") : subtleText }}>{cat.label}</span>
+              <span style={{ fontSize: 11, fontWeight: 600, color: active ? accent : subtleText, background: active ? (darkMode ? "rgba(99,102,241,.2)" : cat.bg) : (darkMode ? "rgba(255,255,255,.07)" : "#EBEBF0"), padding: "1px 7px", borderRadius: 9, minWidth: 20, textAlign: "center" }}>{cat.count}</span>
             </div>
           );
         })}
 
         {!userMode && (
           <>
-            <div style={{ borderTop: "1px solid rgba(255,255,255,.08)", margin: "14px 4px 10px" }} />
-            <div style={{ fontSize: 10, fontWeight: 700, color: "rgba(255,255,255,.35)", textTransform: "uppercase", letterSpacing: 1.2, padding: "0 8px", marginBottom: 6 }}>Navigasjon</div>
+            <div style={{ borderTop: `1px solid ${sidebarBorder}`, margin: "12px 4px 10px" }} />
+            <div style={{ fontSize: 10, fontWeight: 700, color: subtleText, textTransform: "uppercase", letterSpacing: 1.2, padding: "0 10px 6px", whiteSpace: "nowrap" }}>Mer</div>
             {[
               { icon: "dollar", label: "Priser & Planer", action: () => setView("pricing") },
               { icon: "home",   label: "Landingsside",    action: () => setView("landing") },
             ].map((item) => (
               <div key={item.label} onClick={item.action}
-                style={{ display: "flex", alignItems: "center", gap: 10, padding: "9px 10px", cursor: "pointer", borderRadius: 10, marginBottom: 2, transition: "background .15s" }}
-                onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,.07)"}
+                style={{ display: "flex", alignItems: "center", gap: 10, padding: "8px 10px", cursor: "pointer", borderRadius: 9, marginBottom: 1, transition: "background .15s", whiteSpace: "nowrap" }}
+                onMouseEnter={e => e.currentTarget.style.background = darkMode ? "rgba(255,255,255,.05)" : "#F4F4F8"}
                 onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
-                <div style={{ width: 32, height: 32, borderRadius: 8, background: "rgba(255,255,255,.10)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                  <Ic id={item.icon} size={16} color="rgba(255,255,255,.70)" />
+                <div style={{ width: 30, height: 30, borderRadius: 8, background: darkMode ? "rgba(255,255,255,.07)" : "#F1F1F5", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                  <Ic id={item.icon} size={15} color={subtleText} />
                 </div>
-                <span style={{ fontSize: 13, color: "rgba(255,255,255,.65)" }}>{item.label}</span>
+                <span style={{ fontSize: 13, color: subtleText }}>{item.label}</span>
               </div>
             ))}
           </>
         )}
       </div>
-
-      {/* Bottom version tag */}
-      <div style={{ padding: "12px 20px", borderTop: "1px solid rgba(255,255,255,.06)", fontSize: 11, color: "rgba(255,255,255,.25)", fontWeight: 500 }}>GuideHub365 · Mars 2026</div>
+      <div style={{ padding: "10px 20px", borderTop: `1px solid ${sidebarBorder}`, fontSize: 11, color: subtleText, fontWeight: 500, whiteSpace: "nowrap" }}>v1.0 · Mars 2026</div>
     </div>
   );
 
@@ -1354,63 +1356,62 @@ export default function GuideHub365() {
       <TopBar />
       <div style={{ display: "flex" }}>
         <Sidebar />
-        <div style={{ flex: 1, padding: "28px 36px", maxWidth: 1100, minWidth: 0 }}>
+        <div style={{ flex: 1, padding: "32px 36px", minWidth: 0 }}>
 
-          {/* Welcome banner */}
-          <div style={{ background: `linear-gradient(130deg, ${primary} 0%, #9333EA 60%, #EC4899 100%)`, borderRadius: 18, padding: "28px 36px", color: "#fff", marginBottom: 32, display: "flex", alignItems: "center", justifyContent: "space-between", overflow: "hidden", position: "relative" }}>
-            <div style={{ position: "absolute", top: -40, right: -40, width: 180, height: 180, borderRadius: "50%", background: "rgba(255,255,255,.07)" }} />
-            <div style={{ position: "absolute", bottom: -60, right: 120, width: 240, height: 240, borderRadius: "50%", background: "rgba(255,255,255,.05)" }} />
-            <div style={{ position: "relative" }}>
-              <div style={{ fontSize: 12, fontWeight: 600, letterSpacing: 1.2, textTransform: "uppercase", opacity: 0.75, marginBottom: 8 }}>Microsoft 365 brukerhjelp</div>
-              <h2 style={{ fontSize: 22, fontWeight: 700, margin: "0 0 8px", letterSpacing: -0.3 }}>
-                {userMode ? "Hei! Her finner du hjelp til Microsoft 365" : `Velkommen til ${companyName} sin brukerhjelp`}
-              </h2>
-              <p style={{ fontSize: 14, opacity: 0.85, margin: 0, maxWidth: 480, lineHeight: 1.6 }}>
-                {userMode
-                  ? "Velg en guide nedenfor, eller bruk søket øverst. Alt er forklart steg for steg."
-                  : "Finn enkle steg-for-steg guider for alt du trenger hjelp med i Microsoft 365."}
-              </p>
-            </div>
-            <div style={{ position: "relative", display: "flex", gap: 10, flexShrink: 0 }}>
-              {[
-                { val: "78+", lbl: "Guider" },
-                { val: "24t", lbl: "Oppdateringstid" },
-                { val: "10×", lbl: "Enklere" },
-              ].map((s, i) => (
-                <div key={i} style={{ background: "rgba(255,255,255,.15)", borderRadius: 12, padding: "14px 20px", textAlign: "center", backdropFilter: "blur(4px)", border: "1px solid rgba(255,255,255,.2)" }}>
-                  <div style={{ fontSize: 22, fontWeight: 700 }}>{s.val}</div>
-                  <div style={{ fontSize: 11, opacity: 0.8, marginTop: 2 }}>{s.lbl}</div>
+          {/* Page header — clean, no gradient */}
+          <div style={{ marginBottom: 28 }}>
+            <div style={{ fontSize: 11, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.2, color: subtleText, marginBottom: 6 }}>Microsoft 365 brukerhjelp</div>
+            <h1 style={{ fontSize: 26, fontWeight: 800, margin: "0 0 6px", letterSpacing: -0.6, color: textColor }}>
+              {userMode ? "Hei! Her finner du hjelp til M365" : `${companyName}`}
+            </h1>
+            <p style={{ fontSize: 14, color: subtleText, margin: 0, lineHeight: 1.6 }}>
+              Steg-for-steg guider for alle i bedriften. Alltid oppdatert.
+            </p>
+          </div>
+
+          {/* Stats strip */}
+          <div style={{ display: "flex", gap: 12, marginBottom: 32 }}>
+            {[
+              { val: "78+",  lbl: "Tilgjengelige guider", icon: "file",     color: "#6366F1", bg: "#EEF2FF" },
+              { val: "24t",  lbl: "Maks oppdateringstid", icon: "refresh",  color: "#10B981", bg: "#ECFDF5" },
+              { val: "100%", lbl: "Tilpasset din bedrift", icon: "settings", color: "#F59E0B", bg: "#FFFBEB" },
+            ].map((s, i) => (
+              <div key={i} style={{ background: cardBg, border: `1px solid ${borderColor}`, borderRadius: 12, padding: "16px 20px", display: "flex", alignItems: "center", gap: 14, flex: 1, boxShadow: shadow }}>
+                <div style={{ width: 38, height: 38, borderRadius: 10, background: s.bg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                  <Ic id={s.icon} size={19} color={s.color} />
                 </div>
-              ))}
-            </div>
+                <div>
+                  <div style={{ fontSize: 22, fontWeight: 800, color: textColor, letterSpacing: -0.5 }}>{s.val}</div>
+                  <div style={{ fontSize: 11, color: subtleText, marginTop: 1 }}>{s.lbl}</div>
+                </div>
+              </div>
+            ))}
           </div>
 
           {/* Popular guides */}
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 16 }}>
-            <h3 style={{ fontSize: 16, fontWeight: 700, margin: 0, color: textColor }}>Mest brukte guider</h3>
-            <div style={{ display: "flex", alignItems: "center", gap: 4, fontSize: 13, color: primary, fontWeight: 600, cursor: "pointer" }}>
-              Se alle <Ic id="chevron" size={14} color={primary} />
-            </div>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
+            <h2 style={{ fontSize: 15, fontWeight: 700, margin: 0, color: textColor }}>Mest brukte guider</h2>
+            <span style={{ fontSize: 12, color: subtleText, cursor: "pointer", display: "flex", alignItems: "center", gap: 3 }}>Se alle <Ic id="chevron" size={13} color={subtleText} /></span>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: 14, marginBottom: 36 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))", gap: 12, marginBottom: 36 }}>
             {allGuides.filter((g) => g.popular).slice(0, 6).map((guide, i) => {
               const cat = CATEGORIES.find((c) => c.id === guide.category);
               return (
                 <div key={i} onClick={() => handleGuideClick(guide)}
-                  style={{ background: cardBg, borderRadius: 14, border: `1px solid ${borderColor}`, padding: "18px 20px", cursor: "pointer", boxShadow: shadow, transition: "transform .15s, box-shadow .15s" }}
-                  onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = shadowMd; }}
-                  onMouseLeave={e => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = shadow; }}>
-                  <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 12 }}>
-                    <div style={{ width: 34, height: 34, borderRadius: 9, background: cat?.bg, display: "flex", alignItems: "center", justifyContent: "center" }}>
-                      <Ic id={cat?.icon} size={17} color={cat?.color} />
+                  style={{ background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, padding: "16px 18px", cursor: "pointer", boxShadow: shadow, transition: "box-shadow .15s, transform .15s" }}
+                  onMouseEnter={e => { e.currentTarget.style.boxShadow = shadowMd; e.currentTarget.style.transform = "translateY(-1px)"; }}
+                  onMouseLeave={e => { e.currentTarget.style.boxShadow = shadow; e.currentTarget.style.transform = "none"; }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 9, marginBottom: 10 }}>
+                    <div style={{ width: 30, height: 30, borderRadius: 8, background: cat?.bg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                      <Ic id={cat?.icon} size={15} color={cat?.color} />
                     </div>
-                    <span style={{ fontSize: 11, fontWeight: 600, color: cat?.color, background: cat?.bg, padding: "2px 8px", borderRadius: 20 }}>{cat?.label}</span>
+                    <span style={{ fontSize: 11, fontWeight: 600, color: subtleText }}>{cat?.label}</span>
+                    {guide.popular && <span style={{ marginLeft: "auto", fontSize: 11, color: accent, fontWeight: 700 }}>★</span>}
                   </div>
-                  <div style={{ fontWeight: 600, fontSize: 14, marginBottom: 12, lineHeight: 1.4, color: textColor }}>{guide.title}</div>
-                  <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
-                    <span style={{ fontSize: 11, padding: "3px 9px", background: "#D1FAE5", color: "#065F46", borderRadius: 20, fontWeight: 600 }}>{guide.difficulty}</span>
-                    <span style={{ fontSize: 11, padding: "3px 9px", background: darkMode ? "rgba(255,255,255,.07)" : "#F3F4F6", color: subtleText, borderRadius: 20 }}>⏱ {guide.time}</span>
-                    {guide.popular && <span style={{ fontSize: 11, padding: "3px 9px", background: darkMode ? "rgba(124,58,237,.2)" : "#EDE9FE", color: primary, borderRadius: 20, fontWeight: 600, marginLeft: "auto" }}>★ Populær</span>}
+                  <div style={{ fontWeight: 600, fontSize: 13, marginBottom: 10, lineHeight: 1.45, color: textColor }}>{guide.title}</div>
+                  <div style={{ display: "flex", gap: 6 }}>
+                    <span style={{ fontSize: 11, padding: "2px 8px", background: "#ECFDF5", color: "#059669", borderRadius: 20, fontWeight: 600 }}>{guide.difficulty}</span>
+                    <span style={{ fontSize: 11, padding: "2px 8px", background: darkMode ? "rgba(255,255,255,.07)" : "#F4F5F8", color: subtleText, borderRadius: 20 }}>{guide.time}</span>
                   </div>
                 </div>
               );
@@ -1418,22 +1419,18 @@ export default function GuideHub365() {
           </div>
 
           {/* Categories */}
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 16 }}>
-            <h3 style={{ fontSize: 16, fontWeight: 700, margin: 0, color: textColor }}>Alle kategorier</h3>
-          </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(190px, 1fr))", gap: 14 }}>
+          <h2 style={{ fontSize: 15, fontWeight: 700, margin: "0 0 14px", color: textColor }}>Alle kategorier</h2>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(180px, 1fr))", gap: 12 }}>
             {CATEGORIES.map((cat) => (
               <div key={cat.id} onClick={() => handleCategoryClick(cat.id)}
-                style={{ background: cardBg, borderRadius: 14, border: `1px solid ${borderColor}`, padding: "22px 20px", cursor: "pointer", boxShadow: shadow, transition: "transform .15s, box-shadow .15s" }}
-                onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = shadowMd; }}
-                onMouseLeave={e => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = shadow; }}>
-                <div style={{ width: 46, height: 46, borderRadius: 13, background: cat.bg, display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 14 }}>
-                  <Ic id={cat.icon} size={22} color={cat.color} />
+                style={{ background: cardBg, borderRadius: 12, border: `1px solid ${borderColor}`, padding: "20px 18px", cursor: "pointer", boxShadow: shadow, transition: "box-shadow .15s, transform .15s" }}
+                onMouseEnter={e => { e.currentTarget.style.boxShadow = shadowMd; e.currentTarget.style.transform = "translateY(-1px)"; }}
+                onMouseLeave={e => { e.currentTarget.style.boxShadow = shadow; e.currentTarget.style.transform = "none"; }}>
+                <div style={{ width: 42, height: 42, borderRadius: 11, background: cat.bg, display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 12 }}>
+                  <Ic id={cat.icon} size={20} color={cat.color} />
                 </div>
-                <div style={{ fontWeight: 700, fontSize: 14, marginBottom: 4, color: textColor }}>{cat.label}</div>
-                <div style={{ fontSize: 12, color: subtleText, display: "flex", alignItems: "center", gap: 4 }}>
-                  <span style={{ fontWeight: 700, color: cat.color }}>{cat.count}</span> guider
-                </div>
+                <div style={{ fontWeight: 700, fontSize: 13, marginBottom: 3, color: textColor }}>{cat.label}</div>
+                <div style={{ fontSize: 12, color: subtleText }}><span style={{ fontWeight: 700, color: cat.color }}>{cat.count}</span> guider</div>
               </div>
             ))}
           </div>
