@@ -473,9 +473,15 @@ async function login(page) {
 /**
  * Capture a screenshot step
  */
-async function captureStep(page, guide, step, outputDir) {
+async function captureStep(page, guide, step, screenshotsRoot) {
   try {
     console.log(`  Capturing: ${guide.id} / ${step.name}`);
+
+    // Create per-guide subfolder: public/screenshots/<guide-id>/
+    const guideDir = path.join(screenshotsRoot, guide.id);
+    if (!fs.existsSync(guideDir)) {
+      fs.mkdirSync(guideDir, { recursive: true });
+    }
 
     // Navigate to step URL
     await page.goto(step.url, { waitUntil: 'networkidle' });
@@ -497,10 +503,8 @@ async function captureStep(page, guide, step, outputDir) {
       await page.waitForSelector(step.clickSelector, { state: 'visible', timeout: 5000 });
     }
 
-    // Take screenshot
-    const filename = `${guide.id}-${step.name}.png`;
-    const filepath = path.join(outputDir, filename);
-
+    // Take screenshot — saved as public/screenshots/<guide-id>/<step-name>.png
+    const filepath = path.join(guideDir, `${step.name}.png`);
     await page.screenshot({ path: filepath, fullPage: false });
     console.log(`    → Saved: ${filepath}`);
 
@@ -508,7 +512,7 @@ async function captureStep(page, guide, step, outputDir) {
     if (step.clickSelector) {
       const bbox = await page.locator(step.clickSelector).boundingBox();
       if (bbox) {
-        const coordsFile = filepath.replace('.png', '.coords.json');
+        const coordsFile = path.join(guideDir, `${step.name}.coords.json`);
         fs.writeFileSync(coordsFile, JSON.stringify({
           x: Math.round(bbox.x + bbox.width / 2),
           y: Math.round(bbox.y + bbox.height / 2),
@@ -527,7 +531,7 @@ async function captureStep(page, guide, step, outputDir) {
  * Main function
  */
 async function main() {
-  const browser = await chromium.launch({ headless: false });
+  const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
     viewport: VIEWPORT
   });
@@ -544,8 +548,21 @@ async function main() {
     // Login once
     await login(page);
 
+    // Filter guides by GUIDE_ID env var (set from workflow_dispatch input)
+    const guideIdFilter = process.env.GUIDE_ID || '';
+    const guidesToProcess = guideIdFilter
+      ? GUIDES.filter(g => g.id === guideIdFilter)
+      : GUIDES;
+
+    if (guideIdFilter && guidesToProcess.length === 0) {
+      console.error(`Error: No guide found with id "${guideIdFilter}"`);
+      process.exit(1);
+    }
+
+    console.log(`Processing ${guidesToProcess.length} guide(s)...`);
+
     // Capture all steps for all guides
-    for (const guide of GUIDES) {
+    for (const guide of guidesToProcess) {
       console.log(`\nProcessing guide: ${guide.name}`);
       for (const step of guide.steps) {
         await captureStep(page, guide, step, outputDir);

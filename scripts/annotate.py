@@ -128,11 +128,12 @@ def main():
         print(f"Error: Screenshots directory not found: {screenshots_dir}")
         sys.exit(1)
 
-    # Find all .coords.json files
+    # Find all .coords.json files in per-guide subfolders
+    # Structure: public/screenshots/<guide-id>/<step-name>.coords.json
     if args.guide:
-        pattern = f"{args.guide}-*.coords.json"
+        pattern = f"{args.guide}/*.coords.json"
     else:
-        pattern = "*.coords.json"
+        pattern = "*/*.coords.json"
 
     coords_files = sorted(screenshots_dir.glob(pattern))
 
