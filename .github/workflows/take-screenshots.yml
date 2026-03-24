@@ -62,4 +62,5 @@ jobs:
           git config user.name "GuideHub365 Bot"
           git config user.email "bot@guidehub365.com"
           git commit -m "Auto-update screenshots $(date +'%Y-%m-%d')"
-          git push
+          git pull --rebase origin main
+          git push origin main
