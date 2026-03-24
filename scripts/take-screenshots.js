@@ -438,36 +438,60 @@ function saveSession(data) {
 
 /**
  * Login to Microsoft 365
+ * Uses outlook.office.com which reliably redirects to the Microsoft login page
  */
 async function login(page) {
-  console.log('Navigating to login page...');
-  await page.goto('https://www.microsoft365.com/', { waitUntil: 'networkidle' });
+  console.log('Navigating to Microsoft login...');
 
-  // Wait for and fill email
-  console.log('Entering email...');
-  await page.waitForSelector('input[type="email"]', { timeout: 10000 });
+  // Go to Outlook — always redirects to login.microsoftonline.com when not authenticated
+  await page.goto('https://outlook.office.com/mail/', {
+    waitUntil: 'domcontentloaded',
+    timeout: 30000
+  });
+  console.log('URL after goto:', page.url());
+
+  // Wait for email field on login.microsoftonline.com
+  console.log('Waiting for email field...');
+  await page.waitForSelector('input[type="email"]', { timeout: 20000 });
   await page.fill('input[type="email"]', EMAIL);
+  console.log('Email entered');
 
-  // Click next
-  await page.click('button[type="submit"]');
+  // Click Next
+  await page.click('input[type="submit"], button[type="submit"]');
 
   // Wait for password field
-  console.log('Entering password...');
-  await page.waitForSelector('input[type="password"]', { timeout: 10000 });
+  console.log('Waiting for password field...');
+  await page.waitForSelector('input[type="password"]', { timeout: 15000 });
   await page.fill('input[type="password"]', PASSWORD);
+  console.log('Password entered');
 
-  // Click sign in
-  await page.click('button[type="submit"]');
+  // Click Sign in
+  await page.click('input[type="submit"], button[type="submit"]');
 
-  // Wait for MFA or main portal (up to 45 seconds)
-  console.log('Waiting for authentication...');
+  // Handle "Stay signed in?" prompt (idBtn_Back = "No" button)
   try {
-    await page.waitForNavigation({ timeout: 45000, waitUntil: 'networkidle' });
-  } catch (err) {
-    console.log('Navigation timeout (MFA may be required)');
+    await page.waitForSelector('#idBtn_Back', { timeout: 8000 });
+    await page.click('#idBtn_Back');
+    console.log('Dismissed "Stay signed in?" prompt');
+  } catch {
+    // No prompt — fine
   }
 
-  console.log('Login completed');
+  // Wait for Outlook inbox to load (confirms login succeeded)
+  console.log('Waiting for inbox to confirm login...');
+  try {
+    await page.waitForSelector('[aria-label="Mail"], .ms-List, [data-app-section]', {
+      timeout: 30000
+    });
+    console.log('Login confirmed — inbox loaded');
+  } catch {
+    console.log('Warning: Could not confirm inbox load. URL:', page.url());
+  }
+
+  // Save session cookies
+  const cookies = await page.context().cookies();
+  saveSession({ cookies });
+  console.log(`Session saved (${cookies.length} cookies)`);
 }
 
 /**
@@ -484,7 +508,7 @@ async function captureStep(page, guide, step, screenshotsRoot) {
     }
 
     // Navigate to step URL
-    await page.goto(step.url, { waitUntil: 'networkidle' });
+    await page.goto(step.url, { waitUntil: 'domcontentloaded', timeout: 30000 });
 
     // Wait for element
     if (step.waitFor) {
@@ -577,6 +601,8 @@ async function main() {
 }
 
 main().catch(err => {
-  console.error('Fatal error:', err);
+  console.error('=== FATAL ERROR ===');
+  console.error('Message:', err.message);
+  console.error('Stack:', err.stack);
   process.exit(1);
 });
