@@ -46,13 +46,15 @@ jobs:
           GUIDE_ID: ${{ github.event.inputs.guide_id }}
         run: node scripts/take-screenshots.js
 
-      - name: Upload debug screenshot
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-login-screenshot
-          path: public/screenshots/_debug-*.png
-          if-no-files-found: ignore
+      - name: Commit debug screenshots on failure
+        if: failure()
+        run: |
+          git config user.name "GuideHub365 Bot"
+          git config user.email "bot@guidehub365.com"
+          git add -f public/screenshots/_debug-*.png 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Debug: login screenshots $(date +'%Y-%m-%d %H:%M')"
+          git pull --rebase origin main
+          git push origin main || true
 
       - name: Check for new screenshots
         id: diff
