@@ -4,7 +4,8 @@ gen-mockups.py — GuideHub365 annotated mock screenshot generator
 ================================================================
 Generates 1280×800 PNG screenshots for every guide step with:
   - Realistic M365-style UI backgrounds (Outlook / Teams / OneDrive / Portal / Windows)
-  - Prominent click annotations: red circle + arrow + Norwegian instruction label
+  - A clean red arrow pointing directly at the click target — NO text overlay.
+    The guide step description in App.jsx explains what to do; the arrow just shows WHERE.
 
 Screenshot names and guide IDs MUST match exactly what App.jsx references
 in each guide's steps array (screenshot: "name", guideId: "guide-id").
@@ -19,9 +20,9 @@ Output: public/screenshots/<guide-id>/<step-name>.png
 Step definition format:
     (step_name, step_label, ui_type, click_x, click_y, click_label)
 
-    ui_type: "outlook" | "teams" | "onedrive" | "portal" | "windows"
-    click_x/y: pixel coords in 1280×800 where user should click
-    click_label: short Norwegian instruction text shown in callout bubble
+    ui_type:     "outlook" | "teams" | "onedrive" | "portal" | "windows"
+    click_x/y:   pixel coords in 1280×800 where the arrow tip should point
+    click_label: unused (kept for documentation only — arrow has no text)
 
 HOW TO ADD NEW SCREENSHOTS:
   1. Add steps to GUIDE_STEPS below (guide_id must match App.jsx guideId)
@@ -382,54 +383,62 @@ def _draw_step_label(draw, text):
 
 # ─── Click annotation ────────────────────────────────────────────────────────────
 
-def draw_click_annotation(draw, cx, cy, label):
-    cx = max(30, min(W-30, cx))
-    cy = max(30, min(H-80, cy))
+def draw_click_annotation(draw, cx, cy, label=None):
+    """
+    Draw a clean arrow pointing directly at the click target.
+    No text — the guide step instructions explain what to do.
+    Arrow tail starts ~130px away at a diagonal, arrowhead sits on the target.
+    A subtle highlight ring marks the exact click point.
+    """
+    cx = max(20, min(W - 20, cx))
+    cy = max(20, min(H - 60, cy))
 
-    # Outer glow
-    for r, col in [(42, (254,202,202)),(28, (252,165,165))]:
-        draw.ellipse([cx-r,cy-r,cx+r,cy+r], fill=col)
+    ARROW_COLOR  = (220, 38, 38)    # red
+    ARROW_W      = 5                # line thickness
+    HEAD_LEN     = 22               # arrowhead arm length
+    HEAD_ANGLE   = 0.42             # arrowhead spread (radians)
+    TAIL_DIST    = 130              # how far the tail is from tip
+    RING_R       = 14               # highlight ring radius
 
-    # Red circle + crosshair
-    r=18
-    draw.ellipse([cx-r,cy-r,cx+r,cy+r], fill=C["click_red"])
-    draw.rectangle([cx-12,cy-2,cx+12,cy+2], fill=(255,255,255))
-    draw.rectangle([cx-2,cy-12,cx+2,cy+12], fill=(255,255,255))
-    draw.ellipse([cx-r,cy-r,cx+r,cy+r], outline=(255,255,255), width=2)
+    # Choose tail direction: prefer upper-right, but avoid edges
+    margin = 80
+    if cx + TAIL_DIST < W - margin:
+        tail_dx, tail_dy = 1, -1   # upper-right
+    else:
+        tail_dx, tail_dy = -1, -1  # upper-left
 
-    # Bubble size
-    bw = max(260, len(label)*9+40)
-    bh = 46
-    margin = 18
-    bx = cx+52; by = cy-60
-    if bx+bw > W-margin: bx = cx-bw-52
-    if by < margin+topbar_or_zero(): by = cy+32
-    if bx < margin: bx = margin
-    by = max(margin, min(H-80-bh, by))
+    # Normalize tail direction
+    mag = math.sqrt(tail_dx**2 + tail_dy**2)
+    tail_dx /= mag; tail_dy /= mag
 
-    # Arrow line
-    tip_x, tip_y = cx, cy-r-2
-    ax = bx + (bw//4 if bx > cx else bw*3//4)
-    ay = by+bh
-    draw.line([(ax,ay),(tip_x,tip_y)], fill=C["arrow_red"], width=3)
-    angle = math.atan2(tip_y-ay, tip_x-ax)
-    for a in [angle+0.45, angle-0.45]:
-        draw.line([(tip_x,tip_y),(int(tip_x-13*math.cos(a)),int(tip_y-13*math.sin(a)))],
-                  fill=C["arrow_red"], width=3)
+    tx = int(cx + tail_dx * TAIL_DIST)
+    ty = int(cy + tail_dy * TAIL_DIST)
+    # Clamp tail inside image
+    tx = max(margin // 2, min(W - margin // 2, tx))
+    ty = max(margin // 2, min(H - 60, ty))
 
-    # Shadow + bubble
-    draw.rounded_rectangle([bx+3,by+3,bx+bw+3,by+bh+3], radius=8, fill=(180,180,200))
-    draw.rounded_rectangle([bx,by,bx+bw,by+bh], radius=8, fill=(255,255,255), outline=C["click_red"], width=2)
+    # Subtle glow ring at click point
+    for r, alpha in [(RING_R + 10, (255, 180, 180)), (RING_R + 4, (255, 130, 130))]:
+        draw.ellipse([cx - r, cy - r, cx + r, cy + r], fill=alpha)
 
-    font = load_font(14, bold=True)
-    tw = text_w(draw, label, font)
-    while tw > bw-28 and len(label) > 8:
-        label = label[:-2]+"…"; tw = text_w(draw, label, font)
-    draw.text((bx+(bw-tw)//2, by+(bh-18)//2), label, fill=C["click_red"], font=font)
+    # Filled red dot at tip
+    dot_r = 8
+    draw.ellipse([cx - dot_r, cy - dot_r, cx + dot_r, cy + dot_r],
+                 fill=ARROW_COLOR, outline=(255, 255, 255), width=2)
 
+    # Arrow shaft (tip → tail direction, stop just at the dot edge)
+    angle = math.atan2(ty - cy, tx - cx)
+    shaft_start_x = int(cx + dot_r * math.cos(angle))
+    shaft_start_y = int(cy + dot_r * math.sin(angle))
+    draw.line([(shaft_start_x, shaft_start_y), (tx, ty)],
+              fill=ARROW_COLOR, width=ARROW_W)
 
-def topbar_or_zero():
-    return 52  # approximate topbar height — keeps bubbles below it
+    # Arrowhead (V-shape at tail end, pointing back toward tip)
+    back_angle = math.atan2(cy - ty, cx - tx)   # direction: tail → tip
+    for side in [HEAD_ANGLE, -HEAD_ANGLE]:
+        hx = int(tx + HEAD_LEN * math.cos(back_angle + side))
+        hy = int(ty + HEAD_LEN * math.sin(back_angle + side))
+        draw.line([(tx, ty), (hx, hy)], fill=ARROW_COLOR, width=ARROW_W)
 
 
 # ─── Main ────────────────────────────────────────────────────────────────────────
