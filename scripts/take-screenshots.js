@@ -441,27 +441,49 @@ function saveSession(data) {
  * Uses outlook.office.com which reliably redirects to the Microsoft login page
  */
 async function login(page) {
-  console.log('Navigating to Microsoft login...');
-
-  // Navigate to tenant-specific login page
-  await page.goto('https://login.microsoftonline.com/zfjyk.onmicrosoft.com/', {
-    waitUntil: 'domcontentloaded',
-    timeout: 30000
-  });
-  console.log('URL after goto:', page.url());
-
-  // Wait for email field (up to 25s) — Microsoft pages use heavy JS rendering
   const debugDir = path.join(__dirname, '../public/screenshots');
   if (!fs.existsSync(debugDir)) fs.mkdirSync(debugDir, { recursive: true });
 
-  // Take screenshot at 2s intervals so we can see what's loading
-  await page.waitForTimeout(2000);
-  await page.screenshot({ path: path.join(debugDir, '_debug-2s.png'), fullPage: false });
-  console.log('Debug screenshot at 2s. URL:', page.url());
+  // Log all browser console messages and page errors
+  page.on('console', msg => console.log(`[BROWSER ${msg.type()}] ${msg.text()}`));
+  page.on('pageerror', err => console.error('[PAGE ERROR]', err.message));
 
-  await page.waitForTimeout(3000);
+  // Log HTTP responses (status + URL) to spot blocks/redirects
+  page.on('response', resp => {
+    const url = resp.url();
+    if (url.includes('microsoftonline') || url.includes('microsoft.com') || url.includes('office.com')) {
+      console.log(`[HTTP ${resp.status()}] ${url.substring(0, 120)}`);
+    }
+  });
+
+  console.log('Navigating to Microsoft login...');
+
+  // Navigate to tenant-specific login page
+  const resp = await page.goto('https://login.microsoftonline.com/zfjyk.onmicrosoft.com/', {
+    waitUntil: 'load',
+    timeout: 45000
+  });
+  console.log('Navigation response status:', resp ? resp.status() : 'no response');
+  console.log('URL after goto:', page.url());
+
+  // Dump the actual HTML to see what Microsoft returned
+  const html = await page.evaluate(() => document.documentElement.outerHTML);
+  console.log('[HTML LENGTH]', html.length, 'chars');
+  console.log('[HTML PREVIEW]', html.substring(0, 500));
+
+  // Take screenshot immediately after load
+  await page.screenshot({ path: path.join(debugDir, '_debug-2s.png'), fullPage: false });
+  console.log('Debug screenshot at 0s. URL:', page.url());
+
+  // Wait 5s for JS to fully render
+  await page.waitForTimeout(5000);
   await page.screenshot({ path: path.join(debugDir, '_debug-5s.png'), fullPage: false });
   console.log('Debug screenshot at 5s. URL:', page.url());
+
+  // Log HTML again after JS rendering
+  const html2 = await page.evaluate(() => document.documentElement.outerHTML);
+  console.log('[HTML AFTER 5s LENGTH]', html2.length, 'chars');
+  console.log('[HTML AFTER 5s PREVIEW]', html2.substring(0, 500));
 
   // Wait for email field
   console.log('Waiting for email field...');
@@ -581,9 +603,30 @@ async function captureStep(page, guide, step, screenshotsRoot) {
  * Main function
  */
 async function main() {
-  const browser = await chromium.launch({ headless: true });
+  // CI-friendly Chromium flags — critical for GitHub Actions / Docker environments
+  const browser = await chromium.launch({
+    headless: true,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',       // Prevents crashes in low-memory CI environments
+      '--disable-gpu',
+      '--disable-accelerated-2d-canvas',
+      '--no-first-run',
+      '--no-zygote',
+      '--disable-blink-features=AutomationControlled',  // Hide automation
+    ]
+  });
+
   const context = await browser.newContext({
-    viewport: VIEWPORT
+    viewport: VIEWPORT,
+    // Realistic Windows Chrome user agent
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  });
+
+  // Remove webdriver fingerprint
+  await context.addInitScript(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
   });
 
   const page = await context.newPage();
