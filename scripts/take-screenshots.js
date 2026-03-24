@@ -1,658 +1,222 @@
-/**
- * take-screenshots.js — GuideHub365 Real M365 Screenshot Automation
- * =================================================================
- * Captures real Microsoft 365 screenshots for every guide step.
- *
- * For each step:
- *   1. Navigates to the correct M365 URL
- *   2. Waits for the page and target element to load
- *   3. Takes a 1280×800 screenshot
- *   4. Captures the bounding box of the click-target element
- *   5. Saves screenshot to public/screenshots/<guideId>/<name>.png
- *   6. Saves coordinates to public/screenshots/<guideId>/<name>.coords.json
- *
- * The .coords.json files are then used by annotate.py to draw arrows
- * at verified, real coordinates — no guessing.
- *
- * Usage:
- *   npm install playwright
- *   npx playwright install chromium
- *
- *   # Set credentials (locally via .env, in CI via GitHub Actions secrets)
- *   export M365_EMAIL="user@domain.com"
- *   export M365_PASSWORD="password"
- *
- *   node scripts/take-screenshots.js              # all guides
- *   GUIDE_ID=out-of-office node scripts/take-screenshots.js  # one guide
- *
- * File naming: must match exactly what App.jsx references
- *   (screenshot: "steg-1-innstillinger", guideId: "out-of-office")
- *   → public/screenshots/out-of-office/steg-1-innstillinger.png
- *
- * HOW TO ADD A NEW GUIDE:
- *   1. Add a block to GUIDES below with id, steps array
- *   2. Each step needs: name, url, waitFor, clickSelector
- *   3. Run: GUIDE_ID=<id> node scripts/take-screenshots.js
- *   4. Check screenshots, then run: python scripts/annotate.py --guide <id>
- *   5. Commit: git add public/screenshots && git commit -m "Add screenshots for <guide>"
- */
-
 import { chromium } from 'playwright';
-import fs   from 'fs';
+import fs from 'fs';
 import path from 'path';
+import https from 'https';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT       = path.join(__dirname, '..');
-const SCREENSHOT_BASE = path.join(REPO_ROOT, 'public', 'screenshots');
-const SESSION_FILE    = path.join(REPO_ROOT, 'data', 'session.json');
 
-const EMAIL    = process.env.M365_EMAIL;
-const PASSWORD = process.env.M365_PASSWORD;
-const VIEWPORT = { width: 1280, height: 800 };
+const M365_EMAIL = process.env.M365_EMAIL;
+const M365_PASSWORD = process.env.M365_PASSWORD;
+const M365_CLIENT_ID = process.env.M365_CLIENT_ID;
+const M365_TENANT_ID = process.env.M365_TENANT_ID;
+const M365_CLIENT_SECRET = process.env.M365_CLIENT_SECRET;
 
-if (!EMAIL || !PASSWORD) {
-  console.error('ERROR: Set M365_EMAIL and M365_PASSWORD environment variables.');
-  process.exit(1);
-}
+const SESSION_FILE = path.join(__dirname, '..', 'data', 'session-state.json');
+const SCREENSHOT_BASE = path.join(__dirname, '..', 'public', 'screenshots');
+const REGISTRY_FILE = path.join(__dirname, '..', 'data', 'screenshot-registry.json');
 
-// ─── Guide definitions ───────────────────────────────────────────────────────
-// name:          matches App.jsx step screenshot field exactly
-// url:           M365 URL to navigate to for this step
-// waitFor:       CSS selector to wait for before screenshotting (confirms page loaded)
-// clickSelector: element the user clicks in this step — we capture its bounding box
-// preAction:     optional async fn(page) to run before screenshot (open menus etc.)
-// ─────────────────────────────────────────────────────────────────────────────
-const GUIDES = [
-
-  {
-    id: 'out-of-office',
-    steps: [
-      {
-        name:          'steg-1-innstillinger',
-        url:           'https://outlook.office.com/mail/inbox',
-        waitFor:       '[aria-label="Settings"]',
-        clickSelector: '[aria-label="Settings"]',
-      },
-      {
-        name:          'steg-2-automatiske-svar',
-        url:           'https://outlook.office.com/mail/options/mail/automaticReplies',
-        waitFor:       'h1',
-        clickSelector: 'h1',
-      },
-      {
-        name:          'steg-3-slaa-paa',
-        url:           'https://outlook.office.com/mail/options/mail/automaticReplies',
-        waitFor:       '[aria-label="Send automatic replies"]',
-        clickSelector: '[aria-label="Send automatic replies"]',
-      },
-      {
-        name:          'steg-4-skriv-melding',
-        url:           'https://outlook.office.com/mail/options/mail/automaticReplies',
-        waitFor:       '.ms-TextField-field',
-        clickSelector: '.ms-TextField-field',
-      },
-      {
-        name:          'steg-5-lagre',
-        url:           'https://outlook.office.com/mail/options/mail/automaticReplies',
-        waitFor:       '[aria-label="Save"]',
-        clickSelector: '[aria-label="Save"]',
-      },
-    ],
-  },
-
-  {
-    id: 'email-signature',
-    steps: [
-      {
-        name:          'steg-1-innstillinger',
-        url:           'https://outlook.office.com/mail/inbox',
-        waitFor:       '[aria-label="Settings"]',
-        clickSelector: '[aria-label="Settings"]',
-      },
-      {
-        name:          'steg-2-skriv-og-svar',
-        url:           'https://outlook.office.com/mail/options/mail/messageContent',
-        waitFor:       'h1',
-        clickSelector: 'h1',
-      },
-      {
-        name:          'steg-3-skriv-signatur',
-        url:           'https://outlook.office.com/mail/options/mail/messageContent',
-        waitFor:       '[aria-label="New signature"]',
-        clickSelector: '[aria-label="New signature"]',
-      },
-      {
-        name:          'steg-4-aktiver',
-        url:           'https://outlook.office.com/mail/options/mail/messageContent',
-        waitFor:       '[aria-label="For new messages"]',
-        clickSelector: '[aria-label="For new messages"]',
-      },
-      {
-        name:          'steg-5-lagre',
-        url:           'https://outlook.office.com/mail/options/mail/messageContent',
-        waitFor:       '[aria-label="Save"]',
-        clickSelector: '[aria-label="Save"]',
-      },
-    ],
-  },
-
-  {
-    id: 'shared-mailbox',
-    steps: [
-      {
-        name:          'steg-1-outlook-innboks',
-        url:           'https://outlook.office.com/mail/inbox',
-        waitFor:       '[aria-label="Mail"]',
-        clickSelector: '[aria-label="Mail"]',
-      },
-      {
-        name:          'steg-2-hoyreklikk',
-        url:           'https://outlook.office.com/mail/inbox',
-        waitFor:       '[aria-label="Folders"]',
-        clickSelector: '[aria-label="Folders"]',
-        preAction: async (page) => {
-          // Right-click on the folder pane to surface the "Add shared folder" option
-          const el = await page.$('[aria-label="Folders"]');
-          if (el) await el.click({ button: 'right' });
-          await page.waitForTimeout(800);
-        },
-      },
-      {
-        name:          'steg-3-legg-til',
-        url:           'https://outlook.office.com/mail/inbox',
-        waitFor:       '[aria-label="Folders"]',
-        clickSelector: 'button:has-text("Add shared folder")',
-        preAction: async (page) => {
-          const el = await page.$('[aria-label="Folders"]');
-          if (el) await el.click({ button: 'right' });
-          await page.waitForTimeout(800);
-        },
-      },
-      {
-        name:          'steg-4-sok-postkasse',
-        url:           'https://outlook.office.com/mail/inbox',
-        waitFor:       'input[placeholder*="Search"]',
-        clickSelector: 'input[placeholder*="Search"]',
-        preAction: async (page) => {
-          const el = await page.$('[aria-label="Folders"]');
-          if (el) await el.click({ button: 'right' });
-          await page.waitForTimeout(600);
-          const addBtn = await page.$('button:has-text("Add shared folder")');
-          if (addBtn) { await addBtn.click(); await page.waitForTimeout(800); }
-        },
-      },
-      {
-        name:          'steg-5-ferdig',
-        url:           'https://outlook.office.com/mail/inbox',
-        waitFor:       '[aria-label="Mail"]',
-        clickSelector: '[aria-label="Mail"]',
-      },
-    ],
-  },
-
-  {
-    id: 'install-office',
-    steps: [
-      {
-        name:          'steg-1-portal',
-        url:           'https://www.microsoft365.com/',
-        waitFor:       '[aria-label="Install apps"]',
-        clickSelector: '[aria-label="Install apps"]',
-      },
-      {
-        name:          'steg-2-installer-knapp',
-        url:           'https://www.microsoft365.com/',
-        waitFor:       '[aria-label="Install apps"]',
-        clickSelector: '[aria-label="Install apps"]',
-      },
-      {
-        name:          'steg-3-nedlasting',
-        url:           'https://portal.office.com/account/#installs',
-        waitFor:       'h1',
-        clickSelector: 'a:has-text("Install")',
-      },
-      {
-        name:          'steg-4-installer',
-        url:           'https://portal.office.com/account/#installs',
-        waitFor:       'h1',
-        clickSelector: 'h1',
-      },
-      {
-        name:          'steg-5-aktiver',
-        url:           'https://www.microsoft365.com/',
-        waitFor:       'main',
-        clickSelector: 'main',
-      },
-    ],
-  },
-
-  {
-    id: 'password-reset',
-    steps: [
-      {
-        name:          'steg-1-sspr',
-        url:           'https://passwordreset.microsoftonline.com/',
-        waitFor:       'input[type="email"]',
-        clickSelector: 'input[type="email"]',
-      },
-      {
-        name:          'steg-2-epost',
-        url:           'https://passwordreset.microsoftonline.com/',
-        waitFor:       'input[type="email"]',
-        clickSelector: 'input[type="submit"]',
-      },
-      {
-        name:          'steg-3-bekreft-metode',
-        url:           'https://passwordreset.microsoftonline.com/',
-        waitFor:       'input[type="email"]',
-        clickSelector: 'input[type="submit"]',
-        preAction: async (page) => {
-          await page.fill('input[type="email"]', EMAIL).catch(() => {});
-          await page.click('input[id="iCancel"]').catch(() => {});
-          await page.waitForTimeout(600);
-        },
-      },
-      {
-        name:          'steg-4-skriv-kode',
-        url:           'https://passwordreset.microsoftonline.com/',
-        waitFor:       'input[type="email"]',
-        clickSelector: 'input[type="email"]',
-      },
-      {
-        name:          'steg-5-nytt-passord',
-        url:           'https://passwordreset.microsoftonline.com/',
-        waitFor:       'input[type="email"]',
-        clickSelector: 'input[type="email"]',
-      },
-      {
-        name:          'steg-6-ferdig',
-        url:           'https://passwordreset.microsoftonline.com/',
-        waitFor:       'input[type="email"]',
-        clickSelector: 'input[type="submit"]',
-      },
-    ],
-  },
-
-  {
-    id: 'onedrive-sync',
-    steps: [
-      {
-        name:          'steg-1-aapne',
-        url:           'https://onedrive.live.com/',
-        waitFor:       'main',
-        clickSelector: '[aria-label="Files"]',
-      },
-      {
-        name:          'steg-2-logg-inn',
-        url:           'https://login.microsoftonline.com/',
-        waitFor:       'input[type="email"]',
-        clickSelector: 'input[type="submit"]',
-      },
-      {
-        name:          'steg-3-velg-mappe',
-        url:           'https://onedrive.live.com/',
-        waitFor:       'main',
-        clickSelector: 'main',
-      },
-      {
-        name:          'steg-4-synkroniserer',
-        url:           'https://onedrive.live.com/',
-        waitFor:       'main',
-        clickSelector: '[aria-label="Sync"]',
-      },
-      {
-        name:          'steg-5-utforsker',
-        url:           'https://onedrive.live.com/',
-        waitFor:       '[aria-label="Files"]',
-        clickSelector: '[aria-label="Files"]',
-      },
-    ],
-  },
-
-  {
-    id: 'teams-first-meeting',
-    steps: [
-      {
-        name:          'steg-1-aapne-teams',
-        url:           'https://teams.microsoft.com/_#/calendarv2',
-        waitFor:       '[data-tid="left-rail-calendar-tab"]',
-        clickSelector: '[data-tid="left-rail-calendar-tab"]',
-      },
-      {
-        name:          'steg-2-se-motedetaljer',
-        url:           'https://teams.microsoft.com/_#/calendarv2',
-        waitFor:       '[aria-label*="New meeting"]',
-        clickSelector: '[aria-label*="New meeting"]',
-      },
-      {
-        name:          'steg-3-delta-klikk',
-        url:           'https://teams.microsoft.com/_#/calendarv2',
-        waitFor:       'main',
-        clickSelector: '[aria-label*="New meeting"]',
-      },
-      {
-        name:          'steg-4-sjekk-lyd-video',
-        url:           'https://teams.microsoft.com/_#/calendarv2',
-        waitFor:       'main',
-        clickSelector: 'main',
-      },
-      {
-        name:          'steg-5-inne-i-motet',
-        url:           'https://teams.microsoft.com/_#/calendarv2',
-        waitFor:       'main',
-        clickSelector: 'main',
-      },
-    ],
-  },
-
-  {
-    id: 'onedrive-save',
-    steps: [
-      {
-        name:          'steg-1-systemtray',
-        url:           'https://onedrive.live.com/',
-        waitFor:       'main',
-        clickSelector: '[aria-label="Files"]',
-      },
-      {
-        name:          'steg-2-onedrive-mappe',
-        url:           'https://onedrive.live.com/',
-        waitFor:       '[aria-label="Files"]',
-        clickSelector: '[aria-label="Files"]',
-      },
-      {
-        name:          'steg-3-dra-fil',
-        url:           'https://onedrive.live.com/',
-        waitFor:       '[aria-label="Files"]',
-        clickSelector: '[aria-label="Upload"]',
-      },
-      {
-        name:          'steg-4-synkroniserer',
-        url:           'https://onedrive.live.com/',
-        waitFor:       'main',
-        clickSelector: 'main',
-      },
-      {
-        name:          'steg-5-ferdig-synkronisert',
-        url:           'https://onedrive.live.com/',
-        waitFor:       'main',
-        clickSelector: 'main',
-      },
-    ],
-  },
-
+const guides = [
   {
     id: 'outlook-setup-pc',
+    name: 'Sette opp Outlook paa PC',
     steps: [
-      {
-        name:          'steg-1-portal',
-        url:           'https://www.microsoft365.com/',
-        waitFor:       'main',
-        clickSelector: '[aria-label="Install apps"]',
-      },
-      {
-        name:          'steg-2-kjor-installasjon',
-        url:           'https://portal.office.com/account/#installs',
-        waitFor:       'h1',
-        clickSelector: 'h1',
-      },
-      {
-        name:          'steg-3-installerer',
-        url:           'https://portal.office.com/account/#installs',
-        waitFor:       'main',
-        clickSelector: 'main',
-      },
-      {
-        name:          'steg-4-legg-til-konto',
-        url:           'https://outlook.office.com/mail/inbox',
-        waitFor:       '[aria-label="Mail"]',
-        clickSelector: '[aria-label="Mail"]',
-      },
-      {
-        name:          'steg-5-logg-inn',
-        url:           'https://outlook.office.com/mail/inbox',
-        waitFor:       '[aria-label="Mail"]',
-        clickSelector: '[aria-label="Mail"]',
-      },
-      {
-        name:          'steg-6-ferdig-innboks',
-        url:           'https://outlook.office.com/mail/inbox',
-        waitFor:       '[aria-label="Mail"]',
-        clickSelector: '[aria-label="Mail"]',
-      },
-    ],
+      { title: 'Aapne Outlook', url: 'https://outlook.office.com/mail/', selector: '[aria-label="Mail"]', description: 'Gaa til Outlook paa nett' },
+      { title: 'Innboks', url: 'https://outlook.office.com/mail/inbox', selector: '.ms-FocusZone', description: 'Din innboks i Outlook' },
+      { title: 'Kalender', url: 'https://outlook.office.com/calendar/view/month', selector: '[aria-label="Calendar"]', description: 'Kalendervisning i Outlook' }
+    ]
   },
-
+  {
+    id: 'teams-first-meeting',
+    name: 'Delta i Teams-moete',
+    steps: [
+      { title: 'Aapne Teams', url: 'https://teams.microsoft.com/', selector: '[data-tid="app-bar"]', description: 'Microsoft Teams hjemskjerm' },
+      { title: 'Kalender og moeter', url: 'https://teams.microsoft.com/_#/calendarv2', selector: '[data-tid="left-rail-calendar-tab"]', description: 'Moetekalender i Teams' }
+    ]
+  },
+  {
+    id: 'onedrive-save',
+    name: 'Lagre filer i OneDrive',
+    steps: [
+      { title: 'Aapne OneDrive', url: 'https://onedrive.live.com/?authkey=&id=root', selector: '[aria-label="Files"]', description: 'OneDrive filvisning' }
+    ]
+  },
   {
     id: 'mfa-setup',
+    name: 'Sette opp MFA',
     steps: [
-      {
-        name:          'steg-1-epost',
-        url:           'https://mysignins.microsoft.com/security-info',
-        waitFor:       'h1',
-        clickSelector: 'h1',
-      },
-      {
-        name:          'steg-2-passord',
-        url:           'https://mysignins.microsoft.com/security-info',
-        waitFor:       'main',
-        clickSelector: 'main',
-      },
-      {
-        name:          'steg-3-sikre-konto',
-        url:           'https://mysignins.microsoft.com/security-info',
-        waitFor:       'h1',
-        clickSelector: 'h1',
-      },
-      {
-        name:          'steg-4-installer-authenticator',
-        url:           'https://mysignins.microsoft.com/security-info',
-        waitFor:       'main',
-        clickSelector: '[aria-label="Add sign-in method"]',
-      },
-      {
-        name:          'steg-5-qr-kode',
-        url:           'https://mysignins.microsoft.com/security-info',
-        waitFor:       'main',
-        clickSelector: 'main',
-      },
-      {
-        name:          'steg-6-godkjenn-varsel',
-        url:           'https://mysignins.microsoft.com/security-info',
-        waitFor:       'main',
-        clickSelector: 'main',
-      },
-      {
-        name:          'steg-7-fullfort',
-        url:           'https://mysignins.microsoft.com/security-info',
-        waitFor:       'h1',
-        clickSelector: 'h1',
-      },
-    ],
-  },
+      { title: 'Min konto', url: 'https://myaccount.microsoft.com/', selector: 'h1', description: 'Microsoft kontooversikt' },
+      { title: 'Sikkerhetsinformasjon', url: 'https://mysignins.microsoft.com/security-info', selector: 'h1', description: 'Min kontosikkerhet' }
+    ]
+  }
 ];
 
+async function getOAuthToken() {
+  if (!M365_CLIENT_ID || !M365_TENANT_ID || !M365_EMAIL || !M365_PASSWORD) {
+    console.log('Missing OAuth credentials');
+    return null;
+  }
+  console.log('Attempting ROPC OAuth...');
+  const params = new URLSearchParams({
+    grant_type: 'password',
+    client_id: M365_CLIENT_ID,
+    client_secret: M365_CLIENT_SECRET || '',
+    scope: 'openid offline_access https://graph.microsoft.com/User.Read',
+    username: M365_EMAIL,
+    password: M365_PASSWORD
+  });
+  return new Promise((resolve) => {
+    const postData = params.toString();
+    const options = {
+      hostname: 'login.microsoftonline.com',
+      path: "/" + M365_TENANT_ID + "/oauth2/v2.0/token",
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': Buffer.byteLength(postData) }
+    };
+    const req = https.request(options, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        try {
+          const json = JSON.parse(data);
+          if (json.access_token) { console.log('ROPC token acquired'); resolve(json); }
+          else { console.log('ROPC failed:', json.error_description || json.error); resolve(null); }
+        } catch (e) { resolve(null); }
+      });
+    });
+    req.on('error', () => resolve(null));
+    req.write(postData);
+    req.end();
+  });
+}
 
-// ─── Session helpers ─────────────────────────────────────────────────────────
-
-function loadSession() {
+function loadSessionState() {
   try {
-    if (!fs.existsSync(SESSION_FILE)) return null;
-    const s = JSON.parse(fs.readFileSync(SESSION_FILE, 'utf8'));
-    const ageH = (Date.now() - s.savedAt) / 3600000;
-    if (ageH < 20) { console.log('  Reusing saved session'); return s.cookies; }
-  } catch {}
+    if (fs.existsSync(SESSION_FILE)) {
+      const state = JSON.parse(fs.readFileSync(SESSION_FILE, 'utf8'));
+      const ageHours = (Date.now() - state.savedAt) / (1000 * 60 * 60);
+      if (ageHours < 20) { console.log("Loaded session state"); return state.cookies; }
+    }
+  } catch (e) {}
   return null;
 }
 
-function saveSession(cookies) {
-  fs.mkdirSync(path.dirname(SESSION_FILE), { recursive: true });
-  fs.writeFileSync(SESSION_FILE, JSON.stringify({ savedAt: Date.now(), cookies }, null, 2));
+function saveSessionState(cookies) {
+  try {
+    const dir = path.dirname(SESSION_FILE);
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(SESSION_FILE, JSON.stringify({ savedAt: Date.now(), cookies }, null, 2));
+    console.log('Session state saved');
+  } catch (e) {}
 }
 
-
-// ─── Login ───────────────────────────────────────────────────────────────────
-
-async function login(page) {
-  console.log('  Logging in to M365...');
-  await page.goto('https://login.microsoftonline.com/', { waitUntil: 'domcontentloaded' });
-
-  await page.fill('input[type="email"]', EMAIL);
-  await page.click('input[type="submit"]');
-  await page.waitForTimeout(1500);
-
-  await page.fill('input[type="password"]', PASSWORD);
+async function performWebLogin(page) {
+  console.log('Performing web login...');
+  await page.goto('https://login.microsoftonline.com/', { waitUntil: 'networkidle' });
+  await page.fill('input[type="email"]', M365_EMAIL);
   await page.click('input[type="submit"]');
   await page.waitForTimeout(2000);
-
-  // "Stay signed in?" prompt
-  const stayBtn = page.locator('#idSIButton9, input[value="Yes"]');
-  if (await stayBtn.count() > 0) {
-    await stayBtn.first().click();
-    await page.waitForTimeout(1500);
-  }
-
-  // Wait up to 45s for MFA if needed (Authenticator app approval)
-  console.log('  Waiting for MFA approval (up to 45s)...');
   try {
-    await page.waitForURL(/microsoft365|office\.com|outlook\.office|teams\.microsoft/, { timeout: 45000 });
-  } catch {
-    console.log('  MFA timeout — continuing anyway');
-  }
-
+    await page.fill('input[type="password"]', M365_PASSWORD);
+    await page.click('input[type="submit"]');
+    await page.waitForTimeout(3000);
+  } catch (e) {}
+  try {
+    const stayBtn = await page.$('input[value="Yes"]') || await page.$('#idSIButton9');
+    if (stayBtn) { await stayBtn.click(); await page.waitForTimeout(2000); }
+  } catch (e) {}
+  console.log('Waiting 30s for possible MFA...');
+  await page.waitForTimeout(30000);
+  await page.goto('https://www.microsoft365.com/', { waitUntil: 'networkidle', timeout: 60000 });
   const url = page.url();
-  const ok = !url.includes('login.microsoftonline.com');
-  console.log(ok ? '  Login OK' : '  Login may have failed — URL: ' + url);
-  return ok;
+  if (url.includes('microsoft365.com') || url.includes('office.com')) { console.log('Web login successful'); return true; }
+  return false;
 }
 
-
-// ─── Screenshot capture ───────────────────────────────────────────────────────
-
-async function captureStep(page, guideId, step) {
-  const outDir  = path.join(SCREENSHOT_BASE, guideId);
-  fs.mkdirSync(outDir, { recursive: true });
-
-  const imgPath    = path.join(outDir, step.name + '.png');
-  const coordsPath = path.join(outDir, step.name + '.coords.json');
-
-  console.log(`    ${step.name}`);
-
-  try {
-    await page.goto(step.url, { waitUntil: 'networkidle', timeout: 30000 });
-    await page.waitForTimeout(2000);
-
-    // Wait for the key element
-    if (step.waitFor) {
-      await page.waitForSelector(step.waitFor, { timeout: 12000 }).catch(() =>
-        console.log(`      waitFor "${step.waitFor}" timed out — screenshotting anyway`));
+async function takeGuideScreenshots(page, guide) {
+  console.log("Taking screenshots for: " + guide.name);
+  const guideDir = path.join(SCREENSHOT_BASE, guide.id);
+  if (!fs.existsSync(guideDir)) fs.mkdirSync(guideDir, { recursive: true });
+  const results = [];
+  for (let i = 0; i < guide.steps.length; i++) {
+    const step = guide.steps[i];
+    const stepNum = i + 1;
+    const filename = "steg-" + stepNum + ".png";
+    const filepath = path.join(guideDir, filename);
+    console.log("  Step " + stepNum + ": " + step.title);
+    try {
+      await page.goto(step.url, { waitUntil: 'networkidle', timeout: 30000 });
+      await page.waitForTimeout(3000);
+      if (step.action) await step.action(page);
+      if (step.selector) { try { await page.waitForSelector(step.selector, { timeout: 10000 }); } catch (e) {} }
+      await page.screenshot({ path: filepath, fullPage: false });
+      console.log("    Saved: " + filename);
+      results.push({ step: stepNum, title: step.title, description: step.description, filename, capturedAt: new Date().toISOString(), success: true });
+    } catch (e) {
+      console.log("    Failed: " + e.message);
+      results.push({ step: stepNum, title: step.title, description: step.description, filename, capturedAt: new Date().toISOString(), success: false, error: e.message });
     }
-
-    // Run any pre-action (open menus etc.)
-    if (step.preAction) {
-      await step.preAction(page);
-      await page.waitForTimeout(800);
-    }
-
-    // Take screenshot
-    await page.screenshot({ path: imgPath, clip: { x: 0, y: 0, ...VIEWPORT } });
-
-    // Capture click-target bounding box
-    let coords = null;
-    if (step.clickSelector) {
-      const el = page.locator(step.clickSelector).first();
-      if (await el.count() > 0) {
-        const bb = await el.boundingBox();
-        if (bb) {
-          coords = {
-            x: Math.round(bb.x + bb.width / 2),
-            y: Math.round(bb.y + bb.height / 2),
-            box: { x: Math.round(bb.x), y: Math.round(bb.y), w: Math.round(bb.width), h: Math.round(bb.height) },
-            selector: step.clickSelector,
-            capturedAt: new Date().toISOString(),
-          };
-          fs.writeFileSync(coordsPath, JSON.stringify(coords, null, 2));
-        }
-      }
-    }
-
-    const coordStr = coords ? ` → click at (${coords.x}, ${coords.y})` : ' → no coords';
-    console.log(`      ✓ saved${coordStr}`);
-    return { success: true, coords };
-
-  } catch (err) {
-    console.log(`      ✗ failed: ${err.message}`);
-    return { success: false, error: err.message };
   }
+  return results;
 }
 
-
-// ─── Main ────────────────────────────────────────────────────────────────────
+function updateRegistry(guideId, steps) {
+  let registry = {};
+  try { if (fs.existsSync(REGISTRY_FILE)) registry = JSON.parse(fs.readFileSync(REGISTRY_FILE, 'utf8')); } catch (e) {}
+  registry[guideId] = { lastUpdated: new Date().toISOString(), steps };
+  fs.writeFileSync(REGISTRY_FILE, JSON.stringify(registry, null, 2));
+  console.log("Registry updated for " + guideId);
+}
 
 async function main() {
-  const targetId = process.env.GUIDE_ID || null;
-  const toRun    = targetId ? GUIDES.filter(g => g.id === targetId) : GUIDES;
+  const targetGuide = process.env.GUIDE_ID || null;
+  const guidesToProcess = targetGuide ? guides.filter(g => g.id === targetGuide) : guides;
+  console.log("GuideHub365 Screenshot Automation - " + new Date().toISOString());
+  console.log("Processing " + guidesToProcess.length + " guide(s)");
 
-  if (toRun.length === 0) {
-    console.error(`No guide found with id "${targetId}"`);
-    console.error('Available: ' + GUIDES.map(g => g.id).join(', '));
-    process.exit(1);
-  }
-
-  console.log(`GuideHub365 Screenshot Bot — ${new Date().toISOString()}`);
-  console.log(`Guides: ${toRun.map(g => g.id).join(', ')}`);
-  console.log(`Output: ${SCREENSHOT_BASE}`);
-
-  const browser = await chromium.launch({
-    headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
-  });
-  const context = await browser.newContext({
-    viewport: VIEWPORT,
-    locale: 'nb-NO',
-    timezoneId: 'Europe/Oslo',
-    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
-               '(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-  });
+  const browser = await chromium.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'] });
+  const context = await browser.newContext({ viewport: { width: 1366, height: 768 }, locale: 'nb-NO', timezoneId: 'Europe/Oslo' });
   const page = await context.newPage();
-
-  // Try saved session first
   let authenticated = false;
-  const savedCookies = loadSession();
+
+  const savedCookies = loadSessionState();
   if (savedCookies) {
-    await context.addCookies(savedCookies);
-    await page.goto('https://www.microsoft365.com/', { waitUntil: 'domcontentloaded', timeout: 20000 }).catch(() => {});
-    authenticated = !page.url().includes('login.microsoftonline.com');
+    try {
+      await context.addCookies(savedCookies);
+      await page.goto('https://www.microsoft365.com/', { waitUntil: 'networkidle', timeout: 30000 });
+      const url = page.url();
+      if (url.includes('microsoft365.com') && !url.includes('login')) { console.log('Restored session'); authenticated = true; }
+    } catch (e) {}
   }
 
   if (!authenticated) {
-    authenticated = await login(page);
-    if (authenticated) {
-      const cookies = await context.cookies();
-      saveSession(cookies);
+    const tokenResult = await getOAuthToken();
+    if (tokenResult) {
+      try {
+        await page.goto('https://www.microsoft365.com/', { waitUntil: 'networkidle', timeout: 30000 });
+        const url = page.url();
+        if (!url.includes('login.microsoftonline')) { console.log('Authenticated via ROPC'); authenticated = true; }
+      } catch (e) {}
     }
   }
 
-  if (!authenticated) {
-    console.error('Authentication failed. Check M365_EMAIL and M365_PASSWORD.');
-    await browser.close();
-    process.exit(1);
-  }
+  if (!authenticated) authenticated = await performWebLogin(page);
+  if (!authenticated) { console.log('Authentication failed'); await browser.close(); process.exit(1); }
 
-  let ok = 0, fail = 0;
+  const cookies = await context.cookies();
+  saveSessionState(cookies);
 
-  for (const guide of toRun) {
-    console.log(`\n[${guide.id}]`);
-    for (const step of guide.steps) {
-      const result = await captureStep(page, guide.id, step);
-      result.success ? ok++ : fail++;
-    }
+  let totalSuccess = 0, totalFailed = 0;
+  for (const guide of guidesToProcess) {
+    const results = await takeGuideScreenshots(page, guide);
+    updateRegistry(guide.id, results);
+    totalSuccess += results.filter(r => r.success).length;
+    totalFailed += results.filter(r => !r.success).length;
   }
 
   await browser.close();
-  console.log(`\nDone: ${ok} OK, ${fail} failed`);
-  if (ok === 0) process.exit(1);
+  console.log("Done! " + totalSuccess + " screenshots, " + totalFailed + " failed");
+  if (totalSuccess === 0) process.exit(1);
 }
 
-main().catch(err => { console.error('Fatal:', err); process.exit(1); });
+main().catch(err => { console.error('Fatal error:', err); process.exit(1); });

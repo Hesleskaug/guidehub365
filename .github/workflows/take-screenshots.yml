@@ -1,90 +1,65 @@
-name: Update M365 Screenshots
+name: Take M365 Screenshots
 
 on:
-  # Run automatically every Monday at 06:00 Oslo time
   schedule:
-    - cron: '0 5 * * 1'
-
-  # Run manually from GitHub Actions tab — can target a single guide
+    - cron: '0 8 * * 1'
   workflow_dispatch:
     inputs:
       guide_id:
-        description: 'Guide ID to update (leave empty for all guides)'
+        description: 'Guide ID to screenshot (empty = all)'
         required: false
         default: ''
 
-  # Also re-run when the scripts themselves change
-  push:
-    paths:
-      - 'scripts/take-screenshots.js'
-      - 'scripts/annotate.py'
-      - '.github/workflows/take-screenshots.yml'
-
 jobs:
-  screenshots:
+  take-screenshots:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-
+    permissions:
+          contents: write
+          
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
-          cache: 'npm'
+          node-version: '20'
 
-      - name: Install Node dependencies
-        run: npm ci
+      - name: Install dependencies
+        run: npm install
 
-      - name: Install Playwright Chromium
+      - name: Install Playwright browsers
         run: npx playwright install chromium --with-deps
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+      - name: Create required directories
+        run: |
+          mkdir -p public/screenshots
+          mkdir -p data
 
-      - name: Install Pillow
-        run: pip install pillow
-
-      # ── Step 1: Take real M365 screenshots ──────────────────────────────────
       - name: Take screenshots
         env:
-          M365_EMAIL:    ${{ secrets.M365_EMAIL }}
+          M365_EMAIL: ${{ secrets.M365_EMAIL }}
           M365_PASSWORD: ${{ secrets.M365_PASSWORD }}
-          GUIDE_ID:      ${{ github.event.inputs.guide_id }}
+          M365_CLIENT_ID: ${{ secrets.M365_CLIENT_ID }}
+          M365_TENANT_ID: ${{ secrets.M365_TENANT_ID }}
+          M365_CLIENT_SECRET: ${{ secrets.M365_CLIENT_SECRET }}
+          GUIDE_ID: ${{ github.event.inputs.guide_id }}
         run: node scripts/take-screenshots.js
 
-      # ── Step 2: Annotate with verified click-coordinates ────────────────────
-      - name: Annotate screenshots
+      - name: Check for new screenshots
+        id: diff
         run: |
-          GUIDE="${{ github.event.inputs.guide_id }}"
-          if [ -n "$GUIDE" ]; then
-            python scripts/annotate.py --guide "$GUIDE"
+          git add -A public/screenshots/ data/screenshot-registry.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
           else
-            python scripts/annotate.py
+            echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
 
-      # ── Step 3: Commit if anything changed ──────────────────────────────────
-      - name: Check for changes
-        id: changes
+      - name: Commit and push screenshots
+        if: steps.diff.outputs.has_changes == 'true'
         run: |
-          git diff --quiet public/screenshots/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
-
-      - name: Commit and push
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          git config user.name  "GuideHub365 Bot"
-          git config user.email "bot@guidehub365.no"
-          git add public/screenshots/
-          GUIDE="${{ github.event.inputs.guide_id }}"
-          MSG="Auto: update screenshots $(date +'%Y-%m-%d')"
-          [ -n "$GUIDE" ] && MSG="Auto: update screenshots for $GUIDE $(date +'%Y-%m-%d')"
-          git commit -m "$MSG"
+          git config user.name "GuideHub365 Bot"
+          git config user.email "bot@guidehub365.com"
+          git commit -m "Auto-update screenshots $(date +'%Y-%m-%d')"
           git push
-
-      - name: Up to date
-        if: steps.changes.outputs.changed == 'false'
-        run: echo "All screenshots are already up to date."
