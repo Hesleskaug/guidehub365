@@ -443,18 +443,25 @@ function saveSession(data) {
 async function login(page) {
   console.log('Navigating to Microsoft login...');
 
-  // Navigate directly to tenant-specific login page (shows email field directly)
+  // Navigate to tenant-specific login page
   await page.goto('https://login.microsoftonline.com/zfjyk.onmicrosoft.com/', {
-    waitUntil: 'load',
+    waitUntil: 'domcontentloaded',
     timeout: 30000
   });
   console.log('URL after goto:', page.url());
 
-  // Take immediate debug screenshot so we can see what page we landed on
+  // Wait for email field (up to 25s) — Microsoft pages use heavy JS rendering
   const debugDir = path.join(__dirname, '../public/screenshots');
   if (!fs.existsSync(debugDir)) fs.mkdirSync(debugDir, { recursive: true });
-  await page.screenshot({ path: path.join(debugDir, '_debug-after-goto.png'), fullPage: false });
-  console.log('Debug screenshot (after goto) saved');
+
+  // Take screenshot at 2s intervals so we can see what's loading
+  await page.waitForTimeout(2000);
+  await page.screenshot({ path: path.join(debugDir, '_debug-2s.png'), fullPage: false });
+  console.log('Debug screenshot at 2s. URL:', page.url());
+
+  await page.waitForTimeout(3000);
+  await page.screenshot({ path: path.join(debugDir, '_debug-5s.png'), fullPage: false });
+  console.log('Debug screenshot at 5s. URL:', page.url());
 
   // Wait for email field
   console.log('Waiting for email field...');
