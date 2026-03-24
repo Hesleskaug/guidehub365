@@ -450,6 +450,12 @@ async function login(page) {
   });
   console.log('URL after goto:', page.url());
 
+  // Take immediate debug screenshot so we can see what page we landed on
+  const debugDir = path.join(__dirname, '../public/screenshots');
+  if (!fs.existsSync(debugDir)) fs.mkdirSync(debugDir, { recursive: true });
+  await page.screenshot({ path: path.join(debugDir, '_debug-after-goto.png'), fullPage: false });
+  console.log('Debug screenshot (after goto) saved');
+
   // Wait for email field on login.microsoftonline.com
   console.log('Waiting for email field...');
   await page.waitForSelector('input[type="email"]', { timeout: 20000 });
@@ -477,11 +483,9 @@ async function login(page) {
     // No prompt — fine
   }
 
-  // Take a debug screenshot to see what page we landed on
-  const debugDir = path.join(__dirname, '../public/screenshots');
-  if (!fs.existsSync(debugDir)) fs.mkdirSync(debugDir, { recursive: true });
+  // Take debug screenshot after login attempt
   await page.screenshot({ path: path.join(debugDir, '_debug-after-login.png'), fullPage: false });
-  console.log('Debug screenshot saved. Current URL:', page.url());
+  console.log('Debug screenshot (after login) saved. Current URL:', page.url());
 
   // Verify we're actually logged in (not stuck on login page)
   const currentUrl = page.url();

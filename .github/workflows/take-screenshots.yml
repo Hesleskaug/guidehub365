@@ -51,7 +51,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: debug-login-screenshot
-          path: public/screenshots/_debug-after-login.png
+          path: public/screenshots/_debug-*.png
           if-no-files-found: ignore
 
       - name: Check for new screenshots
