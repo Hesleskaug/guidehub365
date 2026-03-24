@@ -443,9 +443,9 @@ function saveSession(data) {
 async function login(page) {
   console.log('Navigating to Microsoft login...');
 
-  // Go to Outlook — always redirects to login.microsoftonline.com when not authenticated
-  await page.goto('https://outlook.office.com/mail/', {
-    waitUntil: 'domcontentloaded',
+  // Navigate directly to Microsoft login page
+  await page.goto('https://login.microsoftonline.com/', {
+    waitUntil: 'load',
     timeout: 30000
   });
   console.log('URL after goto:', page.url());
@@ -456,7 +456,7 @@ async function login(page) {
   await page.screenshot({ path: path.join(debugDir, '_debug-after-goto.png'), fullPage: false });
   console.log('Debug screenshot (after goto) saved');
 
-  // Wait for email field on login.microsoftonline.com
+  // Wait for email field
   console.log('Waiting for email field...');
   await page.waitForSelector('input[type="email"]', { timeout: 20000 });
   await page.fill('input[type="email"]', EMAIL);
