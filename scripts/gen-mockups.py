@@ -452,7 +452,9 @@ def make_screenshot(guide_id, step_name, step_label, ui_type, click_x, click_y, 
     img  = Image.new("RGB", (W,H), C["white"])
     draw = ImageDraw.Draw(img)
     UI_RENDERERS.get(ui_type, draw_portal_bg)(draw, step_label)
-    draw_click_annotation(draw, click_x, click_y, click_label)
+    # NOTE: Annotations disabled — coordinates must be verified against real UI first.
+    # Re-enable when using confirmed coordinates on real M365 screenshots:
+    # draw_click_annotation(draw, click_x, click_y, click_label)
     img.save(out_path, "PNG", optimize=True)
     return True
 
