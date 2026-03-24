@@ -101,6 +101,13 @@ const GUIDES = {
   ],
 };
 
+// Guider med ekte innhold og screenshots — alle andre er "Kommer snart"
+const LIVE_GUIDE_IDS = new Set([
+  "setup-mfa", "out-of-office", "email-signature", "shared-mailbox",
+  "install-office", "password-reset", "onedrive-sync", "teams-first-meeting",
+  "onedrive-save", "outlook-setup-pc",
+]);
+
 // Detailed guide content (sample for "Sette opp Outlook på PC")
 const DETAILED_GUIDE = {
   id: "setup-outlook",
@@ -1077,7 +1084,53 @@ export default function GuideHub365() {
       "onedrive-save": ONEDRIVE_SAVE_GUIDE,
       "outlook-setup-pc": OUTLOOK_SETUP_GUIDE,
     };
-    const guide = GUIDE_MAP[selectedGuide?.id] || (demoGuide === "mfa" ? MFA_GUIDE : DETAILED_GUIDE);
+    const guide = GUIDE_MAP[selectedGuide?.id];
+
+    // Vis "Kommer snart" for guider uten ekte innhold
+    if (!guide) {
+      const cat = CATEGORIES.find(c => Object.keys(GUIDES).includes(c.id) || Object.entries(GUIDES).some(([,arr]) => arr.find(g => g.id === selectedGuide?.id && GUIDES[c.id]?.includes(arr.find(g2 => g2.id === selectedGuide?.id)))))
+        || CATEGORIES.find(c => (GUIDES[c.id] || []).find(g => g.id === selectedGuide?.id));
+      return (
+        <div style={{ fontFamily: "'Inter','Segoe UI',-apple-system,sans-serif", background: bg, minHeight: "100vh", color: textColor }}>
+          <TopBar />
+          <div style={{ display: "flex" }}>
+            <Sidebar />
+            <div style={{ flex: 1, padding: "40px 36px", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "80vh" }}>
+              <div style={{ maxWidth: 480, textAlign: "center" }}>
+                <div style={{ width: 72, height: 72, borderRadius: 20, background: "#EEF2FF", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 24px" }}>
+                  <Ic id="lightning" size={34} color="#6366F1" />
+                </div>
+                <div style={{ fontSize: 11, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.2, color: "#6366F1", marginBottom: 10 }}>Kommer snart</div>
+                <h1 style={{ fontSize: 24, fontWeight: 800, color: textColor, margin: "0 0 12px", letterSpacing: -0.5 }}>
+                  {selectedGuide?.title || "Denne guiden"}
+                </h1>
+                <p style={{ fontSize: 15, color: subtleText, lineHeight: 1.6, margin: "0 0 32px" }}>
+                  Vi jobber med å lage steg-for-steg instruksjoner og skjermbilder for denne guiden. Den blir tilgjengelig snart.
+                </p>
+                <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap", marginBottom: 32 }}>
+                  {[
+                    { icon: "file", label: "Steg-for-steg", color: "#6366F1", bg: "#EEF2FF" },
+                    { icon: "monitor", label: "Skjermbilder", color: "#10B981", bg: "#ECFDF5" },
+                    { icon: "check", label: "Bekreftelse", color: "#F59E0B", bg: "#FFFBEB" },
+                  ].map((f, i) => (
+                    <div key={i} style={{ display: "flex", alignItems: "center", gap: 8, padding: "8px 16px", background: f.bg, borderRadius: 20, fontSize: 13, fontWeight: 600, color: f.color }}>
+                      <Ic id={f.icon} size={14} color={f.color} />
+                      {f.label}
+                    </div>
+                  ))}
+                </div>
+                <button onClick={() => setView("category")}
+                  style={{ background: primary, color: "#fff", border: "none", borderRadius: 25, padding: "11px 28px", fontWeight: 700, fontSize: 14, cursor: "pointer" }}>
+                  ← Tilbake til kategorien
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    const resolvedGuide = guide;
     const stepsCompleted = Object.values(showCompletionCheck).filter(Boolean).length;
     const allDone = stepsCompleted === guide.steps.length;
 
@@ -1337,6 +1390,9 @@ export default function GuideHub365() {
                     {guide.popular && (
                       <span style={{ fontSize: 11, padding: "3px 10px", background: darkMode ? "rgba(124,58,237,.2)" : "#EDE9FE", color: primary, borderRadius: 20, fontWeight: 600 }}>★ Populær</span>
                     )}
+                    {!LIVE_GUIDE_IDS.has(guide.id) && (
+                      <span style={{ fontSize: 11, padding: "3px 10px", background: darkMode ? "rgba(255,255,255,.07)" : "#F4F5F8", color: subtleText, borderRadius: 20, fontWeight: 600 }}>Kommer snart</span>
+                    )}
                     <div style={{ width: 32, height: 32, borderRadius: "50%", background: darkMode ? "rgba(255,255,255,.07)" : "#F5F6FA", display: "flex", alignItems: "center", justifyContent: "center" }}>
                       <Ic id="arrowR" size={16} color={subtleText} />
                     </div>
@@ -1398,7 +1454,7 @@ export default function GuideHub365() {
             <span style={{ fontSize: 12, color: accent, fontWeight: 600, cursor: "pointer", display: "flex", alignItems: "center", gap: 3 }}>Se alle <Ic id="chevron" size={13} color={accent} /></span>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 12, marginBottom: 36 }}>
-            {allGuides.filter((g) => g.popular).slice(0, 6).map((guide, i) => {
+            {allGuides.filter((g) => g.popular && LIVE_GUIDE_IDS.has(g.id)).slice(0, 6).map((guide, i) => {
               const cat = CATEGORIES.find((c) => c.id === guide.category);
               return (
                 <div key={i} onClick={() => handleGuideClick(guide)}
