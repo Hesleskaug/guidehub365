@@ -443,8 +443,8 @@ function saveSession(data) {
 async function login(page) {
   console.log('Navigating to Microsoft login...');
 
-  // Navigate directly to Microsoft login page
-  await page.goto('https://login.microsoftonline.com/', {
+  // Navigate directly to tenant-specific login page (shows email field directly)
+  await page.goto('https://login.microsoftonline.com/zfjyk.onmicrosoft.com/', {
     waitUntil: 'load',
     timeout: 30000
   });
