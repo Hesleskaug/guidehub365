@@ -46,6 +46,14 @@ jobs:
           GUIDE_ID: ${{ github.event.inputs.guide_id }}
         run: node scripts/take-screenshots.js
 
+      - name: Upload debug screenshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-login-screenshot
+          path: public/screenshots/_debug-after-login.png
+          if-no-files-found: ignore
+
       - name: Check for new screenshots
         id: diff
         run: |
