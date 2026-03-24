@@ -437,109 +437,96 @@ function saveSession(data) {
 }
 
 /**
- * Login to Microsoft 365
- * Uses outlook.office.com which reliably redirects to the Microsoft login page
+ * Get an access token via ROPC (Resource Owner Password Credentials).
+ * This is a direct API call — no browser needed, bypasses Microsoft's
+ * headless-browser detection entirely.
+ */
+async function getAccessToken() {
+  const TENANT_ID = process.env.M365_TENANT_ID || 'zfjyk.onmicrosoft.com';
+  const CLIENT_ID = process.env.M365_CLIENT_ID || '04b07795-8ddb-461a-bbee-02f9e1bf7b46';
+  const CLIENT_SECRET = process.env.M365_CLIENT_SECRET;
+
+  console.log(`[ROPC] Requesting token from tenant: ${TENANT_ID}`);
+
+  const params = new URLSearchParams({
+    grant_type: 'password',
+    client_id: CLIENT_ID,
+    username: EMAIL,
+    password: PASSWORD,
+    resource: 'https://outlook.office365.com/',
+    scope: 'openid'
+  });
+  if (CLIENT_SECRET) params.set('client_secret', CLIENT_SECRET);
+
+  const resp = await fetch(
+    `https://login.microsoftonline.com/${TENANT_ID}/oauth2/token`,
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: params.toString()
+    }
+  );
+
+  const data = await resp.json();
+
+  if (data.error) {
+    throw new Error(`[ROPC] Token error: ${data.error} — ${(data.error_description || '').substring(0, 300)}`);
+  }
+
+  console.log('[ROPC] Access token obtained successfully');
+  return data.access_token;
+}
+
+/**
+ * Login to Microsoft 365 via ROPC token — no browser login page needed.
+ * Microsoft blocks headless Chromium from rendering their login page in CI,
+ * so we authenticate via direct API call instead.
  */
 async function login(page) {
-  const debugDir = path.join(__dirname, '../public/screenshots');
-  if (!fs.existsSync(debugDir)) fs.mkdirSync(debugDir, { recursive: true });
+  // Step 1: get access token via ROPC (pure HTTP, no browser)
+  const accessToken = await getAccessToken();
 
-  // Log all browser console messages and page errors
-  page.on('console', msg => console.log(`[BROWSER ${msg.type()}] ${msg.text()}`));
-  page.on('pageerror', err => console.error('[PAGE ERROR]', err.message));
+  // Step 2: try OWA legacy token URL (sets session cookies in browser)
+  console.log('[AUTH] Navigating to OWA with bearer token...');
+  await page.goto(
+    `https://outlook.office365.com/owa/?authtoken=${encodeURIComponent(accessToken)}&type=2`,
+    { waitUntil: 'domcontentloaded', timeout: 30000 }
+  );
 
-  // Log HTTP responses (status + URL) to spot blocks/redirects
-  page.on('response', resp => {
-    const url = resp.url();
-    if (url.includes('microsoftonline') || url.includes('microsoft.com') || url.includes('office.com')) {
-      console.log(`[HTTP ${resp.status()}] ${url.substring(0, 120)}`);
-    }
-  });
+  let currentUrl = page.url();
+  console.log('[AUTH] URL after token nav:', currentUrl);
 
-  console.log('Navigating to Microsoft login...');
-
-  // Navigate to tenant-specific login page
-  const resp = await page.goto('https://login.microsoftonline.com/zfjyk.onmicrosoft.com/', {
-    waitUntil: 'load',
-    timeout: 45000
-  });
-  console.log('Navigation response status:', resp ? resp.status() : 'no response');
-  console.log('URL after goto:', page.url());
-
-  // Dump the actual HTML to see what Microsoft returned
-  const html = await page.evaluate(() => document.documentElement.outerHTML);
-  console.log('[HTML LENGTH]', html.length, 'chars');
-  console.log('[HTML PREVIEW]', html.substring(0, 500));
-
-  // Take screenshot immediately after load
-  await page.screenshot({ path: path.join(debugDir, '_debug-2s.png'), fullPage: false });
-  console.log('Debug screenshot at 0s. URL:', page.url());
-
-  // Wait 5s for JS to fully render
-  await page.waitForTimeout(5000);
-  await page.screenshot({ path: path.join(debugDir, '_debug-5s.png'), fullPage: false });
-  console.log('Debug screenshot at 5s. URL:', page.url());
-
-  // Log HTML again after JS rendering
-  const html2 = await page.evaluate(() => document.documentElement.outerHTML);
-  console.log('[HTML AFTER 5s LENGTH]', html2.length, 'chars');
-  console.log('[HTML AFTER 5s PREVIEW]', html2.substring(0, 500));
-
-  // Wait for email field
-  console.log('Waiting for email field...');
-  await page.waitForSelector('input[type="email"]', { timeout: 20000 });
-  await page.fill('input[type="email"]', EMAIL);
-  console.log('Email entered');
-
-  // Click Next
-  await page.click('input[type="submit"], button[type="submit"]');
-
-  // Wait for password field
-  console.log('Waiting for password field...');
-  await page.waitForSelector('input[type="password"]', { timeout: 15000 });
-  await page.fill('input[type="password"]', PASSWORD);
-  console.log('Password entered');
-
-  // Click Sign in
-  await page.click('input[type="submit"], button[type="submit"]');
-
-  // Handle "Stay signed in?" prompt (idBtn_Back = "No" button)
-  try {
-    await page.waitForSelector('#idBtn_Back', { timeout: 8000 });
-    await page.click('#idBtn_Back');
-    console.log('Dismissed "Stay signed in?" prompt');
-  } catch {
-    // No prompt — fine
-  }
-
-  // Take debug screenshot after login attempt
-  await page.screenshot({ path: path.join(debugDir, '_debug-after-login.png'), fullPage: false });
-  console.log('Debug screenshot (after login) saved. Current URL:', page.url());
-
-  // Verify we're actually logged in (not stuck on login page)
-  const currentUrl = page.url();
+  // Step 3: if authtoken URL didn't work, try outlook.office.com with token header
   if (currentUrl.includes('login.microsoftonline.com') || currentUrl.includes('login.microsoft.com')) {
-    console.error('=== LOGIN FAILED ===');
-    console.error('Still on login page after credentials. URL:', currentUrl);
-    console.error('Possible causes: MFA required, Conditional Access blocking, wrong password');
-    throw new Error(`Login failed — still on login page: ${currentUrl}`);
-  }
-
-  // Wait for Outlook inbox to load (confirms login succeeded)
-  console.log('Waiting for inbox to confirm login...');
-  try {
-    await page.waitForSelector('[aria-label="Mail"], .ms-List, [data-app-section]', {
+    console.log('[AUTH] authtoken URL redirected to login — trying header approach...');
+    await page.setExtraHTTPHeaders({ 'Authorization': `Bearer ${accessToken}` });
+    await page.goto('https://outlook.office.com/mail/', {
+      waitUntil: 'domcontentloaded',
       timeout: 30000
     });
-    console.log('Login confirmed — inbox loaded');
-  } catch {
-    console.log('Warning: Could not confirm inbox load. URL:', page.url());
+    currentUrl = page.url();
+    console.log('[AUTH] URL after header nav:', currentUrl);
   }
 
-  // Save session cookies
+  // Step 4: verify we landed somewhere useful
+  if (currentUrl.includes('login.microsoftonline.com') || currentUrl.includes('login.microsoft.com')) {
+    throw new Error(`[AUTH] All login methods failed — still on login page: ${currentUrl}`);
+  }
+
+  // Step 5: wait for inbox to confirm login
+  try {
+    await page.waitForSelector('[aria-label="Mail"], .ms-List, [data-app-section], .ms-FocusZone', {
+      timeout: 30000
+    });
+    console.log('[AUTH] Login confirmed — inbox loaded. URL:', page.url());
+  } catch {
+    console.log('[AUTH] Warning: could not confirm inbox. URL:', page.url());
+  }
+
+  // Save session cookies for potential reuse
   const cookies = await page.context().cookies();
   saveSession({ cookies });
-  console.log(`Session saved (${cookies.length} cookies)`);
+  console.log(`[AUTH] Session saved (${cookies.length} cookies)`);
 }
 
 /**
