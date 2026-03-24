@@ -477,6 +477,21 @@ async function login(page) {
     // No prompt — fine
   }
 
+  // Take a debug screenshot to see what page we landed on
+  const debugDir = path.join(__dirname, '../public/screenshots');
+  if (!fs.existsSync(debugDir)) fs.mkdirSync(debugDir, { recursive: true });
+  await page.screenshot({ path: path.join(debugDir, '_debug-after-login.png'), fullPage: false });
+  console.log('Debug screenshot saved. Current URL:', page.url());
+
+  // Verify we're actually logged in (not stuck on login page)
+  const currentUrl = page.url();
+  if (currentUrl.includes('login.microsoftonline.com') || currentUrl.includes('login.microsoft.com')) {
+    console.error('=== LOGIN FAILED ===');
+    console.error('Still on login page after credentials. URL:', currentUrl);
+    console.error('Possible causes: MFA required, Conditional Access blocking, wrong password');
+    throw new Error(`Login failed — still on login page: ${currentUrl}`);
+  }
+
   // Wait for Outlook inbox to load (confirms login succeeded)
   console.log('Waiting for inbox to confirm login...');
   try {
