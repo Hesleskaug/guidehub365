@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-03-24T07:55:14.681Z",
+  "lastChecked": "2026-03-25T07:55:10.466Z",
   "totalGuides": 12,
-  "flaggedCount": 12,
+  "flaggedCount": 11,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -35,14 +35,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        },
-        {
           "source": "Send email as a distribution list - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
           "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
@@ -57,6 +49,22 @@
           "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
           "matchedKeywords": [
             "email",
+            "mail"
+          ]
+        },
+        {
+          "source": "Sign up for Microsoft 365 Business Standard - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "setup"
+          ]
+        },
+        {
+          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
+          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
+          "matchedKeywords": [
             "mail"
           ]
         }
@@ -87,38 +95,6 @@
           "source": "Requirements to use centralized deployment for Office Add-ins - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/centralized-deployment-of-add-ins",
           "pubDate": "Thu, 19 Mar 2026 22:45:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Send email as a distribution list - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Microsoft 365 U.S. Government GCC High endpoints - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -154,6 +130,14 @@
             "teams",
             "meeting"
           ]
+        },
+        {
+          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
+          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
         }
       ]
     },
@@ -165,14 +149,6 @@
         {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "message"
-          ]
-        },
-        {
-          "source": "Send email as a distribution list - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
           "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
           "matchedKeywords": [
             "message"
@@ -193,6 +169,14 @@
           "matchedKeywords": [
             "teams",
             "chat"
+          ]
+        },
+        {
+          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
+          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
+          "matchedKeywords": [
+            "teams"
           ]
         }
       ]
@@ -255,15 +239,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Microsoft 365 Multi-Geo - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
           "pubDate": "Tue, 17 Mar 2026 22:44:00 GMT",
@@ -280,17 +255,18 @@
           ]
         },
         {
-          "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
+          "pubDate": "Thu, 12 Mar 2026 20:47:00 GMT",
           "matchedKeywords": [
+            "ai",
             "summarize"
           ]
         },
         {
-          "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Thu, 12 Mar 2026 20:47:00 GMT",
+          "source": "Plan for multitenant organizations in Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/plan-multi-tenant-org-overview",
+          "pubDate": "Fri, 13 Mar 2026 22:01:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -301,15 +277,6 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups",
           "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
           "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Plan for multitenant organizations in Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/plan-multi-tenant-org-overview",
-          "pubDate": "Fri, 13 Mar 2026 22:01:00 GMT",
-          "matchedKeywords": [
-            "ai",
             "summarize"
           ]
         },
@@ -328,14 +295,6 @@
           "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
           "matchedKeywords": [
             "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
-          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -359,18 +318,9 @@
           ]
         },
         {
-          "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Managing Microsoft 365 endpoints - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/managing-office-365-endpoints",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "source": "Sign up for Microsoft 365 Business Standard - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -385,18 +335,19 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Guests in the Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/about-guest-users",
           "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
           "matchedKeywords": [
+            "teams"
+          ]
+        },
+        {
+          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
+          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
+          "matchedKeywords": [
+            "ai",
             "teams"
           ]
         }
@@ -439,14 +390,6 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
-          "matchedKeywords": [
-            "cloud"
-          ]
-        },
-        {
           "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
           "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
@@ -466,14 +409,6 @@
           "source": "Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings",
           "pubDate": "Fri, 13 Mar 2026 22:01:00 GMT",
-          "matchedKeywords": [
-            "cloud"
-          ]
-        },
-        {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
           "matchedKeywords": [
             "cloud"
           ]
@@ -518,14 +453,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
           "pubDate": "Thu, 12 Mar 2026 20:47:00 GMT",
@@ -574,14 +501,6 @@
           ]
         },
         {
-          "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
           "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
@@ -590,26 +509,11 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
+          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
+          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
           "matchedKeywords": [
             "ai"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "mfa-setup",
-      "guideTitle": "Sette opp tofaktorautentisering",
-      "category": "Sikkerhet og innlogging",
-      "hits": [
-        {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Tue, 10 Mar 2026 12:00:00 GMT",
-          "matchedKeywords": [
-            "security"
           ]
         }
       ]
@@ -653,7 +557,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 5
     },
     {
       "id": "outlook-mobile",
@@ -661,7 +565,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 7
+      "flaggedHits": 3
     },
     {
       "id": "teams-first-meeting",
@@ -669,7 +573,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "teams-channels",
@@ -685,7 +589,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 23
+      "flaggedHits": 19
     },
     {
       "id": "onedrive-save",
@@ -709,7 +613,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 5
+      "flaggedHits": 3
     },
     {
       "id": "excel-copilot",
@@ -717,15 +621,15 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 14
+      "flaggedHits": 12
     },
     {
       "id": "mfa-setup",
       "title": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "password-reset",
