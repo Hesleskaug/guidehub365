@@ -458,7 +458,7 @@ function ScreenshotPlaceholder({ name, guideId, domain }) {
 // ─── WAITLIST SECTION ─────────────────────────────────────────
 // Formspree endpoint: gå til formspree.io, opprett konto, lag nytt skjema
 // og lim inn din form-ID nedenfor (erstatt XXXXXXXX):
-const FORMSPREE_ID = "xwkjlbna"; // TODO: bytt med din egen Formspree-ID
+const FORMSPREE_ID = import.meta.env.VITE_FORMSPREE_ID ?? "xwkjlbna";
 
 function WaitlistSection() {
   const [email, setEmail] = useState("");
