@@ -403,6 +403,462 @@ const GUIDES = [
         clickSelector: null
       }
     ]
+  },
+
+  // ── OUTLOOK: E-POSTREGLER ─────────────────────────────────────────────────
+  {
+    id: 'email-rules',
+    name: 'E-postregler',
+    steps: [
+      {
+        name: 'steg-1-innstillinger',
+        url: 'https://outlook.office.com/mail/inbox',
+        waitFor: '[data-icon-name="Settings"]',
+        clickSelector: '[data-icon-name="Settings"]'
+      },
+      {
+        name: 'steg-2-regler-side',
+        url: 'https://outlook.office.com/mail/options/mail/rules',
+        waitFor: 'h1, [role="heading"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-3-ny-regel',
+        url: 'https://outlook.office.com/mail/options/mail/rules',
+        waitFor: 'button:has-text("Add new rule"), button:has-text("New rule")',
+        clickSelector: 'button:has-text("Add new rule"), button:has-text("New rule")'
+      },
+      {
+        name: 'steg-4-betingelse',
+        url: 'https://outlook.office.com/mail/options/mail/rules',
+        waitFor: 'input[placeholder*="name"], input[aria-label*="name"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-5-lagre',
+        url: 'https://outlook.office.com/mail/options/mail/rules',
+        waitFor: 'button:has-text("Save")',
+        clickSelector: null
+      }
+    ]
+  },
+
+  // ── OUTLOOK: VIDERESENDING ────────────────────────────────────────────────
+  {
+    id: 'email-forwarding',
+    name: 'Videresend e-post',
+    steps: [
+      {
+        name: 'steg-1-innstillinger',
+        url: 'https://outlook.office.com/mail/inbox',
+        waitFor: '[data-icon-name="Settings"]',
+        clickSelector: '[data-icon-name="Settings"]'
+      },
+      {
+        name: 'steg-2-videresending-side',
+        url: 'https://outlook.office.com/mail/options/mail/forwardingAndStorage',
+        waitFor: 'input[type="radio"], input[type="checkbox"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-3-aktiver',
+        url: 'https://outlook.office.com/mail/options/mail/forwardingAndStorage',
+        waitFor: 'input[type="radio"]',
+        clickSelector: 'input[type="radio"]'
+      },
+      {
+        name: 'steg-4-skriv-adresse',
+        url: 'https://outlook.office.com/mail/options/mail/forwardingAndStorage',
+        waitFor: 'input[type="email"], input[placeholder*="email"], input[placeholder*="address"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-5-lagre',
+        url: 'https://outlook.office.com/mail/options/mail/forwardingAndStorage',
+        waitFor: 'button:has-text("Save")',
+        clickSelector: null
+      }
+    ]
+  },
+
+  // ── OUTLOOK: KALENDER – DEL MED KOLLEGA ──────────────────────────────────
+  {
+    id: 'calendar-share',
+    name: 'Del kalender',
+    steps: [
+      {
+        name: 'steg-1-kalender',
+        url: 'https://outlook.office.com/calendar/',
+        waitFor: '[aria-label="Calendar"], [data-icon-name="Calendar"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-2-del-knapp',
+        url: 'https://outlook.office.com/calendar/',
+        waitFor: 'button:has-text("Share"), [aria-label*="Share"]',
+        clickSelector: 'button:has-text("Share")'
+      },
+      {
+        name: 'steg-3-skriv-mottaker',
+        url: 'https://outlook.office.com/calendar/',
+        waitFor: 'input[placeholder*="name"], input[type="email"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-4-velg-tilgang',
+        url: 'https://outlook.office.com/calendar/',
+        waitFor: 'select, [role="combobox"], [role="listbox"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-5-send',
+        url: 'https://outlook.office.com/calendar/',
+        waitFor: 'button:has-text("Share"), button:has-text("Send")',
+        clickSelector: null
+      }
+    ]
+  },
+
+  // ── OUTLOOK: GJENTAKENDE AVTALE ───────────────────────────────────────────
+  {
+    id: 'calendar-recurring',
+    name: 'Gjentakende avtale',
+    steps: [
+      {
+        name: 'steg-1-kalender',
+        url: 'https://outlook.office.com/calendar/',
+        waitFor: 'button:has-text("New event"), [aria-label*="New event"]',
+        clickSelector: 'button:has-text("New event")'
+      },
+      {
+        name: 'steg-2-ny-avtale-form',
+        url: 'https://outlook.office.com/calendar/',
+        waitFor: 'input[aria-label*="title"], input[placeholder*="title"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-3-gjentakelse',
+        url: 'https://outlook.office.com/calendar/',
+        waitFor: 'button:has-text("Repeat"), [aria-label*="Repeat"], [aria-label*="Recurrence"]',
+        clickSelector: 'button:has-text("Repeat")'
+      },
+      {
+        name: 'steg-4-velg-moenster',
+        url: 'https://outlook.office.com/calendar/',
+        waitFor: '[role="radiogroup"], input[type="radio"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-5-lagre',
+        url: 'https://outlook.office.com/calendar/',
+        waitFor: 'button:has-text("Save"), button:has-text("Send")',
+        clickSelector: null
+      }
+    ]
+  },
+
+  // ── TEAMS: STATUSMELDING ──────────────────────────────────────────────────
+  {
+    id: 'teams-status-message',
+    name: 'Teams statusmelding',
+    steps: [
+      {
+        name: 'steg-1-teams-hjem',
+        url: 'https://teams.microsoft.com',
+        waitFor: '[data-tid="app-bar-layout"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-2-profil-meny',
+        url: 'https://teams.microsoft.com',
+        waitFor: '[data-tid="me-control-menu-button"], button[aria-label*="profile"], button[aria-label*="Profile"]',
+        clickSelector: '[data-tid="me-control-menu-button"]'
+      },
+      {
+        name: 'steg-3-sett-status',
+        url: 'https://teams.microsoft.com',
+        waitFor: '[data-tid="set-status-message"], div:has-text("Set status message")',
+        clickSelector: null
+      },
+      {
+        name: 'steg-4-skriv-melding',
+        url: 'https://teams.microsoft.com',
+        waitFor: 'textarea, input[placeholder*="status"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-5-ferdig',
+        url: 'https://teams.microsoft.com',
+        waitFor: 'button:has-text("Done"), button:has-text("Save")',
+        clickSelector: null
+      }
+    ]
+  },
+
+  // ── TEAMS: NY KANAL ───────────────────────────────────────────────────────
+  {
+    id: 'teams-new-channel',
+    name: 'Opprett Teams-kanal',
+    steps: [
+      {
+        name: 'steg-1-teams-liste',
+        url: 'https://teams.microsoft.com/_#/teamChannels',
+        waitFor: '[data-tid="app-bar-layout"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-2-team-meny',
+        url: 'https://teams.microsoft.com/_#/teamChannels',
+        waitFor: '[data-icon-name="MoreHorizontal"], button[aria-label*="More options"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-3-legg-til-kanal',
+        url: 'https://teams.microsoft.com/_#/teamChannels',
+        waitFor: 'div:has-text("Add channel"), li:has-text("Add channel")',
+        clickSelector: null
+      },
+      {
+        name: 'steg-4-kanal-navn',
+        url: 'https://teams.microsoft.com/_#/teamChannels',
+        waitFor: 'input[placeholder*="channel name"], input[aria-label*="Channel name"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-5-opprett',
+        url: 'https://teams.microsoft.com/_#/teamChannels',
+        waitFor: 'button:has-text("Add"), button:has-text("Create")',
+        clickSelector: null
+      }
+    ]
+  },
+
+  // ── TEAMS: NY CHAT ────────────────────────────────────────────────────────
+  {
+    id: 'teams-new-chat',
+    name: 'Start ny Teams-chat',
+    steps: [
+      {
+        name: 'steg-1-chat-fane',
+        url: 'https://teams.microsoft.com/_#/conversations',
+        waitFor: '[data-tid="app-bar-layout"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-2-ny-chat-knapp',
+        url: 'https://teams.microsoft.com/_#/conversations',
+        waitFor: 'button[aria-label*="New chat"], [data-tid="newChat"]',
+        clickSelector: 'button[aria-label*="New chat"]'
+      },
+      {
+        name: 'steg-3-sok-person',
+        url: 'https://teams.microsoft.com/_#/conversations',
+        waitFor: 'input[aria-label*="To"], input[placeholder*="Type a name"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-4-skriv-melding',
+        url: 'https://teams.microsoft.com/_#/conversations',
+        waitFor: '[contenteditable="true"][aria-label*="message"], [data-tid="message-editor"]',
+        clickSelector: null
+      }
+    ]
+  },
+
+  // ── ONEDRIVE: DEL EN FIL ─────────────────────────────────────────────────
+  {
+    id: 'onedrive-share',
+    name: 'Del fil i OneDrive',
+    steps: [
+      {
+        name: 'steg-1-mine-filer',
+        url: 'https://onedrive.live.com/?id=root',
+        waitFor: '[role="gridcell"], [data-automationid="DetailsRow"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-2-velg-fil',
+        url: 'https://onedrive.live.com/?id=root',
+        waitFor: '[role="gridcell"]',
+        clickSelector: '[role="gridcell"]'
+      },
+      {
+        name: 'steg-3-del-knapp',
+        url: 'https://onedrive.live.com/?id=root',
+        waitFor: 'button:has-text("Share"), [aria-label*="Share"]',
+        clickSelector: 'button:has-text("Share")'
+      },
+      {
+        name: 'steg-4-legg-til-person',
+        url: 'https://onedrive.live.com/?id=root',
+        waitFor: 'input[placeholder*="name"], input[aria-label*="recipient"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-5-send-lenke',
+        url: 'https://onedrive.live.com/?id=root',
+        waitFor: 'button:has-text("Send"), button:has-text("Copy link")',
+        clickSelector: null
+      }
+    ]
+  },
+
+  // ── ONEDRIVE: GJENOPPRETT VERSJON ─────────────────────────────────────────
+  {
+    id: 'onedrive-version-history',
+    name: 'Gjenopprett OneDrive-versjon',
+    steps: [
+      {
+        name: 'steg-1-mine-filer',
+        url: 'https://onedrive.live.com/?id=root',
+        waitFor: '[role="gridcell"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-2-meny-fil',
+        url: 'https://onedrive.live.com/?id=root',
+        waitFor: '[data-icon-name="MoreHorizontal"], button[aria-label*="More"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-3-versjonshistorikk',
+        url: 'https://onedrive.live.com/?id=root',
+        waitFor: 'li:has-text("Version history"), div:has-text("Version history")',
+        clickSelector: null
+      },
+      {
+        name: 'steg-4-velg-versjon',
+        url: 'https://onedrive.live.com/?id=root',
+        waitFor: '[role="listitem"], [role="row"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-5-gjenopprett',
+        url: 'https://onedrive.live.com/?id=root',
+        waitFor: 'button:has-text("Restore")',
+        clickSelector: null
+      }
+    ]
+  },
+
+  // ── ENTRA ID: OPPRETT BRUKER ──────────────────────────────────────────────
+  {
+    id: 'entra-new-user',
+    name: 'Opprett ny bruker (Entra ID)',
+    steps: [
+      {
+        name: 'steg-1-brukerliste',
+        url: 'https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers',
+        waitFor: 'h1, [role="heading"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-2-ny-bruker-knapp',
+        url: 'https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers',
+        waitFor: 'button:has-text("New user"), [aria-label*="New user"]',
+        clickSelector: 'button:has-text("New user")'
+      },
+      {
+        name: 'steg-3-fyll-inn',
+        url: 'https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers',
+        waitFor: 'input[id*="displayName"], input[aria-label*="Display name"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-4-passord',
+        url: 'https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers',
+        waitFor: 'input[type="password"], input[id*="password"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-5-opprett',
+        url: 'https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers',
+        waitFor: 'button:has-text("Create"), button:has-text("Review + create")',
+        clickSelector: null
+      }
+    ]
+  },
+
+  // ── ENTRA ID: TILDEL LISENS ────────────────────────────────────────────────
+  {
+    id: 'entra-assign-license',
+    name: 'Tildel M365-lisens (Entra ID)',
+    steps: [
+      {
+        name: 'steg-1-brukerliste',
+        url: 'https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers',
+        waitFor: '[role="row"], [data-automationid="DetailsRow"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-2-velg-bruker',
+        url: 'https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers',
+        waitFor: 'a[href*="users"]',
+        clickSelector: 'a[href*="users"]'
+      },
+      {
+        name: 'steg-3-lisenser-fane',
+        url: 'https://entra.microsoft.com/',
+        waitFor: 'a:has-text("Licenses"), button:has-text("Licenses")',
+        clickSelector: 'a:has-text("Licenses")'
+      },
+      {
+        name: 'steg-4-legg-til',
+        url: 'https://entra.microsoft.com/',
+        waitFor: 'button:has-text("Add assignments"), button:has-text("+ Assignments")',
+        clickSelector: null
+      },
+      {
+        name: 'steg-5-velg-lisens',
+        url: 'https://entra.microsoft.com/',
+        waitFor: 'input[type="checkbox"], [role="checkbox"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-6-lagre',
+        url: 'https://entra.microsoft.com/',
+        waitFor: 'button:has-text("Save"), button:has-text("Assign")',
+        clickSelector: null
+      }
+    ]
+  },
+
+  // ── ENTRA ID: INNLOGGINGSLOGG ─────────────────────────────────────────────
+  {
+    id: 'entra-sign-in-logs',
+    name: 'Se innloggingslogg (Entra ID)',
+    steps: [
+      {
+        name: 'steg-1-logg-side',
+        url: 'https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SignInEventsV3Blade',
+        waitFor: 'h1, [role="heading"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-2-filtrer',
+        url: 'https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SignInEventsV3Blade',
+        waitFor: 'button:has-text("Add filters"), [aria-label*="filter"]',
+        clickSelector: 'button:has-text("Add filters")'
+      },
+      {
+        name: 'steg-3-velg-bruker',
+        url: 'https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SignInEventsV3Blade',
+        waitFor: 'div:has-text("User"), li:has-text("User")',
+        clickSelector: null
+      },
+      {
+        name: 'steg-4-resultatliste',
+        url: 'https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SignInEventsV3Blade',
+        waitFor: '[role="row"], [data-automationid="DetailsRow"]',
+        clickSelector: null
+      },
+      {
+        name: 'steg-5-detaljer',
+        url: 'https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SignInEventsV3Blade',
+        waitFor: '[role="row"]',
+        clickSelector: '[role="row"]'
+      }
+    ]
   }
 ];
 

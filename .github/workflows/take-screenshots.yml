@@ -2,11 +2,11 @@ name: Take M365 Screenshots
 
 on:
   schedule:
-    - cron: '0 8 * * 1'
+    - cron: '0 8 * * 1'   # Ukentlig — mandag kl. 08:00 UTC
   workflow_dispatch:
     inputs:
       guide_id:
-        description: 'Guide ID to screenshot (empty = all)'
+        description: 'Guide ID å kjøre (tom = alle)'
         required: false
         default: ''
 
@@ -14,8 +14,8 @@ jobs:
   take-screenshots:
     runs-on: ubuntu-latest
     permissions:
-          contents: write
-          
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -25,11 +25,16 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
+      - name: Install Node dependencies
         run: npm install
 
       - name: Install Playwright browsers
         run: npx playwright install chromium --with-deps
+
+      - name: Install Python + Tesseract (for redact.py)
+        run: |
+          sudo apt-get install -y tesseract-ocr --quiet
+          pip install pillow pytesseract --break-system-packages --quiet
 
       - name: Create required directories
         run: |
@@ -45,6 +50,12 @@ jobs:
           M365_CLIENT_SECRET: ${{ secrets.M365_CLIENT_SECRET }}
           GUIDE_ID: ${{ github.event.inputs.guide_id }}
         run: node scripts/take-screenshots.js
+
+      - name: Redact tenant data from screenshots
+        env:
+          M365_EMAIL: ${{ secrets.M365_EMAIL }}
+          M365_TENANT_DOMAIN: ${{ secrets.M365_TENANT_DOMAIN }}
+        run: python3 scripts/redact.py
 
       - name: Commit debug screenshots on failure
         if: failure()
@@ -71,6 +82,6 @@ jobs:
         run: |
           git config user.name "GuideHub365 Bot"
           git config user.email "bot@guidehub365.com"
-          git commit -m "Auto-update screenshots $(date +'%Y-%m-%d')"
+          git commit -m "🤖 Auto: Oppdatert skjermbilder $(date +'%Y-%m-%d')"
           git pull --rebase origin main
           git push origin main
