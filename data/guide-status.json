@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-03-25T07:55:10.466Z",
+  "lastChecked": "2026-03-26T08:03:33.385Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -98,6 +98,22 @@
           "matchedKeywords": [
             "app"
           ]
+        },
+        {
+          "source": "Send email as a distribution list - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Microsoft 365 U.S. Government GCC High endpoints - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
         }
       ]
     },
@@ -109,7 +125,7 @@
         {
           "source": "Microsoft 365 Groups overview for administrators - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "call"
           ]
@@ -149,6 +165,14 @@
         {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "matchedKeywords": [
+            "message"
+          ]
+        },
+        {
+          "source": "Send email as a distribution list - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
           "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
           "matchedKeywords": [
             "message"
@@ -216,7 +240,7 @@
         {
           "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -225,7 +249,7 @@
         {
           "source": "Compare types of groups in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/compare-groups",
-          "pubDate": "Fri, 13 Mar 2026 22:01:00 GMT",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -249,7 +273,7 @@
         {
           "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -257,9 +281,17 @@
         {
           "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Thu, 12 Mar 2026 20:47:00 GMT",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Groups overview for administrators - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -273,17 +305,9 @@
           ]
         },
         {
-          "source": "Microsoft 365 Groups overview for administrators - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Agent Overview Page in Microsoft 365 Admin Center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
-          "pubDate": "Wed, 11 Mar 2026 22:43:00 GMT",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -332,6 +356,14 @@
           "matchedKeywords": [
             "ai",
             "summarize"
+          ]
+        },
+        {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
+          "matchedKeywords": [
+            "ai"
           ]
         },
         {
@@ -392,7 +424,7 @@
         {
           "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "word"
           ]
@@ -403,6 +435,14 @@
           "pubDate": "Mon, 23 Mar 2026 20:45:00 GMT",
           "matchedKeywords": [
             "onedrive"
+          ]
+        },
+        {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
+          "matchedKeywords": [
+            "word"
           ]
         },
         {
@@ -447,7 +487,7 @@
         {
           "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -455,7 +495,7 @@
         {
           "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Thu, 12 Mar 2026 20:47:00 GMT",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -471,7 +511,7 @@
         {
           "source": "Agent Overview Page in Microsoft 365 Admin Center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
-          "pubDate": "Wed, 11 Mar 2026 22:43:00 GMT",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -509,6 +549,14 @@
           ]
         },
         {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
           "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
@@ -526,7 +574,15 @@
         {
           "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
+          "matchedKeywords": [
+            "password"
+          ]
+        },
+        {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "password"
           ]
@@ -565,7 +621,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 3
+      "flaggedHits": 5
     },
     {
       "id": "teams-first-meeting",
@@ -581,7 +637,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 4
+      "flaggedHits": 5
     },
     {
       "id": "teams-copilot",
@@ -589,7 +645,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 19
+      "flaggedHits": 20
     },
     {
       "id": "onedrive-save",
@@ -613,7 +669,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "excel-copilot",
@@ -621,7 +677,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 12
+      "flaggedHits": 13
     },
     {
       "id": "mfa-setup",
@@ -637,7 +693,7 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "copilot-365-intro",
