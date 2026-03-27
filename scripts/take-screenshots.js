@@ -1047,17 +1047,19 @@ async function captureStep(page, guide, step, screenshotsRoot) {
     await page.goto(step.url, { waitUntil: 'load', timeout: 60000 });
 
     // Give the JS framework time to render after load event
-    await page.waitForTimeout(4000);
+    // Settings pages (OWA/Teams) need more time in headless CI than a real browser
+    const isSettingsUrl = step.url.includes('/options/') || step.url.includes('/settings/');
+    await page.waitForTimeout(isSettingsUrl ? 8000 : 4000);
 
     // Wait for a specific element if defined (best-effort — don't abort on failure)
     if (step.waitFor) {
       try {
-        await page.waitForSelector(step.waitFor, { timeout: 15000 });
+        await page.waitForSelector(step.waitFor, { timeout: isSettingsUrl ? 25000 : 15000 });
         console.log(`    ✓ waitFor matched: ${step.waitFor}`);
       } catch {
         console.warn(`    ⚠ waitFor timed out (${step.waitFor}) — taking screenshot anyway`);
         // Extra grace period so the page isn't completely blank
-        await page.waitForTimeout(2000);
+        await page.waitForTimeout(isSettingsUrl ? 4000 : 2000);
       }
     }
 
@@ -1084,19 +1086,21 @@ async function captureStep(page, guide, step, screenshotsRoot) {
     await page.screenshot({ path: filepath, fullPage: false });
     console.log(`    → Saved: ${filepath}`);
 
-    // Capture bounding box of the clicked element
+    // Capture bounding box of the clicked element (best-effort, short timeout)
     if (step.clickSelector) {
-      const bbox = await page.locator(step.clickSelector).boundingBox();
-      if (bbox) {
-        const coordsFile = path.join(guideDir, `${step.name}.coords.json`);
-        fs.writeFileSync(coordsFile, JSON.stringify({
-          x: Math.round(bbox.x + bbox.width / 2),
-          y: Math.round(bbox.y + bbox.height / 2),
-          width: Math.round(bbox.width),
-          height: Math.round(bbox.height)
-        }, null, 2));
-        console.log(`    → Saved coords: ${coordsFile}`);
-      }
+      try {
+        const bbox = await page.locator(step.clickSelector).boundingBox({ timeout: 3000 });
+        if (bbox) {
+          const coordsFile = path.join(guideDir, `${step.name}.coords.json`);
+          fs.writeFileSync(coordsFile, JSON.stringify({
+            x: Math.round(bbox.x + bbox.width / 2),
+            y: Math.round(bbox.y + bbox.height / 2),
+            width: Math.round(bbox.width),
+            height: Math.round(bbox.height)
+          }, null, 2));
+          console.log(`    → Saved coords: ${coordsFile}`);
+        }
+      } catch { /* element not found — no coords saved, that's fine */ }
     }
   } catch (err) {
     console.error(`  ERROR capturing ${guide.id}/${step.name}:`, err.message);
