@@ -82,6 +82,9 @@ jobs:
         run: |
           git config user.name "GuideHub365 Bot"
           git config user.email "bot@guidehub365.com"
-          git commit -m "🤖 Auto: Oppdatert skjermbilder $(date +'%Y-%m-%d')"
-          git pull --rebase origin main
+          # Pull latest first to avoid binary-file merge conflicts from concurrent runs
+          git fetch origin main
+          git reset --soft origin/main
+          git add -A public/screenshots/ data/screenshot-registry.json 2>/dev/null || true
+          git commit -m "🤖 Auto: Oppdatert skjermbilder $(date +'%Y-%m-%d')" || true
           git push origin main
