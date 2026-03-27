@@ -944,45 +944,64 @@ async function getAccessToken() {
 }
 
 /**
- * Login to Microsoft 365 via ROPC token — no browser login page needed.
- * Microsoft blocks headless Chromium from rendering their login page in CI,
- * so we authenticate via direct API call instead.
+ * Login to Microsoft 365 via form-based authentication.
+ * Fills in username and password directly in the Microsoft login page.
+ * This is more reliable than token injection which Microsoft has deprecated.
  */
 async function login(page) {
-  // Step 1: get access token via ROPC (pure HTTP, no browser)
-  const accessToken = await getAccessToken();
+  console.log('[AUTH] Starting form-based login...');
 
-  // Step 2: try OWA legacy token URL (sets session cookies in browser)
-  console.log('[AUTH] Navigating to OWA with bearer token...');
-  await page.goto(
-    `https://outlook.office365.com/owa/?authtoken=${encodeURIComponent(accessToken)}&type=2`,
-    { waitUntil: 'load', timeout: 60000 }
-  );
-
-  // Give OWA's JS framework time to initialise
-  await page.waitForTimeout(5000);
+  // Navigate to OWA — will redirect to Microsoft login page
+  await page.goto('https://outlook.office365.com/owa/', { waitUntil: 'load', timeout: 60000 });
+  await page.waitForTimeout(2000);
 
   let currentUrl = page.url();
-  console.log('[AUTH] URL after token nav:', currentUrl);
+  console.log('[AUTH] After initial navigation:', currentUrl);
 
-  // Step 3: if authtoken URL didn't work, try outlook.office.com directly
+  // --- Step 1: Enter username ---
   if (currentUrl.includes('login.microsoftonline.com') || currentUrl.includes('login.microsoft.com')) {
-    console.log('[AUTH] authtoken URL redirected to login — trying direct OWA navigation...');
-    await page.goto('https://outlook.office.com/mail/', {
-      waitUntil: 'load',
-      timeout: 60000
-    });
-    await page.waitForTimeout(5000);
-    currentUrl = page.url();
-    console.log('[AUTH] URL after fallback nav:', currentUrl);
+    try {
+      await page.waitForSelector('input[type="email"], input[name="loginfmt"]', { timeout: 15000 });
+      await page.fill('input[type="email"], input[name="loginfmt"]', EMAIL);
+      console.log('[AUTH] Username entered');
+      await page.click('#idSIButton9, input[type="submit"], button[type="submit"]');
+      await page.waitForTimeout(2000);
+    } catch (err) {
+      console.warn('[AUTH] Username step issue:', err.message);
+    }
   }
 
-  // Step 4: verify we landed somewhere useful
-  if (currentUrl.includes('login.microsoftonline.com') || currentUrl.includes('login.microsoft.com')) {
-    throw new Error(`[AUTH] All login methods failed — still on login page: ${currentUrl}`);
+  // --- Step 2: Enter password ---
+  try {
+    await page.waitForSelector('input[type="password"], input[name="passwd"]', { timeout: 15000 });
+    await page.fill('input[type="password"], input[name="passwd"]', PASSWORD);
+    console.log('[AUTH] Password entered');
+    await page.click('#idSIButton9, input[type="submit"], button[type="submit"]');
+    await page.waitForTimeout(3000);
+  } catch (err) {
+    throw new Error(`[AUTH] Password step failed: ${err.message}`);
   }
 
-  // Step 5: wait for OWA shell to render (try multiple known OWA selectors)
+  // --- Step 3: Handle "Stay signed in?" prompt (click No) ---
+  try {
+    await page.waitForSelector('#idBtn_Back, input[value="No"]', { timeout: 5000 });
+    await page.click('#idBtn_Back, input[value="No"]');
+    console.log('[AUTH] Dismissed "Stay signed in" prompt');
+    await page.waitForTimeout(2000);
+  } catch { /* no prompt — fine */ }
+
+  // --- Step 4: Wait for OWA to fully load ---
+  await page.waitForTimeout(5000);
+
+  currentUrl = page.url();
+  console.log('[AUTH] URL after login:', currentUrl);
+
+  // Check if login failed (still on login page)
+  if (currentUrl.includes('login.microsoftonline.com') || currentUrl.includes('login.microsoft.com')) {
+    throw new Error(`[AUTH] Login failed — still on login page: ${currentUrl}`);
+  }
+
+  // --- Step 5: Confirm OWA shell loaded ---
   const owaSelectors = [
     '[aria-label="Mail"]',
     '[role="navigation"]',
