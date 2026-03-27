@@ -18,6 +18,16 @@ if (!EMAIL || !PASSWORD) {
   process.exit(1);
 }
 
+// Shared waitFor selectors for common contexts
+const W = {
+  OWA_INBOX:    '[role="main"], [aria-label*="Inbox"], [aria-label*="Innboks"]',
+  OWA_SETTINGS: '[role="dialog"], [class*="SettingsPane"], [class*="settingsPanel"]',
+  OWA_COMPOSE:  '[role="dialog"], [class*="SettingsPane"]',
+  TEAMS_APP:    '[id="app-root"], [class*="ts-app"], main',
+  ONEDRIVE:     '[class*="ms-FocusZone"], [role="main"], main',
+  ENTRA:        'main, [role="main"], h1, [class*="ms-Viewport"]',
+};
+
 const GUIDES = [
   {
     id: 'out-of-office',
@@ -25,33 +35,33 @@ const GUIDES = [
     steps: [
       {
         name: 'steg-1-innstillinger',
-        url: 'https://outlook.office.com/mail/inbox',
-        waitFor: '[data-icon-name="Settings"]',
-        clickSelector: '[data-icon-name="Settings"]'
+        url: 'https://outlook.cloud.microsoft/mail/inbox',
+        waitFor: W.OWA_INBOX,
+        clickSelector: null
       },
       {
         name: 'steg-2-automatiske-svar',
-        url: 'https://outlook.office.com/mail/options/mail/automaticReplies',
-        waitFor: 'input[aria-label*="automatic"]',
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/automaticReplies',
+        waitFor: W.OWA_SETTINGS,
         clickSelector: null
       },
       {
         name: 'steg-3-slaa-paa',
-        url: 'https://outlook.office.com/mail/options/mail/automaticReplies',
-        waitFor: 'input[type="checkbox"]',
-        clickSelector: 'input[type="checkbox"]'
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/automaticReplies',
+        waitFor: W.OWA_SETTINGS,
+        clickSelector: '[role="switch"], [aria-label*="Automatisk"], [aria-label*="Automatic"]'
       },
       {
         name: 'steg-4-skriv-melding',
-        url: 'https://outlook.office.com/mail/options/mail/automaticReplies',
-        waitFor: 'textarea',
-        clickSelector: 'textarea'
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/automaticReplies',
+        waitFor: W.OWA_SETTINGS,
+        clickSelector: null
       },
       {
         name: 'steg-5-lagre',
-        url: 'https://outlook.office.com/mail/options/mail/automaticReplies',
-        waitFor: 'button:has-text("Save")',
-        clickSelector: 'button:has-text("Save")'
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/automaticReplies',
+        waitFor: W.OWA_SETTINGS,
+        clickSelector: null
       }
     ]
   },
@@ -61,33 +71,33 @@ const GUIDES = [
     steps: [
       {
         name: 'steg-1-innstillinger',
-        url: 'https://outlook.office.com/mail/inbox',
-        waitFor: '[data-icon-name="Settings"]',
-        clickSelector: '[data-icon-name="Settings"]'
+        url: 'https://outlook.cloud.microsoft/mail/inbox',
+        waitFor: W.OWA_INBOX,
+        clickSelector: null
       },
       {
         name: 'steg-2-skriv-og-svar',
-        url: 'https://outlook.office.com/mail/options/mail/compose',
-        waitFor: 'div:has-text("Signature")',
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/compose',
+        waitFor: W.OWA_SETTINGS,
         clickSelector: null
       },
       {
         name: 'steg-3-skriv-signatur',
-        url: 'https://outlook.office.com/mail/options/mail/compose',
-        waitFor: '[contenteditable="true"]',
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/compose',
+        waitFor: W.OWA_SETTINGS,
         clickSelector: '[contenteditable="true"]'
       },
       {
         name: 'steg-4-aktiver',
-        url: 'https://outlook.office.com/mail/options/mail/compose',
-        waitFor: 'input[type="checkbox"]',
-        clickSelector: 'input[type="checkbox"]'
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/compose',
+        waitFor: W.OWA_SETTINGS,
+        clickSelector: null
       },
       {
         name: 'steg-5-lagre',
-        url: 'https://outlook.office.com/mail/options/mail/compose',
-        waitFor: 'button:has-text("Save")',
-        clickSelector: 'button:has-text("Save")'
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/compose',
+        waitFor: W.OWA_SETTINGS,
+        clickSelector: null
       }
     ]
   },
@@ -97,32 +107,32 @@ const GUIDES = [
     steps: [
       {
         name: 'steg-1-outlook-innboks',
-        url: 'https://outlook.office.com/mail/inbox',
-        waitFor: '.ms-nav-listItem',
+        url: 'https://outlook.cloud.microsoft/mail/inbox',
+        waitFor: W.OWA_INBOX,
         clickSelector: null
       },
       {
         name: 'steg-2-hoyreklikk',
-        url: 'https://outlook.office.com/mail/inbox',
-        waitFor: '.ms-nav-listItem',
-        clickSelector: '.ms-nav-listItem',
+        url: 'https://outlook.cloud.microsoft/mail/inbox',
+        waitFor: W.OWA_INBOX,
+        clickSelector: '[role="treeitem"]:first-child',
         preAction: 'rightClick'
       },
       {
         name: 'steg-3-legg-til',
-        url: 'https://outlook.office.com/mail/inbox',
+        url: 'https://outlook.cloud.microsoft/mail/inbox',
         waitFor: 'div:has-text("Add shared mailbox")',
         clickSelector: 'div:has-text("Add shared mailbox")'
       },
       {
         name: 'steg-4-sok-postkasse',
-        url: 'https://outlook.office.com/mail/inbox',
+        url: 'https://outlook.cloud.microsoft/mail/inbox',
         waitFor: 'input[placeholder*="search"]',
         clickSelector: 'input[placeholder*="search"]'
       },
       {
         name: 'steg-5-ferdig',
-        url: 'https://outlook.office.com/mail/inbox',
+        url: 'https://outlook.cloud.microsoft/mail/inbox',
         waitFor: 'button:has-text("Add")',
         clickSelector: 'button:has-text("Add")'
       }
@@ -135,7 +145,7 @@ const GUIDES = [
       {
         name: 'steg-1-portal',
         url: 'https://www.microsoft365.com/',
-        waitFor: '[data-icon-name="Install"]',
+        waitFor: '[role="main"], main',
         clickSelector: null
       },
       {
@@ -212,31 +222,31 @@ const GUIDES = [
     steps: [
       {
         name: 'steg-1-aapne',
-        url: 'https://onedrive.live.com/',
-        waitFor: '.od-ButtonGroup',
+        url: 'https://www.office.com/launch/onedrive',
+        waitFor: W.ONEDRIVE,
         clickSelector: null
       },
       {
         name: 'steg-2-logg-inn',
-        url: 'https://onedrive.live.com/',
+        url: 'https://www.office.com/launch/onedrive',
         waitFor: 'button:has-text("Sign in")',
         clickSelector: 'button:has-text("Sign in")'
       },
       {
         name: 'steg-3-velg-mappe',
-        url: 'https://onedrive.live.com/',
+        url: 'https://www.office.com/launch/onedrive',
         waitFor: '[role="gridcell"]',
         clickSelector: '[role="gridcell"]'
       },
       {
         name: 'steg-4-synkroniserer',
-        url: 'https://onedrive.live.com/',
+        url: 'https://www.office.com/launch/onedrive',
         waitFor: '.od-SyncIcon',
         clickSelector: null
       },
       {
         name: 'steg-5-utforsker',
-        url: 'https://onedrive.live.com/',
+        url: 'https://www.office.com/launch/onedrive',
         waitFor: '.od-FileIcon',
         clickSelector: '.od-FileIcon'
       }
@@ -284,31 +294,31 @@ const GUIDES = [
     steps: [
       {
         name: 'steg-1-systemtray',
-        url: 'https://onedrive.live.com/',
+        url: 'https://www.office.com/launch/onedrive',
         waitFor: '.od-AppBrand',
         clickSelector: null
       },
       {
         name: 'steg-2-onedrive-mappe',
-        url: 'https://onedrive.live.com/',
+        url: 'https://www.office.com/launch/onedrive',
         waitFor: '[role="listitem"]',
         clickSelector: '[role="listitem"]'
       },
       {
         name: 'steg-3-dra-fil',
-        url: 'https://onedrive.live.com/',
+        url: 'https://www.office.com/launch/onedrive',
         waitFor: '.od-DragHandle',
         clickSelector: null
       },
       {
         name: 'steg-4-synkroniserer',
-        url: 'https://onedrive.live.com/',
+        url: 'https://www.office.com/launch/onedrive',
         waitFor: '.od-SyncIcon',
         clickSelector: null
       },
       {
         name: 'steg-5-ferdig-synkronisert',
-        url: 'https://onedrive.live.com/',
+        url: 'https://www.office.com/launch/onedrive',
         waitFor: '.od-SyncComplete',
         clickSelector: null
       }
@@ -338,19 +348,19 @@ const GUIDES = [
       },
       {
         name: 'steg-4-legg-til-konto',
-        url: 'https://outlook.office.com/mail/inbox',
+        url: 'https://outlook.cloud.microsoft/mail/inbox',
         waitFor: 'button:has-text("Add account")',
         clickSelector: 'button:has-text("Add account")'
       },
       {
         name: 'steg-5-logg-inn',
-        url: 'https://outlook.office.com/mail/inbox',
+        url: 'https://outlook.cloud.microsoft/mail/inbox',
         waitFor: 'input[type="email"]',
         clickSelector: 'input[type="email"]'
       },
       {
         name: 'steg-6-ferdig-innboks',
-        url: 'https://outlook.office.com/mail/inbox',
+        url: 'https://outlook.cloud.microsoft/mail/inbox',
         waitFor: '.ms-List-cell',
         clickSelector: null
       }
@@ -412,31 +422,31 @@ const GUIDES = [
     steps: [
       {
         name: 'steg-1-innstillinger',
-        url: 'https://outlook.office.com/mail/inbox',
-        waitFor: '[data-icon-name="Settings"]',
-        clickSelector: '[data-icon-name="Settings"]'
+        url: 'https://outlook.cloud.microsoft/mail/inbox',
+        waitFor: W.OWA_INBOX,
+        clickSelector: null
       },
       {
         name: 'steg-2-regler-side',
-        url: 'https://outlook.office.com/mail/options/mail/rules',
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/rules',
         waitFor: 'h1, [role="heading"]',
         clickSelector: null
       },
       {
         name: 'steg-3-ny-regel',
-        url: 'https://outlook.office.com/mail/options/mail/rules',
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/rules',
         waitFor: 'button:has-text("Add new rule"), button:has-text("New rule")',
         clickSelector: 'button:has-text("Add new rule"), button:has-text("New rule")'
       },
       {
         name: 'steg-4-betingelse',
-        url: 'https://outlook.office.com/mail/options/mail/rules',
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/rules',
         waitFor: 'input[placeholder*="name"], input[aria-label*="name"]',
         clickSelector: null
       },
       {
         name: 'steg-5-lagre',
-        url: 'https://outlook.office.com/mail/options/mail/rules',
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/rules',
         waitFor: 'button:has-text("Save")',
         clickSelector: null
       }
@@ -450,31 +460,31 @@ const GUIDES = [
     steps: [
       {
         name: 'steg-1-innstillinger',
-        url: 'https://outlook.office.com/mail/inbox',
-        waitFor: '[data-icon-name="Settings"]',
-        clickSelector: '[data-icon-name="Settings"]'
+        url: 'https://outlook.cloud.microsoft/mail/inbox',
+        waitFor: W.OWA_INBOX,
+        clickSelector: null
       },
       {
         name: 'steg-2-videresending-side',
-        url: 'https://outlook.office.com/mail/options/mail/forwardingAndStorage',
-        waitFor: 'input[type="radio"], input[type="checkbox"]',
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/forwardingAndStorage',
+        waitFor: W.OWA_SETTINGS,
         clickSelector: null
       },
       {
         name: 'steg-3-aktiver',
-        url: 'https://outlook.office.com/mail/options/mail/forwardingAndStorage',
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/forwardingAndStorage',
         waitFor: 'input[type="radio"]',
         clickSelector: 'input[type="radio"]'
       },
       {
         name: 'steg-4-skriv-adresse',
-        url: 'https://outlook.office.com/mail/options/mail/forwardingAndStorage',
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/forwardingAndStorage',
         waitFor: 'input[type="email"], input[placeholder*="email"], input[placeholder*="address"]',
         clickSelector: null
       },
       {
         name: 'steg-5-lagre',
-        url: 'https://outlook.office.com/mail/options/mail/forwardingAndStorage',
+        url: 'https://outlook.cloud.microsoft/mail/options/mail/forwardingAndStorage',
         waitFor: 'button:has-text("Save")',
         clickSelector: null
       }
@@ -488,31 +498,31 @@ const GUIDES = [
     steps: [
       {
         name: 'steg-1-kalender',
-        url: 'https://outlook.office.com/calendar/',
-        waitFor: '[aria-label="Calendar"], [data-icon-name="Calendar"]',
+        url: 'https://outlook.cloud.microsoft/calendar/',
+        waitFor: '[role="main"], [aria-label*="Calendar"]',
         clickSelector: null
       },
       {
         name: 'steg-2-del-knapp',
-        url: 'https://outlook.office.com/calendar/',
+        url: 'https://outlook.cloud.microsoft/calendar/',
         waitFor: 'button:has-text("Share"), [aria-label*="Share"]',
         clickSelector: 'button:has-text("Share")'
       },
       {
         name: 'steg-3-skriv-mottaker',
-        url: 'https://outlook.office.com/calendar/',
+        url: 'https://outlook.cloud.microsoft/calendar/',
         waitFor: 'input[placeholder*="name"], input[type="email"]',
         clickSelector: null
       },
       {
         name: 'steg-4-velg-tilgang',
-        url: 'https://outlook.office.com/calendar/',
+        url: 'https://outlook.cloud.microsoft/calendar/',
         waitFor: 'select, [role="combobox"], [role="listbox"]',
         clickSelector: null
       },
       {
         name: 'steg-5-send',
-        url: 'https://outlook.office.com/calendar/',
+        url: 'https://outlook.cloud.microsoft/calendar/',
         waitFor: 'button:has-text("Share"), button:has-text("Send")',
         clickSelector: null
       }
@@ -526,31 +536,31 @@ const GUIDES = [
     steps: [
       {
         name: 'steg-1-kalender',
-        url: 'https://outlook.office.com/calendar/',
+        url: 'https://outlook.cloud.microsoft/calendar/',
         waitFor: 'button:has-text("New event"), [aria-label*="New event"]',
         clickSelector: 'button:has-text("New event")'
       },
       {
         name: 'steg-2-ny-avtale-form',
-        url: 'https://outlook.office.com/calendar/',
+        url: 'https://outlook.cloud.microsoft/calendar/',
         waitFor: 'input[aria-label*="title"], input[placeholder*="title"]',
         clickSelector: null
       },
       {
         name: 'steg-3-gjentakelse',
-        url: 'https://outlook.office.com/calendar/',
+        url: 'https://outlook.cloud.microsoft/calendar/',
         waitFor: 'button:has-text("Repeat"), [aria-label*="Repeat"], [aria-label*="Recurrence"]',
         clickSelector: 'button:has-text("Repeat")'
       },
       {
         name: 'steg-4-velg-moenster',
-        url: 'https://outlook.office.com/calendar/',
+        url: 'https://outlook.cloud.microsoft/calendar/',
         waitFor: '[role="radiogroup"], input[type="radio"]',
         clickSelector: null
       },
       {
         name: 'steg-5-lagre',
-        url: 'https://outlook.office.com/calendar/',
+        url: 'https://outlook.cloud.microsoft/calendar/',
         waitFor: 'button:has-text("Save"), button:has-text("Send")',
         clickSelector: null
       }
@@ -672,31 +682,31 @@ const GUIDES = [
     steps: [
       {
         name: 'steg-1-mine-filer',
-        url: 'https://onedrive.live.com/?id=root',
+        url: 'https://www.office.com/launch/onedrive?id=root',
         waitFor: '[role="gridcell"], [data-automationid="DetailsRow"]',
         clickSelector: null
       },
       {
         name: 'steg-2-velg-fil',
-        url: 'https://onedrive.live.com/?id=root',
+        url: 'https://www.office.com/launch/onedrive?id=root',
         waitFor: '[role="gridcell"]',
         clickSelector: '[role="gridcell"]'
       },
       {
         name: 'steg-3-del-knapp',
-        url: 'https://onedrive.live.com/?id=root',
+        url: 'https://www.office.com/launch/onedrive?id=root',
         waitFor: 'button:has-text("Share"), [aria-label*="Share"]',
         clickSelector: 'button:has-text("Share")'
       },
       {
         name: 'steg-4-legg-til-person',
-        url: 'https://onedrive.live.com/?id=root',
+        url: 'https://www.office.com/launch/onedrive?id=root',
         waitFor: 'input[placeholder*="name"], input[aria-label*="recipient"]',
         clickSelector: null
       },
       {
         name: 'steg-5-send-lenke',
-        url: 'https://onedrive.live.com/?id=root',
+        url: 'https://www.office.com/launch/onedrive?id=root',
         waitFor: 'button:has-text("Send"), button:has-text("Copy link")',
         clickSelector: null
       }
@@ -710,31 +720,31 @@ const GUIDES = [
     steps: [
       {
         name: 'steg-1-mine-filer',
-        url: 'https://onedrive.live.com/?id=root',
+        url: 'https://www.office.com/launch/onedrive?id=root',
         waitFor: '[role="gridcell"]',
         clickSelector: null
       },
       {
         name: 'steg-2-meny-fil',
-        url: 'https://onedrive.live.com/?id=root',
+        url: 'https://www.office.com/launch/onedrive?id=root',
         waitFor: '[data-icon-name="MoreHorizontal"], button[aria-label*="More"]',
         clickSelector: null
       },
       {
         name: 'steg-3-versjonshistorikk',
-        url: 'https://onedrive.live.com/?id=root',
+        url: 'https://www.office.com/launch/onedrive?id=root',
         waitFor: 'li:has-text("Version history"), div:has-text("Version history")',
         clickSelector: null
       },
       {
         name: 'steg-4-velg-versjon',
-        url: 'https://onedrive.live.com/?id=root',
+        url: 'https://www.office.com/launch/onedrive?id=root',
         waitFor: '[role="listitem"], [role="row"]',
         clickSelector: null
       },
       {
         name: 'steg-5-gjenopprett',
-        url: 'https://onedrive.live.com/?id=root',
+        url: 'https://www.office.com/launch/onedrive?id=root',
         waitFor: 'button:has-text("Restore")',
         clickSelector: null
       }
@@ -946,22 +956,25 @@ async function login(page) {
   console.log('[AUTH] Navigating to OWA with bearer token...');
   await page.goto(
     `https://outlook.office365.com/owa/?authtoken=${encodeURIComponent(accessToken)}&type=2`,
-    { waitUntil: 'domcontentloaded', timeout: 30000 }
+    { waitUntil: 'load', timeout: 60000 }
   );
+
+  // Give OWA's JS framework time to initialise
+  await page.waitForTimeout(5000);
 
   let currentUrl = page.url();
   console.log('[AUTH] URL after token nav:', currentUrl);
 
-  // Step 3: if authtoken URL didn't work, try outlook.office.com with token header
+  // Step 3: if authtoken URL didn't work, try outlook.office.com directly
   if (currentUrl.includes('login.microsoftonline.com') || currentUrl.includes('login.microsoft.com')) {
-    console.log('[AUTH] authtoken URL redirected to login — trying header approach...');
-    await page.setExtraHTTPHeaders({ 'Authorization': `Bearer ${accessToken}` });
+    console.log('[AUTH] authtoken URL redirected to login — trying direct OWA navigation...');
     await page.goto('https://outlook.office.com/mail/', {
-      waitUntil: 'domcontentloaded',
-      timeout: 30000
+      waitUntil: 'load',
+      timeout: 60000
     });
+    await page.waitForTimeout(5000);
     currentUrl = page.url();
-    console.log('[AUTH] URL after header nav:', currentUrl);
+    console.log('[AUTH] URL after fallback nav:', currentUrl);
   }
 
   // Step 4: verify we landed somewhere useful
@@ -969,14 +982,27 @@ async function login(page) {
     throw new Error(`[AUTH] All login methods failed — still on login page: ${currentUrl}`);
   }
 
-  // Step 5: wait for inbox to confirm login
-  try {
-    await page.waitForSelector('[aria-label="Mail"], .ms-List, [data-app-section], .ms-FocusZone', {
-      timeout: 30000
-    });
-    console.log('[AUTH] Login confirmed — inbox loaded. URL:', page.url());
-  } catch {
-    console.log('[AUTH] Warning: could not confirm inbox. URL:', page.url());
+  // Step 5: wait for OWA shell to render (try multiple known OWA selectors)
+  const owaSelectors = [
+    '[aria-label="Mail"]',
+    '[role="navigation"]',
+    '.ms-FocusZone',
+    '[data-app-section]',
+    'div[class*="ms-Viewport"]',
+    'nav',
+    'header'
+  ];
+  let confirmed = false;
+  for (const sel of owaSelectors) {
+    try {
+      await page.waitForSelector(sel, { timeout: 10000 });
+      console.log(`[AUTH] Login confirmed via selector "${sel}". URL: ${page.url()}`);
+      confirmed = true;
+      break;
+    } catch { /* try next */ }
+  }
+  if (!confirmed) {
+    console.warn('[AUTH] ⚠ Could not confirm inbox — proceeding anyway. URL:', page.url());
   }
 
   // Save session cookies for potential reuse
@@ -998,24 +1024,40 @@ async function captureStep(page, guide, step, screenshotsRoot) {
       fs.mkdirSync(guideDir, { recursive: true });
     }
 
-    // Navigate to step URL
-    await page.goto(step.url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    // Navigate to step URL — use 'load' + extra wait for JS SPAs like OWA/Teams/Entra
+    await page.goto(step.url, { waitUntil: 'load', timeout: 60000 });
 
-    // Wait for element
+    // Give the JS framework time to render after load event
+    await page.waitForTimeout(4000);
+
+    // Wait for a specific element if defined (best-effort — don't abort on failure)
     if (step.waitFor) {
-      await page.waitForSelector(step.waitFor, { timeout: 10000 });
+      try {
+        await page.waitForSelector(step.waitFor, { timeout: 15000 });
+        console.log(`    ✓ waitFor matched: ${step.waitFor}`);
+      } catch {
+        console.warn(`    ⚠ waitFor timed out (${step.waitFor}) — taking screenshot anyway`);
+        // Extra grace period so the page isn't completely blank
+        await page.waitForTimeout(2000);
+      }
     }
 
     // Execute pre-action if any
     if (step.preAction === 'rightClick' && step.clickSelector) {
-      const bbox = await page.locator(step.clickSelector).boundingBox();
-      if (bbox) {
-        await page.click(step.clickSelector, { button: 'right' });
-        await page.waitForTimeout(500);
-      }
+      try {
+        const bbox = await page.locator(step.clickSelector).boundingBox();
+        if (bbox) {
+          await page.click(step.clickSelector, { button: 'right' });
+          await page.waitForTimeout(800);
+        }
+      } catch { console.warn(`    ⚠ rightClick failed on: ${step.clickSelector}`); }
     } else if (step.clickSelector) {
-      // Don't click for regular capture, just wait for element to be visible
-      await page.waitForSelector(step.clickSelector, { state: 'visible', timeout: 5000 });
+      try {
+        // Click the element to show the expected UI state, then wait for render
+        await page.waitForSelector(step.clickSelector, { state: 'visible', timeout: 8000 });
+        await page.click(step.clickSelector);
+        await page.waitForTimeout(1500);
+      } catch { console.warn(`    ⚠ click failed on: ${step.clickSelector}`); }
     }
 
     // Take screenshot — saved as public/screenshots/<guide-id>/<step-name>.png
