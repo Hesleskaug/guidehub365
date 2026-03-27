@@ -1058,16 +1058,23 @@ async function captureStep(page, guide, step, screenshotsRoot) {
       try {
         await page.waitForSelector(gearSelector, { timeout: 8000 });
         await page.click(gearSelector);
-        await page.waitForTimeout(1500);
         console.log('    ✓ Settings gear clicked');
       } catch { console.warn('    ⚠ Settings gear not found — proceeding anyway'); }
 
-      // 3. Wait for the settings dialog/panel to open
-      try {
-        await page.waitForSelector('[role="dialog"]', { timeout: 10000 });
-        console.log('    ✓ Settings dialog opened');
+      // 3. Wait for the settings panel to appear (whatever element it uses)
+      // Use a broad selector — OWA's service-account panel may not use role="dialog"
+      const panelMatched = await page.waitForSelector(
+        '[role="dialog"], [role="complementary"], [class*="flyout"], [class*="Flyout"], aside',
+        { timeout: 8000 }
+      ).then(() => true).catch(() => false);
+      if (panelMatched) {
+        console.log('    ✓ Settings panel detected');
         await page.waitForTimeout(500);
-      } catch { console.warn('    ⚠ Settings dialog did not open'); }
+      } else {
+        // Give it extra time regardless — gear was clicked, panel may be rendering
+        await page.waitForTimeout(4000);
+        console.log('    ℹ Taking screenshot after gear click (panel selector not matched)');
+      }
 
     } else {
       // Standard URL navigation for all non-OWA-settings pages
