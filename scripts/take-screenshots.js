@@ -1043,23 +1043,46 @@ async function captureStep(page, guide, step, screenshotsRoot) {
       fs.mkdirSync(guideDir, { recursive: true });
     }
 
-    // Navigate to step URL — use 'load' + extra wait for JS SPAs like OWA/Teams/Entra
-    await page.goto(step.url, { waitUntil: 'load', timeout: 60000 });
+    // Detect OWA settings pages — direct URL navigation never opens the settings panel
+    // in headless Chromium (SPA needs user interaction). Instead: load inbox → click gear.
+    const isOwaSettings = step.url.includes('outlook.cloud.microsoft') && step.url.includes('/options/');
 
-    // Give the JS framework time to render after load event
-    // Settings pages (OWA/Teams) need more time in headless CI than a real browser
-    const isSettingsUrl = step.url.includes('/options/') || step.url.includes('/settings/');
-    await page.waitForTimeout(isSettingsUrl ? 8000 : 4000);
+    if (isOwaSettings) {
+      // 1. Load OWA inbox (bootstraps the SPA)
+      await page.goto('https://outlook.cloud.microsoft/mail/inbox', { waitUntil: 'load', timeout: 60000 });
+      await page.waitForTimeout(4000);
+      await page.waitForSelector('[role="main"]', { timeout: 10000 }).catch(() => {});
 
-    // Wait for a specific element if defined (best-effort — don't abort on failure)
-    if (step.waitFor) {
+      // 2. Click the Settings gear icon (works in both English and Norwegian OWA)
+      const gearSelector = 'button[aria-label="Settings"], button[aria-label="Innstillinger"]';
       try {
-        await page.waitForSelector(step.waitFor, { timeout: isSettingsUrl ? 25000 : 15000 });
-        console.log(`    ✓ waitFor matched: ${step.waitFor}`);
-      } catch {
-        console.warn(`    ⚠ waitFor timed out (${step.waitFor}) — taking screenshot anyway`);
-        // Extra grace period so the page isn't completely blank
-        await page.waitForTimeout(isSettingsUrl ? 4000 : 2000);
+        await page.waitForSelector(gearSelector, { timeout: 8000 });
+        await page.click(gearSelector);
+        await page.waitForTimeout(1500);
+        console.log('    ✓ Settings gear clicked');
+      } catch { console.warn('    ⚠ Settings gear not found — proceeding anyway'); }
+
+      // 3. Wait for the settings dialog/panel to open
+      try {
+        await page.waitForSelector('[role="dialog"]', { timeout: 10000 });
+        console.log('    ✓ Settings dialog opened');
+        await page.waitForTimeout(500);
+      } catch { console.warn('    ⚠ Settings dialog did not open'); }
+
+    } else {
+      // Standard URL navigation for all non-OWA-settings pages
+      await page.goto(step.url, { waitUntil: 'load', timeout: 60000 });
+      await page.waitForTimeout(4000);
+
+      // Wait for a specific element if defined (best-effort — don't abort on failure)
+      if (step.waitFor) {
+        try {
+          await page.waitForSelector(step.waitFor, { timeout: 15000 });
+          console.log(`    ✓ waitFor matched: ${step.waitFor}`);
+        } catch {
+          console.warn(`    ⚠ waitFor timed out (${step.waitFor}) — taking screenshot anyway`);
+          await page.waitForTimeout(2000);
+        }
       }
     }
 
