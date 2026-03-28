@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-03-27T08:01:14.759Z",
+  "lastChecked": "2026-03-28T07:45:25.607Z",
   "totalGuides": 12,
-  "flaggedCount": 11,
+  "flaggedCount": 12,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -55,7 +55,7 @@
         {
           "source": "Sign up for Microsoft 365 Business Standard - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "pubDate": "Fri, 27 Mar 2026 22:46:00 GMT",
           "matchedKeywords": [
             "setup"
           ]
@@ -100,6 +100,14 @@
           ]
         },
         {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Fri, 27 Mar 2026 20:48:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
           "source": "Send email as a distribution list - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
           "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
@@ -139,15 +147,6 @@
           ]
         },
         {
-          "source": "Guests in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/about-guest-users",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "teams",
-            "meeting"
-          ]
-        },
-        {
           "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
           "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
@@ -184,15 +183,6 @@
           "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
           "matchedKeywords": [
             "teams"
-          ]
-        },
-        {
-          "source": "Guests in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/about-guest-users",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "teams",
-            "chat"
           ]
         },
         {
@@ -296,15 +286,6 @@
           ]
         },
         {
-          "source": "Plan for multitenant organizations in Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/plan-multi-tenant-org-overview",
-          "pubDate": "Fri, 13 Mar 2026 22:01:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Agent Overview Page in Microsoft 365 Admin Center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
@@ -316,9 +297,16 @@
         {
           "source": "Microsoft 365 usage analytics overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/usage-analytics/usage-analytics",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "pubDate": "Fri, 27 Mar 2026 22:46:00 GMT",
           "matchedKeywords": [
-            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Fri, 27 Mar 2026 20:48:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -344,7 +332,7 @@
         {
           "source": "Sign up for Microsoft 365 Business Standard - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "pubDate": "Fri, 27 Mar 2026 22:46:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -364,14 +352,6 @@
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "ai"
-          ]
-        },
-        {
-          "source": "Guests in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/about-guest-users",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "teams"
           ]
         },
         {
@@ -444,14 +424,6 @@
           "matchedKeywords": [
             "word"
           ]
-        },
-        {
-          "source": "Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings",
-          "pubDate": "Fri, 13 Mar 2026 22:01:00 GMT",
-          "matchedKeywords": [
-            "cloud"
-          ]
         }
       ]
     },
@@ -501,25 +473,9 @@
           ]
         },
         {
-          "source": "Plan for multitenant organizations in Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/plan-multi-tenant-org-overview",
-          "pubDate": "Fri, 13 Mar 2026 22:01:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Agent Overview Page in Microsoft 365 Admin Center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Microsoft 365 usage analytics overview - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/usage-analytics/usage-analytics",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -562,6 +518,21 @@
           "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
           "matchedKeywords": [
             "ai"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "mfa-setup",
+      "guideTitle": "Sette opp tofaktorautentisering",
+      "category": "Sikkerhet og innlogging",
+      "hits": [
+        {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Fri, 27 Mar 2026 20:48:00 GMT",
+          "matchedKeywords": [
+            "security"
           ]
         }
       ]
@@ -621,7 +592,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 5
+      "flaggedHits": 6
     },
     {
       "id": "teams-first-meeting",
@@ -629,7 +600,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "teams-channels",
@@ -637,7 +608,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "teams-copilot",
@@ -645,7 +616,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 20
+      "flaggedHits": 19
     },
     {
       "id": "onedrive-save",
@@ -669,7 +640,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "excel-copilot",
@@ -677,15 +648,15 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 13
+      "flaggedHits": 11
     },
     {
       "id": "mfa-setup",
       "title": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "password-reset",
