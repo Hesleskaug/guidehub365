@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-03-28T07:45:25.607Z",
+  "lastChecked": "2026-03-29T07:53:08.419Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -100,17 +100,17 @@
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Fri, 27 Mar 2026 20:48:00 GMT",
+          "source": "Send email as a distribution list - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
+          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
           "matchedKeywords": [
             "app"
           ]
         },
         {
-          "source": "Send email as a distribution list - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Fri, 27 Mar 2026 20:48:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -228,6 +228,14 @@
           ]
         },
         {
+          "source": "Requirements to use centralized deployment for Office Add-ins - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/centralized-deployment-of-add-ins",
+          "pubDate": "Thu, 19 Mar 2026 22:45:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
@@ -240,14 +248,6 @@
           "source": "Compare types of groups in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/compare-groups",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Requirements to use centralized deployment for Office Add-ins - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/centralized-deployment-of-add-ins",
-          "pubDate": "Thu, 19 Mar 2026 22:45:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -303,19 +303,19 @@
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Fri, 27 Mar 2026 20:48:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Send email as a distribution list - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
           "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
           "matchedKeywords": [
             "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Fri, 27 Mar 2026 20:48:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -334,15 +334,6 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
           "pubDate": "Fri, 27 Mar 2026 22:46:00 GMT",
           "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "ai",
             "summarize"
           ]
         },
@@ -497,14 +488,6 @@
           ]
         },
         {
-          "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Password policy recommendations - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
@@ -616,7 +599,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 19
+      "flaggedHits": 18
     },
     {
       "id": "onedrive-save",
@@ -648,7 +631,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 11
+      "flaggedHits": 10
     },
     {
       "id": "mfa-setup",
