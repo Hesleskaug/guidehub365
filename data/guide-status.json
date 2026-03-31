@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-03-30T08:22:36.001Z",
+  "lastChecked": "2026-03-31T08:10:28.495Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -26,33 +26,6 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
-        },
-        {
-          "source": "Send email as a distribution list - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
-        },
-        {
-          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
-        },
-        {
           "source": "Sign up for Microsoft 365 Business Standard - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
           "pubDate": "Fri, 27 Mar 2026 22:46:00 GMT",
@@ -76,17 +49,9 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Deploy Office Add-ins in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Thu, 26 Mar 2026 22:43:00 GMT",
+          "pubDate": "Tue, 31 Mar 2026 03:34:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -103,14 +68,6 @@
           "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
           "pubDate": "Fri, 27 Mar 2026 20:48:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Send email as a distribution list - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -139,14 +96,6 @@
           ]
         },
         {
-          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        },
-        {
           "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
           "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
@@ -171,30 +120,6 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "message"
-          ]
-        },
-        {
-          "source": "Send email as a distribution list - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "message"
-          ]
-        },
-        {
-          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        },
-        {
           "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
           "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
@@ -218,29 +143,11 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Deploy Office Add-ins in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Thu, 26 Mar 2026 22:43:00 GMT",
+          "pubDate": "Tue, 31 Mar 2026 03:34:00 GMT",
           "matchedKeywords": [
             "copilot",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "ai",
             "summarize"
           ]
         },
@@ -328,38 +235,10 @@
           ]
         },
         {
-          "source": "Send email as a distribution list - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "teams",
-            "summarize"
-          ]
-        },
-        {
           "source": "Sign up for Microsoft 365 Business Standard - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
           "pubDate": "Fri, 27 Mar 2026 22:46:00 GMT",
           "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "ai",
             "summarize"
           ]
         },
@@ -466,27 +345,11 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Deploy Office Add-ins in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Thu, 26 Mar 2026 22:43:00 GMT",
+          "pubDate": "Tue, 31 Mar 2026 03:34:00 GMT",
           "matchedKeywords": [
             "copilot"
-          ]
-        },
-        {
-          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "ai"
           ]
         },
         {
@@ -509,30 +372,6 @@
           "source": "Agent Overview Page in Microsoft 365 Admin Center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Send email as a distribution list - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
-          "pubDate": "Mon, 16 Mar 2026 11:55:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -609,7 +448,7 @@
         {
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Thu, 26 Mar 2026 22:43:00 GMT",
+          "pubDate": "Tue, 31 Mar 2026 03:34:00 GMT",
           "matchedKeywords": [
             "copilot",
             "microsoft 365 copilot"
@@ -634,7 +473,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 5
+      "flaggedHits": 2
     },
     {
       "id": "outlook-mobile",
@@ -642,7 +481,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 6
+      "flaggedHits": 4
     },
     {
       "id": "teams-first-meeting",
@@ -650,7 +489,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "teams-channels",
@@ -658,7 +497,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 5
+      "flaggedHits": 2
     },
     {
       "id": "teams-copilot",
@@ -666,7 +505,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 21
+      "flaggedHits": 16
     },
     {
       "id": "onedrive-save",
@@ -698,7 +537,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 12
+      "flaggedHits": 7
     },
     {
       "id": "mfa-setup",
