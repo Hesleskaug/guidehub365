@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-03-31T08:10:28.495Z",
+  "lastChecked": "2026-04-01T08:17:12.944Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -31,14 +31,6 @@
           "pubDate": "Fri, 27 Mar 2026 22:46:00 GMT",
           "matchedKeywords": [
             "setup"
-          ]
-        },
-        {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
-          "matchedKeywords": [
-            "mail"
           ]
         }
       ]
@@ -96,14 +88,6 @@
           ]
         },
         {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        },
-        {
           "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
@@ -119,14 +103,6 @@
       "guideTitle": "Kanaler og chatter i Teams",
       "category": "Microsoft Teams",
       "hits": [
-        {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        },
         {
           "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
@@ -177,17 +153,18 @@
           ]
         },
         {
-          "source": "Microsoft 365 Multi-Geo - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
-          "pubDate": "Tue, 17 Mar 2026 22:44:00 GMT",
+          "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
+            "ai",
             "summarize"
           ]
         },
         {
-          "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Tue, 31 Mar 2026 22:43:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -206,6 +183,15 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Plan for multitenant organizations in Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/plan-multi-tenant-org-overview",
+          "pubDate": "Tue, 31 Mar 2026 11:47:00 GMT",
+          "matchedKeywords": [
+            "ai",
             "summarize"
           ]
         },
@@ -259,15 +245,6 @@
           ]
         },
         {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "teams"
-          ]
-        },
-        {
           "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
@@ -282,6 +259,14 @@
       "guideTitle": "Lagre filer i OneDrive",
       "category": "OneDrive og SharePoint",
       "hits": [
+        {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Tue, 31 Mar 2026 22:43:00 GMT",
+          "matchedKeywords": [
+            "backup"
+          ]
+        },
         {
           "source": "Restore data in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
@@ -299,6 +284,14 @@
       "category": "OneDrive og SharePoint",
       "hits": [
         {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Tue, 31 Mar 2026 22:43:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
+          ]
+        },
+        {
           "source": "Restore data in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
           "pubDate": "Mon, 23 Mar 2026 20:45:00 GMT",
@@ -313,6 +306,14 @@
       "guideTitle": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
       "hits": [
+        {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Tue, 31 Mar 2026 22:43:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        },
         {
           "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
@@ -369,6 +370,22 @@
           ]
         },
         {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Tue, 31 Mar 2026 22:43:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Plan for multitenant organizations in Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/plan-multi-tenant-org-overview",
+          "pubDate": "Tue, 31 Mar 2026 11:47:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Agent Overview Page in Microsoft 365 Admin Center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
@@ -390,14 +407,6 @@
           "pubDate": "Sat, 21 Mar 2026 03:18:00 GMT",
           "matchedKeywords": [
             "copilot"
-          ]
-        },
-        {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
-          "matchedKeywords": [
-            "ai"
           ]
         }
       ]
@@ -473,7 +482,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "outlook-mobile",
@@ -489,7 +498,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 3
+      "flaggedHits": 2
     },
     {
       "id": "teams-channels",
@@ -497,7 +506,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-copilot",
@@ -513,7 +522,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "sharepoint-document-library",
@@ -521,7 +530,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "word-autosave",
@@ -529,7 +538,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "excel-copilot",
@@ -537,7 +546,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 7
+      "flaggedHits": 8
     },
     {
       "id": "mfa-setup",
