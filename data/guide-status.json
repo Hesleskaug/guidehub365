@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-04-02T08:08:43.587Z",
+  "lastChecked": "2026-04-03T08:03:11.835Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -57,14 +57,6 @@
           ]
         },
         {
-          "source": "Requirements to use centralized deployment for Office Add-ins - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/centralized-deployment-of-add-ins",
-          "pubDate": "Thu, 19 Mar 2026 22:45:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
           "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
           "pubDate": "Fri, 27 Mar 2026 20:48:00 GMT",
@@ -75,7 +67,7 @@
         {
           "source": "Microsoft 365 U.S. Government GCC High endpoints - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints",
-          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
+          "pubDate": "Thu, 02 Apr 2026 14:47:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -96,20 +88,20 @@
           ]
         },
         {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        },
-        {
           "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "teams",
             "call"
+          ]
+        },
+        {
+          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
+          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
+          "matchedKeywords": [
+            "teams"
           ]
         }
       ]
@@ -120,17 +112,17 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
+          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "teams"
           ]
         },
         {
-          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
-          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
+          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
+          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
           "matchedKeywords": [
             "teams"
           ]
@@ -164,14 +156,6 @@
           "source": "Compare types of groups in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/compare-groups",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Requirements to use centralized deployment for Office Add-ins - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/centralized-deployment-of-add-ins",
-          "pubDate": "Thu, 19 Mar 2026 22:45:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -277,19 +261,19 @@
           ]
         },
         {
+          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        },
+        {
           "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
           "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
           "matchedKeywords": [
             "ai",
-            "teams"
-          ]
-        },
-        {
-          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
-          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
-          "matchedKeywords": [
             "teams"
           ]
         }
@@ -539,7 +523,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "teams-first-meeting",
@@ -563,7 +547,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 18
+      "flaggedHits": 17
     },
     {
       "id": "onedrive-save",
