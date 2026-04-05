@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-04-04T07:50:00.297Z",
+  "lastChecked": "2026-04-05T07:56:06.458Z",
   "totalGuides": 12,
-  "flaggedCount": 12,
+  "flaggedCount": 11,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -20,29 +20,6 @@
     }
   ],
   "flaggedGuides": [
-    {
-      "guideId": "outlook-setup-pc",
-      "guideTitle": "Sette opp Outlook på PC",
-      "category": "E-post og kalender",
-      "hits": [
-        {
-          "source": "Sign up for Microsoft 365 Business Standard - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
-          "pubDate": "Fri, 27 Mar 2026 22:46:00 GMT",
-          "matchedKeywords": [
-            "setup"
-          ]
-        },
-        {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
-          "matchedKeywords": [
-            "mail"
-          ]
-        }
-      ]
-    },
     {
       "guideId": "outlook-mobile",
       "guideTitle": "Outlook på mobil",
@@ -119,14 +96,6 @@
             "teams",
             "call"
           ]
-        },
-        {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
         }
       ]
     },
@@ -163,14 +132,6 @@
           "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        },
-        {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
           "matchedKeywords": [
             "teams"
           ]
@@ -304,19 +265,12 @@
           ]
         },
         {
-          "source": "Sign up for Microsoft 365 Business Standard - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
+          "source": "Set up Microsoft 365 Business Standard with your domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/setup-business-standard",
           "pubDate": "Fri, 27 Mar 2026 22:46:00 GMT",
           "matchedKeywords": [
+            "ai",
             "summarize"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
-          "matchedKeywords": [
-            "copilot"
           ]
         },
         {
@@ -325,6 +279,14 @@
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "ai"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
+          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
+          "matchedKeywords": [
+            "copilot"
           ]
         },
         {
@@ -340,15 +302,6 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
-            "teams"
-          ]
-        },
-        {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
-          "matchedKeywords": [
-            "ai",
             "teams"
           ]
         }
@@ -513,11 +466,11 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
+          "source": "Set up Microsoft 365 Business Standard with your domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/setup-business-standard",
+          "pubDate": "Fri, 27 Mar 2026 22:46:00 GMT",
           "matchedKeywords": [
-            "copilot"
+            "ai"
           ]
         },
         {
@@ -529,19 +482,19 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot readiness report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
+          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
           "matchedKeywords": [
             "copilot"
           ]
         },
         {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
+          "source": "Microsoft 365 Copilot readiness report - Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
+          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
           "matchedKeywords": [
-            "ai"
+            "copilot"
           ]
         }
       ]
@@ -642,9 +595,9 @@
       "id": "outlook-setup-pc",
       "title": "Sette opp Outlook på PC",
       "category": "E-post og kalender",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 0
     },
     {
       "id": "outlook-mobile",
@@ -660,7 +613,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 3
+      "flaggedHits": 2
     },
     {
       "id": "teams-channels",
@@ -668,7 +621,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "teams-copilot",
@@ -676,7 +629,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 20
+      "flaggedHits": 19
     },
     {
       "id": "onedrive-save",
