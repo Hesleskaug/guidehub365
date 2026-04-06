@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-04-05T07:56:06.458Z",
+  "lastChecked": "2026-04-06T08:23:03.934Z",
   "totalGuides": 12,
-  "flaggedCount": 11,
+  "flaggedCount": 12,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -21,18 +21,25 @@
   ],
   "flaggedGuides": [
     {
+      "guideId": "outlook-setup-pc",
+      "guideTitle": "Sette opp Outlook på PC",
+      "category": "E-post og kalender",
+      "hits": [
+        {
+          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
+          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
+          "matchedKeywords": [
+            "mail"
+          ]
+        }
+      ]
+    },
+    {
       "guideId": "outlook-mobile",
       "guideTitle": "Outlook på mobil",
       "category": "E-post og kalender",
       "hits": [
-        {
-          "source": "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
-          "pubDate": "Wed, 01 Apr 2026 21:45:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
         {
           "source": "Copilot Cowork: Now available in Frontier",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
@@ -50,17 +57,17 @@
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Fri, 27 Mar 2026 20:48:00 GMT",
+          "source": "View or download your invoice in the Microsoft 365 admin center",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/billing-and-payments/view-your-bill-or-invoice",
+          "pubDate": "Wed, 01 Apr 2026 03:40:00 GMT",
           "matchedKeywords": [
             "app"
           ]
         },
         {
-          "source": "Microsoft 365 U.S. Government GCC High endpoints - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints",
-          "pubDate": "Thu, 02 Apr 2026 14:47:00 GMT",
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Fri, 27 Mar 2026 20:48:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -89,12 +96,11 @@
           ]
         },
         {
-          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
-          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
+          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
+          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
           "matchedKeywords": [
-            "teams",
-            "call"
+            "teams"
           ]
         }
       ]
@@ -104,14 +110,6 @@
       "guideTitle": "Kanaler og chatter i Teams",
       "category": "Microsoft Teams",
       "hits": [
-        {
-          "source": "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
-          "pubDate": "Wed, 01 Apr 2026 21:45:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
         {
           "source": "Copilot Cowork: Now available in Frontier",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
@@ -129,9 +127,9 @@
           ]
         },
         {
-          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
-          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
+          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
+          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
           "matchedKeywords": [
             "teams"
           ]
@@ -143,15 +141,6 @@
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
-        {
-          "source": "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
-          "pubDate": "Wed, 01 Apr 2026 21:45:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
         {
           "source": "Copilot Cowork: Now available in Frontier",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
@@ -168,6 +157,14 @@
           "matchedKeywords": [
             "copilot",
             "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "View or download your invoice in the Microsoft 365 admin center",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/billing-and-payments/view-your-bill-or-invoice",
+          "pubDate": "Wed, 01 Apr 2026 03:40:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -207,16 +204,16 @@
           ]
         },
         {
-          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
+          "source": "Microsoft 365 Groups overview for administrators - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
         },
         {
-          "source": "Microsoft 365 Groups overview for administrators - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups",
+          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "summarize"
@@ -265,15 +262,6 @@
           ]
         },
         {
-          "source": "Set up Microsoft 365 Business Standard with your domain - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/setup-business-standard",
-          "pubDate": "Fri, 27 Mar 2026 22:46:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Password policy recommendations - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
@@ -298,10 +286,11 @@
           ]
         },
         {
-          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
-          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
+          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
+          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
           "matchedKeywords": [
+            "ai",
             "teams"
           ]
         }
@@ -399,15 +388,6 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
-          "pubDate": "Wed, 01 Apr 2026 21:45:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
-        {
           "source": "Copilot Cowork: Now available in Frontier",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
           "pubDate": "Mon, 30 Mar 2026 13:00:00 +0000",
@@ -466,14 +446,6 @@
           ]
         },
         {
-          "source": "Set up Microsoft 365 Business Standard with your domain - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/setup-business-standard",
-          "pubDate": "Fri, 27 Mar 2026 22:46:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Password policy recommendations - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
@@ -495,6 +467,14 @@
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
           "matchedKeywords": [
             "copilot"
+          ]
+        },
+        {
+          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
+          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
+          "matchedKeywords": [
+            "ai"
           ]
         }
       ]
@@ -543,15 +523,6 @@
       "category": "Copilot og AI",
       "hits": [
         {
-          "source": "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
-          "pubDate": "Wed, 01 Apr 2026 21:45:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "prompt"
-          ]
-        },
-        {
           "source": "Copilot Cowork: Now available in Frontier",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
           "pubDate": "Mon, 30 Mar 2026 13:00:00 +0000",
@@ -595,9 +566,9 @@
       "id": "outlook-setup-pc",
       "title": "Sette opp Outlook på PC",
       "category": "E-post og kalender",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "outlook-mobile",
@@ -605,7 +576,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 6
+      "flaggedHits": 5
     },
     {
       "id": "teams-first-meeting",
@@ -621,7 +592,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "teams-copilot",
@@ -629,7 +600,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 19
+      "flaggedHits": 18
     },
     {
       "id": "onedrive-save",
@@ -661,7 +632,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 12
+      "flaggedHits": 11
     },
     {
       "id": "mfa-setup",
@@ -685,7 +656,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 5
+      "flaggedHits": 4
     }
   ]
 }
