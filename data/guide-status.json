@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-04-06T08:23:03.934Z",
+  "lastChecked": "2026-04-07T08:14:46.484Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -41,14 +41,6 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Copilot Cowork: Now available in Frontier",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
-          "pubDate": "Mon, 30 Mar 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
@@ -76,6 +68,14 @@
           "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Deploy the Microsoft 365 LTI App in Canvas",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
+          "pubDate": "Mon, 06 Apr 2026 17:44:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -111,14 +111,6 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Copilot Cowork: Now available in Frontier",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
-          "pubDate": "Mon, 30 Mar 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
@@ -141,15 +133,6 @@
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
-        {
-          "source": "Copilot Cowork: Now available in Frontier",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
-          "pubDate": "Mon, 30 Mar 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
         {
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
@@ -308,15 +291,6 @@
           "matchedKeywords": [
             "backup"
           ]
-        },
-        {
-          "source": "Restore data in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
-          "pubDate": "Mon, 23 Mar 2026 20:45:00 GMT",
-          "matchedKeywords": [
-            "onedrive",
-            "backup"
-          ]
         }
       ]
     },
@@ -329,14 +303,6 @@
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
           "pubDate": "Tue, 31 Mar 2026 22:43:00 GMT",
-          "matchedKeywords": [
-            "sharepoint"
-          ]
-        },
-        {
-          "source": "Restore data in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
-          "pubDate": "Mon, 23 Mar 2026 20:45:00 GMT",
           "matchedKeywords": [
             "sharepoint"
           ]
@@ -365,14 +331,6 @@
           ]
         },
         {
-          "source": "Restore data in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
-          "pubDate": "Mon, 23 Mar 2026 20:45:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
-          ]
-        },
-        {
           "source": "Password policy recommendations - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
           "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
@@ -387,15 +345,6 @@
       "guideTitle": "Copilot i Excel",
       "category": "Word, Excel og PowerPoint",
       "hits": [
-        {
-          "source": "Copilot Cowork: Now available in Frontier",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
-          "pubDate": "Mon, 30 Mar 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
         {
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
@@ -523,14 +472,6 @@
       "category": "Copilot og AI",
       "hits": [
         {
-          "source": "Copilot Cowork: Now available in Frontier",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
-          "pubDate": "Mon, 30 Mar 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
@@ -592,7 +533,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 3
+      "flaggedHits": 2
     },
     {
       "id": "teams-copilot",
@@ -600,7 +541,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 18
+      "flaggedHits": 17
     },
     {
       "id": "onedrive-save",
@@ -608,7 +549,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "sharepoint-document-library",
@@ -616,7 +557,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "word-autosave",
@@ -624,7 +565,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "excel-copilot",
@@ -632,7 +573,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 11
+      "flaggedHits": 10
     },
     {
       "id": "mfa-setup",
@@ -656,7 +597,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 4
+      "flaggedHits": 3
     }
   ]
 }
