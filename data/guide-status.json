@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-04-07T08:14:46.484Z",
+  "lastChecked": "2026-04-08T08:13:54.790Z",
   "totalGuides": 12,
-  "flaggedCount": 12,
+  "flaggedCount": 11,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -20,21 +20,6 @@
     }
   ],
   "flaggedGuides": [
-    {
-      "guideId": "outlook-setup-pc",
-      "guideTitle": "Sette opp Outlook på PC",
-      "category": "E-post og kalender",
-      "hits": [
-        {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
-          "matchedKeywords": [
-            "mail"
-          ]
-        }
-      ]
-    },
     {
       "guideId": "outlook-mobile",
       "guideTitle": "Outlook på mobil",
@@ -96,11 +81,12 @@
           ]
         },
         {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
+          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
-            "teams"
+            "teams",
+            "call"
           ]
         }
       ]
@@ -119,9 +105,9 @@
           ]
         },
         {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
+          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
             "teams"
           ]
@@ -269,11 +255,10 @@
           ]
         },
         {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
+          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
+          "pubDate": "Wed, 25 Mar 2026 17:56:00 GMT",
           "matchedKeywords": [
-            "ai",
             "teams"
           ]
         }
@@ -417,14 +402,6 @@
           "matchedKeywords": [
             "copilot"
           ]
-        },
-        {
-          "source": "Migration orchestrator overview - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/migration-orchestrator-1-overview",
-          "pubDate": "Tue, 24 Mar 2026 17:50:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
         }
       ]
     },
@@ -507,9 +484,9 @@
       "id": "outlook-setup-pc",
       "title": "Sette opp Outlook på PC",
       "category": "E-post og kalender",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "outlook-mobile",
@@ -573,7 +550,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 10
+      "flaggedHits": 9
     },
     {
       "id": "mfa-setup",
