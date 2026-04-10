@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-04-09T08:21:31.531Z",
+  "lastChecked": "2026-04-10T08:21:48.265Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -91,7 +91,7 @@
         {
           "source": "Deploy the Microsoft 365 LTI App in Canvas",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
-          "pubDate": "Mon, 06 Apr 2026 17:44:00 GMT",
+          "pubDate": "Thu, 09 Apr 2026 20:52:00 GMT",
           "matchedKeywords": [
             "app"
           ]
