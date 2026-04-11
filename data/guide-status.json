@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-04-10T08:21:48.265Z",
+  "lastChecked": "2026-04-11T07:51:47.296Z",
   "totalGuides": 12,
-  "flaggedCount": 12,
+  "flaggedCount": 11,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -73,14 +73,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Fri, 27 Mar 2026 20:48:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
@@ -91,7 +83,7 @@
         {
           "source": "Deploy the Microsoft 365 LTI App in Canvas",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
-          "pubDate": "Thu, 09 Apr 2026 20:52:00 GMT",
+          "pubDate": "Fri, 10 Apr 2026 20:45:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -221,32 +213,16 @@
           ]
         },
         {
-          "source": "Microsoft 365 usage analytics overview - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/usage-analytics/usage-analytics",
-          "pubDate": "Fri, 27 Mar 2026 22:46:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Fri, 27 Mar 2026 20:48:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
           "matchedKeywords": [
             "ai"
@@ -380,16 +356,16 @@
           ]
         },
         {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
           "matchedKeywords": [
             "ai"
@@ -409,21 +385,6 @@
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
           "matchedKeywords": [
             "copilot"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "mfa-setup",
-      "guideTitle": "Sette opp tofaktorautentisering",
-      "category": "Sikkerhet og innlogging",
-      "hits": [
-        {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Fri, 27 Mar 2026 20:48:00 GMT",
-          "matchedKeywords": [
-            "security"
           ]
         }
       ]
@@ -511,7 +472,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 7
+      "flaggedHits": 6
     },
     {
       "id": "teams-first-meeting",
@@ -535,7 +496,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 14
+      "flaggedHits": 12
     },
     {
       "id": "onedrive-save",
@@ -573,9 +534,9 @@
       "id": "mfa-setup",
       "title": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "password-reset",
