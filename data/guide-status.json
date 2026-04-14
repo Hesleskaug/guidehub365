@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-04-13T09:01:45.438Z",
+  "lastChecked": "2026-04-14T08:28:26.150Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -57,14 +57,6 @@
           ]
         },
         {
-          "source": "Copilot Cowork: Now available in Frontier",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
-          "pubDate": "Mon, 30 Mar 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Tue, 07 Apr 2026 18:01:00 GMT",
@@ -112,6 +104,14 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Upgrade or change to a different Microsoft 365 for business plan",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/upgrade-to-different-plan",
+          "pubDate": "Mon, 13 Apr 2026 22:48:00 GMT",
+          "matchedKeywords": [
+            "call"
+          ]
+        },
+        {
           "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
@@ -130,14 +130,6 @@
           "source": "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration",
           "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
           "pubDate": "Wed, 01 Apr 2026 21:45:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
-          "source": "Copilot Cowork: Now available in Frontier",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
-          "pubDate": "Mon, 30 Mar 2026 13:00:00 +0000",
           "matchedKeywords": [
             "post"
           ]
@@ -167,15 +159,6 @@
           ]
         },
         {
-          "source": "Copilot Cowork: Now available in Frontier",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
-          "pubDate": "Mon, 30 Mar 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
-        {
           "source": "Cross-tenant mailbox migration - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration",
           "pubDate": "Sat, 04 Apr 2026 17:42:00 GMT",
@@ -190,6 +173,14 @@
           "pubDate": "Tue, 07 Apr 2026 18:01:00 GMT",
           "matchedKeywords": [
             "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Upgrade or change to a different Microsoft 365 for business plan",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/upgrade-to-different-plan",
+          "pubDate": "Mon, 13 Apr 2026 22:48:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -255,19 +246,19 @@
           ]
         },
         {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
-          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
           "matchedKeywords": [
             "copilot"
+          ]
+        },
+        {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
+          "matchedKeywords": [
+            "ai"
           ]
         },
         {
@@ -348,15 +339,6 @@
           ]
         },
         {
-          "source": "Copilot Cowork: Now available in Frontier",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
-          "pubDate": "Mon, 30 Mar 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
-        {
           "source": "Cross-tenant mailbox migration - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration",
           "pubDate": "Sat, 04 Apr 2026 17:42:00 GMT",
@@ -414,19 +396,19 @@
           ]
         },
         {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
-          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
           "matchedKeywords": [
             "copilot"
+          ]
+        },
+        {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
+          "matchedKeywords": [
+            "ai"
           ]
         },
         {
@@ -484,14 +466,6 @@
           ]
         },
         {
-          "source": "Copilot Cowork: Now available in Frontier",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
-          "pubDate": "Mon, 30 Mar 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
@@ -537,7 +511,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 7
+      "flaggedHits": 6
     },
     {
       "id": "teams-first-meeting",
@@ -545,7 +519,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "teams-channels",
@@ -553,7 +527,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 3
+      "flaggedHits": 2
     },
     {
       "id": "teams-copilot",
@@ -593,7 +567,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 12
+      "flaggedHits": 11
     },
     {
       "id": "mfa-setup",
@@ -617,7 +591,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 5
+      "flaggedHits": 4
     }
   ]
 }
