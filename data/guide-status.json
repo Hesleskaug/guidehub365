@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-04-14T08:28:26.150Z",
+  "lastChecked": "2026-04-15T08:46:11.280Z",
   "totalGuides": 12,
-  "flaggedCount": 12,
+  "flaggedCount": 10,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -68,14 +68,6 @@
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "View or download your invoice in the Microsoft 365 admin center",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/billing-and-payments/view-your-bill-or-invoice",
-          "pubDate": "Wed, 01 Apr 2026 03:40:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -195,35 +187,9 @@
           ]
         },
         {
-          "source": "View or download your invoice in the Microsoft 365 admin center",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/billing-and-payments/view-your-bill-or-invoice",
-          "pubDate": "Wed, 01 Apr 2026 03:40:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Set up Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Tue, 31 Mar 2026 22:43:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Plan for multitenant organizations in Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/plan-multi-tenant-org-overview",
-          "pubDate": "Tue, 31 Mar 2026 11:47:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -272,48 +238,10 @@
       ]
     },
     {
-      "guideId": "onedrive-save",
-      "guideTitle": "Lagre filer i OneDrive",
-      "category": "OneDrive og SharePoint",
-      "hits": [
-        {
-          "source": "Set up Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Tue, 31 Mar 2026 22:43:00 GMT",
-          "matchedKeywords": [
-            "backup"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "sharepoint-document-library",
-      "guideTitle": "Jobbe med dokumentbibliotek",
-      "category": "OneDrive og SharePoint",
-      "hits": [
-        {
-          "source": "Set up Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Tue, 31 Mar 2026 22:43:00 GMT",
-          "matchedKeywords": [
-            "sharepoint"
-          ]
-        }
-      ]
-    },
-    {
       "guideId": "word-autosave",
       "guideTitle": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
       "hits": [
-        {
-          "source": "Set up Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Tue, 31 Mar 2026 22:43:00 GMT",
-          "matchedKeywords": [
-            "cloud"
-          ]
-        },
         {
           "source": "Password policy recommendations - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
@@ -367,22 +295,6 @@
           "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Set up Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Tue, 31 Mar 2026 22:43:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Plan for multitenant organizations in Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/plan-multi-tenant-org-overview",
-          "pubDate": "Tue, 31 Mar 2026 11:47:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -511,7 +423,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 6
+      "flaggedHits": 5
     },
     {
       "id": "teams-first-meeting",
@@ -535,23 +447,23 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 14
+      "flaggedHits": 11
     },
     {
       "id": "onedrive-save",
       "title": "Lagre filer i OneDrive",
       "category": "OneDrive og SharePoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "sharepoint-document-library",
       "title": "Jobbe med dokumentbibliotek",
       "category": "OneDrive og SharePoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "word-autosave",
@@ -559,7 +471,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "excel-copilot",
@@ -567,7 +479,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 11
+      "flaggedHits": 9
     },
     {
       "id": "mfa-setup",
