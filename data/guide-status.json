@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-04-15T08:46:11.280Z",
+  "lastChecked": "2026-04-16T08:27:29.328Z",
   "totalGuides": 12,
-  "flaggedCount": 10,
+  "flaggedCount": 12,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -48,14 +48,6 @@
       "guideTitle": "Outlook på mobil",
       "category": "E-post og kalender",
       "hits": [
-        {
-          "source": "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
-          "pubDate": "Wed, 01 Apr 2026 21:45:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
@@ -119,14 +111,6 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
-          "pubDate": "Wed, 01 Apr 2026 21:45:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
@@ -141,15 +125,6 @@
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
-        {
-          "source": "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
-          "pubDate": "Wed, 01 Apr 2026 21:45:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
         {
           "source": "Cross-tenant mailbox migration - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration",
@@ -196,9 +171,18 @@
           ]
         },
         {
-          "source": "Advanced data residency in Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/advanced-data-residency",
-          "pubDate": "Wed, 01 Apr 2026 15:52:00 GMT",
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Wed, 15 Apr 2026 22:46:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 usage analytics overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/usage-analytics/usage-analytics",
+          "pubDate": "Thu, 16 Apr 2026 03:42:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -238,10 +222,48 @@
       ]
     },
     {
+      "guideId": "onedrive-save",
+      "guideTitle": "Lagre filer i OneDrive",
+      "category": "OneDrive og SharePoint",
+      "hits": [
+        {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Wed, 15 Apr 2026 22:46:00 GMT",
+          "matchedKeywords": [
+            "backup"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "sharepoint-document-library",
+      "guideTitle": "Jobbe med dokumentbibliotek",
+      "category": "OneDrive og SharePoint",
+      "hits": [
+        {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Wed, 15 Apr 2026 22:46:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
+          ]
+        }
+      ]
+    },
+    {
       "guideId": "word-autosave",
       "guideTitle": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
       "hits": [
+        {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Wed, 15 Apr 2026 22:46:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        },
         {
           "source": "Password policy recommendations - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
@@ -257,15 +279,6 @@
       "guideTitle": "Copilot i Excel",
       "category": "Word, Excel og PowerPoint",
       "hits": [
-        {
-          "source": "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
-          "pubDate": "Wed, 01 Apr 2026 21:45:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
         {
           "source": "Cross-tenant mailbox migration - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration",
@@ -295,6 +308,14 @@
           "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Wed, 15 Apr 2026 22:46:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -369,15 +390,6 @@
       "category": "Copilot og AI",
       "hits": [
         {
-          "source": "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
-          "pubDate": "Wed, 01 Apr 2026 21:45:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "prompt"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
@@ -423,7 +435,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "teams-first-meeting",
@@ -439,7 +451,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-copilot",
@@ -453,17 +465,17 @@
       "id": "onedrive-save",
       "title": "Lagre filer i OneDrive",
       "category": "OneDrive og SharePoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "sharepoint-document-library",
       "title": "Jobbe med dokumentbibliotek",
       "category": "OneDrive og SharePoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "word-autosave",
@@ -471,7 +483,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "excel-copilot",
@@ -503,7 +515,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 4
+      "flaggedHits": 3
     }
   ]
 }
