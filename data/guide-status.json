@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-04-16T08:27:29.328Z",
+  "lastChecked": "2026-04-17T08:26:57.342Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -48,6 +48,14 @@
       "guideTitle": "Outlook på mobil",
       "category": "E-post og kalender",
       "hits": [
+        {
+          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
+          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
@@ -111,6 +119,22 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
+          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "post"
+          ]
+        },
+        {
+          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
+          "pubDate": "Thu, 16 Apr 2026 14:43:00 GMT",
+          "matchedKeywords": [
+            "message"
+          ]
+        },
+        {
           "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
@@ -125,6 +149,15 @@
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
+        {
+          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
+          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
         {
           "source": "Cross-tenant mailbox migration - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration",
@@ -162,6 +195,23 @@
           ]
         },
         {
+          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
+          "pubDate": "Thu, 16 Apr 2026 14:43:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
+          "pubDate": "Thu, 16 Apr 2026 14:43:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
@@ -188,19 +238,19 @@
           ]
         },
         {
-          "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
-          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
           "matchedKeywords": [
             "copilot"
+          ]
+        },
+        {
+          "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
+          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
+          "matchedKeywords": [
+            "ai"
           ]
         },
         {
@@ -280,6 +330,15 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
+          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
+          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
+        {
           "source": "Cross-tenant mailbox migration - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration",
           "pubDate": "Sat, 04 Apr 2026 17:42:00 GMT",
@@ -305,6 +364,14 @@
           ]
         },
         {
+          "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
+          "pubDate": "Thu, 16 Apr 2026 14:43:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
@@ -321,19 +388,19 @@
           ]
         },
         {
-          "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
-          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
           "matchedKeywords": [
             "copilot"
+          ]
+        },
+        {
+          "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
+          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
+          "matchedKeywords": [
+            "ai"
           ]
         },
         {
@@ -390,6 +457,15 @@
       "category": "Copilot og AI",
       "hits": [
         {
+          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
+          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "microsoft 365 copilot"
+          ]
+        },
+        {
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
           "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
@@ -435,7 +511,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 5
     },
     {
       "id": "teams-first-meeting",
@@ -451,7 +527,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 1
+      "flaggedHits": 3
     },
     {
       "id": "teams-copilot",
@@ -459,7 +535,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 11
+      "flaggedHits": 14
     },
     {
       "id": "onedrive-save",
@@ -491,7 +567,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 9
+      "flaggedHits": 11
     },
     {
       "id": "mfa-setup",
@@ -515,7 +591,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 3
+      "flaggedHits": 4
     }
   ]
 }
