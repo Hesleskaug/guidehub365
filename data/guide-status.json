@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-04-17T08:26:57.342Z",
+  "lastChecked": "2026-04-18T08:00:40.428Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -57,30 +57,6 @@
           ]
         },
         {
-          "source": "Baseline security mode settings",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Tue, 07 Apr 2026 18:01:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
           "source": "Deploy the Microsoft 365 LTI App in Canvas",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
           "pubDate": "Fri, 10 Apr 2026 20:45:00 GMT",
@@ -133,14 +109,6 @@
           "matchedKeywords": [
             "message"
           ]
-        },
-        {
-          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
-          "matchedKeywords": [
-            "chat"
-          ]
         }
       ]
     },
@@ -170,7 +138,7 @@
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Tue, 07 Apr 2026 18:01:00 GMT",
+          "pubDate": "Fri, 17 Apr 2026 09:00:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -181,16 +149,6 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/upgrade-to-different-plan",
           "pubDate": "Mon, 13 Apr 2026 22:48:00 GMT",
           "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
-          "matchedKeywords": [
-            "copilot",
-            "ai",
             "summarize"
           ]
         },
@@ -238,14 +196,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
@@ -259,14 +209,6 @@
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
           "matchedKeywords": [
             "ai"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot readiness report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
-          "matchedKeywords": [
-            "copilot"
           ]
         }
       ]
@@ -349,17 +291,8 @@
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Tue, 07 Apr 2026 18:01:00 GMT",
+          "pubDate": "Fri, 17 Apr 2026 09:00:00 GMT",
           "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
-          "matchedKeywords": [
-            "copilot",
             "ai"
           ]
         },
@@ -388,14 +321,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
@@ -410,14 +335,6 @@
           "matchedKeywords": [
             "ai"
           ]
-        },
-        {
-          "source": "Microsoft 365 Copilot readiness report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
-          "matchedKeywords": [
-            "copilot"
-          ]
         }
       ]
     },
@@ -429,7 +346,7 @@
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Tue, 07 Apr 2026 18:01:00 GMT",
+          "pubDate": "Fri, 17 Apr 2026 09:00:00 GMT",
           "matchedKeywords": [
             "security"
           ]
@@ -464,34 +381,6 @@
             "copilot",
             "microsoft 365 copilot"
           ]
-        },
-        {
-          "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
-          "matchedKeywords": [
-            "copilot",
-            "microsoft 365 copilot"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
-          "matchedKeywords": [
-            "copilot",
-            "microsoft 365 copilot",
-            "prompt"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot readiness report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Fri, 03 Apr 2026 23:17:00 GMT",
-          "matchedKeywords": [
-            "copilot",
-            "microsoft 365 copilot"
-          ]
         }
       ]
     }
@@ -511,7 +400,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 5
+      "flaggedHits": 2
     },
     {
       "id": "teams-first-meeting",
@@ -527,7 +416,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 3
+      "flaggedHits": 2
     },
     {
       "id": "teams-copilot",
@@ -535,7 +424,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 14
+      "flaggedHits": 11
     },
     {
       "id": "onedrive-save",
@@ -567,7 +456,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 11
+      "flaggedHits": 8
     },
     {
       "id": "mfa-setup",
@@ -591,7 +480,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 4
+      "flaggedHits": 1
     }
   ]
 }
