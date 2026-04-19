@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-04-18T08:00:40.428Z",
+  "lastChecked": "2026-04-19T08:06:32.633Z",
   "totalGuides": 12,
-  "flaggedCount": 12,
+  "flaggedCount": 11,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -26,14 +26,6 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Cross-tenant mailbox migration - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration",
-          "pubDate": "Sat, 04 Apr 2026 17:42:00 GMT",
-          "matchedKeywords": [
-            "mail"
-          ]
-        },
-        {
           "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
@@ -48,14 +40,6 @@
       "guideTitle": "Outlook på mobil",
       "category": "E-post og kalender",
       "hits": [
-        {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
         {
           "source": "Deploy the Microsoft 365 LTI App in Canvas",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
@@ -95,14 +79,6 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
           "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
           "pubDate": "Thu, 16 Apr 2026 14:43:00 GMT",
@@ -117,24 +93,6 @@
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
-        {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
-        {
-          "source": "Cross-tenant mailbox migration - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration",
-          "pubDate": "Sat, 04 Apr 2026 17:42:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
@@ -272,23 +230,6 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
-        {
-          "source": "Cross-tenant mailbox migration - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration",
-          "pubDate": "Sat, 04 Apr 2026 17:42:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Fri, 17 Apr 2026 09:00:00 GMT",
@@ -367,22 +308,6 @@
           ]
         }
       ]
-    },
-    {
-      "guideId": "copilot-365-intro",
-      "guideTitle": "Kom i gang med Microsoft 365 Copilot",
-      "category": "Copilot og AI",
-      "hits": [
-        {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "microsoft 365 copilot"
-          ]
-        }
-      ]
     }
   ],
   "allGuideStatuses": [
@@ -392,7 +317,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "outlook-mobile",
@@ -400,7 +325,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-first-meeting",
@@ -416,7 +341,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-copilot",
@@ -424,7 +349,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 11
+      "flaggedHits": 9
     },
     {
       "id": "onedrive-save",
@@ -456,7 +381,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 8
+      "flaggedHits": 6
     },
     {
       "id": "mfa-setup",
@@ -478,9 +403,9 @@
       "id": "copilot-365-intro",
       "title": "Kom i gang med Microsoft 365 Copilot",
       "category": "Copilot og AI",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 1
+      "flaggedHits": 0
     }
   ]
 }
