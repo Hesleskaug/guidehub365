@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-04-20T09:08:18.367Z",
+  "lastChecked": "2026-04-21T08:53:22.358Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -25,6 +25,15 @@
       "guideTitle": "Sette opp Outlook på PC",
       "category": "E-post og kalender",
       "hits": [
+        {
+          "source": "Change a user name and email address - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
+          "pubDate": "Tue, 21 Apr 2026 03:41:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
         {
           "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
@@ -179,6 +188,14 @@
           ]
         },
         {
+          "source": "Change a user name and email address - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
+          "pubDate": "Tue, 21 Apr 2026 03:41:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
@@ -296,6 +313,14 @@
           ]
         },
         {
+          "source": "Change a user name and email address - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
+          "pubDate": "Tue, 21 Apr 2026 03:41:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
@@ -367,7 +392,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "outlook-mobile",
@@ -399,7 +424,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 10
+      "flaggedHits": 11
     },
     {
       "id": "onedrive-save",
@@ -431,7 +456,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 7
+      "flaggedHits": 8
     },
     {
       "id": "mfa-setup",
