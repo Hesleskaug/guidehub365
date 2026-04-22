@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-04-21T08:53:22.358Z",
+  "lastChecked": "2026-04-22T08:49:22.801Z",
   "totalGuides": 12,
-  "flaggedCount": 12,
+  "flaggedCount": 11,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -50,11 +50,11 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
+          "source": "Microsoft 365 security documentation",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
+          "pubDate": "Mon, 20 Apr 2026 22:44:00 GMT",
           "matchedKeywords": [
-            "app"
+            "ios"
           ]
         },
         {
@@ -81,6 +81,14 @@
           ]
         },
         {
+          "source": "Microsoft 365 security documentation",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
+          "pubDate": "Mon, 20 Apr 2026 22:44:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        },
+        {
           "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
@@ -96,11 +104,11 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
+          "source": "Microsoft 365 security documentation",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
+          "pubDate": "Mon, 20 Apr 2026 22:44:00 GMT",
           "matchedKeywords": [
-            "post"
+            "teams"
           ]
         },
         {
@@ -119,15 +127,6 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
-        {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Fri, 17 Apr 2026 09:00:00 GMT",
@@ -142,6 +141,14 @@
           "pubDate": "Mon, 13 Apr 2026 22:48:00 GMT",
           "matchedKeywords": [
             "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 security documentation",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
+          "pubDate": "Mon, 20 Apr 2026 22:44:00 GMT",
+          "matchedKeywords": [
+            "teams"
           ]
         },
         {
@@ -272,15 +279,6 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
-        {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Fri, 17 Apr 2026 09:00:00 GMT",
@@ -350,6 +348,14 @@
           "matchedKeywords": [
             "security"
           ]
+        },
+        {
+          "source": "Microsoft 365 security documentation",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
+          "pubDate": "Mon, 20 Apr 2026 22:44:00 GMT",
+          "matchedKeywords": [
+            "security"
+          ]
         }
       ]
     },
@@ -364,22 +370,6 @@
           "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
           "matchedKeywords": [
             "password"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "copilot-365-intro",
-      "guideTitle": "Kom i gang med Microsoft 365 Copilot",
-      "category": "Copilot og AI",
-      "hits": [
-        {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "microsoft 365 copilot"
           ]
         }
       ]
@@ -408,7 +398,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "teams-channels",
@@ -456,7 +446,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 8
+      "flaggedHits": 7
     },
     {
       "id": "mfa-setup",
@@ -464,7 +454,7 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "password-reset",
@@ -478,9 +468,9 @@
       "id": "copilot-365-intro",
       "title": "Kom i gang med Microsoft 365 Copilot",
       "category": "Copilot og AI",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 1
+      "flaggedHits": 0
     }
   ]
 }
