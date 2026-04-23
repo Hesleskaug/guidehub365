@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-04-22T08:49:22.801Z",
+  "lastChecked": "2026-04-23T08:53:56.139Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -26,6 +26,15 @@
       "category": "E-post og kalender",
       "hits": [
         {
+          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
           "source": "Change a user name and email address - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
           "pubDate": "Tue, 21 Apr 2026 03:41:00 GMT",
@@ -35,10 +44,11 @@
           ]
         },
         {
-          "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
-          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
+          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
           "matchedKeywords": [
+            "email",
             "mail"
           ]
         }
@@ -49,6 +59,14 @@
       "guideTitle": "Outlook på mobil",
       "category": "E-post og kalender",
       "hits": [
+        {
+          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
+          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
         {
           "source": "Microsoft 365 security documentation",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
@@ -89,11 +107,28 @@
           ]
         },
         {
-          "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
-          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
+          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
           "matchedKeywords": [
-            "meeting"
+            "teams"
+          ]
+        },
+        {
+          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        },
+        {
+          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "teams",
+            "call"
           ]
         }
       ]
@@ -103,6 +138,14 @@
       "guideTitle": "Kanaler og chatter i Teams",
       "category": "Microsoft Teams",
       "hits": [
+        {
+          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
+          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "post"
+          ]
+        },
         {
           "source": "Microsoft 365 security documentation",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
@@ -118,6 +161,30 @@
           "matchedKeywords": [
             "message"
           ]
+        },
+        {
+          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        },
+        {
+          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        },
+        {
+          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
         }
       ]
     },
@@ -126,6 +193,15 @@
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
+        {
+          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
+          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
@@ -160,18 +236,18 @@
           ]
         },
         {
-          "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
+          "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
+          "pubDate": "Thu, 16 Apr 2026 14:43:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
           ]
         },
         {
-          "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
-          "pubDate": "Thu, 16 Apr 2026 14:43:00 GMT",
+          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -187,10 +263,29 @@
           ]
         },
         {
+          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "teams",
+            "summarize"
+          ]
+        },
+        {
           "source": "Microsoft 365 usage analytics overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/usage-analytics/usage-analytics",
           "pubDate": "Thu, 16 Apr 2026 03:42:00 GMT",
           "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "ai",
             "summarize"
           ]
         },
@@ -203,19 +298,20 @@
           ]
         },
         {
-          "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
-          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
+          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
           "matchedKeywords": [
-            "ai"
+            "ai",
+            "teams"
           ]
         },
         {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
-          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
+          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
           "matchedKeywords": [
-            "ai"
+            "teams"
           ]
         }
       ]
@@ -262,14 +358,6 @@
           "matchedKeywords": [
             "cloud"
           ]
-        },
-        {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
-          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
-          "matchedKeywords": [
-            "word"
-          ]
         }
       ]
     },
@@ -279,17 +367,18 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Baseline security mode settings",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Fri, 17 Apr 2026 09:00:00 GMT",
+          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
+          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
           "matchedKeywords": [
+            "copilot",
             "ai"
           ]
         },
         {
-          "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
+          "source": "Baseline security mode settings",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
+          "pubDate": "Fri, 17 Apr 2026 09:00:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -303,9 +392,33 @@
           ]
         },
         {
+          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
           "pubDate": "Wed, 15 Apr 2026 22:46:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -319,17 +432,9 @@
           ]
         },
         {
-          "source": "Create Room and Equipment Mailboxes - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/room-and-equipment-mailboxes",
-          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
-          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
+          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -360,16 +465,17 @@
       ]
     },
     {
-      "guideId": "password-reset",
-      "guideTitle": "Nullstille passord",
-      "category": "Sikkerhet og innlogging",
+      "guideId": "copilot-365-intro",
+      "guideTitle": "Kom i gang med Microsoft 365 Copilot",
+      "category": "Copilot og AI",
       "hits": [
         {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
-          "pubDate": "Wed, 08 Apr 2026 22:49:00 GMT",
+          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
+          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
           "matchedKeywords": [
-            "password"
+            "copilot",
+            "microsoft 365 copilot"
           ]
         }
       ]
@@ -382,7 +488,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "outlook-mobile",
@@ -390,7 +496,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "teams-first-meeting",
@@ -398,7 +504,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 3
+      "flaggedHits": 5
     },
     {
       "id": "teams-channels",
@@ -406,7 +512,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 6
     },
     {
       "id": "teams-copilot",
@@ -414,7 +520,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 11
+      "flaggedHits": 14
     },
     {
       "id": "onedrive-save",
@@ -438,7 +544,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "excel-copilot",
@@ -446,7 +552,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 7
+      "flaggedHits": 9
     },
     {
       "id": "mfa-setup",
@@ -460,17 +566,17 @@
       "id": "password-reset",
       "title": "Nullstille passord",
       "category": "Sikkerhet og innlogging",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "copilot-365-intro",
       "title": "Kom i gang med Microsoft 365 Copilot",
       "category": "Copilot og AI",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 0
+      "flaggedHits": 1
     }
   ]
 }
