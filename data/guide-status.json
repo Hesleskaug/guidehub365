@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-04-23T08:53:56.139Z",
+  "lastChecked": "2026-04-24T09:01:27.701Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -78,7 +78,7 @@
         {
           "source": "Deploy the Microsoft 365 LTI App in Canvas",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
-          "pubDate": "Fri, 10 Apr 2026 20:45:00 GMT",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -120,15 +120,6 @@
           "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
           "matchedKeywords": [
             "teams"
-          ]
-        },
-        {
-          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
-          "matchedKeywords": [
-            "teams",
-            "call"
           ]
         }
       ]
@@ -177,14 +168,6 @@
           "matchedKeywords": [
             "teams"
           ]
-        },
-        {
-          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
         }
       ]
     },
@@ -208,6 +191,14 @@
           "pubDate": "Fri, 17 Apr 2026 09:00:00 GMT",
           "matchedKeywords": [
             "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Try or buy a Microsoft 365 for business subscription",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/try-or-buy-microsoft-365",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -256,9 +247,17 @@
         {
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Wed, 15 Apr 2026 22:46:00 GMT",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
           "matchedKeywords": [
             "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Pricing model for Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -276,6 +275,14 @@
           "source": "Microsoft 365 usage analytics overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/usage-analytics/usage-analytics",
           "pubDate": "Thu, 16 Apr 2026 03:42:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Turn off directory synchronization for Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/turn-off-directory-synchronization",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -305,14 +312,6 @@
             "ai",
             "teams"
           ]
-        },
-        {
-          "source": "Manage ownerless Microsoft 365 groups and teams - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/ownerless-groups-teams",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
         }
       ]
     },
@@ -324,8 +323,42 @@
         {
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Wed, 15 Apr 2026 22:46:00 GMT",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
           "matchedKeywords": [
+            "backup"
+          ]
+        },
+        {
+          "source": "Pricing model for Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
+            "backup"
+          ]
+        },
+        {
+          "source": "Turn off directory synchronization for Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/turn-off-directory-synchronization",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
+            "sync"
+          ]
+        },
+        {
+          "source": "Restore data in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
+            "onedrive",
+            "backup"
+          ]
+        },
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
+            "onedrive",
             "backup"
           ]
         }
@@ -339,7 +372,23 @@
         {
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Wed, 15 Apr 2026 22:46:00 GMT",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
+          ]
+        },
+        {
+          "source": "Restore data in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
+          ]
+        },
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
           "matchedKeywords": [
             "sharepoint"
           ]
@@ -352,11 +401,43 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Set up Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Wed, 15 Apr 2026 22:46:00 GMT",
+          "source": "Try or buy a Microsoft 365 for business subscription",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/try-or-buy-microsoft-365",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
           "matchedKeywords": [
             "cloud"
+          ]
+        },
+        {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        },
+        {
+          "source": "Turn off directory synchronization for Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/turn-off-directory-synchronization",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        },
+        {
+          "source": "Restore data in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
           ]
         }
       ]
@@ -402,7 +483,7 @@
         {
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Wed, 15 Apr 2026 22:46:00 GMT",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -504,7 +585,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "teams-channels",
@@ -512,7 +593,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 6
+      "flaggedHits": 5
     },
     {
       "id": "teams-copilot",
@@ -520,7 +601,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 14
+      "flaggedHits": 16
     },
     {
       "id": "onedrive-save",
@@ -528,7 +609,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 5
     },
     {
       "id": "sharepoint-document-library",
@@ -536,7 +617,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 3
     },
     {
       "id": "word-autosave",
@@ -544,7 +625,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 1
+      "flaggedHits": 5
     },
     {
       "id": "excel-copilot",
