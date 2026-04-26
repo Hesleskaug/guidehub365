@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-04-25T08:06:06.279Z",
+  "lastChecked": "2026-04-26T08:16:29.760Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -46,24 +46,6 @@
         {
           "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
-        },
-        {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
-        },
-        {
-          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
           "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
           "matchedKeywords": [
             "email",
@@ -330,22 +312,6 @@
             "ai",
             "teams"
           ]
-        },
-        {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
         }
       ]
     },
@@ -473,14 +439,6 @@
           "matchedKeywords": [
             "onedrive"
           ]
-        },
-        {
-          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
-          "matchedKeywords": [
-            "cloud"
-          ]
         }
       ]
     },
@@ -569,22 +527,6 @@
           "matchedKeywords": [
             "ai"
           ]
-        },
-        {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
         }
       ]
     },
@@ -635,7 +577,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 5
+      "flaggedHits": 3
     },
     {
       "id": "outlook-mobile",
@@ -667,7 +609,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 18
+      "flaggedHits": 16
     },
     {
       "id": "onedrive-save",
@@ -691,7 +633,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 6
+      "flaggedHits": 5
     },
     {
       "id": "excel-copilot",
@@ -699,7 +641,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 12
+      "flaggedHits": 10
     },
     {
       "id": "mfa-setup",
