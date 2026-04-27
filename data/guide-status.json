@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-04-26T08:16:29.760Z",
+  "lastChecked": "2026-04-27T09:21:30.748Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -51,6 +51,32 @@
             "email",
             "mail"
           ]
+        },
+        {
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
+          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
+          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
+          "pubDate": "Tue, 21 Apr 2026 15:02:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
         }
       ]
     },
@@ -59,6 +85,14 @@
       "guideTitle": "Outlook på mobil",
       "category": "E-post og kalender",
       "hits": [
+        {
+          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
+          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
         {
           "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
@@ -73,6 +107,14 @@
           "pubDate": "Mon, 20 Apr 2026 22:44:00 GMT",
           "matchedKeywords": [
             "ios"
+          ]
+        },
+        {
+          "source": "What happens to my data and access when my Microsoft 365 for business subscription ends?",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
+            "app"
           ]
         },
         {
@@ -130,6 +172,14 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
+          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
+          "matchedKeywords": [
+            "post"
+          ]
+        },
+        {
           "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
           "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
@@ -177,6 +227,15 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
+          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
+        {
           "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
           "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
@@ -222,6 +281,14 @@
           "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
           "pubDate": "Thu, 16 Apr 2026 14:43:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "What happens to my data and access when my Microsoft 365 for business subscription ends?",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires",
+          "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -312,6 +379,22 @@
             "ai",
             "teams"
           ]
+        },
+        {
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
         }
       ]
     },
@@ -401,6 +484,14 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
+          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
+          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
+          "matchedKeywords": [
+            "word"
+          ]
+        },
+        {
           "source": "Try or buy a Microsoft 365 for business subscription",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/try-or-buy-microsoft-365",
           "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
@@ -439,6 +530,14 @@
           "matchedKeywords": [
             "onedrive"
           ]
+        },
+        {
+          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
         }
       ]
     },
@@ -447,6 +546,16 @@
       "guideTitle": "Copilot i Excel",
       "category": "Word, Excel og PowerPoint",
       "hits": [
+        {
+          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
+          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
+          "matchedKeywords": [
+            "excel",
+            "copilot",
+            "ai"
+          ]
+        },
         {
           "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
@@ -527,6 +636,22 @@
           "matchedKeywords": [
             "ai"
           ]
+        },
+        {
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
+          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
         }
       ]
     },
@@ -559,6 +684,14 @@
       "category": "Copilot og AI",
       "hits": [
         {
+          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
+          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
+          "matchedKeywords": [
+            "copilot"
+          ]
+        },
+        {
           "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
           "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
@@ -577,7 +710,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 3
+      "flaggedHits": 6
     },
     {
       "id": "outlook-mobile",
@@ -585,7 +718,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 3
+      "flaggedHits": 5
     },
     {
       "id": "teams-first-meeting",
@@ -601,7 +734,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 5
+      "flaggedHits": 6
     },
     {
       "id": "teams-copilot",
@@ -609,7 +742,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 16
+      "flaggedHits": 20
     },
     {
       "id": "onedrive-save",
@@ -633,7 +766,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 5
+      "flaggedHits": 7
     },
     {
       "id": "excel-copilot",
@@ -641,7 +774,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 10
+      "flaggedHits": 13
     },
     {
       "id": "mfa-setup",
@@ -665,7 +798,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 1
+      "flaggedHits": 2
     }
   ]
 }
