@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-04-27T09:21:30.748Z",
+  "lastChecked": "2026-04-28T09:24:48.411Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -26,6 +26,14 @@
       "category": "E-post og kalender",
       "hits": [
         {
+          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "outlook"
+          ]
+        },
+        {
           "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
           "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
@@ -35,12 +43,40 @@
           ]
         },
         {
-          "source": "Change a user name and email address - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
-          "pubDate": "Tue, 21 Apr 2026 03:41:00 GMT",
+          "source": "Change your email address to use your custom domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/change-email-address",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
             "email",
             "mail"
+          ]
+        },
+        {
+          "source": "Change a user name and email address - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
+          "source": "Create organization-wide signatures and disclaimers - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
+          "source": "Configure shared mailbox settings - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/configure-a-shared-mailbox",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail",
+            "configure"
           ]
         },
         {
@@ -86,27 +122,19 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
           "source": "Microsoft 365 security documentation",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
           "pubDate": "Mon, 20 Apr 2026 22:44:00 GMT",
           "matchedKeywords": [
             "ios"
+          ]
+        },
+        {
+          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "outlook"
           ]
         },
         {
@@ -132,14 +160,6 @@
       "guideTitle": "Første møte i Teams",
       "category": "Microsoft Teams",
       "hits": [
-        {
-          "source": "Upgrade or change to a different Microsoft 365 for business plan",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/upgrade-to-different-plan",
-          "pubDate": "Mon, 13 Apr 2026 22:48:00 GMT",
-          "matchedKeywords": [
-            "call"
-          ]
-        },
         {
           "source": "Microsoft 365 security documentation",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
@@ -172,22 +192,6 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
           "source": "Microsoft 365 security documentation",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
           "pubDate": "Mon, 20 Apr 2026 22:44:00 GMT",
@@ -212,6 +216,14 @@
           ]
         },
         {
+          "source": "Create organization-wide signatures and disclaimers - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "message"
+          ]
+        },
+        {
           "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
           "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
@@ -226,24 +238,6 @@
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
-        {
-          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
-        {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
@@ -262,14 +256,6 @@
           ]
         },
         {
-          "source": "Upgrade or change to a different Microsoft 365 for business plan",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/upgrade-to-different-plan",
-          "pubDate": "Mon, 13 Apr 2026 22:48:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Microsoft 365 security documentation",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
           "pubDate": "Mon, 20 Apr 2026 22:44:00 GMT",
@@ -281,6 +267,22 @@
           "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
           "pubDate": "Thu, 16 Apr 2026 14:43:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Add users and assign licenses in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/add-users",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -303,6 +305,14 @@
           ]
         },
         {
+          "source": "Compare types of groups in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/compare-groups",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
           "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
@@ -317,6 +327,14 @@
           "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
           "matchedKeywords": [
             "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -339,6 +357,23 @@
           ]
         },
         {
+          "source": "Assign admin roles in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/assign-admin-roles",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Change your email address to use your custom domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/change-email-address",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Turn off directory synchronization for Microsoft 365 - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/turn-off-directory-synchronization",
           "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
@@ -356,6 +391,15 @@
           ]
         },
         {
+          "source": "Remove a former employee - Overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Domains Frequently Asked Questions",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq",
           "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
@@ -366,7 +410,31 @@
         {
           "source": "Change a user name and email address - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
-          "pubDate": "Tue, 21 Apr 2026 03:41:00 GMT",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Create organization-wide signatures and disclaimers - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Configure shared mailbox settings - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/configure-a-shared-mailbox",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -403,6 +471,14 @@
       "guideTitle": "Lagre filer i OneDrive",
       "category": "OneDrive og SharePoint",
       "hits": [
+        {
+          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
         {
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
@@ -484,14 +560,6 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
-          "matchedKeywords": [
-            "word"
-          ]
-        },
-        {
           "source": "Try or buy a Microsoft 365 for business subscription",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/try-or-buy-microsoft-365",
           "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
@@ -500,11 +568,27 @@
           ]
         },
         {
+          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
+        {
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
           "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
           "matchedKeywords": [
             "cloud"
+          ]
+        },
+        {
+          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "word"
           ]
         },
         {
@@ -521,6 +605,22 @@
           "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
           "matchedKeywords": [
             "onedrive"
+          ]
+        },
+        {
+          "source": "Reset passwords - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/reset-passwords",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "word"
+          ]
+        },
+        {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "word"
           ]
         },
         {
@@ -546,25 +646,6 @@
       "guideTitle": "Copilot i Excel",
       "category": "Word, Excel og PowerPoint",
       "hits": [
-        {
-          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
-          "matchedKeywords": [
-            "excel",
-            "copilot",
-            "ai"
-          ]
-        },
-        {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
@@ -606,9 +687,25 @@
           ]
         },
         {
+          "source": "Change your email address to use your custom domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/change-email-address",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
           "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Remove a former employee - Overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -624,7 +721,31 @@
         {
           "source": "Change a user name and email address - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
-          "pubDate": "Tue, 21 Apr 2026 03:41:00 GMT",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Create organization-wide signatures and disclaimers - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Configure shared mailbox settings - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/configure-a-shared-mailbox",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -679,25 +800,33 @@
       ]
     },
     {
-      "guideId": "copilot-365-intro",
-      "guideTitle": "Kom i gang med Microsoft 365 Copilot",
-      "category": "Copilot og AI",
+      "guideId": "password-reset",
+      "guideTitle": "Nullstille passord",
+      "category": "Sikkerhet og innlogging",
       "hits": [
         {
-          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
+          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
-            "copilot"
+            "password"
           ]
         },
         {
-          "source": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-          "pubDate": "Mon, 13 Apr 2026 15:00:00 +0000",
+          "source": "Reset passwords - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/reset-passwords",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
-            "copilot",
-            "microsoft 365 copilot"
+            "password",
+            "reset"
+          ]
+        },
+        {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "password"
           ]
         }
       ]
@@ -710,7 +839,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 6
+      "flaggedHits": 10
     },
     {
       "id": "outlook-mobile",
@@ -718,7 +847,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "teams-first-meeting",
@@ -726,7 +855,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "teams-channels",
@@ -734,7 +863,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 6
+      "flaggedHits": 5
     },
     {
       "id": "teams-copilot",
@@ -742,7 +871,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 20
+      "flaggedHits": 27
     },
     {
       "id": "onedrive-save",
@@ -750,7 +879,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 5
+      "flaggedHits": 6
     },
     {
       "id": "sharepoint-document-library",
@@ -766,7 +895,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 7
+      "flaggedHits": 10
     },
     {
       "id": "excel-copilot",
@@ -774,7 +903,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 13
+      "flaggedHits": 16
     },
     {
       "id": "mfa-setup",
@@ -788,17 +917,17 @@
       "id": "password-reset",
       "title": "Nullstille passord",
       "category": "Sikkerhet og innlogging",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 0
+      "flaggedHits": 3
     },
     {
       "id": "copilot-365-intro",
       "title": "Kom i gang med Microsoft 365 Copilot",
       "category": "Copilot og AI",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 2
+      "flaggedHits": 0
     }
   ]
 }
