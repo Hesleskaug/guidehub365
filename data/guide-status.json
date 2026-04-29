@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-04-28T09:24:48.411Z",
+  "lastChecked": "2026-04-29T09:11:33.798Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -26,6 +26,14 @@
       "category": "E-post og kalender",
       "hits": [
         {
+          "source": "Cross-tenant mailbox migration - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "mail"
+          ]
+        },
+        {
           "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
           "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
@@ -36,7 +44,7 @@
         {
           "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "email",
             "mail"
@@ -49,6 +57,22 @@
           "matchedKeywords": [
             "email",
             "mail"
+          ]
+        },
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
+          "source": "Set up Microsoft 365 Business Basic - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/setup-business-basic",
+          "pubDate": "Tue, 28 Apr 2026 22:47:00 GMT",
+          "matchedKeywords": [
+            "setup"
           ]
         },
         {
@@ -82,25 +106,7 @@
         {
           "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
-        },
-        {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
-        },
-        {
-          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "email",
             "mail"
@@ -109,9 +115,27 @@
         {
           "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
-          "pubDate": "Tue, 21 Apr 2026 15:02:00 GMT",
+          "pubDate": "Tue, 28 Apr 2026 22:47:00 GMT",
           "matchedKeywords": [
             "configure"
+          ]
+        },
+        {
+          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
           ]
         }
       ]
@@ -122,11 +146,27 @@
       "category": "E-post og kalender",
       "hits": [
         {
+          "source": "Deploy Office Add-ins in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
           "source": "Microsoft 365 security documentation",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
           "pubDate": "Mon, 20 Apr 2026 22:44:00 GMT",
           "matchedKeywords": [
             "ios"
+          ]
+        },
+        {
+          "source": "Requirements to use centralized deployment for Office Add-ins - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/centralized-deployment-of-add-ins",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "app"
           ]
         },
         {
@@ -171,7 +211,15 @@
         {
           "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        },
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "teams"
           ]
@@ -179,7 +227,7 @@
         {
           "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "teams"
           ]
@@ -210,9 +258,18 @@
         {
           "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "teams"
+          ]
+        },
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "teams",
+            "message"
           ]
         },
         {
@@ -226,7 +283,7 @@
         {
           "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "teams"
           ]
@@ -239,9 +296,26 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Cross-tenant mailbox migration - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Deploy Office Add-ins in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Fri, 17 Apr 2026 09:00:00 GMT",
+          "pubDate": "Tue, 28 Apr 2026 20:58:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -280,6 +354,14 @@
           ]
         },
         {
+          "source": "Requirements to use centralized deployment for Office Add-ins - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/centralized-deployment-of-add-ins",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
           "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
@@ -298,7 +380,7 @@
         {
           "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
-          "pubDate": "Thu, 16 Apr 2026 14:43:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -315,7 +397,7 @@
         {
           "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -327,6 +409,14 @@
           "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
           "matchedKeywords": [
             "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Change your organization's address, contact preferences, and technical contact in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/change-address-contact-and-more",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -347,9 +437,26 @@
           ]
         },
         {
+          "source": "Customize the theme for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/customize-your-organization-theme",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Plan for multitenant organizations in Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/plan-multi-tenant-org-overview",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai",
             "teams",
@@ -384,7 +491,7 @@
         {
           "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -397,6 +504,14 @@
           "matchedKeywords": [
             "ai",
             "summarize"
+          ]
+        },
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "teams"
           ]
         },
         {
@@ -424,14 +539,6 @@
           ]
         },
         {
-          "source": "Configure shared mailbox settings - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/configure-a-shared-mailbox",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Password policy recommendations - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
           "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
@@ -440,26 +547,34 @@
           ]
         },
         {
+          "source": "Configure shared mailbox settings - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/configure-a-shared-mailbox",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai",
             "teams"
           ]
         },
         {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -634,7 +749,7 @@
         {
           "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "cloud"
           ]
@@ -647,9 +762,17 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
+          "source": "Cross-tenant mailbox migration - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Fri, 17 Apr 2026 09:00:00 GMT",
+          "pubDate": "Tue, 28 Apr 2026 20:58:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -657,7 +780,7 @@
         {
           "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
-          "pubDate": "Thu, 16 Apr 2026 14:43:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -665,7 +788,7 @@
         {
           "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -679,9 +802,17 @@
           ]
         },
         {
+          "source": "Plan for multitenant organizations in Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/plan-multi-tenant-org-overview",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Connect DNS records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -697,7 +828,7 @@
         {
           "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -735,14 +866,6 @@
           ]
         },
         {
-          "source": "Configure shared mailbox settings - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/configure-a-shared-mailbox",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Password policy recommendations - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
           "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
@@ -751,17 +874,17 @@
           ]
         },
         {
-          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "source": "Configure shared mailbox settings - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/configure-a-shared-mailbox",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -769,7 +892,15 @@
         {
           "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -784,7 +915,7 @@
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Fri, 17 Apr 2026 09:00:00 GMT",
+          "pubDate": "Tue, 28 Apr 2026 20:58:00 GMT",
           "matchedKeywords": [
             "security"
           ]
@@ -839,7 +970,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 10
+      "flaggedHits": 13
     },
     {
       "id": "outlook-mobile",
@@ -847,7 +978,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 6
     },
     {
       "id": "teams-first-meeting",
@@ -855,7 +986,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "teams-channels",
@@ -863,7 +994,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 5
+      "flaggedHits": 6
     },
     {
       "id": "teams-copilot",
@@ -871,7 +1002,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 27
+      "flaggedHits": 34
     },
     {
       "id": "onedrive-save",
@@ -903,7 +1034,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 16
+      "flaggedHits": 18
     },
     {
       "id": "mfa-setup",
