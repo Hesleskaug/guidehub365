@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-04-30T09:14:31.615Z",
+  "lastChecked": "2026-05-01T09:03:10.989Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -34,6 +34,15 @@
           ]
         },
         {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
           "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
           "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
@@ -59,28 +68,20 @@
           ]
         },
         {
+          "source": "Idle session timeout for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/idle-session-timeout-web-apps",
+          "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
           "source": "Change your email address to use your custom domain - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/change-email-address",
           "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
             "email",
             "mail"
-          ]
-        },
-        {
-          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        },
-        {
-          "source": "Set up Microsoft 365 Business Basic - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/setup-business-basic",
-          "pubDate": "Tue, 28 Apr 2026 22:47:00 GMT",
-          "matchedKeywords": [
-            "setup"
           ]
         },
         {
@@ -97,6 +98,24 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
           "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
+          "source": "Set up Microsoft 365 Business Basic - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/setup-business-basic",
+          "pubDate": "Tue, 28 Apr 2026 22:47:00 GMT",
+          "matchedKeywords": [
+            "setup"
+          ]
+        },
+        {
+          "source": "Send Email as a Distribution List - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
+          "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
+          "matchedKeywords": [
+            "outlook",
             "email",
             "mail"
           ]
@@ -121,14 +140,6 @@
           ]
         },
         {
-          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
-          "pubDate": "Tue, 28 Apr 2026 22:47:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        },
-        {
           "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
           "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
@@ -145,6 +156,23 @@
             "email",
             "mail"
           ]
+        },
+        {
+          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
+          "pubDate": "Tue, 28 Apr 2026 22:47:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
+          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
+          "pubDate": "Fri, 01 May 2026 03:44:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
         }
       ]
     },
@@ -153,14 +181,6 @@
       "guideTitle": "Outlook på mobil",
       "category": "E-post og kalender",
       "hits": [
-        {
-          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
         {
           "source": "Deploy Office Add-ins in the Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins",
@@ -218,9 +238,33 @@
           ]
         },
         {
+          "source": "Idle session timeout for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/idle-session-timeout-web-apps",
+          "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Send Email as a Distribution List - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
+          "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
+          "matchedKeywords": [
+            "outlook"
+          ]
+        },
+        {
           "source": "Deploy the Microsoft 365 LTI App in Canvas",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
           "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Enable Microsoft 365 usage analytics - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/usage-analytics/enable-usage-analytics",
+          "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -257,14 +301,6 @@
           ]
         },
         {
-          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        },
-        {
           "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
           "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
@@ -280,14 +316,6 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
           "source": "Microsoft 365 security documentation",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
           "pubDate": "Mon, 20 Apr 2026 22:44:00 GMT",
@@ -296,9 +324,9 @@
           ]
         },
         {
-          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
-          "pubDate": "Thu, 16 Apr 2026 14:43:00 GMT",
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "message"
           ]
@@ -309,15 +337,6 @@
           "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "teams"
-          ]
-        },
-        {
-          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
-          "matchedKeywords": [
-            "teams",
-            "message"
           ]
         },
         {
@@ -335,6 +354,14 @@
           "matchedKeywords": [
             "teams"
           ]
+        },
+        {
+          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
+          "pubDate": "Fri, 01 May 2026 03:44:00 GMT",
+          "matchedKeywords": [
+            "message"
+          ]
         }
       ]
     },
@@ -343,15 +370,6 @@
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
-        {
-          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
         {
           "source": "Cross-tenant mailbox migration - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration",
@@ -395,17 +413,9 @@
           ]
         },
         {
-          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
-          "pubDate": "Thu, 16 Apr 2026 14:43:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Wed, 29 Apr 2026 18:11:00 GMT",
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -416,6 +426,15 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/add-users",
           "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
+          "pubDate": "Thu, 30 Apr 2026 21:22:00 GMT",
+          "matchedKeywords": [
+            "ai",
             "summarize"
           ]
         },
@@ -491,6 +510,15 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/change-address-contact-and-more",
           "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
+          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
+          "matchedKeywords": [
+            "ai",
             "summarize"
           ]
         },
@@ -587,6 +615,15 @@
           ]
         },
         {
+          "source": "Idle session timeout for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/idle-session-timeout-web-apps",
+          "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Change your email address to use your custom domain - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/change-email-address",
           "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
@@ -631,17 +668,9 @@
           ]
         },
         {
-          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        },
-        {
           "source": "Domains Frequently Asked Questions",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -658,6 +687,14 @@
           "source": "Create organization-wide signatures and disclaimers - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
           "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Send Email as a Distribution List - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
+          "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -696,14 +733,6 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
           "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
@@ -715,6 +744,22 @@
           "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
           "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
+          "pubDate": "Fri, 01 May 2026 03:44:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -815,14 +860,6 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
-          "matchedKeywords": [
-            "word"
-          ]
-        },
-        {
           "source": "Try or buy a Microsoft 365 for business subscription",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/try-or-buy-microsoft-365",
           "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
@@ -842,6 +879,14 @@
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
           "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
+          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
           "matchedKeywords": [
             "cloud"
           ]
@@ -903,14 +948,6 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
-          "matchedKeywords": [
-            "cloud"
-          ]
-        },
-        {
           "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
           "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
@@ -925,6 +962,14 @@
           "matchedKeywords": [
             "cloud"
           ]
+        },
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
         }
       ]
     },
@@ -933,16 +978,6 @@
       "guideTitle": "Copilot i Excel",
       "category": "Word, Excel og PowerPoint",
       "hits": [
-        {
-          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
-          "matchedKeywords": [
-            "excel",
-            "copilot",
-            "ai"
-          ]
-        },
         {
           "source": "Cross-tenant mailbox migration - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration",
@@ -960,9 +995,17 @@
           ]
         },
         {
-          "source": "Agent Registry in the Microsoft 365 admin center - Microsoft 365 admin",
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Wed, 29 Apr 2026 18:11:00 GMT",
+          "pubDate": "Thu, 30 Apr 2026 21:22:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -987,6 +1030,14 @@
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
           "pubDate": "Thu, 23 Apr 2026 23:18:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
+          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1019,6 +1070,14 @@
           "source": "Microsoft 365 for enterprise documentation and resources",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/",
           "pubDate": "Tue, 28 Apr 2026 20:58:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Idle session timeout for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/idle-session-timeout-web-apps",
+          "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1058,7 +1117,7 @@
         {
           "source": "Domains Frequently Asked Questions",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq",
-          "pubDate": "Thu, 23 Apr 2026 04:19:00 GMT",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1075,6 +1134,14 @@
           "source": "Create organization-wide signatures and disclaimers - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
           "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Send Email as a Distribution List - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
+          "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1112,14 +1179,6 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
           "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
@@ -1131,6 +1190,22 @@
           "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
           "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
+          "pubDate": "Fri, 01 May 2026 03:44:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1198,14 +1273,6 @@
       "category": "Copilot og AI",
       "hits": [
         {
-          "source": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-          "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot readiness report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
           "pubDate": "Wed, 29 Apr 2026 18:11:00 GMT",
@@ -1224,7 +1291,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 14
+      "flaggedHits": 17
     },
     {
       "id": "outlook-mobile",
@@ -1232,7 +1299,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 10
+      "flaggedHits": 12
     },
     {
       "id": "teams-first-meeting",
@@ -1240,7 +1307,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "teams-channels",
@@ -1248,7 +1315,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 7
+      "flaggedHits": 6
     },
     {
       "id": "teams-copilot",
@@ -1256,7 +1323,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 45
+      "flaggedHits": 47
     },
     {
       "id": "onedrive-save",
@@ -1288,7 +1355,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 25
+      "flaggedHits": 29
     },
     {
       "id": "mfa-setup",
@@ -1312,7 +1379,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 2
+      "flaggedHits": 1
     }
   ]
 }
