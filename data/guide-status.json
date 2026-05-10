@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-05-09T08:42:56.699Z",
+  "lastChecked": "2026-05-10T08:56:18.683Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -39,6 +39,15 @@
           "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
           "matchedKeywords": [
             "configure"
+          ]
+        },
+        {
+          "source": "Add another email alias for a user - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/add-another-email-alias-for-a-user",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
           ]
         },
         {
@@ -101,14 +110,6 @@
           ]
         },
         {
-          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        },
-        {
           "source": "Send Email as a Distribution List - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
           "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
@@ -119,9 +120,17 @@
           ]
         },
         {
-          "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
+          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
+          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
+          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
           "matchedKeywords": [
             "email",
             "mail"
@@ -137,9 +146,9 @@
           ]
         },
         {
-          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
-          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
+          "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
+          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
           "matchedKeywords": [
             "email",
             "mail"
@@ -152,6 +161,14 @@
           "matchedKeywords": [
             "email",
             "mail",
+            "configure"
+          ]
+        },
+        {
+          "source": "Advanced deployment guides for Microsoft 365 and Office 365 products - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/setup-guides-for-microsoft-365",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "matchedKeywords": [
             "configure"
           ]
         }
@@ -260,19 +277,19 @@
           ]
         },
         {
-          "source": "Enable Microsoft 365 usage analytics - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/usage-analytics/enable-usage-analytics",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
           "source": "Send Email as a Distribution List - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
           "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
           "matchedKeywords": [
             "outlook"
+          ]
+        },
+        {
+          "source": "Enable Microsoft 365 usage analytics - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/usage-analytics/enable-usage-analytics",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "matchedKeywords": [
+            "app"
           ]
         },
         {
@@ -286,6 +303,14 @@
         {
           "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Advanced deployment guides for Microsoft 365 and Office 365 products - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/setup-guides-for-microsoft-365",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "app"
@@ -435,19 +460,19 @@
           ]
         },
         {
+          "source": "Upgrade or change to a different Microsoft 365 for business plan",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/upgrade-to-different-plan",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Upgrade or change to a different Microsoft 365 for business plan",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/upgrade-to-different-plan",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -462,18 +487,18 @@
           ]
         },
         {
-          "source": "Set up multifactor authentication for users - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
+          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
           ]
         },
         {
-          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "source": "Set up multifactor authentication for users - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication",
+          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -504,17 +529,17 @@
           ]
         },
         {
-          "source": "Requirements to use centralized deployment for Office Add-ins - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/centralized-deployment-of-add-ins",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "source": "Buy or remove licenses for a Microsoft business subscription",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/buy-licenses",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
         },
         {
-          "source": "Buy or remove licenses for a Microsoft business subscription",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/buy-licenses",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "source": "Requirements to use centralized deployment for Office Add-ins - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/centralized-deployment-of-add-ins",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -528,19 +553,19 @@
           ]
         },
         {
-          "source": "What happens to my data and access when my Microsoft 365 for business subscription ends?",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
           "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
           "matchedKeywords": [
             "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "What happens to my data and access when my Microsoft 365 for business subscription ends?",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -624,6 +649,15 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/advanced-data-residency",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Add another email alias for a user - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/add-another-email-alias-for-a-user",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "matchedKeywords": [
+            "ai",
             "summarize"
           ]
         },
@@ -723,15 +757,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 data locations - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/o365-data-locations",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Remove a former employee - Overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
           "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
@@ -765,6 +790,14 @@
           ]
         },
         {
+          "source": "Send Email as a Distribution List - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
+          "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Microsoft 365 Copilot readiness report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
@@ -781,9 +814,9 @@
           ]
         },
         {
-          "source": "Send Email as a Distribution List - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
-          "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -797,25 +830,17 @@
           ]
         },
         {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
+          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -829,9 +854,9 @@
           ]
         },
         {
-          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
-          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
+          "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
+          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -987,17 +1012,17 @@
           ]
         },
         {
-          "source": "Set up multifactor authentication for users - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
+          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "source": "Set up multifactor authentication for users - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication",
+          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1030,6 +1055,14 @@
           "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
           "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Add another email alias for a user - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/add-another-email-alias-for-a-user",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1091,14 +1124,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 data locations - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/o365-data-locations",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Remove a former employee - Overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
           "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
@@ -1123,6 +1148,14 @@
           ]
         },
         {
+          "source": "Send Email as a Distribution List - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
+          "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Microsoft 365 Copilot readiness report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
@@ -1139,9 +1172,9 @@
           ]
         },
         {
-          "source": "Send Email as a Distribution List - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
-          "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1155,25 +1188,17 @@
           ]
         },
         {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
+          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1187,9 +1212,9 @@
           ]
         },
         {
-          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
-          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
+          "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
+          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1345,7 +1370,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 15
+      "flaggedHits": 17
     },
     {
       "id": "outlook-mobile",
@@ -1353,7 +1378,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 16
+      "flaggedHits": 17
     },
     {
       "id": "teams-first-meeting",
