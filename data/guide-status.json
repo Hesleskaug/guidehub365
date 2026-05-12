@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-05-11T10:39:12.455Z",
+  "lastChecked": "2026-05-12T09:43:05.717Z",
   "totalGuides": 12,
-  "flaggedCount": 12,
+  "flaggedCount": 11,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -25,14 +25,6 @@
       "guideTitle": "Sette opp Outlook på PC",
       "category": "E-post og kalender",
       "hits": [
-        {
-          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "outlook"
-          ]
-        },
         {
           "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
@@ -59,17 +51,24 @@
           ]
         },
         {
-          "source": "Change your email address to use your custom domain - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/change-email-address",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "source": "Sign up for Microsoft 365 Business Standard - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
           "matchedKeywords": [
-            "email",
-            "mail"
+            "setup"
           ]
         },
         {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Mon, 11 May 2026 22:48:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
+          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
           "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
           "matchedKeywords": [
             "configure"
@@ -81,23 +80,6 @@
           "pubDate": "Tue, 28 Apr 2026 22:47:00 GMT",
           "matchedKeywords": [
             "setup"
-          ]
-        },
-        {
-          "source": "Change a user name and email address - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
-        },
-        {
-          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
-          "matchedKeywords": [
-            "configure"
           ]
         },
         {
@@ -120,15 +102,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
-        },
-        {
           "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
           "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
@@ -138,13 +111,12 @@
           ]
         },
         {
-          "source": "Configure shared mailbox settings - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/configure-a-shared-mailbox",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
+          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
           "matchedKeywords": [
             "email",
-            "mail",
-            "configure"
+            "mail"
           ]
         },
         {
@@ -217,14 +189,6 @@
           "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
           "matchedKeywords": [
             "app"
-          ]
-        },
-        {
-          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "outlook"
           ]
         },
         {
@@ -334,7 +298,7 @@
         {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "pubDate": "Mon, 11 May 2026 22:48:00 GMT",
           "matchedKeywords": [
             "teams"
           ]
@@ -397,7 +361,7 @@
         {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "pubDate": "Mon, 11 May 2026 22:48:00 GMT",
           "matchedKeywords": [
             "teams",
             "message"
@@ -545,22 +509,6 @@
           ]
         },
         {
-          "source": "Add users and assign licenses in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/add-users",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
           "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
@@ -587,14 +535,6 @@
           ]
         },
         {
-          "source": "Compare types of groups in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/compare-groups",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Change your organization's address, contact preferences, and technical contact in the Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/change-address-contact-and-more",
           "pubDate": "Fri, 01 May 2026 20:46:00 GMT",
@@ -607,15 +547,6 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
-          "matchedKeywords": [
-            "ai",
             "summarize"
           ]
         },
@@ -697,14 +628,6 @@
           ]
         },
         {
-          "source": "Assign admin roles in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/assign-admin-roles",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Microsoft 365 for enterprise documentation and resources",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/",
           "pubDate": "Tue, 28 Apr 2026 20:58:00 GMT",
@@ -730,18 +653,9 @@
           ]
         },
         {
-          "source": "Change your email address to use your custom domain - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/change-email-address",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Managing Microsoft 365 endpoints - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/managing-office-365-endpoints",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
+          "source": "Sign up for Microsoft 365 Business Standard - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -756,18 +670,9 @@
           ]
         },
         {
-          "source": "Remove a former employee - Overview - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "pubDate": "Mon, 11 May 2026 22:48:00 GMT",
           "matchedKeywords": [
             "teams"
           ]
@@ -781,25 +686,9 @@
           ]
         },
         {
-          "source": "Change a user name and email address - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Send Email as a Distribution List - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
           "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
-          "pubDate": "Fri, 08 May 2026 22:47:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -813,9 +702,9 @@
           ]
         },
         {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
+          "pubDate": "Fri, 08 May 2026 22:47:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -837,9 +726,9 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -853,17 +742,9 @@
           ]
         },
         {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Configure shared mailbox settings - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/configure-a-shared-mailbox",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -875,21 +756,6 @@
           "matchedKeywords": [
             "ai",
             "teams"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "onedrive-save",
-      "guideTitle": "Lagre filer i OneDrive",
-      "category": "OneDrive og SharePoint",
-      "hits": [
-        {
-          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
           ]
         }
       ]
@@ -915,14 +781,6 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
-          ]
-        },
-        {
           "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
           "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
@@ -947,19 +805,11 @@
           ]
         },
         {
-          "source": "Reset passwords - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/reset-passwords",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
           "matchedKeywords": [
-            "word"
-          ]
-        },
-        {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "word"
+            "cloud"
           ]
         },
         {
@@ -1052,14 +902,6 @@
           ]
         },
         {
-          "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
           "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
@@ -1108,25 +950,9 @@
           ]
         },
         {
-          "source": "Change your email address to use your custom domain - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/change-email-address",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Remove a former employee - Overview - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1140,25 +966,9 @@
           ]
         },
         {
-          "source": "Change a user name and email address - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Send Email as a Distribution List - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/send-email-as-distribution-list",
           "pubDate": "Thu, 30 Apr 2026 18:46:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
-          "pubDate": "Fri, 08 May 2026 22:47:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1172,9 +982,9 @@
           ]
         },
         {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
+          "pubDate": "Fri, 08 May 2026 22:47:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1196,9 +1006,9 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1212,17 +1022,9 @@
           ]
         },
         {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Wed, 29 Apr 2026 03:45:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Configure shared mailbox settings - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/configure-a-shared-mailbox",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -1261,14 +1063,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
-          "matchedKeywords": [
-            "security"
-          ]
-        },
-        {
           "source": "Understand the Microsoft 365 E3 and E5 Extra Features license",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/e3-extra-features-licenses",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
@@ -1295,23 +1089,6 @@
           "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
-            "password"
-          ]
-        },
-        {
-          "source": "Reset passwords - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/reset-passwords",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
-          "matchedKeywords": [
-            "password",
-            "reset"
-          ]
-        },
-        {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
-          "pubDate": "Tue, 28 Apr 2026 04:40:00 GMT",
           "matchedKeywords": [
             "password"
           ]
@@ -1378,7 +1155,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 16
+      "flaggedHits": 13
     },
     {
       "id": "outlook-mobile",
@@ -1386,7 +1163,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 17
+      "flaggedHits": 16
     },
     {
       "id": "teams-first-meeting",
@@ -1410,15 +1187,15 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 53
+      "flaggedHits": 43
     },
     {
       "id": "onedrive-save",
       "title": "Lagre filer i OneDrive",
       "category": "OneDrive og SharePoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "sharepoint-document-library",
@@ -1434,7 +1211,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 7
+      "flaggedHits": 5
     },
     {
       "id": "excel-copilot",
@@ -1442,7 +1219,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 32
+      "flaggedHits": 26
     },
     {
       "id": "mfa-setup",
@@ -1450,7 +1227,7 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "password-reset",
@@ -1458,7 +1235,7 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 3
+      "flaggedHits": 1
     },
     {
       "id": "copilot-365-intro",
