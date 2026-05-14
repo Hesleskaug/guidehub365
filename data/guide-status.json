@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-05-13T09:46:51.776Z",
+  "lastChecked": "2026-05-14T09:36:16.509Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -26,14 +26,6 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        },
-        {
           "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
           "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
@@ -51,6 +43,14 @@
           ]
         },
         {
+          "source": "Sign up for Microsoft 365 Business Standard - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "matchedKeywords": [
+            "setup"
+          ]
+        },
+        {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
           "pubDate": "Mon, 11 May 2026 22:48:00 GMT",
@@ -61,7 +61,7 @@
         {
           "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "pubDate": "Wed, 13 May 2026 18:14:00 GMT",
           "matchedKeywords": [
             "configure"
           ]
@@ -175,25 +175,9 @@
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
           "source": "Idle session timeout for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/idle-session-timeout-web-apps",
           "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Microsoft 365 U.S. Government GCC High endpoints - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -453,7 +437,7 @@
         {
           "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "pubDate": "Wed, 13 May 2026 18:14:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -502,23 +486,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
@@ -543,15 +510,6 @@
           ]
         },
         {
-          "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
           "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
@@ -570,19 +528,19 @@
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Idle session timeout for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/idle-session-timeout-web-apps",
           "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
           "matchedKeywords": [
             "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Sign up for Microsoft 365 Business Standard - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -690,14 +648,6 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
-          "matchedKeywords": [
-            "cloud"
-          ]
-        },
-        {
           "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
@@ -781,7 +731,7 @@
         {
           "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "pubDate": "Wed, 13 May 2026 18:14:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -798,22 +748,6 @@
           "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
           "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -932,14 +866,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Thu, 30 Apr 2026 04:48:00 GMT",
-          "matchedKeywords": [
-            "security"
-          ]
-        },
-        {
           "source": "Understand the Microsoft 365 E3 and E5 Extra Features license",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/e3-extra-features-licenses",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
@@ -1040,7 +966,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 15
+      "flaggedHits": 13
     },
     {
       "id": "teams-first-meeting",
@@ -1064,7 +990,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 39
+      "flaggedHits": 36
     },
     {
       "id": "onedrive-save",
@@ -1088,7 +1014,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 3
+      "flaggedHits": 2
     },
     {
       "id": "excel-copilot",
@@ -1096,7 +1022,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 23
+      "flaggedHits": 21
     },
     {
       "id": "mfa-setup",
@@ -1104,7 +1030,7 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "password-reset",
