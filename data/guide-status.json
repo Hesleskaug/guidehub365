@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-05-15T09:49:16.404Z",
+  "lastChecked": "2026-05-16T08:49:40.761Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -109,6 +109,14 @@
       "category": "E-post og kalender",
       "hits": [
         {
+          "source": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
+          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
+          "pubDate": "Mon, 11 May 2026 17:25:12 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
           "source": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
           "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
@@ -120,14 +128,6 @@
           "source": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
           "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
-          "pubDate": "Fri, 01 May 2026 15:00:00 +0000",
           "matchedKeywords": [
             "app"
           ]
@@ -252,6 +252,14 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
+          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
+          "pubDate": "Mon, 11 May 2026 17:25:12 +0000",
+          "matchedKeywords": [
+            "post"
+          ]
+        },
+        {
           "source": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
           "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
@@ -263,14 +271,6 @@
           "source": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
           "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
-          "source": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
-          "pubDate": "Fri, 01 May 2026 15:00:00 +0000",
           "matchedKeywords": [
             "post"
           ]
@@ -332,6 +332,14 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
+          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
+          "pubDate": "Mon, 11 May 2026 17:25:12 +0000",
+          "matchedKeywords": [
+            "copilot"
+          ]
+        },
+        {
           "source": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
           "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
@@ -345,14 +353,6 @@
           "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
           "matchedKeywords": [
             "copilot",
-            "ai"
-          ]
-        },
-        {
-          "source": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
-          "pubDate": "Fri, 01 May 2026 15:00:00 +0000",
-          "matchedKeywords": [
             "ai"
           ]
         },
@@ -394,7 +394,7 @@
         {
           "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "pubDate": "Fri, 15 May 2026 22:51:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -464,14 +464,6 @@
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Change your organization's address, contact preferences, and technical contact in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/change-address-contact-and-more",
-          "pubDate": "Fri, 01 May 2026 20:46:00 GMT",
-          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -670,6 +662,14 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
+          "source": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
+          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
+          "pubDate": "Mon, 11 May 2026 17:25:12 +0000",
+          "matchedKeywords": [
+            "copilot"
+          ]
+        },
+        {
           "source": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
           "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
@@ -683,14 +683,6 @@
           "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
           "matchedKeywords": [
             "copilot",
-            "ai"
-          ]
-        },
-        {
-          "source": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
-          "pubDate": "Fri, 01 May 2026 15:00:00 +0000",
-          "matchedKeywords": [
             "ai"
           ]
         },
@@ -714,7 +706,7 @@
         {
           "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "pubDate": "Fri, 15 May 2026 22:51:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -895,6 +887,14 @@
       "category": "Copilot og AI",
       "hits": [
         {
+          "source": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
+          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
+          "pubDate": "Mon, 11 May 2026 17:25:12 +0000",
+          "matchedKeywords": [
+            "copilot"
+          ]
+        },
+        {
           "source": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
           "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
@@ -981,7 +981,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 35
+      "flaggedHits": 34
     },
     {
       "id": "onedrive-save",
@@ -1037,7 +1037,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 5
+      "flaggedHits": 6
     }
   ]
 }
