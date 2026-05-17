@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-05-16T08:49:40.761Z",
+  "lastChecked": "2026-05-17T09:07:57.623Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -76,20 +76,20 @@
           ]
         },
         {
+          "source": "Get started with the Microsoft Release Communications MCP Server - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/mrc-mcp",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
           "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
           "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
           "matchedKeywords": [
             "email",
             "mail"
-          ]
-        },
-        {
-          "source": "Get started with the Microsoft Release Communications MCP Server - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/mrc-mcp",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
-          "matchedKeywords": [
-            "configure"
           ]
         },
         {
@@ -144,6 +144,14 @@
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Business Premium resources",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/business-premium/",
+          "pubDate": "Fri, 15 May 2026 06:48:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -218,6 +226,14 @@
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "call"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Business Premium resources",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/business-premium/",
+          "pubDate": "Fri, 15 May 2026 06:48:00 GMT",
+          "matchedKeywords": [
+            "meeting"
           ]
         },
         {
@@ -365,9 +381,19 @@
           ]
         },
         {
-          "source": "Baseline security mode settings",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
+          "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
+          "pubDate": "Fri, 15 May 2026 22:51:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -382,19 +408,9 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+          "source": "Baseline security mode settings",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
-            "copilot",
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Fri, 15 May 2026 22:51:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -426,17 +442,17 @@
           ]
         },
         {
-          "source": "Buy or remove licenses for a Microsoft business subscription",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/buy-licenses",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "source": "Requirements to use centralized deployment for Office Add-ins - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/centralized-deployment-of-add-ins",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
         },
         {
-          "source": "Requirements to use centralized deployment for Office Add-ins - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/centralized-deployment-of-add-ins",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "source": "What happens to my data and access when my Microsoft 365 for business subscription ends?",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -447,14 +463,6 @@
           "pubDate": "Wed, 13 May 2026 18:14:00 GMT",
           "matchedKeywords": [
             "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "What happens to my data and access when my Microsoft 365 for business subscription ends?",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -476,17 +484,17 @@
           ]
         },
         {
-          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "source": "Customize the theme for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/customize-your-organization-theme",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
         },
         {
-          "source": "Customize the theme for your organization - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/customize-your-organization-theme",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -544,6 +552,14 @@
           ]
         },
         {
+          "source": "Domains Frequently Asked Questions",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
           "pubDate": "Mon, 11 May 2026 22:48:00 GMT",
@@ -552,9 +568,9 @@
           ]
         },
         {
-          "source": "Domains Frequently Asked Questions",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "source": "Get started with the Microsoft Frontier program - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
+          "pubDate": "Wed, 13 May 2026 18:14:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -568,19 +584,19 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Tue, 12 May 2026 21:06:00 GMT",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
           "pubDate": "Fri, 08 May 2026 22:47:00 GMT",
           "matchedKeywords": [
             "ai"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
+          "pubDate": "Tue, 12 May 2026 21:06:00 GMT",
+          "matchedKeywords": [
+            "copilot"
           ]
         },
         {
@@ -687,14 +703,6 @@
           ]
         },
         {
-          "source": "Baseline security mode settings",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
@@ -707,6 +715,14 @@
           "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
           "pubDate": "Fri, 15 May 2026 22:51:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Baseline security mode settings",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -768,17 +784,17 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot readiness report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "source": "Get started with the Microsoft Frontier program - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
+          "pubDate": "Wed, 13 May 2026 18:14:00 GMT",
           "matchedKeywords": [
-            "copilot"
+            "ai"
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Tue, 12 May 2026 21:06:00 GMT",
+          "source": "Microsoft 365 Copilot readiness report - Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "copilot"
           ]
@@ -789,6 +805,14 @@
           "pubDate": "Fri, 08 May 2026 22:47:00 GMT",
           "matchedKeywords": [
             "ai"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
+          "pubDate": "Tue, 12 May 2026 21:06:00 GMT",
+          "matchedKeywords": [
+            "copilot"
           ]
         },
         {
@@ -957,7 +981,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 12
+      "flaggedHits": 13
     },
     {
       "id": "teams-first-meeting",
@@ -965,7 +989,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 4
+      "flaggedHits": 5
     },
     {
       "id": "teams-channels",
@@ -1013,7 +1037,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 20
+      "flaggedHits": 21
     },
     {
       "id": "mfa-setup",
