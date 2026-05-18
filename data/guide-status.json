@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-05-17T09:07:57.623Z",
+  "lastChecked": "2026-05-18T11:08:06.840Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -43,25 +43,17 @@
           ]
         },
         {
-          "source": "Sign up for Microsoft 365 Business Standard - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
+          "pubDate": "Wed, 13 May 2026 18:14:00 GMT",
           "matchedKeywords": [
-            "setup"
+            "configure"
           ]
         },
         {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
           "pubDate": "Mon, 11 May 2026 22:48:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        },
-        {
-          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
-          "pubDate": "Wed, 13 May 2026 18:14:00 GMT",
           "matchedKeywords": [
             "configure"
           ]
@@ -87,15 +79,6 @@
           "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
           "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
-        },
-        {
-          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
           "matchedKeywords": [
             "email",
             "mail"
@@ -251,14 +234,6 @@
           "matchedKeywords": [
             "teams"
           ]
-        },
-        {
-          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
         }
       ]
     },
@@ -317,14 +292,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Tue, 12 May 2026 21:06:00 GMT",
-          "matchedKeywords": [
-            "chat"
-          ]
-        },
-        {
           "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
           "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
@@ -333,11 +300,11 @@
           ]
         },
         {
-          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
+          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
+          "pubDate": "Tue, 12 May 2026 21:06:00 GMT",
           "matchedKeywords": [
-            "teams"
+            "chat"
           ]
         }
       ]
@@ -442,6 +409,14 @@
           ]
         },
         {
+          "source": "Buy or remove licenses for a Microsoft business subscription",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/buy-licenses",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Requirements to use centralized deployment for Office Add-ins - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/centralized-deployment-of-add-ins",
           "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
@@ -484,6 +459,15 @@
           ]
         },
         {
+          "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Customize the theme for your organization - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/customize-your-organization-theme",
           "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
@@ -500,20 +484,20 @@
           ]
         },
         {
-          "source": "Advanced data residency in Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/advanced-data-residency",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
           "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
           "matchedKeywords": [
             "ai",
             "teams",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Advanced data residency in Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/advanced-data-residency",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -535,28 +519,12 @@
           ]
         },
         {
-          "source": "Sign up for Microsoft 365 Business Standard - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/simplified-signup/signup-business-standard",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
-          ]
-        },
-        {
-          "source": "Domains Frequently Asked Questions",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
-          "matchedKeywords": [
-            "ai"
           ]
         },
         {
@@ -576,11 +544,11 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot readiness report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "source": "Domains Frequently Asked Questions",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
           "matchedKeywords": [
-            "copilot"
+            "ai"
           ]
         },
         {
@@ -592,9 +560,9 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Tue, 12 May 2026 21:06:00 GMT",
+          "source": "Microsoft 365 Copilot readiness report - Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
+          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "copilot"
           ]
@@ -605,6 +573,14 @@
           "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
           "matchedKeywords": [
             "ai"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
+          "pubDate": "Tue, 12 May 2026 21:06:00 GMT",
+          "matchedKeywords": [
+            "copilot"
           ]
         },
         {
@@ -621,15 +597,6 @@
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "ai"
-          ]
-        },
-        {
-          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "teams"
           ]
         }
       ]
@@ -752,6 +719,14 @@
           ]
         },
         {
+          "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
+          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
           "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
@@ -776,6 +751,14 @@
           ]
         },
         {
+          "source": "Get started with the Microsoft Frontier program - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
+          "pubDate": "Wed, 13 May 2026 18:14:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Domains Frequently Asked Questions",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq",
           "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
@@ -784,9 +767,9 @@
           ]
         },
         {
-          "source": "Get started with the Microsoft Frontier program - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
-          "pubDate": "Wed, 13 May 2026 18:14:00 GMT",
+          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
+          "pubDate": "Fri, 08 May 2026 22:47:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -800,9 +783,9 @@
           ]
         },
         {
-          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
-          "pubDate": "Fri, 08 May 2026 22:47:00 GMT",
+          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
+          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -813,14 +796,6 @@
           "pubDate": "Tue, 12 May 2026 21:06:00 GMT",
           "matchedKeywords": [
             "copilot"
-          ]
-        },
-        {
-          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
-          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
-          "matchedKeywords": [
-            "ai"
           ]
         },
         {
@@ -835,14 +810,6 @@
           "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -973,7 +940,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 9
+      "flaggedHits": 7
     },
     {
       "id": "outlook-mobile",
@@ -989,7 +956,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "teams-channels",
@@ -997,7 +964,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 9
+      "flaggedHits": 8
     },
     {
       "id": "teams-copilot",
