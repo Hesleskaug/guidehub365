@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-05-18T11:08:06.840Z",
+  "lastChecked": "2026-05-19T10:37:39.902Z",
   "totalGuides": 12,
-  "flaggedCount": 11,
+  "flaggedCount": 10,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -32,14 +32,6 @@
           "matchedKeywords": [
             "email",
             "mail"
-          ]
-        },
-        {
-          "source": "Idle session timeout for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/idle-session-timeout-web-apps",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
-          "matchedKeywords": [
-            "configure"
           ]
         },
         {
@@ -74,15 +66,6 @@
           "matchedKeywords": [
             "configure"
           ]
-        },
-        {
-          "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
         }
       ]
     },
@@ -95,22 +78,6 @@
           "source": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
           "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
           "pubDate": "Mon, 11 May 2026 17:25:12 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
-          "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
-          "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
           "matchedKeywords": [
             "app"
           ]
@@ -161,14 +128,6 @@
           "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
           "matchedKeywords": [
             "mobile",
-            "app"
-          ]
-        },
-        {
-          "source": "Idle session timeout for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/idle-session-timeout-web-apps",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
-          "matchedKeywords": [
             "app"
           ]
         },
@@ -251,22 +210,6 @@
           ]
         },
         {
-          "source": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
-          "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
-          "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
           "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
           "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
@@ -323,23 +266,6 @@
           ]
         },
         {
-          "source": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
-          "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
-          "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
-        {
           "source": "Deploy Office Add-ins in the Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
@@ -378,15 +304,6 @@
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Set up multifactor authentication for users - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -496,7 +413,7 @@
         {
           "source": "Advanced data residency in Microsoft 365 - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/advanced-data-residency",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "pubDate": "Tue, 19 May 2026 03:47:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -506,15 +423,6 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/admin-overview/admin-mobile-app",
           "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
           "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Idle session timeout for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/idle-session-timeout-web-apps",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
-          "matchedKeywords": [
-            "ai",
             "summarize"
           ]
         },
@@ -584,34 +492,11 @@
           ]
         },
         {
-          "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
           "matchedKeywords": [
             "ai"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "sharepoint-document-library",
-      "guideTitle": "Jobbe med dokumentbibliotek",
-      "category": "OneDrive og SharePoint",
-      "hits": [
-        {
-          "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
-          "matchedKeywords": [
-            "files"
           ]
         }
       ]
@@ -653,23 +538,6 @@
           ]
         },
         {
-          "source": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
-          "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
-          "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
@@ -690,14 +558,6 @@
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Set up multifactor authentication for users - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -730,14 +590,6 @@
           "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
           "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Idle session timeout for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/idle-session-timeout-web-apps",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -799,14 +651,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
@@ -830,27 +674,9 @@
           ]
         },
         {
-          "source": "Set up multifactor authentication for users - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
-          "matchedKeywords": [
-            "mfa",
-            "security",
-            "2fa"
-          ]
-        },
-        {
           "source": "Understand the Microsoft 365 E3 and E5 Extra Features license",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/e3-extra-features-licenses",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
-            "security"
-          ]
-        },
-        {
-          "source": "Microsoft 365 for business security best practices - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
-          "pubDate": "Mon, 04 May 2026 20:58:00 GMT",
           "matchedKeywords": [
             "security"
           ]
@@ -883,23 +709,6 @@
           "pubDate": "Mon, 11 May 2026 17:25:12 +0000",
           "matchedKeywords": [
             "copilot"
-          ]
-        },
-        {
-          "source": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
-          "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
-          "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "microsoft 365 copilot"
           ]
         },
         {
@@ -940,7 +749,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 7
+      "flaggedHits": 5
     },
     {
       "id": "outlook-mobile",
@@ -948,7 +757,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 13
+      "flaggedHits": 10
     },
     {
       "id": "teams-first-meeting",
@@ -964,7 +773,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 8
+      "flaggedHits": 6
     },
     {
       "id": "teams-copilot",
@@ -972,7 +781,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 34
+      "flaggedHits": 29
     },
     {
       "id": "onedrive-save",
@@ -986,9 +795,9 @@
       "id": "sharepoint-document-library",
       "title": "Jobbe med dokumentbibliotek",
       "category": "OneDrive og SharePoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "word-autosave",
@@ -1004,7 +813,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 21
+      "flaggedHits": 16
     },
     {
       "id": "mfa-setup",
@@ -1012,7 +821,7 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 4
+      "flaggedHits": 2
     },
     {
       "id": "password-reset",
@@ -1028,7 +837,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 6
+      "flaggedHits": 4
     }
   ]
 }
