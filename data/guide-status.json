@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-05-19T10:37:39.902Z",
+  "lastChecked": "2026-05-20T10:25:47.434Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -235,19 +235,19 @@
           ]
         },
         {
-          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
-          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
-          "matchedKeywords": [
-            "message"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Tue, 12 May 2026 21:06:00 GMT",
           "matchedKeywords": [
             "chat"
+          ]
+        },
+        {
+          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
+          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
+          "matchedKeywords": [
+            "message"
           ]
         }
       ]
@@ -286,7 +286,7 @@
         {
           "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Fri, 15 May 2026 22:51:00 GMT",
+          "pubDate": "Tue, 19 May 2026 23:12:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -370,17 +370,8 @@
         {
           "source": "Microsoft 365 Multi-Geo - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
-          "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
+          "pubDate": "Wed, 20 May 2026 03:46:00 GMT",
           "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
-          "matchedKeywords": [
-            "ai",
             "summarize"
           ]
         },
@@ -476,19 +467,19 @@
           ]
         },
         {
-          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
-          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Tue, 12 May 2026 21:06:00 GMT",
           "matchedKeywords": [
             "copilot"
+          ]
+        },
+        {
+          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
+          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
+          "matchedKeywords": [
+            "ai"
           ]
         },
         {
@@ -549,7 +540,7 @@
         {
           "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Fri, 15 May 2026 22:51:00 GMT",
+          "pubDate": "Tue, 19 May 2026 23:12:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -574,14 +565,6 @@
           "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
           "pubDate": "Wed, 06 May 2026 21:02:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
-          "pubDate": "Wed, 06 May 2026 18:15:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -635,19 +618,19 @@
           ]
         },
         {
-          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
-          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Tue, 12 May 2026 21:06:00 GMT",
           "matchedKeywords": [
             "copilot"
+          ]
+        },
+        {
+          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
+          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
+          "matchedKeywords": [
+            "ai"
           ]
         },
         {
@@ -781,7 +764,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 29
+      "flaggedHits": 28
     },
     {
       "id": "onedrive-save",
@@ -813,7 +796,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 16
+      "flaggedHits": 15
     },
     {
       "id": "mfa-setup",
