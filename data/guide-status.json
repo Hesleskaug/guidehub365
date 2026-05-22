@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-05-21T10:40:50.781Z",
+  "lastChecked": "2026-05-22T10:25:36.793Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -53,27 +53,9 @@
         {
           "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "outlook"
-          ]
-        },
-        {
-          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
-          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
-        },
-        {
-          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
           ]
         }
       ]
@@ -94,7 +76,7 @@
         {
           "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -110,7 +92,7 @@
         {
           "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "outlook",
             "app"
@@ -150,15 +132,7 @@
         {
           "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        },
-        {
-          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "teams"
           ]
@@ -196,36 +170,20 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
-          "matchedKeywords": [
-            "teams",
-            "chat"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "channel"
           ]
         },
         {
-          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
-          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
+          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
-            "message"
-          ]
-        },
-        {
-          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
-          "matchedKeywords": [
-            "teams"
+            "teams",
+            "chat"
           ]
         }
       ]
@@ -246,7 +204,7 @@
         {
           "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "copilot",
             "ai",
@@ -272,9 +230,26 @@
           ]
         },
         {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Microsoft 365 Multi-Geo - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
           "pubDate": "Wed, 20 May 2026 18:17:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Pricing model for Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -322,36 +297,19 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
-          "matchedKeywords": [
-            "copilot",
-            "teams"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "copilot"
           ]
         },
         {
-          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
-          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
+          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
-          "matchedKeywords": [
-            "ai",
+            "copilot",
             "teams"
           ]
         }
@@ -363,9 +321,34 @@
       "category": "OneDrive og SharePoint",
       "hits": [
         {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
+          "matchedKeywords": [
+            "backup"
+          ]
+        },
+        {
+          "source": "Pricing model for Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
+          "matchedKeywords": [
+            "backup"
+          ]
+        },
+        {
           "source": "Restore data in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
+          "matchedKeywords": [
+            "onedrive",
+            "backup"
+          ]
+        },
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "onedrive",
             "backup"
@@ -379,9 +362,25 @@
       "category": "OneDrive og SharePoint",
       "hits": [
         {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
+          ]
+        },
+        {
           "source": "Restore data in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
+          ]
+        },
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "sharepoint"
           ]
@@ -394,9 +393,25 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        },
+        {
           "source": "Restore data in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "onedrive"
           ]
@@ -419,7 +434,7 @@
         {
           "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "copilot",
             "ai"
@@ -437,6 +452,14 @@
           "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
           "pubDate": "Wed, 13 May 2026 18:14:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -466,35 +489,19 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "copilot"
           ]
         },
         {
-          "source": "Create Organization-wide Email Signatures and Disclaimers - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/create-signatures-and-disclaimers",
-          "pubDate": "Thu, 07 May 2026 21:42:00 GMT",
+          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Connect your DNS records at GoDaddy to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-godaddy",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
-          "matchedKeywords": [
-            "ai"
+            "copilot"
           ]
         }
       ]
@@ -515,7 +522,16 @@
         {
           "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "microsoft 365 copilot"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "copilot",
             "microsoft 365 copilot"
@@ -524,20 +540,11 @@
         {
           "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
+          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "copilot",
             "microsoft 365 copilot",
             "prompt"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Thu, 21 May 2026 06:57:00 GMT",
-          "matchedKeywords": [
-            "copilot",
-            "microsoft 365 copilot"
           ]
         }
       ]
@@ -550,7 +557,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 6
+      "flaggedHits": 4
     },
     {
       "id": "outlook-mobile",
@@ -566,7 +573,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "teams-channels",
@@ -574,7 +581,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 7
+      "flaggedHits": 5
     },
     {
       "id": "teams-copilot",
@@ -590,7 +597,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 4
     },
     {
       "id": "sharepoint-document-library",
@@ -598,7 +605,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 3
     },
     {
       "id": "word-autosave",
@@ -606,7 +613,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 1
+      "flaggedHits": 3
     },
     {
       "id": "excel-copilot",
@@ -614,7 +621,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 11
+      "flaggedHits": 10
     },
     {
       "id": "mfa-setup",
