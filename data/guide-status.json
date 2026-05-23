@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-05-22T10:25:36.793Z",
+  "lastChecked": "2026-05-23T09:03:18.039Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -25,15 +25,6 @@
       "guideTitle": "Sette opp Outlook på PC",
       "category": "E-post og kalender",
       "hits": [
-        {
-          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
-        },
         {
           "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
@@ -114,14 +105,6 @@
           ]
         },
         {
-          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        },
-        {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
           "pubDate": "Mon, 11 May 2026 22:48:00 GMT",
@@ -150,14 +133,6 @@
           "pubDate": "Mon, 11 May 2026 17:25:12 +0000",
           "matchedKeywords": [
             "post"
-          ]
-        },
-        {
-          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
-          "matchedKeywords": [
-            "teams"
           ]
         },
         {
@@ -255,29 +230,11 @@
           ]
         },
         {
-          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "teams",
-            "summarize"
-          ]
-        },
-        {
           "source": "Advanced data residency in Microsoft 365 - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/advanced-data-residency",
           "pubDate": "Tue, 19 May 2026 03:47:00 GMT",
           "matchedKeywords": [
             "summarize"
-          ]
-        },
-        {
-          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Mon, 11 May 2026 22:48:00 GMT",
-          "matchedKeywords": [
-            "teams"
           ]
         },
         {
@@ -289,11 +246,11 @@
           ]
         },
         {
-          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
-          "pubDate": "Fri, 08 May 2026 22:47:00 GMT",
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Mon, 11 May 2026 22:48:00 GMT",
           "matchedKeywords": [
-            "ai"
+            "teams"
           ]
         },
         {
@@ -465,25 +422,9 @@
           ]
         },
         {
-          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Fri, 08 May 2026 20:50:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Get started with the Microsoft Frontier program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
           "pubDate": "Wed, 13 May 2026 18:14:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
-          "pubDate": "Fri, 08 May 2026 22:47:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -557,7 +498,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "outlook-mobile",
@@ -573,7 +514,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "teams-channels",
@@ -581,7 +522,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "teams-copilot",
@@ -589,7 +530,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 14
+      "flaggedHits": 12
     },
     {
       "id": "onedrive-save",
@@ -621,7 +562,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 10
+      "flaggedHits": 8
     },
     {
       "id": "mfa-setup",
