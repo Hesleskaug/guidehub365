@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-05-23T09:03:18.039Z",
+  "lastChecked": "2026-05-24T09:22:20.540Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -230,19 +230,20 @@
           ]
         },
         {
+          "source": "Get started with the Microsoft Frontier program - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
+          "pubDate": "Wed, 13 May 2026 18:14:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Advanced data residency in Microsoft 365 - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/advanced-data-residency",
           "pubDate": "Tue, 19 May 2026 03:47:00 GMT",
           "matchedKeywords": [
             "summarize"
-          ]
-        },
-        {
-          "source": "Get started with the Microsoft Frontier program - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
-          "pubDate": "Wed, 13 May 2026 18:14:00 GMT",
-          "matchedKeywords": [
-            "ai"
           ]
         },
         {
