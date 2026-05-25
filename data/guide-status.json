@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-05-24T09:22:20.540Z",
+  "lastChecked": "2026-05-25T11:12:42.170Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -76,6 +76,14 @@
           "source": "Microsoft 365 Business Premium resources",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/business-premium/",
           "pubDate": "Fri, 15 May 2026 06:48:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Deploy the Microsoft 365 LTI App in Canvas",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
+          "pubDate": "Mon, 25 May 2026 03:49:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -507,7 +515,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 5
     },
     {
       "id": "teams-first-meeting",
