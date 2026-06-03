@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-06-02T11:20:19.227Z",
+  "lastChecked": "2026-06-03T11:57:47.420Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -65,6 +65,22 @@
       "guideTitle": "Outlook på mobil",
       "category": "E-post og kalender",
       "hits": [
+        {
+          "source": "Introducing Microsoft Scout: Your always-on personal agent",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
+          "pubDate": "Tue, 02 Jun 2026 18:00:00 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Announcing the new Work IQ APIs",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
+          "pubDate": "Tue, 02 Jun 2026 17:00:15 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
         {
           "source": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
@@ -161,6 +177,22 @@
       "guideTitle": "Kanaler og chatter i Teams",
       "category": "Microsoft Teams",
       "hits": [
+        {
+          "source": "Introducing Microsoft Scout: Your always-on personal agent",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
+          "pubDate": "Tue, 02 Jun 2026 18:00:00 +0000",
+          "matchedKeywords": [
+            "post"
+          ]
+        },
+        {
+          "source": "Announcing the new Work IQ APIs",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
+          "pubDate": "Tue, 02 Jun 2026 17:00:15 +0000",
+          "matchedKeywords": [
+            "post"
+          ]
+        },
         {
           "source": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
@@ -373,19 +405,19 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Wed, 27 May 2026 03:49:00 GMT",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Create a shared mailbox - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-a-shared-mailbox",
           "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
           "matchedKeywords": [
             "ai"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
+          "pubDate": "Wed, 27 May 2026 03:49:00 GMT",
+          "matchedKeywords": [
+            "copilot"
           ]
         },
         {
@@ -624,19 +656,19 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Wed, 27 May 2026 03:49:00 GMT",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Create a shared mailbox - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-a-shared-mailbox",
           "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
           "matchedKeywords": [
             "ai"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
+          "pubDate": "Wed, 27 May 2026 03:49:00 GMT",
+          "matchedKeywords": [
+            "copilot"
           ]
         },
         {
@@ -759,7 +791,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 8
+      "flaggedHits": 10
     },
     {
       "id": "teams-first-meeting",
@@ -775,7 +807,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 7
+      "flaggedHits": 9
     },
     {
       "id": "teams-copilot",
