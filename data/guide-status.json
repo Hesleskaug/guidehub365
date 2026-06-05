@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-06-04T10:39:19.586Z",
+  "lastChecked": "2026-06-05T10:49:57.496Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -364,14 +364,6 @@
           ]
         },
         {
-          "source": "Pricing model for Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
-          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "About the Microsoft 365 admin mobile app - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/admin-overview/admin-mobile-app",
           "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
@@ -452,32 +444,6 @@
           "matchedKeywords": [
             "backup"
           ]
-        },
-        {
-          "source": "Pricing model for Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
-          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
-          "matchedKeywords": [
-            "backup"
-          ]
-        },
-        {
-          "source": "Restore data in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
-          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
-          "matchedKeywords": [
-            "onedrive",
-            "backup"
-          ]
-        },
-        {
-          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
-          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
-          "matchedKeywords": [
-            "onedrive",
-            "backup"
-          ]
         }
       ]
     },
@@ -490,22 +456,6 @@
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
           "pubDate": "Thu, 28 May 2026 15:50:00 GMT",
-          "matchedKeywords": [
-            "sharepoint"
-          ]
-        },
-        {
-          "source": "Restore data in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
-          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
-          "matchedKeywords": [
-            "sharepoint"
-          ]
-        },
-        {
-          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
-          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
           "matchedKeywords": [
             "sharepoint"
           ]
@@ -534,27 +484,11 @@
           ]
         },
         {
-          "source": "Restore data in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
-          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
-          ]
-        },
-        {
           "source": "Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings",
           "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
           "matchedKeywords": [
             "cloud"
-          ]
-        },
-        {
-          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
-          "pubDate": "Thu, 21 May 2026 18:18:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
           ]
         }
       ]
@@ -807,7 +741,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 21
+      "flaggedHits": 20
     },
     {
       "id": "onedrive-save",
@@ -815,7 +749,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 4
+      "flaggedHits": 1
     },
     {
       "id": "sharepoint-document-library",
@@ -823,7 +757,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 3
+      "flaggedHits": 1
     },
     {
       "id": "word-autosave",
@@ -831,7 +765,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 5
+      "flaggedHits": 3
     },
     {
       "id": "excel-copilot",
