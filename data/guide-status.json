@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-06-07T10:06:20.097Z",
+  "lastChecked": "2026-06-08T12:00:10.531Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -34,6 +34,14 @@
           ]
         },
         {
+          "source": "Cross-tenant mailbox migration",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/cross-tenant-mailbox-migration",
+          "pubDate": "Fri, 29 May 2026 21:20:00 GMT",
+          "matchedKeywords": [
+            "mail"
+          ]
+        },
+        {
           "source": "Create a shared mailbox - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-a-shared-mailbox",
           "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
@@ -48,14 +56,6 @@
           "pubDate": "Wed, 27 May 2026 03:49:00 GMT",
           "matchedKeywords": [
             "outlook"
-          ]
-        },
-        {
-          "source": "Cross-tenant mailbox migration",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/cross-tenant-mailbox-migration",
-          "pubDate": "Fri, 29 May 2026 21:20:00 GMT",
-          "matchedKeywords": [
-            "mail"
           ]
         }
       ]
@@ -126,14 +126,6 @@
           "source": "Microsoft 365 U.S. Government GCC High endpoints - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints",
           "pubDate": "Mon, 01 Jun 2026 13:29:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Deploy the Microsoft 365 LTI App in Canvas",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
-          "pubDate": "Mon, 25 May 2026 03:49:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -355,6 +347,15 @@
           ]
         },
         {
+          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
+          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Customize the theme for your organization - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/customize-your-organization-theme",
           "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
@@ -388,11 +389,11 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Wed, 27 May 2026 03:49:00 GMT",
+          "source": "Cross-tenant mailbox migration",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/cross-tenant-mailbox-migration",
+          "pubDate": "Fri, 29 May 2026 21:20:00 GMT",
           "matchedKeywords": [
-            "copilot"
+            "ai"
           ]
         },
         {
@@ -401,6 +402,14 @@
           "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
           "matchedKeywords": [
             "ai"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
+          "pubDate": "Wed, 27 May 2026 03:49:00 GMT",
+          "matchedKeywords": [
+            "copilot"
           ]
         },
         {
@@ -413,10 +422,11 @@
           ]
         },
         {
-          "source": "Cross-tenant mailbox migration",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/cross-tenant-mailbox-migration",
-          "pubDate": "Fri, 29 May 2026 21:20:00 GMT",
+          "source": "Microsoft 365 Copilot Agents Usage Report (Preview) - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents-new",
+          "pubDate": "Mon, 01 Jun 2026 07:51:00 GMT",
           "matchedKeywords": [
+            "copilot",
             "ai"
           ]
         }
@@ -461,6 +471,14 @@
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
           "pubDate": "Thu, 28 May 2026 15:50:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
+          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
           "matchedKeywords": [
             "cloud"
           ]
@@ -548,8 +566,32 @@
           ]
         },
         {
+          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
+          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Remove a former employee - Overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
+          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Cross-tenant mailbox migration",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/cross-tenant-mailbox-migration",
+          "pubDate": "Fri, 29 May 2026 21:20:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Create a shared mailbox - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-a-shared-mailbox",
           "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
           "matchedKeywords": [
             "ai"
@@ -564,14 +606,6 @@
           ]
         },
         {
-          "source": "Create a shared mailbox - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-a-shared-mailbox",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Wed, 27 May 2026 03:49:00 GMT",
@@ -580,10 +614,11 @@
           ]
         },
         {
-          "source": "Cross-tenant mailbox migration",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/cross-tenant-mailbox-migration",
-          "pubDate": "Fri, 29 May 2026 21:20:00 GMT",
+          "source": "Microsoft 365 Copilot Agents Usage Report (Preview) - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents-new",
+          "pubDate": "Mon, 01 Jun 2026 07:51:00 GMT",
           "matchedKeywords": [
+            "copilot",
             "ai"
           ]
         }
@@ -654,6 +689,15 @@
             "microsoft 365 copilot",
             "prompt"
           ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Agents Usage Report (Preview) - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents-new",
+          "pubDate": "Mon, 01 Jun 2026 07:51:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "microsoft 365 copilot"
+          ]
         }
       ]
     }
@@ -673,7 +717,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 11
+      "flaggedHits": 10
     },
     {
       "id": "teams-first-meeting",
@@ -697,7 +741,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 18
+      "flaggedHits": 20
     },
     {
       "id": "onedrive-save",
@@ -721,7 +765,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "excel-copilot",
@@ -729,7 +773,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 13
+      "flaggedHits": 15
     },
     {
       "id": "mfa-setup",
@@ -753,7 +797,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 7
+      "flaggedHits": 8
     }
   ]
 }
