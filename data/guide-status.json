@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-06-10T10:57:18.692Z",
+  "lastChecked": "2026-06-11T11:23:14.816Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -85,6 +85,14 @@
           "source": "Introducing a new design for Microsoft 365 Copilot",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
           "pubDate": "Thu, 28 May 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "What happens to my data and access when my Microsoft 365 for business subscription ends?",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires",
+          "pubDate": "Thu, 11 Jun 2026 05:44:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -221,6 +229,14 @@
           "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
           "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "What happens to my data and access when my Microsoft 365 for business subscription ends?",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires",
+          "pubDate": "Thu, 11 Jun 2026 05:44:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -528,7 +544,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 7
+      "flaggedHits": 8
     },
     {
       "id": "teams-first-meeting",
@@ -552,7 +568,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 15
+      "flaggedHits": 16
     },
     {
       "id": "onedrive-save",
