@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-06-11T11:23:14.816Z",
+  "lastChecked": "2026-06-12T11:02:55.901Z",
   "totalGuides": 12,
-  "flaggedCount": 10,
+  "flaggedCount": 6,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -26,27 +26,10 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Set up Microsoft 365 Business Basic - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/setup-business-basic",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "setup"
-          ]
-        },
-        {
           "source": "Cross-tenant mailbox migration",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/cross-tenant-mailbox-migration",
           "pubDate": "Fri, 29 May 2026 21:20:00 GMT",
           "matchedKeywords": [
-            "mail"
-          ]
-        },
-        {
-          "source": "Create a shared mailbox - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-a-shared-mailbox",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "email",
             "mail"
           ]
         }
@@ -74,35 +57,10 @@
           ]
         },
         {
-          "source": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
-          "pubDate": "Thu, 28 May 2026 19:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Introducing a new design for Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
-          "pubDate": "Thu, 28 May 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
           "source": "What happens to my data and access when my Microsoft 365 for business subscription ends?",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires",
           "pubDate": "Thu, 11 Jun 2026 05:44:00 GMT",
           "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "About the Microsoft 365 admin mobile app - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/admin-overview/admin-mobile-app",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "mobile",
             "app"
           ]
         },
@@ -112,29 +70,6 @@
           "pubDate": "Mon, 01 Jun 2026 13:29:00 GMT",
           "matchedKeywords": [
             "app"
-          ]
-        },
-        {
-          "source": "Enable Microsoft 365 usage analytics - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/usage-analytics/enable-usage-analytics",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "teams-first-meeting",
-      "guideTitle": "Første møte i Teams",
-      "category": "Microsoft Teams",
-      "hits": [
-        {
-          "source": "How to check Microsoft 365 service health - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/view-service-health",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "teams"
           ]
         }
       ]
@@ -159,38 +94,6 @@
           "matchedKeywords": [
             "post"
           ]
-        },
-        {
-          "source": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
-          "pubDate": "Thu, 28 May 2026 19:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
-          "source": "Introducing a new design for Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
-          "pubDate": "Thu, 28 May 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
-          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "message"
-          ]
-        },
-        {
-          "source": "How to check Microsoft 365 service health - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/view-service-health",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
         }
       ]
     },
@@ -200,36 +103,12 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
-          "pubDate": "Thu, 28 May 2026 19:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
-          "source": "Introducing a new design for Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
-          "pubDate": "Thu, 28 May 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
           "pubDate": "Mon, 01 Jun 2026 23:15:00 GMT",
           "matchedKeywords": [
             "copilot",
             "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -242,86 +121,9 @@
           ]
         },
         {
-          "source": "How to check Microsoft 365 service health - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/view-service-health",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "teams",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Set up Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Thu, 28 May 2026 15:50:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Customize the theme for your organization - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/customize-your-organization-theme",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Assign admin roles in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/assign-admin-roles",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "About the Microsoft 365 admin mobile app - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/admin-overview/admin-mobile-app",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Remove a former employee - Overview - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Cross-tenant mailbox migration",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/cross-tenant-mailbox-migration",
           "pubDate": "Fri, 29 May 2026 21:20:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Create a shared mailbox - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-a-shared-mailbox",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -338,87 +140,10 @@
       ]
     },
     {
-      "guideId": "onedrive-save",
-      "guideTitle": "Lagre filer i OneDrive",
-      "category": "OneDrive og SharePoint",
-      "hits": [
-        {
-          "source": "Set up Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Thu, 28 May 2026 15:50:00 GMT",
-          "matchedKeywords": [
-            "backup"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "sharepoint-document-library",
-      "guideTitle": "Jobbe med dokumentbibliotek",
-      "category": "OneDrive og SharePoint",
-      "hits": [
-        {
-          "source": "Set up Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Thu, 28 May 2026 15:50:00 GMT",
-          "matchedKeywords": [
-            "sharepoint"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "word-autosave",
-      "guideTitle": "AutoLagre i Word",
-      "category": "Word, Excel og PowerPoint",
-      "hits": [
-        {
-          "source": "Set up Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Thu, 28 May 2026 15:50:00 GMT",
-          "matchedKeywords": [
-            "cloud"
-          ]
-        },
-        {
-          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "cloud"
-          ]
-        },
-        {
-          "source": "Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "cloud"
-          ]
-        }
-      ]
-    },
-    {
       "guideId": "excel-copilot",
       "guideTitle": "Copilot i Excel",
       "category": "Word, Excel og PowerPoint",
       "hits": [
-        {
-          "source": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
-          "pubDate": "Thu, 28 May 2026 19:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
-          "source": "Introducing a new design for Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
-          "pubDate": "Thu, 28 May 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
         {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
@@ -429,49 +154,9 @@
           ]
         },
         {
-          "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Set up Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Thu, 28 May 2026 15:50:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Microsoft 365 network connectivity test tool - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Remove a former employee - Overview - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Cross-tenant mailbox migration",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/cross-tenant-mailbox-migration",
           "pubDate": "Fri, 29 May 2026 21:20:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Create a shared mailbox - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-a-shared-mailbox",
-          "pubDate": "Thu, 28 May 2026 23:08:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -492,23 +177,6 @@
       "guideTitle": "Kom i gang med Microsoft 365 Copilot",
       "category": "Copilot og AI",
       "hits": [
-        {
-          "source": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
-          "pubDate": "Thu, 28 May 2026 19:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
-          "source": "Introducing a new design for Microsoft 365 Copilot",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
-          "pubDate": "Thu, 28 May 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "microsoft 365 copilot"
-          ]
-        },
         {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
@@ -536,7 +204,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 3
+      "flaggedHits": 1
     },
     {
       "id": "outlook-mobile",
@@ -544,15 +212,15 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 8
+      "flaggedHits": 4
     },
     {
       "id": "teams-first-meeting",
       "title": "Første møte i Teams",
       "category": "Microsoft Teams",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "teams-channels",
@@ -560,7 +228,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 6
+      "flaggedHits": 2
     },
     {
       "id": "teams-copilot",
@@ -568,31 +236,31 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 16
+      "flaggedHits": 4
     },
     {
       "id": "onedrive-save",
       "title": "Lagre filer i OneDrive",
       "category": "OneDrive og SharePoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "sharepoint-document-library",
       "title": "Jobbe med dokumentbibliotek",
       "category": "OneDrive og SharePoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "word-autosave",
       "title": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 3
+      "flaggedHits": 0
     },
     {
       "id": "excel-copilot",
@@ -600,7 +268,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 10
+      "flaggedHits": 3
     },
     {
       "id": "mfa-setup",
@@ -624,7 +292,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 4
+      "flaggedHits": 2
     }
   ]
 }
