@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-06-14T10:26:20.343Z",
+  "lastChecked": "2026-06-15T13:18:15.748Z",
   "totalGuides": 12,
   "flaggedCount": 7,
   "sources": [
@@ -89,14 +89,6 @@
           "matchedKeywords": [
             "app"
           ]
-        },
-        {
-          "source": "Deploy the Microsoft 365 LTI App in Canvas",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
-          "pubDate": "Fri, 12 Jun 2026 07:06:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
         }
       ]
     },
@@ -170,6 +162,15 @@
           ]
         },
         {
+          "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
+          "pubDate": "Fri, 12 Jun 2026 21:08:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
           "pubDate": "Fri, 12 Jun 2026 15:43:00 GMT",
@@ -208,6 +209,14 @@
           "pubDate": "Mon, 01 Jun 2026 23:15:00 GMT",
           "matchedKeywords": [
             "copilot",
+            "ai"
+          ]
+        },
+        {
+          "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
+          "pubDate": "Fri, 12 Jun 2026 21:08:00 GMT",
+          "matchedKeywords": [
             "ai"
           ]
         },
@@ -260,7 +269,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "teams-first-meeting",
@@ -284,7 +293,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 5
+      "flaggedHits": 6
     },
     {
       "id": "onedrive-save",
@@ -316,7 +325,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "mfa-setup",
