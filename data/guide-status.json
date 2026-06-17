@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-06-16T12:12:48.156Z",
+  "lastChecked": "2026-06-17T11:50:58.512Z",
   "totalGuides": 12,
   "flaggedCount": 7,
   "sources": [
@@ -76,25 +76,9 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Introducing Microsoft Scout: Your always-on personal agent",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
-          "pubDate": "Tue, 02 Jun 2026 18:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Announcing the new Work IQ APIs",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
-          "pubDate": "Tue, 02 Jun 2026 17:00:15 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
+          "pubDate": "Tue, 16 Jun 2026 23:04:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -147,22 +131,6 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Introducing Microsoft Scout: Your always-on personal agent",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
-          "pubDate": "Tue, 02 Jun 2026 18:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
-          "source": "Announcing the new Work IQ APIs",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
-          "pubDate": "Tue, 02 Jun 2026 17:00:15 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
           "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
           "pubDate": "Fri, 12 Jun 2026 15:43:00 GMT",
@@ -197,7 +165,7 @@
         {
           "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
+          "pubDate": "Tue, 16 Jun 2026 23:04:00 GMT",
           "matchedKeywords": [
             "copilot",
             "ai",
@@ -291,7 +259,7 @@
         {
           "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
+          "pubDate": "Tue, 16 Jun 2026 23:04:00 GMT",
           "matchedKeywords": [
             "copilot",
             "ai"
@@ -364,7 +332,7 @@
         {
           "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
+          "pubDate": "Tue, 16 Jun 2026 23:04:00 GMT",
           "matchedKeywords": [
             "copilot",
             "microsoft 365 copilot"
@@ -416,7 +384,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 5
+      "flaggedHits": 3
     },
     {
       "id": "teams-first-meeting",
@@ -432,7 +400,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 5
+      "flaggedHits": 3
     },
     {
       "id": "teams-copilot",
