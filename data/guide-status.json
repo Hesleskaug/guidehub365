@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-06-17T11:50:58.512Z",
+  "lastChecked": "2026-06-18T11:09:27.090Z",
   "totalGuides": 12,
   "flaggedCount": 7,
   "sources": [
@@ -43,12 +43,11 @@
           ]
         },
         {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
+          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
+          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
           "matchedKeywords": [
-            "email",
-            "mail"
+            "outlook"
           ]
         },
         {
@@ -61,11 +60,12 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
           "matchedKeywords": [
-            "outlook"
+            "email",
+            "mail"
           ]
         }
       ]
@@ -76,9 +76,17 @@
       "category": "E-post og kalender",
       "hits": [
         {
+          "source": "Copilot Cowork is now generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+          "pubDate": "Tue, 16 Jun 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
           "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Tue, 16 Jun 2026 23:04:00 GMT",
+          "pubDate": "Wed, 17 Jun 2026 18:17:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -131,6 +139,14 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Copilot Cowork is now generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+          "pubDate": "Tue, 16 Jun 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "post"
+          ]
+        },
+        {
           "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
           "pubDate": "Fri, 12 Jun 2026 15:43:00 GMT",
@@ -163,9 +179,18 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Copilot Cowork is now generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+          "pubDate": "Tue, 16 Jun 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
+        {
           "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Tue, 16 Jun 2026 23:04:00 GMT",
+          "pubDate": "Wed, 17 Jun 2026 18:17:00 GMT",
           "matchedKeywords": [
             "copilot",
             "ai",
@@ -177,6 +202,15 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires",
           "pubDate": "Thu, 11 Jun 2026 05:44:00 GMT",
           "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
+          "pubDate": "Wed, 17 Jun 2026 21:20:00 GMT",
+          "matchedKeywords": [
+            "ai",
             "summarize"
           ]
         },
@@ -208,19 +242,20 @@
           ]
         },
         {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
           "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
           "matchedKeywords": [
             "copilot"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
+          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "teams"
           ]
         },
         {
@@ -232,12 +267,11 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
           "matchedKeywords": [
-            "copilot",
-            "teams"
+            "ai"
           ]
         },
         {
@@ -257,11 +291,28 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Tue, 16 Jun 2026 23:04:00 GMT",
+          "source": "Copilot Cowork is now generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+          "pubDate": "Tue, 16 Jun 2026 15:00:00 +0000",
           "matchedKeywords": [
             "copilot",
+            "ai"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+          "pubDate": "Wed, 17 Jun 2026 18:17:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
+        {
+          "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
+          "pubDate": "Wed, 17 Jun 2026 21:20:00 GMT",
+          "matchedKeywords": [
             "ai"
           ]
         },
@@ -282,16 +333,16 @@
           ]
         },
         {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
+          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
+          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
           "matchedKeywords": [
-            "ai"
+            "copilot"
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
+          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
           "matchedKeywords": [
             "copilot"
@@ -306,11 +357,11 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
           "matchedKeywords": [
-            "copilot"
+            "ai"
           ]
         },
         {
@@ -330,9 +381,17 @@
       "category": "Copilot og AI",
       "hits": [
         {
+          "source": "Copilot Cowork is now generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+          "pubDate": "Tue, 16 Jun 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "copilot"
+          ]
+        },
+        {
           "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
-          "pubDate": "Tue, 16 Jun 2026 23:04:00 GMT",
+          "pubDate": "Wed, 17 Jun 2026 18:17:00 GMT",
           "matchedKeywords": [
             "copilot",
             "microsoft 365 copilot"
@@ -384,7 +443,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "teams-first-meeting",
@@ -400,7 +459,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "teams-copilot",
@@ -408,7 +467,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 10
+      "flaggedHits": 12
     },
     {
       "id": "onedrive-save",
@@ -440,7 +499,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 8
+      "flaggedHits": 10
     },
     {
       "id": "mfa-setup",
@@ -464,7 +523,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 4
+      "flaggedHits": 5
     }
   ]
 }
