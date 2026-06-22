@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-06-21T10:32:12.070Z",
+  "lastChecked": "2026-06-22T12:50:54.639Z",
   "totalGuides": 12,
-  "flaggedCount": 7,
+  "flaggedCount": 8,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -67,6 +67,15 @@
           "matchedKeywords": [
             "outlook"
           ]
+        },
+        {
+          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
+          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
         }
       ]
     },
@@ -100,14 +109,6 @@
           ]
         },
         {
-          "source": "Deploy the Microsoft 365 LTI App in Canvas",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
-          "pubDate": "Fri, 12 Jun 2026 07:06:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
@@ -135,6 +136,14 @@
           "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        },
+        {
+          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
+          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
           "matchedKeywords": [
             "teams"
           ]
@@ -177,6 +186,14 @@
           "matchedKeywords": [
             "teams",
             "chat"
+          ]
+        },
+        {
+          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
+          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
+          "matchedKeywords": [
+            "teams"
           ]
         }
       ]
@@ -281,6 +298,30 @@
             "copilot",
             "ai"
           ]
+        },
+        {
+          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
+          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "teams"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "word-autosave",
+      "guideTitle": "AutoLagre i Word",
+      "category": "Word, Excel og PowerPoint",
+      "hits": [
+        {
+          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
+          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
         }
       ]
     },
@@ -363,6 +404,14 @@
             "copilot",
             "ai"
           ]
+        },
+        {
+          "source": "Connect your DNS records at Cloudflare to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-cloudflare",
+          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
         }
       ]
     },
@@ -426,7 +475,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 5
+      "flaggedHits": 6
     },
     {
       "id": "outlook-mobile",
@@ -434,7 +483,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "teams-first-meeting",
@@ -442,7 +491,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "teams-channels",
@@ -450,7 +499,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 4
+      "flaggedHits": 5
     },
     {
       "id": "teams-copilot",
@@ -458,7 +507,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 11
+      "flaggedHits": 12
     },
     {
       "id": "onedrive-save",
@@ -480,9 +529,9 @@
       "id": "word-autosave",
       "title": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "excel-copilot",
@@ -490,7 +539,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 9
+      "flaggedHits": 10
     },
     {
       "id": "mfa-setup",
