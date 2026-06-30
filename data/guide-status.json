@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-06-29T12:01:12.887Z",
+  "lastChecked": "2026-06-30T10:32:34.242Z",
   "totalGuides": 12,
-  "flaggedCount": 10,
+  "flaggedCount": 11,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -26,20 +26,19 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Tue, 23 Jun 2026 22:55:00 GMT",
+          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
+          "pubDate": "Mon, 29 Jun 2026 18:16:00 GMT",
           "matchedKeywords": [
             "configure"
           ]
         },
         {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Tue, 23 Jun 2026 22:55:00 GMT",
           "matchedKeywords": [
-            "email",
-            "mail"
+            "configure"
           ]
         },
         {
@@ -57,6 +56,14 @@
       "guideTitle": "Outlook på mobil",
       "category": "E-post og kalender",
       "hits": [
+        {
+          "source": "Copilot in Excel: Built for the era of Frontier Finance",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+          "pubDate": "Thu, 25 Jun 2026 13:00:00 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
         {
           "source": "Copilot Cowork is now generally available",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
@@ -121,11 +128,27 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Copilot in Excel: Built for the era of Frontier Finance",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+          "pubDate": "Thu, 25 Jun 2026 13:00:00 +0000",
+          "matchedKeywords": [
+            "post"
+          ]
+        },
+        {
           "source": "Copilot Cowork is now generally available",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
           "pubDate": "Tue, 16 Jun 2026 15:00:00 +0000",
           "matchedKeywords": [
             "post"
+          ]
+        },
+        {
+          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
+          "pubDate": "Mon, 29 Jun 2026 18:16:00 GMT",
+          "matchedKeywords": [
+            "message"
           ]
         },
         {
@@ -138,20 +161,20 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Fri, 26 Jun 2026 03:44:00 GMT",
-          "matchedKeywords": [
-            "channel"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Fri, 26 Jun 2026 03:44:00 GMT",
           "matchedKeywords": [
             "teams",
             "chat"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
+          "pubDate": "Fri, 26 Jun 2026 03:44:00 GMT",
+          "matchedKeywords": [
+            "channel"
           ]
         }
       ]
@@ -161,6 +184,15 @@
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
+        {
+          "source": "Copilot in Excel: Built for the era of Frontier Finance",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+          "pubDate": "Thu, 25 Jun 2026 13:00:00 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
         {
           "source": "Copilot Cowork is now generally available",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
@@ -183,7 +215,7 @@
         {
           "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Mon, 22 Jun 2026 18:47:00 GMT",
+          "pubDate": "Mon, 29 Jun 2026 22:48:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -198,9 +230,35 @@
           ]
         },
         {
+          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
+          "pubDate": "Mon, 29 Jun 2026 18:16:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
           "pubDate": "Wed, 24 Jun 2026 18:14:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Baseline security mode settings",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
+          "pubDate": "Mon, 29 Jun 2026 12:56:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
+          "pubDate": "Mon, 29 Jun 2026 18:16:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -215,36 +273,11 @@
           ]
         },
         {
-          "source": "Remove a former employee - Overview - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
-          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
           "pubDate": "Tue, 23 Jun 2026 22:55:00 GMT",
           "matchedKeywords": [
             "teams"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Fri, 26 Jun 2026 03:44:00 GMT",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
-          "matchedKeywords": [
-            "ai"
           ]
         },
         {
@@ -257,12 +290,11 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Agents Usage Report (Preview) - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents-new",
-          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
+          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
+          "pubDate": "Fri, 26 Jun 2026 03:44:00 GMT",
           "matchedKeywords": [
-            "copilot",
-            "ai"
+            "copilot"
           ]
         }
       ]
@@ -335,6 +367,16 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
+          "source": "Copilot in Excel: Built for the era of Frontier Finance",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+          "pubDate": "Thu, 25 Jun 2026 13:00:00 +0000",
+          "matchedKeywords": [
+            "excel",
+            "copilot",
+            "ai"
+          ]
+        },
+        {
           "source": "Copilot Cowork is now generally available",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
           "pubDate": "Tue, 16 Jun 2026 15:00:00 +0000",
@@ -355,7 +397,7 @@
         {
           "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Mon, 22 Jun 2026 18:47:00 GMT",
+          "pubDate": "Mon, 29 Jun 2026 22:48:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -369,25 +411,17 @@
           ]
         },
         {
-          "source": "Remove a former employee - Overview - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
-          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
+          "source": "Baseline security mode settings",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
+          "pubDate": "Mon, 29 Jun 2026 12:56:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Fri, 26 Jun 2026 03:44:00 GMT",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Tue, 16 Jun 2026 10:14:00 GMT",
+          "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
+          "pubDate": "Mon, 29 Jun 2026 18:16:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -401,12 +435,26 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Agents Usage Report (Preview) - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents-new",
-          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
+          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
+          "pubDate": "Fri, 26 Jun 2026 03:44:00 GMT",
           "matchedKeywords": [
-            "copilot",
-            "ai"
+            "copilot"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "mfa-setup",
+      "guideTitle": "Sette opp tofaktorautentisering",
+      "category": "Sikkerhet og innlogging",
+      "hits": [
+        {
+          "source": "Baseline security mode settings",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
+          "pubDate": "Mon, 29 Jun 2026 12:56:00 GMT",
+          "matchedKeywords": [
+            "security"
           ]
         }
       ]
@@ -416,6 +464,15 @@
       "guideTitle": "Kom i gang med Microsoft 365 Copilot",
       "category": "Copilot og AI",
       "hits": [
+        {
+          "source": "Copilot in Excel: Built for the era of Frontier Finance",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+          "pubDate": "Thu, 25 Jun 2026 13:00:00 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "microsoft 365 copilot"
+          ]
+        },
         {
           "source": "Copilot Cowork is now generally available",
           "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
@@ -434,15 +491,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
-          "pubDate": "Fri, 26 Jun 2026 03:44:00 GMT",
-          "matchedKeywords": [
-            "copilot",
-            "microsoft 365 copilot"
-          ]
-        },
-        {
           "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
           "pubDate": "Fri, 26 Jun 2026 03:44:00 GMT",
@@ -453,9 +501,9 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Agents Usage Report (Preview) - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents-new",
-          "pubDate": "Mon, 15 Jun 2026 22:43:00 GMT",
+          "source": "Microsoft 365 Copilot Readiness Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness",
+          "pubDate": "Fri, 26 Jun 2026 03:44:00 GMT",
           "matchedKeywords": [
             "copilot",
             "microsoft 365 copilot"
@@ -479,7 +527,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 5
     },
     {
       "id": "teams-first-meeting",
@@ -495,7 +543,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 4
+      "flaggedHits": 6
     },
     {
       "id": "teams-copilot",
@@ -503,7 +551,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 12
+      "flaggedHits": 13
     },
     {
       "id": "onedrive-save",
@@ -541,9 +589,9 @@
       "id": "mfa-setup",
       "title": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "password-reset",
