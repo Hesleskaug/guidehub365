@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-07-02T10:11:13.368Z",
+  "lastChecked": "2026-07-03T10:06:25.176Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -56,6 +56,14 @@
       "guideTitle": "Outlook på mobil",
       "category": "E-post og kalender",
       "hits": [
+        {
+          "source": "Microsoft 365 U.S. Government GCC High endpoints - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints",
+          "pubDate": "Thu, 02 Jul 2026 12:20:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
         {
           "source": "Understand subscriptions and licenses in Microsoft 365 for business",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/subscriptions-and-licenses",
@@ -284,6 +292,15 @@
             "onedrive",
             "backup"
           ]
+        },
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Thu, 02 Jul 2026 20:48:00 GMT",
+          "matchedKeywords": [
+            "onedrive",
+            "backup"
+          ]
         }
       ]
     },
@@ -307,6 +324,14 @@
           "matchedKeywords": [
             "sharepoint"
           ]
+        },
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Thu, 02 Jul 2026 20:48:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
+          ]
         }
       ]
     },
@@ -319,6 +344,14 @@
           "source": "Restore data in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
           "pubDate": "Tue, 23 Jun 2026 18:18:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Thu, 02 Jul 2026 20:48:00 GMT",
           "matchedKeywords": [
             "onedrive"
           ]
@@ -445,7 +478,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "teams-first-meeting",
@@ -477,7 +510,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "sharepoint-document-library",
@@ -485,7 +518,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "word-autosave",
@@ -493,7 +526,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "excel-copilot",
