@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-07-12T09:04:06.127Z",
+  "lastChecked": "2026-07-13T10:29:26.571Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -37,23 +37,6 @@
           "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
           "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        },
-        {
-          "source": "Add another email alias for a user - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/add-another-email-alias-for-a-user",
-          "pubDate": "Thu, 09 Jul 2026 22:56:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
-        },
-        {
-          "source": "Baseline security mode settings",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Mon, 29 Jun 2026 12:56:00 GMT",
           "matchedKeywords": [
             "configure"
           ]
@@ -203,6 +186,15 @@
           ]
         },
         {
+          "source": "Baseline security mode settings",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
+          "pubDate": "Mon, 29 Jun 2026 12:56:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
           "pubDate": "Mon, 29 Jun 2026 18:16:00 GMT",
@@ -228,11 +220,10 @@
           ]
         },
         {
-          "source": "Add another email alias for a user - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/add-another-email-alias-for-a-user",
-          "pubDate": "Thu, 09 Jul 2026 22:56:00 GMT",
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
           "matchedKeywords": [
-            "ai",
             "summarize"
           ]
         },
@@ -242,14 +233,6 @@
           "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
           "matchedKeywords": [
             "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
-          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -301,6 +284,15 @@
             "onedrive",
             "backup"
           ]
+        },
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Thu, 02 Jul 2026 20:48:00 GMT",
+          "matchedKeywords": [
+            "onedrive",
+            "backup"
+          ]
         }
       ]
     },
@@ -313,6 +305,14 @@
           "source": "Restore data in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
           "pubDate": "Mon, 06 Jul 2026 15:46:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
+          ]
+        },
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Thu, 02 Jul 2026 20:48:00 GMT",
           "matchedKeywords": [
             "sharepoint"
           ]
@@ -339,6 +339,14 @@
           "matchedKeywords": [
             "cloud"
           ]
+        },
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Thu, 02 Jul 2026 20:48:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
         }
       ]
     },
@@ -364,17 +372,17 @@
           ]
         },
         {
-          "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
-          "pubDate": "Mon, 29 Jun 2026 18:16:00 GMT",
+          "source": "Baseline security mode settings",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
+          "pubDate": "Mon, 29 Jun 2026 12:56:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Add another email alias for a user - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/add-another-email-alias-for-a-user",
-          "pubDate": "Thu, 09 Jul 2026 22:56:00 GMT",
+          "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
+          "pubDate": "Mon, 29 Jun 2026 18:16:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -411,6 +419,14 @@
       "category": "Sikkerhet og innlogging",
       "hits": [
         {
+          "source": "Baseline security mode settings",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
+          "pubDate": "Mon, 29 Jun 2026 12:56:00 GMT",
+          "matchedKeywords": [
+            "security"
+          ]
+        },
+        {
           "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
           "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
@@ -422,14 +438,6 @@
           "source": "Understand the Microsoft 365 E3 and E5 Extra Features license",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/e3-extra-features-licenses",
           "pubDate": "Tue, 30 Jun 2026 21:07:00 GMT",
-          "matchedKeywords": [
-            "security"
-          ]
-        },
-        {
-          "source": "Baseline security mode settings",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Mon, 29 Jun 2026 12:56:00 GMT",
           "matchedKeywords": [
             "security"
           ]
@@ -461,7 +469,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 6
+      "flaggedHits": 4
     },
     {
       "id": "outlook-mobile",
@@ -501,7 +509,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "sharepoint-document-library",
@@ -509,7 +517,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "word-autosave",
@@ -517,7 +525,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "excel-copilot",
