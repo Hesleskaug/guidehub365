@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-07-13T10:29:26.571Z",
+  "lastChecked": "2026-07-14T09:05:44.749Z",
   "totalGuides": 12,
-  "flaggedCount": 11,
+  "flaggedCount": 9,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -39,22 +39,6 @@
           "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
           "matchedKeywords": [
             "configure"
-          ]
-        },
-        {
-          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
-          "pubDate": "Mon, 29 Jun 2026 18:16:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Wed, 01 Jul 2026 15:25:00 GMT",
-          "matchedKeywords": [
-            "outlook"
           ]
         }
       ]
@@ -95,54 +79,6 @@
           "matchedKeywords": [
             "app"
           ]
-        },
-        {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Wed, 01 Jul 2026 15:25:00 GMT",
-          "matchedKeywords": [
-            "outlook",
-            "app"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "teams-first-meeting",
-      "guideTitle": "Første møte i Teams",
-      "category": "Microsoft Teams",
-      "hits": [
-        {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Wed, 01 Jul 2026 15:25:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "teams-channels",
-      "guideTitle": "Kanaler og chatter i Teams",
-      "category": "Microsoft Teams",
-      "hits": [
-        {
-          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
-          "pubDate": "Mon, 29 Jun 2026 18:16:00 GMT",
-          "matchedKeywords": [
-            "message"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Wed, 01 Jul 2026 15:25:00 GMT",
-          "matchedKeywords": [
-            "teams",
-            "chat"
-          ]
         }
       ]
     },
@@ -174,32 +110,6 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/buy-licenses",
           "pubDate": "Tue, 30 Jun 2026 21:07:00 GMT",
           "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
-          "pubDate": "Mon, 29 Jun 2026 18:16:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Baseline security mode settings",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Mon, 29 Jun 2026 12:56:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
-          "pubDate": "Mon, 29 Jun 2026 18:16:00 GMT",
-          "matchedKeywords": [
-            "ai",
             "summarize"
           ]
         },
@@ -261,12 +171,20 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
+          "source": "Microsoft 365 Copilot Agent Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents",
           "pubDate": "Wed, 01 Jul 2026 15:25:00 GMT",
           "matchedKeywords": [
+            "copilot"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Agents Usage Report (Preview) - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents-new",
+          "pubDate": "Thu, 09 Jul 2026 18:09:00 GMT",
+          "matchedKeywords": [
             "copilot",
-            "teams"
+            "ai"
           ]
         }
       ]
@@ -325,6 +243,14 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        },
+        {
           "source": "Restore data in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
           "pubDate": "Mon, 06 Jul 2026 15:46:00 GMT",
@@ -372,22 +298,6 @@
           ]
         },
         {
-          "source": "Baseline security mode settings",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Mon, 29 Jun 2026 12:56:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
-          "pubDate": "Mon, 29 Jun 2026 18:16:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
           "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
@@ -404,11 +314,20 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
+          "source": "Microsoft 365 Copilot Agent Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents",
           "pubDate": "Wed, 01 Jul 2026 15:25:00 GMT",
           "matchedKeywords": [
             "copilot"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Agents Usage Report (Preview) - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents-new",
+          "pubDate": "Thu, 09 Jul 2026 18:09:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
           ]
         }
       ]
@@ -418,22 +337,6 @@
       "guideTitle": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
       "hits": [
-        {
-          "source": "Baseline security mode settings",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Mon, 29 Jun 2026 12:56:00 GMT",
-          "matchedKeywords": [
-            "security"
-          ]
-        },
-        {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
-          "matchedKeywords": [
-            "security"
-          ]
-        },
         {
           "source": "Understand the Microsoft 365 E3 and E5 Extra Features license",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/e3-extra-features-licenses",
@@ -450,13 +353,21 @@
       "category": "Copilot og AI",
       "hits": [
         {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
+          "source": "Microsoft 365 Copilot Agent Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents",
           "pubDate": "Wed, 01 Jul 2026 15:25:00 GMT",
           "matchedKeywords": [
             "copilot",
-            "microsoft 365 copilot",
-            "prompt"
+            "microsoft 365 copilot"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Agents Usage Report (Preview) - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents-new",
+          "pubDate": "Thu, 09 Jul 2026 18:09:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "microsoft 365 copilot"
           ]
         }
       ]
@@ -469,7 +380,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 2
     },
     {
       "id": "outlook-mobile",
@@ -477,23 +388,23 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "teams-first-meeting",
       "title": "Første møte i Teams",
       "category": "Microsoft Teams",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "teams-channels",
       "title": "Kanaler og chatter i Teams",
       "category": "Microsoft Teams",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 0
     },
     {
       "id": "teams-copilot",
@@ -501,7 +412,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 14
+      "flaggedHits": 12
     },
     {
       "id": "onedrive-save",
@@ -525,7 +436,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "excel-copilot",
@@ -533,7 +444,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 7
+      "flaggedHits": 6
     },
     {
       "id": "mfa-setup",
@@ -541,7 +452,7 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 3
+      "flaggedHits": 1
     },
     {
       "id": "password-reset",
@@ -557,7 +468,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 1
+      "flaggedHits": 2
     }
   ]
 }
