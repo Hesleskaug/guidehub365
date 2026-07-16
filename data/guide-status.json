@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-07-15T09:10:12.595Z",
+  "lastChecked": "2026-07-16T09:17:17.692Z",
   "totalGuides": 12,
-  "flaggedCount": 8,
+  "flaggedCount": 9,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -49,6 +49,14 @@
       "category": "E-post og kalender",
       "hits": [
         {
+          "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
           "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
           "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
@@ -84,6 +92,16 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/cross-tenant-mailbox-migration",
           "pubDate": "Tue, 07 Jul 2026 18:14:00 GMT",
           "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
+          "matchedKeywords": [
+            "copilot",
             "ai",
             "summarize"
           ]
@@ -131,19 +149,19 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
+          "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
+          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Agent Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents",
-          "pubDate": "Wed, 01 Jul 2026 15:25:00 GMT",
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
           "matchedKeywords": [
-            "copilot"
+            "ai"
           ]
         }
       ]
@@ -165,7 +183,7 @@
         {
           "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
-          "pubDate": "Thu, 02 Jul 2026 20:48:00 GMT",
+          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
           "matchedKeywords": [
             "onedrive",
             "backup"
@@ -189,7 +207,7 @@
         {
           "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
-          "pubDate": "Thu, 02 Jul 2026 20:48:00 GMT",
+          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
           "matchedKeywords": [
             "sharepoint"
           ]
@@ -201,14 +219,6 @@
       "guideTitle": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
       "hits": [
-        {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
-          "matchedKeywords": [
-            "cloud"
-          ]
-        },
         {
           "source": "Restore data in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
@@ -228,7 +238,7 @@
         {
           "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
-          "pubDate": "Thu, 02 Jul 2026 20:48:00 GMT",
+          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
           "matchedKeywords": [
             "onedrive"
           ]
@@ -249,6 +259,15 @@
           ]
         },
         {
+          "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
+        {
           "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
           "pubDate": "Mon, 06 Jul 2026 22:55:00 GMT",
@@ -265,19 +284,34 @@
           ]
         },
         {
+          "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
+          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
           "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "guideId": "mfa-setup",
+      "guideTitle": "Sette opp tofaktorautentisering",
+      "category": "Sikkerhet og innlogging",
+      "hits": [
         {
-          "source": "Microsoft 365 Copilot Agent Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents",
-          "pubDate": "Wed, 01 Jul 2026 15:25:00 GMT",
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
           "matchedKeywords": [
-            "copilot"
+            "security"
           ]
         }
       ]
@@ -288,9 +322,9 @@
       "category": "Copilot og AI",
       "hits": [
         {
-          "source": "Microsoft 365 Copilot Agent Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents",
-          "pubDate": "Wed, 01 Jul 2026 15:25:00 GMT",
+          "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
           "matchedKeywords": [
             "copilot",
             "microsoft 365 copilot"
@@ -314,7 +348,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "teams-first-meeting",
@@ -338,7 +372,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 8
+      "flaggedHits": 9
     },
     {
       "id": "onedrive-save",
@@ -362,7 +396,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "excel-copilot",
@@ -370,15 +404,15 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 5
+      "flaggedHits": 6
     },
     {
       "id": "mfa-setup",
       "title": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "password-reset",
