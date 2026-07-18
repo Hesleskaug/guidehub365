@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-07-17T09:10:59.291Z",
+  "lastChecked": "2026-07-18T08:49:35.929Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -156,6 +156,14 @@
           ]
         },
         {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Fri, 17 Jul 2026 15:03:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
           "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
@@ -177,14 +185,6 @@
           "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
           "matchedKeywords": [
             "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Managing Microsoft 365 endpoints - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/managing-office-365-endpoints",
-          "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
-          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -220,6 +220,14 @@
       "guideTitle": "Lagre filer i OneDrive",
       "category": "OneDrive og SharePoint",
       "hits": [
+        {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Fri, 17 Jul 2026 15:03:00 GMT",
+          "matchedKeywords": [
+            "backup"
+          ]
+        },
         {
           "source": "Restore data in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
@@ -268,6 +276,14 @@
       "guideTitle": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
       "hits": [
+        {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Fri, 17 Jul 2026 15:03:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        },
         {
           "source": "Restore data in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
@@ -320,6 +336,14 @@
           "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
           "pubDate": "Mon, 06 Jul 2026 22:55:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Fri, 17 Jul 2026 15:03:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -447,7 +471,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "sharepoint-document-library",
@@ -463,7 +487,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "excel-copilot",
@@ -471,7 +495,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 7
+      "flaggedHits": 8
     },
     {
       "id": "mfa-setup",
