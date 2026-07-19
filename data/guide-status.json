@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-07-18T08:49:35.929Z",
+  "lastChecked": "2026-07-19T09:05:47.464Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -39,6 +39,15 @@
           "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
           "matchedKeywords": [
             "configure"
+          ]
+        },
+        {
+          "source": "Add another email alias for a user - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/add-another-email-alias-for-a-user",
+          "pubDate": "Thu, 09 Jul 2026 22:56:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
           ]
         },
         {
@@ -137,6 +146,14 @@
           ]
         },
         {
+          "source": "Microsoft 365 Admin Center Usage Reports Overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports",
+          "pubDate": "Wed, 15 Jul 2026 21:27:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
           "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
@@ -172,10 +189,11 @@
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
+          "source": "Add another email alias for a user - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/add-another-email-alias-for-a-user",
+          "pubDate": "Thu, 09 Jul 2026 22:56:00 GMT",
           "matchedKeywords": [
+            "ai",
             "summarize"
           ]
         },
@@ -185,6 +203,14 @@
           "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
           "matchedKeywords": [
             "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -236,15 +262,6 @@
             "onedrive",
             "backup"
           ]
-        },
-        {
-          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
-          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
-          "matchedKeywords": [
-            "onedrive",
-            "backup"
-          ]
         }
       ]
     },
@@ -257,14 +274,6 @@
           "source": "Restore data in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
           "pubDate": "Mon, 06 Jul 2026 15:46:00 GMT",
-          "matchedKeywords": [
-            "sharepoint"
-          ]
-        },
-        {
-          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
-          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
           "matchedKeywords": [
             "sharepoint"
           ]
@@ -298,14 +307,6 @@
           "pubDate": "Wed, 08 Jul 2026 03:40:00 GMT",
           "matchedKeywords": [
             "cloud"
-          ]
-        },
-        {
-          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
-          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
           ]
         }
       ]
@@ -344,6 +345,14 @@
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
           "pubDate": "Fri, 17 Jul 2026 15:03:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Add another email alias for a user - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/add-another-email-alias-for-a-user",
+          "pubDate": "Thu, 09 Jul 2026 22:56:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -431,7 +440,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "outlook-mobile",
@@ -463,7 +472,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 10
+      "flaggedHits": 12
     },
     {
       "id": "onedrive-save",
@@ -471,7 +480,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 3
+      "flaggedHits": 2
     },
     {
       "id": "sharepoint-document-library",
@@ -479,7 +488,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "word-autosave",
@@ -487,7 +496,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "excel-copilot",
@@ -495,7 +504,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 8
+      "flaggedHits": 9
     },
     {
       "id": "mfa-setup",
