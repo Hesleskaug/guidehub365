@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-07-24T09:22:24.420Z",
+  "lastChecked": "2026-07-25T09:02:09.255Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -147,19 +147,19 @@
           ]
         },
         {
-          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Thu, 23 Jul 2026 15:14:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        },
-        {
           "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
           "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
           "matchedKeywords": [
             "ai"
+          ]
+        },
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Thu, 23 Jul 2026 15:14:00 GMT",
+          "matchedKeywords": [
+            "teams"
           ]
         },
         {
