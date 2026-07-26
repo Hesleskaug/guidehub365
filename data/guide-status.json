@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-07-25T09:02:09.255Z",
+  "lastChecked": "2026-07-26T09:15:09.302Z",
   "totalGuides": 12,
-  "flaggedCount": 10,
+  "flaggedCount": 9,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -32,14 +32,6 @@
           "matchedKeywords": [
             "configure"
           ]
-        },
-        {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Thu, 16 Jul 2026 20:48:00 GMT",
-          "matchedKeywords": [
-            "outlook"
-          ]
         }
       ]
     },
@@ -57,11 +49,10 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Thu, 16 Jul 2026 20:48:00 GMT",
+          "source": "Deploy the Microsoft 365 LTI App in Canvas",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
+          "pubDate": "Fri, 24 Jul 2026 06:17:00 GMT",
           "matchedKeywords": [
-            "outlook",
             "app"
           ]
         }
@@ -76,14 +67,6 @@
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
           "pubDate": "Thu, 23 Jul 2026 15:14:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Thu, 16 Jul 2026 20:48:00 GMT",
           "matchedKeywords": [
             "teams"
           ]
@@ -102,15 +85,6 @@
           "matchedKeywords": [
             "teams",
             "message"
-          ]
-        },
-        {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Thu, 16 Jul 2026 20:48:00 GMT",
-          "matchedKeywords": [
-            "teams",
-            "chat"
           ]
         }
       ]
@@ -147,14 +121,6 @@
           ]
         },
         {
-          "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
-          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
           "pubDate": "Thu, 23 Jul 2026 15:14:00 GMT",
@@ -163,12 +129,11 @@
           ]
         },
         {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Thu, 16 Jul 2026 20:48:00 GMT",
+          "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
+          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
           "matchedKeywords": [
-            "copilot",
-            "teams"
+            "ai"
           ]
         }
       ]
@@ -185,30 +150,6 @@
           "matchedKeywords": [
             "backup"
           ]
-        },
-        {
-          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
-          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
-          "matchedKeywords": [
-            "onedrive",
-            "backup"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "sharepoint-document-library",
-      "guideTitle": "Jobbe med dokumentbibliotek",
-      "category": "OneDrive og SharePoint",
-      "hits": [
-        {
-          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
-          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
-          "matchedKeywords": [
-            "sharepoint"
-          ]
         }
       ]
     },
@@ -223,14 +164,6 @@
           "pubDate": "Fri, 17 Jul 2026 15:03:00 GMT",
           "matchedKeywords": [
             "cloud"
-          ]
-        },
-        {
-          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
-          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
           ]
         }
       ]
@@ -264,14 +197,6 @@
           "matchedKeywords": [
             "ai"
           ]
-        },
-        {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Thu, 16 Jul 2026 20:48:00 GMT",
-          "matchedKeywords": [
-            "copilot"
-          ]
         }
       ]
     },
@@ -288,16 +213,6 @@
             "copilot",
             "microsoft 365 copilot"
           ]
-        },
-        {
-          "source": "Microsoft 365 Copilot Chat Usage Report - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage",
-          "pubDate": "Thu, 16 Jul 2026 20:48:00 GMT",
-          "matchedKeywords": [
-            "copilot",
-            "microsoft 365 copilot",
-            "prompt"
-          ]
         }
       ]
     }
@@ -309,7 +224,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "outlook-mobile",
@@ -325,7 +240,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-channels",
@@ -333,7 +248,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-copilot",
@@ -341,7 +256,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 6
+      "flaggedHits": 5
     },
     {
       "id": "onedrive-save",
@@ -349,15 +264,15 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "sharepoint-document-library",
       "title": "Jobbe med dokumentbibliotek",
       "category": "OneDrive og SharePoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "word-autosave",
@@ -365,7 +280,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "excel-copilot",
@@ -373,7 +288,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "mfa-setup",
@@ -397,7 +312,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 2
+      "flaggedHits": 1
     }
   ]
 }
