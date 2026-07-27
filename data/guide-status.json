@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-07-26T09:15:09.302Z",
+  "lastChecked": "2026-07-27T10:44:30.392Z",
   "totalGuides": 12,
-  "flaggedCount": 9,
+  "flaggedCount": 10,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -32,6 +32,14 @@
           "matchedKeywords": [
             "configure"
           ]
+        },
+        {
+          "source": "Configure Pay-As-You-Go Billing in the Billing Node",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/services/pay-as-you-go-setup-billing-node",
+          "pubDate": "Thu, 23 Jul 2026 20:51:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
         }
       ]
     },
@@ -44,14 +52,6 @@
           "source": "Microsoft 365 Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
           "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Deploy the Microsoft 365 LTI App in Canvas",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
-          "pubDate": "Fri, 24 Jul 2026 06:17:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -150,6 +150,30 @@
           "matchedKeywords": [
             "backup"
           ]
+        },
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
+          "matchedKeywords": [
+            "onedrive",
+            "backup"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "sharepoint-document-library",
+      "guideTitle": "Jobbe med dokumentbibliotek",
+      "category": "OneDrive og SharePoint",
+      "hits": [
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
+          ]
         }
       ]
     },
@@ -164,6 +188,14 @@
           "pubDate": "Fri, 17 Jul 2026 15:03:00 GMT",
           "matchedKeywords": [
             "cloud"
+          ]
+        },
+        {
+          "source": "Create, view, and edit backup policies in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies",
+          "pubDate": "Wed, 15 Jul 2026 17:02:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
           ]
         }
       ]
@@ -224,7 +256,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "outlook-mobile",
@@ -232,7 +264,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-first-meeting",
@@ -264,15 +296,15 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "sharepoint-document-library",
       "title": "Jobbe med dokumentbibliotek",
       "category": "OneDrive og SharePoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "word-autosave",
@@ -280,7 +312,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "excel-copilot",
