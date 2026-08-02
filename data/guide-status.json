@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-08-01T09:07:22.502Z",
+  "lastChecked": "2026-08-02T09:10:09.184Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -48,15 +48,6 @@
           "matchedKeywords": [
             "configure"
           ]
-        },
-        {
-          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
-          "pubDate": "Mon, 27 Jul 2026 21:00:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
         }
       ]
     },
@@ -66,9 +57,9 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Enable Microsoft 365 usage analytics - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/usage-analytics/enable-usage-analytics",
-          "pubDate": "Mon, 27 Jul 2026 21:00:00 GMT",
+          "source": "Deploy the Microsoft 365 LTI App in Canvas",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
+          "pubDate": "Fri, 24 Jul 2026 06:17:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -145,14 +136,6 @@
           "pubDate": "Thu, 23 Jul 2026 15:14:00 GMT",
           "matchedKeywords": [
             "teams"
-          ]
-        },
-        {
-          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
-          "pubDate": "Mon, 27 Jul 2026 21:00:00 GMT",
-          "matchedKeywords": [
-            "ai"
           ]
         }
       ]
@@ -232,14 +215,6 @@
           "matchedKeywords": [
             "ai"
           ]
-        },
-        {
-          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
-          "pubDate": "Mon, 27 Jul 2026 21:00:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
         }
       ]
     },
@@ -266,7 +241,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "outlook-mobile",
@@ -298,7 +273,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "onedrive-save",
@@ -330,7 +305,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "mfa-setup",
