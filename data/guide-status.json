@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-08-02T09:10:09.184Z",
+  "lastChecked": "2026-08-03T10:44:20.925Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -48,6 +48,15 @@
           "matchedKeywords": [
             "configure"
           ]
+        },
+        {
+          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
+          "pubDate": "Mon, 27 Jul 2026 21:00:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
         }
       ]
     },
@@ -57,9 +66,9 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Deploy the Microsoft 365 LTI App in Canvas",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas",
-          "pubDate": "Fri, 24 Jul 2026 06:17:00 GMT",
+          "source": "The next measure of AI momentum is work transformed",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
+          "pubDate": "Thu, 30 Jul 2026 13:00:00 +0000",
           "matchedKeywords": [
             "app"
           ]
@@ -71,6 +80,14 @@
       "guideTitle": "Første møte i Teams",
       "category": "Microsoft Teams",
       "hits": [
+        {
+          "source": "The next measure of AI momentum is work transformed",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
+          "pubDate": "Thu, 30 Jul 2026 13:00:00 +0000",
+          "matchedKeywords": [
+            "call"
+          ]
+        },
         {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
@@ -87,6 +104,14 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "The next measure of AI momentum is work transformed",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
+          "pubDate": "Thu, 30 Jul 2026 13:00:00 +0000",
+          "matchedKeywords": [
+            "post"
+          ]
+        },
+        {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
           "pubDate": "Thu, 23 Jul 2026 15:14:00 GMT",
@@ -102,6 +127,15 @@
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
+        {
+          "source": "The next measure of AI momentum is work transformed",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
+          "pubDate": "Thu, 30 Jul 2026 13:00:00 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
         {
           "source": "Overview of Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
@@ -136,6 +170,14 @@
           "pubDate": "Thu, 23 Jul 2026 15:14:00 GMT",
           "matchedKeywords": [
             "teams"
+          ]
+        },
+        {
+          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
+          "pubDate": "Mon, 27 Jul 2026 21:00:00 GMT",
+          "matchedKeywords": [
+            "ai"
           ]
         }
       ]
@@ -192,6 +234,15 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
+          "source": "The next measure of AI momentum is work transformed",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
+          "pubDate": "Thu, 30 Jul 2026 13:00:00 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
+        {
           "source": "Overview of Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
           "pubDate": "Thu, 30 Jul 2026 20:53:00 GMT",
@@ -215,6 +266,14 @@
           "matchedKeywords": [
             "ai"
           ]
+        },
+        {
+          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
+          "pubDate": "Mon, 27 Jul 2026 21:00:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
         }
       ]
     },
@@ -223,6 +282,15 @@
       "guideTitle": "Kom i gang med Microsoft 365 Copilot",
       "category": "Copilot og AI",
       "hits": [
+        {
+          "source": "The next measure of AI momentum is work transformed",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
+          "pubDate": "Thu, 30 Jul 2026 13:00:00 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "microsoft 365 copilot"
+          ]
+        },
         {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
@@ -241,7 +309,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "outlook-mobile",
@@ -257,7 +325,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "teams-channels",
@@ -265,7 +333,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "teams-copilot",
@@ -273,7 +341,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 4
+      "flaggedHits": 6
     },
     {
       "id": "onedrive-save",
@@ -305,7 +373,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 3
+      "flaggedHits": 5
     },
     {
       "id": "mfa-setup",
@@ -329,7 +397,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 1
+      "flaggedHits": 2
     }
   ]
 }
