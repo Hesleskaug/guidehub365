@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-08-07T08:15:29.048Z",
+  "lastChecked": "2026-08-08T07:51:00.885Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -131,7 +131,7 @@
         {
           "source": "Microsoft 365 Admin Center Usage Reports Overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports",
-          "pubDate": "Fri, 31 Jul 2026 18:03:00 GMT",
+          "pubDate": "Fri, 07 Aug 2026 17:51:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -147,11 +147,10 @@
           ]
         },
         {
-          "source": "Manage tools for agents in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-tools-for-agent",
-          "pubDate": "Thu, 30 Jul 2026 22:53:00 GMT",
+          "source": "Pricing model for Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
+          "pubDate": "Fri, 07 Aug 2026 17:51:00 GMT",
           "matchedKeywords": [
-            "ai",
             "summarize"
           ]
         },
@@ -184,6 +183,14 @@
           "pubDate": "Thu, 30 Jul 2026 20:53:00 GMT",
           "matchedKeywords": [
             "onedrive",
+            "backup"
+          ]
+        },
+        {
+          "source": "Pricing model for Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
+          "pubDate": "Fri, 07 Aug 2026 17:51:00 GMT",
+          "matchedKeywords": [
             "backup"
           ]
         }
@@ -247,14 +254,6 @@
           "pubDate": "Mon, 27 Jul 2026 18:02:00 GMT",
           "matchedKeywords": [
             "copilot",
-            "ai"
-          ]
-        },
-        {
-          "source": "Manage tools for agents in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-tools-for-agent",
-          "pubDate": "Thu, 30 Jul 2026 22:53:00 GMT",
-          "matchedKeywords": [
             "ai"
           ]
         },
@@ -340,7 +339,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "sharepoint-document-library",
@@ -364,7 +363,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "mfa-setup",
