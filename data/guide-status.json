@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-08-08T07:51:00.885Z",
+  "lastChecked": "2026-08-09T07:54:32.422Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -39,15 +39,6 @@
           "pubDate": "Tue, 28 Jul 2026 20:52:00 GMT",
           "matchedKeywords": [
             "configure"
-          ]
-        },
-        {
-          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
-          "pubDate": "Mon, 27 Jul 2026 21:00:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
           ]
         }
       ]
@@ -129,20 +120,20 @@
           ]
         },
         {
-          "source": "Microsoft 365 Admin Center Usage Reports Overview - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports",
-          "pubDate": "Fri, 07 Aug 2026 17:51:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
           "pubDate": "Mon, 27 Jul 2026 18:02:00 GMT",
           "matchedKeywords": [
             "copilot",
             "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Admin Center Usage Reports Overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports",
+          "pubDate": "Fri, 07 Aug 2026 17:51:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -160,14 +151,6 @@
           "pubDate": "Fri, 31 Jul 2026 20:49:00 GMT",
           "matchedKeywords": [
             "summarize"
-          ]
-        },
-        {
-          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
-          "pubDate": "Mon, 27 Jul 2026 21:00:00 GMT",
-          "matchedKeywords": [
-            "ai"
           ]
         }
       ]
@@ -256,14 +239,6 @@
             "copilot",
             "ai"
           ]
-        },
-        {
-          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
-          "pubDate": "Mon, 27 Jul 2026 21:00:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
         }
       ]
     },
@@ -299,7 +274,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 3
+      "flaggedHits": 2
     },
     {
       "id": "outlook-mobile",
@@ -331,7 +306,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 7
+      "flaggedHits": 6
     },
     {
       "id": "onedrive-save",
@@ -363,7 +338,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "mfa-setup",
