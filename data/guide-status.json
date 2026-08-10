@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-08-09T07:54:32.422Z",
+  "lastChecked": "2026-08-10T08:40:17.879Z",
   "totalGuides": 12,
   "flaggedCount": 10,
   "sources": [
@@ -31,14 +31,6 @@
           "pubDate": "Thu, 30 Jul 2026 20:53:00 GMT",
           "matchedKeywords": [
             "mail"
-          ]
-        },
-        {
-          "source": "Configure Pay-As-You-Go Billing in the Billing Node",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/services/pay-as-you-go-setup-billing-node",
-          "pubDate": "Tue, 28 Jul 2026 20:52:00 GMT",
-          "matchedKeywords": [
-            "configure"
           ]
         }
       ]
@@ -120,6 +112,14 @@
           ]
         },
         {
+          "source": "Microsoft 365 Admin Center Usage Reports Overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports",
+          "pubDate": "Fri, 07 Aug 2026 17:51:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
           "pubDate": "Mon, 27 Jul 2026 18:02:00 GMT",
@@ -130,9 +130,9 @@
           ]
         },
         {
-          "source": "Microsoft 365 Admin Center Usage Reports Overview - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports",
-          "pubDate": "Fri, 07 Aug 2026 17:51:00 GMT",
+          "source": "Advanced data residency in Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/advanced-data-residency",
+          "pubDate": "Fri, 31 Jul 2026 20:49:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -141,14 +141,6 @@
           "source": "Pricing model for Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
           "pubDate": "Fri, 07 Aug 2026 17:51:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Advanced data residency in Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/advanced-data-residency",
-          "pubDate": "Fri, 31 Jul 2026 20:49:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -274,7 +266,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "outlook-mobile",
