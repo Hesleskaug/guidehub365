@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-08-13T08:22:27.323Z",
+  "lastChecked": "2026-08-14T08:17:28.420Z",
   "totalGuides": 12,
-  "flaggedCount": 10,
+  "flaggedCount": 2,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -21,88 +21,10 @@
   ],
   "flaggedGuides": [
     {
-      "guideId": "outlook-setup-pc",
-      "guideTitle": "Sette opp Outlook på PC",
-      "category": "E-post og kalender",
-      "hits": [
-        {
-          "source": "Overview of Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
-          "pubDate": "Thu, 30 Jul 2026 20:53:00 GMT",
-          "matchedKeywords": [
-            "mail"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "outlook-mobile",
-      "guideTitle": "Outlook på mobil",
-      "category": "E-post og kalender",
-      "hits": [
-        {
-          "source": "The next measure of AI momentum is work transformed",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
-          "pubDate": "Thu, 30 Jul 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "teams-first-meeting",
-      "guideTitle": "Første møte i Teams",
-      "category": "Microsoft Teams",
-      "hits": [
-        {
-          "source": "The next measure of AI momentum is work transformed",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
-          "pubDate": "Thu, 30 Jul 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "call"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "teams-channels",
-      "guideTitle": "Kanaler og chatter i Teams",
-      "category": "Microsoft Teams",
-      "hits": [
-        {
-          "source": "The next measure of AI momentum is work transformed",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
-          "pubDate": "Thu, 30 Jul 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        }
-      ]
-    },
-    {
       "guideId": "teams-copilot",
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
-        {
-          "source": "The next measure of AI momentum is work transformed",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
-          "pubDate": "Thu, 30 Jul 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
-        {
-          "source": "Overview of Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
-          "pubDate": "Thu, 30 Jul 2026 20:53:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
         {
           "source": "Microsoft 365 Admin Center Usage Reports Overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports",
@@ -135,90 +57,11 @@
       "category": "OneDrive og SharePoint",
       "hits": [
         {
-          "source": "Overview of Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
-          "pubDate": "Thu, 30 Jul 2026 20:53:00 GMT",
-          "matchedKeywords": [
-            "onedrive",
-            "backup"
-          ]
-        },
-        {
           "source": "Pricing model for Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
           "pubDate": "Fri, 07 Aug 2026 17:51:00 GMT",
           "matchedKeywords": [
             "backup"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "sharepoint-document-library",
-      "guideTitle": "Jobbe med dokumentbibliotek",
-      "category": "OneDrive og SharePoint",
-      "hits": [
-        {
-          "source": "Overview of Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
-          "pubDate": "Thu, 30 Jul 2026 20:53:00 GMT",
-          "matchedKeywords": [
-            "sharepoint"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "word-autosave",
-      "guideTitle": "AutoLagre i Word",
-      "category": "Word, Excel og PowerPoint",
-      "hits": [
-        {
-          "source": "Overview of Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
-          "pubDate": "Thu, 30 Jul 2026 20:53:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "excel-copilot",
-      "guideTitle": "Copilot i Excel",
-      "category": "Word, Excel og PowerPoint",
-      "hits": [
-        {
-          "source": "The next measure of AI momentum is work transformed",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
-          "pubDate": "Thu, 30 Jul 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
-        {
-          "source": "Overview of Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
-          "pubDate": "Thu, 30 Jul 2026 20:53:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "copilot-365-intro",
-      "guideTitle": "Kom i gang med Microsoft 365 Copilot",
-      "category": "Copilot og AI",
-      "hits": [
-        {
-          "source": "The next measure of AI momentum is work transformed",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
-          "pubDate": "Thu, 30 Jul 2026 13:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "microsoft 365 copilot"
           ]
         }
       ]
@@ -229,33 +72,33 @@
       "id": "outlook-setup-pc",
       "title": "Sette opp Outlook på PC",
       "category": "E-post og kalender",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "outlook-mobile",
       "title": "Outlook på mobil",
       "category": "E-post og kalender",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "teams-first-meeting",
       "title": "Første møte i Teams",
       "category": "Microsoft Teams",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "teams-channels",
       "title": "Kanaler og chatter i Teams",
       "category": "Microsoft Teams",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "teams-copilot",
@@ -263,7 +106,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 5
+      "flaggedHits": 3
     },
     {
       "id": "onedrive-save",
@@ -271,31 +114,31 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "sharepoint-document-library",
       "title": "Jobbe med dokumentbibliotek",
       "category": "OneDrive og SharePoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "word-autosave",
       "title": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "excel-copilot",
       "title": "Copilot i Excel",
       "category": "Word, Excel og PowerPoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 2
+      "flaggedHits": 0
     },
     {
       "id": "mfa-setup",
@@ -317,9 +160,9 @@
       "id": "copilot-365-intro",
       "title": "Kom i gang med Microsoft 365 Copilot",
       "category": "Copilot og AI",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 1
+      "flaggedHits": 0
     }
   ]
 }
