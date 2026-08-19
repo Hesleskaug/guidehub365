@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-08-18T07:39:37.603Z",
+  "lastChecked": "2026-08-19T07:40:13.197Z",
   "totalGuides": 12,
-  "flaggedCount": 2,
+  "flaggedCount": 10,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -21,14 +21,162 @@
   ],
   "flaggedGuides": [
     {
+      "guideId": "outlook-setup-pc",
+      "guideTitle": "Sette opp Outlook på PC",
+      "category": "E-post og kalender",
+      "hits": [
+        {
+          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
+          "source": "Get started with the Microsoft Release Communications MCP Server - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/mrc-mcp",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
+          "source": "Configure Pay-As-You-Go Billing in the Billing Node",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/services/pay-as-you-go-setup-billing-node",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "outlook-mobile",
+      "guideTitle": "Outlook på mobil",
+      "category": "E-post og kalender",
+      "hits": [
+        {
+          "source": "Microsoft Copilot Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "teams-first-meeting",
+      "guideTitle": "Første møte i Teams",
+      "category": "Microsoft Teams",
+      "hits": [
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "teams-channels",
+      "guideTitle": "Kanaler og chatter i Teams",
+      "category": "Microsoft Teams",
+      "hits": [
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "teams",
+            "message"
+          ]
+        }
+      ]
+    },
+    {
       "guideId": "teams-copilot",
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Microsoft Copilot Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Microsoft 365 Admin Center Usage Reports Overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports",
-          "pubDate": "Fri, 07 Aug 2026 17:51:00 GMT",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Manage agents in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Advanced data residency in Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/advanced-data-residency",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -39,6 +187,30 @@
           "pubDate": "Fri, 07 Aug 2026 17:51:00 GMT",
           "matchedKeywords": [
             "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Multi-Geo - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "teams"
           ]
         }
       ]
@@ -57,6 +229,116 @@
           ]
         }
       ]
+    },
+    {
+      "guideId": "word-autosave",
+      "guideTitle": "AutoLagre i Word",
+      "category": "Word, Excel og PowerPoint",
+      "hits": [
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "excel-copilot",
+      "guideTitle": "Copilot i Excel",
+      "category": "Word, Excel og PowerPoint",
+      "hits": [
+        {
+          "source": "Microsoft Copilot Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
+        {
+          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Manage agents in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
+        {
+          "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "mfa-setup",
+      "guideTitle": "Sette opp tofaktorautentisering",
+      "category": "Sikkerhet og innlogging",
+      "hits": [
+        {
+          "source": "Understand the Microsoft 365 E3 and E5 Extra Features license",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/e3-extra-features-licenses",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "security"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "copilot-365-intro",
+      "guideTitle": "Kom i gang med Microsoft 365 Copilot",
+      "category": "Copilot og AI",
+      "hits": [
+        {
+          "source": "Microsoft Copilot Usage Report - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "copilot"
+          ]
+        },
+        {
+          "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "copilot"
+          ]
+        }
+      ]
     }
   ],
   "allGuideStatuses": [
@@ -64,33 +346,33 @@
       "id": "outlook-setup-pc",
       "title": "Sette opp Outlook på PC",
       "category": "E-post og kalender",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 0
+      "flaggedHits": 4
     },
     {
       "id": "outlook-mobile",
       "title": "Outlook på mobil",
       "category": "E-post og kalender",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 0
+      "flaggedHits": 2
     },
     {
       "id": "teams-first-meeting",
       "title": "Første møte i Teams",
       "category": "Microsoft Teams",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "teams-channels",
       "title": "Kanaler og chatter i Teams",
       "category": "Microsoft Teams",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "teams-copilot",
@@ -98,7 +380,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 2
+      "flaggedHits": 11
     },
     {
       "id": "onedrive-save",
@@ -120,25 +402,25 @@
       "id": "word-autosave",
       "title": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "excel-copilot",
       "title": "Copilot i Excel",
       "category": "Word, Excel og PowerPoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 0
+      "flaggedHits": 6
     },
     {
       "id": "mfa-setup",
       "title": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "password-reset",
@@ -152,9 +434,9 @@
       "id": "copilot-365-intro",
       "title": "Kom i gang med Microsoft 365 Copilot",
       "category": "Copilot og AI",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 0
+      "flaggedHits": 2
     }
   ]
 }
