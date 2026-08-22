@@ -1,11 +1,11 @@
 {
-  "lastChecked": "2026-08-21T07:44:42.461Z",
+  "lastChecked": "2026-08-22T07:33:24.438Z",
   "totalGuides": 12,
-  "flaggedCount": 10,
+  "flaggedCount": 11,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
-      "itemCount": 0,
+      "itemCount": 10,
       "ok": true
     },
     {
@@ -25,6 +25,14 @@
       "guideTitle": "Sette opp Outlook på PC",
       "category": "E-post og kalender",
       "hits": [
+        {
+          "source": "Overview of Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
+          "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
+          "matchedKeywords": [
+            "mail"
+          ]
+        },
         {
           "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
@@ -51,20 +59,20 @@
           ]
         },
         {
-          "source": "Get started with the Microsoft Release Communications MCP Server - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/mrc-mcp",
-          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        },
-        {
           "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "email",
             "mail"
+          ]
+        },
+        {
+          "source": "Get started with the Microsoft Release Communications MCP Server - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/mrc-mcp",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "configure"
           ]
         },
         {
@@ -193,6 +201,15 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Overview of Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
+          "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Microsoft Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
           "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
@@ -301,7 +318,7 @@
         {
           "source": "Pricing model for Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
-          "pubDate": "Fri, 07 Aug 2026 17:51:00 GMT",
+          "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -342,9 +359,9 @@
           ]
         },
         {
-          "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
-          "pubDate": "Fri, 21 Aug 2026 02:53:00 GMT",
+          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
+          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -358,9 +375,9 @@
           ]
         },
         {
-          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
+          "pubDate": "Fri, 21 Aug 2026 02:53:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -389,11 +406,52 @@
       "category": "OneDrive og SharePoint",
       "hits": [
         {
+          "source": "Overview of Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
+          "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
+          "matchedKeywords": [
+            "onedrive",
+            "backup"
+          ]
+        },
+        {
           "source": "Pricing model for Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
-          "pubDate": "Fri, 07 Aug 2026 17:51:00 GMT",
+          "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
           "matchedKeywords": [
             "backup"
+          ]
+        },
+        {
+          "source": "Restore data in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
+          "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
+          "matchedKeywords": [
+            "onedrive",
+            "backup"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "sharepoint-document-library",
+      "guideTitle": "Jobbe med dokumentbibliotek",
+      "category": "OneDrive og SharePoint",
+      "hits": [
+        {
+          "source": "Overview of Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
+          "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
+          ]
+        },
+        {
+          "source": "Restore data in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
+          "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
           ]
         }
       ]
@@ -404,11 +462,11 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "source": "Overview of Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
+          "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
           "matchedKeywords": [
-            "cloud"
+            "onedrive"
           ]
         },
         {
@@ -418,6 +476,14 @@
           "matchedKeywords": [
             "cloud"
           ]
+        },
+        {
+          "source": "Restore data in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
+          "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
         }
       ]
     },
@@ -426,6 +492,14 @@
       "guideTitle": "Copilot i Excel",
       "category": "Word, Excel og PowerPoint",
       "hits": [
+        {
+          "source": "Overview of Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
+          "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
         {
           "source": "Microsoft Copilot Usage Report - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
@@ -509,9 +583,9 @@
           ]
         },
         {
-          "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
-          "pubDate": "Fri, 21 Aug 2026 02:53:00 GMT",
+          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
+          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -525,9 +599,9 @@
           ]
         },
         {
-          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
+          "pubDate": "Fri, 21 Aug 2026 02:53:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -551,6 +625,14 @@
           "source": "Microsoft 365 security documentation",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
           "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "security"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "security"
           ]
@@ -596,7 +678,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 7
+      "flaggedHits": 8
     },
     {
       "id": "outlook-mobile",
@@ -628,7 +710,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 22
+      "flaggedHits": 23
     },
     {
       "id": "onedrive-save",
@@ -636,15 +718,15 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 3
     },
     {
       "id": "sharepoint-document-library",
       "title": "Jobbe med dokumentbibliotek",
       "category": "OneDrive og SharePoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 0
+      "flaggedHits": 2
     },
     {
       "id": "word-autosave",
@@ -652,7 +734,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "excel-copilot",
@@ -660,7 +742,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 14
+      "flaggedHits": 15
     },
     {
       "id": "mfa-setup",
@@ -668,7 +750,7 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "password-reset",
