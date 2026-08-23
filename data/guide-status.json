@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-08-22T07:33:24.438Z",
+  "lastChecked": "2026-08-23T07:34:35.985Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -299,6 +299,15 @@
           ]
         },
         {
+          "source": "Manage tools for agents in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-tools-for-agent",
+          "pubDate": "Fri, 21 Aug 2026 02:53:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
@@ -350,6 +359,14 @@
           ]
         },
         {
+          "source": "Managing Microsoft 365 endpoints - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/managing-office-365-endpoints",
+          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
@@ -359,16 +376,16 @@
           ]
         },
         {
-          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai"
@@ -559,6 +576,14 @@
           ]
         },
         {
+          "source": "Manage tools for agents in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-tools-for-agent",
+          "pubDate": "Fri, 21 Aug 2026 02:53:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
@@ -583,16 +608,16 @@
           ]
         },
         {
-          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai"
@@ -710,7 +735,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 23
+      "flaggedHits": 25
     },
     {
       "id": "onedrive-save",
@@ -742,7 +767,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 15
+      "flaggedHits": 16
     },
     {
       "id": "mfa-setup",
