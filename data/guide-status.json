@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-08-23T07:34:35.985Z",
+  "lastChecked": "2026-08-24T07:58:36.845Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -68,6 +68,15 @@
           ]
         },
         {
+          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
           "source": "Get started with the Microsoft Release Communications MCP Server - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/mrc-mcp",
           "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
@@ -78,14 +87,6 @@
         {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        },
-        {
-          "source": "Configure Pay-As-You-Go Billing in the Billing Node",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/services/pay-as-you-go-setup-billing-node",
           "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
           "matchedKeywords": [
             "configure"
@@ -273,15 +274,6 @@
           ]
         },
         {
-          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
           "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
@@ -376,8 +368,8 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai"
@@ -400,9 +392,25 @@
           ]
         },
         {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -560,14 +568,6 @@
           ]
         },
         {
-          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Set up the Standard or Targeted release options for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
           "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
@@ -608,8 +608,8 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai"
@@ -632,9 +632,25 @@
           ]
         },
         {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -735,7 +751,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 25
+      "flaggedHits": 26
     },
     {
       "id": "onedrive-save",
@@ -767,7 +783,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 16
+      "flaggedHits": 17
     },
     {
       "id": "mfa-setup",
