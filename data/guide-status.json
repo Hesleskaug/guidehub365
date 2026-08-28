@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-08-27T18:08:41.605Z",
+  "lastChecked": "2026-08-28T19:18:41.586Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -59,18 +59,18 @@
           ]
         },
         {
-          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
-          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "email",
             "mail"
           ]
         },
         {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
           "matchedKeywords": [
             "email",
             "mail"
@@ -100,14 +100,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 security documentation",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
-          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
-          "matchedKeywords": [
-            "ios"
-          ]
-        },
-        {
           "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
@@ -131,14 +123,6 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Microsoft 365 security documentation",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
-          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        },
-        {
           "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
@@ -161,14 +145,6 @@
       "guideTitle": "Kanaler og chatter i Teams",
       "category": "Microsoft Teams",
       "hits": [
-        {
-          "source": "Microsoft 365 security documentation",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
-          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
-        },
         {
           "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
@@ -218,14 +194,6 @@
             "copilot",
             "ai",
             "summarize"
-          ]
-        },
-        {
-          "source": "Microsoft 365 security documentation",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
-          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
-          "matchedKeywords": [
-            "teams"
           ]
         },
         {
@@ -291,19 +259,19 @@
           ]
         },
         {
-          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Manage tools for agents in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-tools-for-agent",
+          "pubDate": "Fri, 21 Aug 2026 02:53:00 GMT",
+          "matchedKeywords": [
+            "ai",
             "summarize"
           ]
         },
@@ -376,6 +344,14 @@
           ]
         },
         {
+          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
+          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
           "pubDate": "Thu, 27 Aug 2026 04:17:00 GMT",
@@ -392,8 +368,8 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai"
@@ -408,8 +384,8 @@
           ]
         },
         {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai"
@@ -584,9 +560,9 @@
           ]
         },
         {
-          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "source": "Manage tools for agents in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-tools-for-agent",
+          "pubDate": "Fri, 21 Aug 2026 02:53:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -616,6 +592,14 @@
           ]
         },
         {
+          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
+          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
           "pubDate": "Thu, 27 Aug 2026 04:17:00 GMT",
@@ -632,8 +616,8 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai"
@@ -648,8 +632,8 @@
           ]
         },
         {
-          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai"
@@ -662,14 +646,6 @@
       "guideTitle": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
       "hits": [
-        {
-          "source": "Microsoft 365 security documentation",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/security/",
-          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
-          "matchedKeywords": [
-            "security"
-          ]
-        },
         {
           "source": "Understand the Microsoft 365 E3 and E5 Extra Features license",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/e3-extra-features-licenses",
@@ -719,7 +695,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "teams-first-meeting",
@@ -727,7 +703,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 3
+      "flaggedHits": 2
     },
     {
       "id": "teams-channels",
@@ -735,7 +711,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "teams-copilot",
@@ -775,7 +751,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 16
+      "flaggedHits": 17
     },
     {
       "id": "mfa-setup",
@@ -783,7 +759,7 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "password-reset",
