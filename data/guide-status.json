@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-08-29T13:01:42.524Z",
+  "lastChecked": "2026-08-30T12:39:42.447Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -59,20 +59,20 @@
           ]
         },
         {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
           "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
           "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
           "matchedKeywords": [
             "email",
             "mail"
-          ]
-        },
-        {
-          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
-          "matchedKeywords": [
-            "configure"
           ]
         }
       ]
@@ -258,6 +258,15 @@
           ]
         },
         {
+          "source": "Manage tools for agents in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-tools-for-agent",
+          "pubDate": "Fri, 21 Aug 2026 02:53:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
@@ -283,20 +292,20 @@
           ]
         },
         {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai",
             "teams",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -326,6 +335,14 @@
           ]
         },
         {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
@@ -342,11 +359,11 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
           "matchedKeywords": [
-            "ai"
+            "teams"
           ]
         },
         {
@@ -358,11 +375,11 @@
           ]
         },
         {
-          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
-          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
+          "pubDate": "Tue, 25 Aug 2026 11:42:00 GMT",
           "matchedKeywords": [
-            "teams"
+            "ai"
           ]
         }
       ]
@@ -434,6 +451,14 @@
           "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
           "matchedKeywords": [
             "onedrive"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "matchedKeywords": [
+            "cloud"
           ]
         },
         {
@@ -518,6 +543,14 @@
           ]
         },
         {
+          "source": "Manage tools for agents in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-tools-for-agent",
+          "pubDate": "Fri, 21 Aug 2026 02:53:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
@@ -550,6 +583,14 @@
           ]
         },
         {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
           "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
@@ -566,17 +607,17 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
+          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
-          "pubDate": "Tue, 18 Aug 2026 17:48:00 GMT",
+          "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
+          "pubDate": "Tue, 25 Aug 2026 11:42:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -588,14 +629,6 @@
       "guideTitle": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
       "hits": [
-        {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "security"
-          ]
-        },
         {
           "source": "Understand the Microsoft 365 E3 and E5 Extra Features license",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/e3-extra-features-licenses",
@@ -669,7 +702,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 23
+      "flaggedHits": 25
     },
     {
       "id": "onedrive-save",
@@ -693,7 +726,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "excel-copilot",
@@ -701,7 +734,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 15
+      "flaggedHits": 17
     },
     {
       "id": "mfa-setup",
@@ -709,7 +742,7 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "password-reset",
