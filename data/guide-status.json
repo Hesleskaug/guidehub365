@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-09-02T11:59:40.476Z",
+  "lastChecked": "2026-09-03T11:59:19.786Z",
   "totalGuides": 12,
-  "flaggedCount": 9,
+  "flaggedCount": 8,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -30,23 +30,6 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
           "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
           "matchedKeywords": [
-            "mail"
-          ]
-        },
-        {
-          "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        },
-        {
-          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "email",
             "mail"
           ]
         },
@@ -80,29 +63,6 @@
           "matchedKeywords": [
             "app"
           ]
-        },
-        {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "teams-first-meeting",
-      "guideTitle": "Første møte i Teams",
-      "category": "Microsoft Teams",
-      "hits": [
-        {
-          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "teams"
-          ]
         }
       ]
     },
@@ -117,14 +77,6 @@
           "pubDate": "Tue, 25 Aug 2026 11:42:00 GMT",
           "matchedKeywords": [
             "message"
-          ]
-        },
-        {
-          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "teams"
           ]
         }
       ]
@@ -152,15 +104,6 @@
           ]
         },
         {
-          "source": "Add a Custom Domain to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
           "pubDate": "Thu, 27 Aug 2026 04:17:00 GMT",
@@ -173,14 +116,6 @@
           "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
           "pubDate": "Tue, 25 Aug 2026 11:42:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -203,15 +138,6 @@
           ]
         },
         {
-          "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Pricing model for Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
           "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
@@ -225,57 +151,6 @@
           "pubDate": "Mon, 31 Aug 2026 17:35:00 GMT",
           "matchedKeywords": [
             "summarize"
-          ]
-        },
-        {
-          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "teams",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Managing Microsoft 365 endpoints - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/managing-office-365-endpoints",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai"
           ]
         },
         {
@@ -390,11 +265,11 @@
           ]
         },
         {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
+          "source": "Restore data in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
+          "pubDate": "Wed, 02 Sep 2026 01:17:00 GMT",
           "matchedKeywords": [
-            "cloud"
+            "onedrive"
           ]
         },
         {
@@ -403,14 +278,6 @@
           "pubDate": "Tue, 01 Sep 2026 20:51:00 GMT",
           "matchedKeywords": [
             "cloud"
-          ]
-        },
-        {
-          "source": "Restore data in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
-          "pubDate": "Wed, 02 Sep 2026 01:17:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
           ]
         }
       ]
@@ -424,14 +291,6 @@
           "source": "Overview of Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
           "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Add a Custom Domain to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -456,54 +315,6 @@
           "source": "Manage tools for agents in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-tools-for-agent",
           "pubDate": "Fri, 21 Aug 2026 02:53:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
-          "pubDate": "Thu, 20 Aug 2026 06:14:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -534,7 +345,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 2
     },
     {
       "id": "outlook-mobile",
@@ -542,15 +353,15 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 3
+      "flaggedHits": 2
     },
     {
       "id": "teams-first-meeting",
       "title": "Første møte i Teams",
       "category": "Microsoft Teams",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "teams-channels",
@@ -558,7 +369,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-copilot",
@@ -566,7 +377,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 19
+      "flaggedHits": 10
     },
     {
       "id": "onedrive-save",
@@ -590,7 +401,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 6
+      "flaggedHits": 5
     },
     {
       "id": "excel-copilot",
@@ -598,7 +409,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 13
+      "flaggedHits": 6
     },
     {
       "id": "mfa-setup",
