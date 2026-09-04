@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-03T11:59:19.786Z",
+  "lastChecked": "2026-09-04T12:01:07.791Z",
   "totalGuides": 12,
   "flaggedCount": 8,
   "sources": [
@@ -87,6 +87,15 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Buy More OneDrive and SharePoint Storage Capacity",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space",
+          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Overview of Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
           "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
@@ -129,18 +138,33 @@
           ]
         },
         {
-          "source": "Manage tools for agents in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-tools-for-agent",
-          "pubDate": "Fri, 21 Aug 2026 02:53:00 GMT",
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
           "matchedKeywords": [
-            "ai",
+            "ai"
+          ]
+        },
+        {
+          "source": "Advanced data residency in Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/advanced-data-residency",
+          "pubDate": "Thu, 03 Sep 2026 22:39:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
         {
           "source": "Pricing model for Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
-          "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
+          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Multi-Geo - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
+          "pubDate": "Thu, 03 Sep 2026 22:39:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -177,6 +201,14 @@
       "category": "OneDrive og SharePoint",
       "hits": [
         {
+          "source": "Buy More OneDrive and SharePoint Storage Capacity",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space",
+          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
+        {
           "source": "Overview of Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
           "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
@@ -186,9 +218,17 @@
           ]
         },
         {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
+          "matchedKeywords": [
+            "backup"
+          ]
+        },
+        {
           "source": "Pricing model for Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
-          "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
+          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
           "matchedKeywords": [
             "backup"
           ]
@@ -218,6 +258,14 @@
       "category": "OneDrive og SharePoint",
       "hits": [
         {
+          "source": "Buy More OneDrive and SharePoint Storage Capacity",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space",
+          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
+          ]
+        },
+        {
           "source": "Overview of Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
           "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
@@ -241,6 +289,14 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
+          "source": "Buy More OneDrive and SharePoint Storage Capacity",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space",
+          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
+        {
           "source": "Overview of Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
           "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
@@ -252,6 +308,14 @@
           "source": "Microsoft 365 for enterprise documentation and resources",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/",
           "pubDate": "Tue, 01 Sep 2026 20:51:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        },
+        {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
           "matchedKeywords": [
             "cloud"
           ]
@@ -288,6 +352,14 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
+          "source": "Buy More OneDrive and SharePoint Storage Capacity",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space",
+          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Overview of Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
           "pubDate": "Fri, 21 Aug 2026 17:42:00 GMT",
@@ -312,9 +384,9 @@
           ]
         },
         {
-          "source": "Manage tools for agents in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-tools-for-agent",
-          "pubDate": "Fri, 21 Aug 2026 02:53:00 GMT",
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -377,7 +449,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 10
+      "flaggedHits": 13
     },
     {
       "id": "onedrive-save",
@@ -385,7 +457,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 4
+      "flaggedHits": 6
     },
     {
       "id": "sharepoint-document-library",
@@ -393,7 +465,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "word-autosave",
@@ -401,7 +473,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 5
+      "flaggedHits": 7
     },
     {
       "id": "excel-copilot",
@@ -409,7 +481,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 6
+      "flaggedHits": 7
     },
     {
       "id": "mfa-setup",
