@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-05T11:10:26.875Z",
+  "lastChecked": "2026-09-06T11:33:27.708Z",
   "totalGuides": 12,
   "flaggedCount": 9,
   "sources": [
@@ -41,6 +41,14 @@
       "category": "E-post og kalender",
       "hits": [
         {
+          "source": "PPCC 2026: Bringing AI and your business processes together",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+          "pubDate": "Thu, 03 Sep 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
           "source": "Microsoft 365 for enterprise documentation and resources",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/",
           "pubDate": "Tue, 01 Sep 2026 20:51:00 GMT",
@@ -64,6 +72,14 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "PPCC 2026: Bringing AI and your business processes together",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+          "pubDate": "Thu, 03 Sep 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "post"
+          ]
+        },
+        {
           "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
           "pubDate": "Tue, 25 Aug 2026 11:42:00 GMT",
@@ -79,12 +95,11 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Buy More OneDrive and SharePoint Storage Capacity",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space",
-          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
+          "source": "PPCC 2026: Bringing AI and your business processes together",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+          "pubDate": "Thu, 03 Sep 2026 15:00:00 +0000",
           "matchedKeywords": [
-            "ai",
-            "summarize"
+            "ai"
           ]
         },
         {
@@ -121,19 +136,19 @@
           ]
         },
         {
-          "source": "Set up Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Advanced data residency in Microsoft 365 - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/advanced-data-residency",
           "pubDate": "Thu, 03 Sep 2026 22:39:00 GMT",
           "matchedKeywords": [
             "summarize"
+          ]
+        },
+        {
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
+          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
+          "matchedKeywords": [
+            "ai"
           ]
         },
         {
@@ -153,17 +168,17 @@
           ]
         },
         {
-          "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
-          "pubDate": "Thu, 27 Aug 2026 04:17:00 GMT",
+          "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
+          "pubDate": "Tue, 25 Aug 2026 11:42:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
-          "pubDate": "Tue, 25 Aug 2026 11:42:00 GMT",
+          "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
+          "pubDate": "Thu, 27 Aug 2026 04:17:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -175,14 +190,6 @@
       "guideTitle": "Lagre filer i OneDrive",
       "category": "OneDrive og SharePoint",
       "hits": [
-        {
-          "source": "Buy More OneDrive and SharePoint Storage Capacity",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space",
-          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
-          ]
-        },
         {
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
@@ -224,14 +231,6 @@
       "category": "OneDrive og SharePoint",
       "hits": [
         {
-          "source": "Buy More OneDrive and SharePoint Storage Capacity",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space",
-          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
-          "matchedKeywords": [
-            "sharepoint"
-          ]
-        },
-        {
           "source": "Restore data in Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
           "pubDate": "Wed, 02 Sep 2026 01:17:00 GMT",
@@ -246,14 +245,6 @@
       "guideTitle": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
       "hits": [
-        {
-          "source": "Buy More OneDrive and SharePoint Storage Capacity",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space",
-          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
-          ]
-        },
         {
           "source": "Microsoft 365 for enterprise documentation and resources",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/",
@@ -294,9 +285,9 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Buy More OneDrive and SharePoint Storage Capacity",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space",
-          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
+          "source": "PPCC 2026: Bringing AI and your business processes together",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+          "pubDate": "Thu, 03 Sep 2026 15:00:00 +0000",
           "matchedKeywords": [
             "ai"
           ]
@@ -326,17 +317,17 @@
           ]
         },
         {
-          "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
-          "pubDate": "Thu, 27 Aug 2026 04:17:00 GMT",
+          "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
+          "pubDate": "Tue, 25 Aug 2026 11:42:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
-          "pubDate": "Tue, 25 Aug 2026 11:42:00 GMT",
+          "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
+          "pubDate": "Thu, 27 Aug 2026 04:17:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -374,7 +365,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "teams-first-meeting",
@@ -390,7 +381,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "teams-copilot",
@@ -406,7 +397,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "sharepoint-document-library",
@@ -414,7 +405,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "word-autosave",
@@ -422,7 +413,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "excel-copilot",
