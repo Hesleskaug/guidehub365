@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-09-06T11:33:27.708Z",
+  "lastChecked": "2026-09-07T13:21:22.017Z",
   "totalGuides": 12,
-  "flaggedCount": 9,
+  "flaggedCount": 8,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -152,6 +152,14 @@
           ]
         },
         {
+          "source": "Pricing model for Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
+          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Microsoft 365 Multi-Geo - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
           "pubDate": "Thu, 03 Sep 2026 22:39:00 GMT",
@@ -262,11 +270,11 @@
           ]
         },
         {
-          "source": "Restore data in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
-          "pubDate": "Wed, 02 Sep 2026 01:17:00 GMT",
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Mon, 31 Aug 2026 17:35:00 GMT",
           "matchedKeywords": [
-            "onedrive"
+            "cloud"
           ]
         },
         {
@@ -275,6 +283,14 @@
           "pubDate": "Tue, 01 Sep 2026 20:51:00 GMT",
           "matchedKeywords": [
             "cloud"
+          ]
+        },
+        {
+          "source": "Restore data in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
+          "pubDate": "Wed, 02 Sep 2026 01:17:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
           ]
         }
       ]
@@ -333,21 +349,6 @@
           ]
         }
       ]
-    },
-    {
-      "guideId": "mfa-setup",
-      "guideTitle": "Sette opp tofaktorautentisering",
-      "category": "Sikkerhet og innlogging",
-      "hits": [
-        {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Mon, 31 Aug 2026 17:35:00 GMT",
-          "matchedKeywords": [
-            "security"
-          ]
-        }
-      ]
     }
   ],
   "allGuideStatuses": [
@@ -389,7 +390,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 11
+      "flaggedHits": 12
     },
     {
       "id": "onedrive-save",
@@ -413,7 +414,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 4
+      "flaggedHits": 5
     },
     {
       "id": "excel-copilot",
@@ -427,9 +428,9 @@
       "id": "mfa-setup",
       "title": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "password-reset",
