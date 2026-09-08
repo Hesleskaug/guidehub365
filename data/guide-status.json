@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-07T13:21:22.017Z",
+  "lastChecked": "2026-09-08T12:01:15.828Z",
   "totalGuides": 12,
   "flaggedCount": 8,
   "sources": [
@@ -20,21 +20,6 @@
     }
   ],
   "flaggedGuides": [
-    {
-      "guideId": "outlook-setup-pc",
-      "guideTitle": "Sette opp Outlook på PC",
-      "category": "E-post og kalender",
-      "hits": [
-        {
-          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
-          "pubDate": "Tue, 25 Aug 2026 11:42:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        }
-      ]
-    },
     {
       "guideId": "outlook-mobile",
       "guideTitle": "Outlook på mobil",
@@ -78,14 +63,6 @@
           "matchedKeywords": [
             "post"
           ]
-        },
-        {
-          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
-          "pubDate": "Tue, 25 Aug 2026 11:42:00 GMT",
-          "matchedKeywords": [
-            "message"
-          ]
         }
       ]
     },
@@ -116,14 +93,6 @@
           "pubDate": "Thu, 27 Aug 2026 04:17:00 GMT",
           "matchedKeywords": [
             "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
-          "pubDate": "Tue, 25 Aug 2026 11:42:00 GMT",
-          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -173,14 +142,6 @@
           "pubDate": "Mon, 31 Aug 2026 17:35:00 GMT",
           "matchedKeywords": [
             "summarize"
-          ]
-        },
-        {
-          "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
-          "pubDate": "Tue, 25 Aug 2026 11:42:00 GMT",
-          "matchedKeywords": [
-            "ai"
           ]
         },
         {
@@ -270,11 +231,11 @@
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Mon, 31 Aug 2026 17:35:00 GMT",
+          "source": "Restore data in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
+          "pubDate": "Wed, 02 Sep 2026 01:17:00 GMT",
           "matchedKeywords": [
-            "cloud"
+            "onedrive"
           ]
         },
         {
@@ -283,14 +244,6 @@
           "pubDate": "Tue, 01 Sep 2026 20:51:00 GMT",
           "matchedKeywords": [
             "cloud"
-          ]
-        },
-        {
-          "source": "Restore data in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
-          "pubDate": "Wed, 02 Sep 2026 01:17:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
           ]
         }
       ]
@@ -333,19 +286,26 @@
           ]
         },
         {
-          "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
-          "pubDate": "Tue, 25 Aug 2026 11:42:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
           "pubDate": "Thu, 27 Aug 2026 04:17:00 GMT",
           "matchedKeywords": [
             "ai"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "mfa-setup",
+      "guideTitle": "Sette opp tofaktorautentisering",
+      "category": "Sikkerhet og innlogging",
+      "hits": [
+        {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Mon, 31 Aug 2026 17:35:00 GMT",
+          "matchedKeywords": [
+            "security"
           ]
         }
       ]
@@ -356,9 +316,9 @@
       "id": "outlook-setup-pc",
       "title": "Sette opp Outlook på PC",
       "category": "E-post og kalender",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "outlook-mobile",
@@ -382,7 +342,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-copilot",
@@ -390,7 +350,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 12
+      "flaggedHits": 10
     },
     {
       "id": "onedrive-save",
@@ -414,7 +374,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "excel-copilot",
@@ -422,15 +382,15 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 6
+      "flaggedHits": 5
     },
     {
       "id": "mfa-setup",
       "title": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "password-reset",
