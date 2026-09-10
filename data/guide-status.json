@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-09T12:12:35.597Z",
+  "lastChecked": "2026-09-10T12:06:24.912Z",
   "totalGuides": 12,
   "flaggedCount": 7,
   "sources": [
@@ -88,15 +88,6 @@
           ]
         },
         {
-          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Thu, 27 Aug 2026 04:17:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Microsoft 365 for enterprise documentation and resources",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/",
           "pubDate": "Tue, 01 Sep 2026 20:51:00 GMT",
@@ -142,14 +133,6 @@
           "pubDate": "Mon, 31 Aug 2026 17:35:00 GMT",
           "matchedKeywords": [
             "summarize"
-          ]
-        },
-        {
-          "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
-          "pubDate": "Thu, 27 Aug 2026 04:17:00 GMT",
-          "matchedKeywords": [
-            "ai"
           ]
         }
       ]
@@ -270,14 +253,6 @@
           ]
         },
         {
-          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Thu, 27 Aug 2026 04:17:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Microsoft 365 for enterprise documentation and resources",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/",
           "pubDate": "Tue, 01 Sep 2026 20:51:00 GMT",
@@ -289,14 +264,6 @@
           "source": "Set up Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
           "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Understand Shadow AI in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-shadow-ai",
-          "pubDate": "Thu, 27 Aug 2026 04:17:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -343,7 +310,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 10
+      "flaggedHits": 8
     },
     {
       "id": "onedrive-save",
@@ -375,7 +342,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 5
+      "flaggedHits": 3
     },
     {
       "id": "mfa-setup",
