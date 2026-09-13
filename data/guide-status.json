@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-09-12T11:31:03.001Z",
+  "lastChecked": "2026-09-13T12:36:15.610Z",
   "totalGuides": 12,
-  "flaggedCount": 7,
+  "flaggedCount": 8,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -104,14 +104,6 @@
           ]
         },
         {
-          "source": "Microsoft 365 for enterprise documentation and resources",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/",
-          "pubDate": "Tue, 01 Sep 2026 20:51:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Advanced data residency in Microsoft 365 - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/advanced-data-residency",
           "pubDate": "Thu, 03 Sep 2026 22:39:00 GMT",
@@ -120,19 +112,19 @@
           ]
         },
         {
-          "source": "Set up Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
-          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
+          "source": "Microsoft 365 for enterprise documentation and resources",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/",
+          "pubDate": "Tue, 01 Sep 2026 20:51:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Pricing model for Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
+          "source": "Set up Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-setup",
           "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
           "matchedKeywords": [
-            "summarize"
+            "ai"
           ]
         },
         {
@@ -238,11 +230,11 @@
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Mon, 31 Aug 2026 17:35:00 GMT",
+          "source": "Restore data in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
+          "pubDate": "Wed, 02 Sep 2026 01:17:00 GMT",
           "matchedKeywords": [
-            "cloud"
+            "onedrive"
           ]
         },
         {
@@ -251,14 +243,6 @@
           "pubDate": "Tue, 01 Sep 2026 20:51:00 GMT",
           "matchedKeywords": [
             "cloud"
-          ]
-        },
-        {
-          "source": "Restore data in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
-          "pubDate": "Wed, 02 Sep 2026 01:17:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
           ]
         }
       ]
@@ -290,6 +274,21 @@
           "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
           "matchedKeywords": [
             "ai"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "mfa-setup",
+      "guideTitle": "Sette opp tofaktorautentisering",
+      "category": "Sikkerhet og innlogging",
+      "hits": [
+        {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Mon, 31 Aug 2026 17:35:00 GMT",
+          "matchedKeywords": [
+            "security"
           ]
         }
       ]
@@ -334,7 +333,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 10
+      "flaggedHits": 9
     },
     {
       "id": "onedrive-save",
@@ -358,7 +357,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "excel-copilot",
@@ -372,9 +371,9 @@
       "id": "mfa-setup",
       "title": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "password-reset",
