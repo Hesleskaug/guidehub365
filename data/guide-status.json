@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-13T12:36:15.610Z",
+  "lastChecked": "2026-09-14T13:44:26.644Z",
   "totalGuides": 12,
   "flaggedCount": 8,
   "sources": [
@@ -99,14 +99,6 @@
           "source": "Manage recurring billing in the Microsoft 365 admin center",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/renew-your-subscription",
           "pubDate": "Fri, 11 Sep 2026 11:38:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Advanced data residency in Microsoft 365 - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/advanced-data-residency",
-          "pubDate": "Thu, 03 Sep 2026 22:39:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -333,7 +325,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 9
+      "flaggedHits": 8
     },
     {
       "id": "onedrive-save",
