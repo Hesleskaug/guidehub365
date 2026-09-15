@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-09-14T13:44:26.644Z",
+  "lastChecked": "2026-09-15T12:30:55.215Z",
   "totalGuides": 12,
-  "flaggedCount": 8,
+  "flaggedCount": 7,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -37,14 +37,6 @@
           "source": "Microsoft 365 for enterprise documentation and resources",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/",
           "pubDate": "Tue, 01 Sep 2026 20:51:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Mon, 31 Aug 2026 17:35:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -120,17 +112,17 @@
           ]
         },
         {
-          "source": "Microsoft 365 Multi-Geo - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
-          "pubDate": "Thu, 03 Sep 2026 22:39:00 GMT",
+          "source": "Pricing model for Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
+          "pubDate": "Thu, 03 Sep 2026 17:37:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
         },
         {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Mon, 31 Aug 2026 17:35:00 GMT",
+          "source": "Microsoft 365 Multi-Geo - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
+          "pubDate": "Thu, 03 Sep 2026 22:39:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -222,19 +214,19 @@
           ]
         },
         {
-          "source": "Restore data in Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
-          "pubDate": "Wed, 02 Sep 2026 01:17:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
-          ]
-        },
-        {
           "source": "Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings",
           "pubDate": "Tue, 01 Sep 2026 20:51:00 GMT",
           "matchedKeywords": [
             "cloud"
+          ]
+        },
+        {
+          "source": "Restore data in Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-restore-data",
+          "pubDate": "Wed, 02 Sep 2026 01:17:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
           ]
         }
       ]
@@ -269,21 +261,6 @@
           ]
         }
       ]
-    },
-    {
-      "guideId": "mfa-setup",
-      "guideTitle": "Sette opp tofaktorautentisering",
-      "category": "Sikkerhet og innlogging",
-      "hits": [
-        {
-          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-          "pubDate": "Mon, 31 Aug 2026 17:35:00 GMT",
-          "matchedKeywords": [
-            "security"
-          ]
-        }
-      ]
     }
   ],
   "allGuideStatuses": [
@@ -301,7 +278,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "teams-first-meeting",
@@ -363,9 +340,9 @@
       "id": "mfa-setup",
       "title": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "password-reset",
