@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-09-16T12:28:53.806Z",
+  "lastChecked": "2026-09-17T12:28:43.789Z",
   "totalGuides": 12,
-  "flaggedCount": 9,
+  "flaggedCount": 10,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -42,8 +42,16 @@
       "category": "E-post og kalender",
       "hits": [
         {
+          "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+          "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
           "source": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
           "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
           "matchedKeywords": [
             "app"
@@ -59,7 +67,7 @@
         },
         {
           "source": "PPCC 2026: Bringing AI and your business processes together",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
           "pubDate": "Thu, 03 Sep 2026 15:00:00 +0000",
           "matchedKeywords": [
             "app"
@@ -82,7 +90,7 @@
       "hits": [
         {
           "source": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
           "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
           "matchedKeywords": [
             "join"
@@ -96,8 +104,16 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+          "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "post"
+          ]
+        },
+        {
           "source": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
           "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
           "matchedKeywords": [
             "post"
@@ -113,7 +129,7 @@
         },
         {
           "source": "PPCC 2026: Bringing AI and your business processes together",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
           "pubDate": "Thu, 03 Sep 2026 15:00:00 +0000",
           "matchedKeywords": [
             "post"
@@ -127,8 +143,17 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+          "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
+        {
           "source": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
           "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
           "matchedKeywords": [
             "copilot",
@@ -145,7 +170,7 @@
         },
         {
           "source": "PPCC 2026: Bringing AI and your business processes together",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
           "pubDate": "Thu, 03 Sep 2026 15:00:00 +0000",
           "matchedKeywords": [
             "ai"
@@ -156,6 +181,16 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/renew-your-subscription",
           "pubDate": "Fri, 11 Sep 2026 11:38:00 GMT",
           "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
+          "pubDate": "Thu, 17 Sep 2026 02:41:00 GMT",
+          "matchedKeywords": [
+            "copilot",
+            "ai",
             "summarize"
           ]
         },
@@ -237,8 +272,17 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
+          "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+          "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
+        {
           "source": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
           "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
           "matchedKeywords": [
             "copilot",
@@ -255,9 +299,18 @@
         },
         {
           "source": "PPCC 2026: Bringing AI and your business processes together",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
           "pubDate": "Thu, 03 Sep 2026 15:00:00 +0000",
           "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
+          "pubDate": "Thu, 17 Sep 2026 02:41:00 GMT",
+          "matchedKeywords": [
+            "copilot",
             "ai"
           ]
         },
@@ -280,13 +333,36 @@
       ]
     },
     {
+      "guideId": "mfa-setup",
+      "guideTitle": "Sette opp tofaktorautentisering",
+      "category": "Sikkerhet og innlogging",
+      "hits": [
+        {
+          "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+          "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "security"
+          ]
+        }
+      ]
+    },
+    {
       "guideId": "copilot-365-intro",
       "guideTitle": "Kom i gang med Microsoft 365 Copilot",
       "category": "Copilot og AI",
       "hits": [
         {
+          "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+          "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "copilot"
+          ]
+        },
+        {
           "source": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
           "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
           "matchedKeywords": [
             "copilot"
@@ -296,6 +372,14 @@
           "source": "Build apps in Copilot Cowork and Copilot Studio",
           "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
           "pubDate": "Thu, 10 Sep 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "copilot"
+          ]
+        },
+        {
+          "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
+          "pubDate": "Thu, 17 Sep 2026 02:41:00 GMT",
           "matchedKeywords": [
             "copilot"
           ]
@@ -318,7 +402,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 5
     },
     {
       "id": "teams-first-meeting",
@@ -334,7 +418,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "teams-copilot",
@@ -342,7 +426,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 8
+      "flaggedHits": 10
     },
     {
       "id": "onedrive-save",
@@ -374,15 +458,15 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 5
+      "flaggedHits": 7
     },
     {
       "id": "mfa-setup",
       "title": "Sette opp tofaktorautentisering",
       "category": "Sikkerhet og innlogging",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "password-reset",
@@ -398,7 +482,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 2
+      "flaggedHits": 4
     }
   ]
 }
