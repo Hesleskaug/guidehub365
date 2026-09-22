@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-21T13:44:14.447Z",
+  "lastChecked": "2026-09-22T12:27:06.111Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -187,6 +187,15 @@
           ]
         },
         {
+          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
+          "pubDate": "Tue, 22 Sep 2026 02:44:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Manage recurring billing in the Microsoft 365 admin center",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/renew-your-subscription",
           "pubDate": "Fri, 11 Sep 2026 11:38:00 GMT",
@@ -316,6 +325,14 @@
           ]
         },
         {
+          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
+          "pubDate": "Tue, 22 Sep 2026 02:44:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
           "pubDate": "Thu, 17 Sep 2026 02:41:00 GMT",
@@ -428,7 +445,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 9
+      "flaggedHits": 10
     },
     {
       "id": "onedrive-save",
@@ -460,7 +477,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 7
+      "flaggedHits": 8
     },
     {
       "id": "mfa-setup",
