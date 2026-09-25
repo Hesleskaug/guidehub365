@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-24T12:36:13.354Z",
+  "lastChecked": "2026-09-25T12:37:37.275Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -93,33 +93,17 @@
       "category": "E-post og kalender",
       "hits": [
         {
+          "source": "Building the system for AI at work",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
+          "pubDate": "Wed, 23 Sep 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
           "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
           "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
           "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
-          "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Build apps in Copilot Cowork and Copilot Studio",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
-          "pubDate": "Thu, 10 Sep 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Understand subscriptions and licenses in Microsoft 365 for business",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/subscriptions-and-licenses",
-          "pubDate": "Fri, 11 Sep 2026 11:38:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -131,14 +115,6 @@
       "guideTitle": "Første møte i Teams",
       "category": "Microsoft Teams",
       "hits": [
-        {
-          "source": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
-          "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
-          "matchedKeywords": [
-            "join"
-          ]
-        },
         {
           "source": "Microsoft 365 Groups overview for administrators - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups",
@@ -155,25 +131,17 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Building the system for AI at work",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
+          "pubDate": "Wed, 23 Sep 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "post"
+          ]
+        },
+        {
           "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
           "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
           "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
-          "source": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
-          "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
-          "source": "Build apps in Copilot Cowork and Copilot Studio",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
-          "pubDate": "Thu, 10 Sep 2026 15:00:00 +0000",
           "matchedKeywords": [
             "post"
           ]
@@ -186,29 +154,20 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Building the system for AI at work",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
+          "pubDate": "Wed, 23 Sep 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
           "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
           "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
           "matchedKeywords": [
             "copilot",
             "ai"
-          ]
-        },
-        {
-          "source": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
-          "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
-        {
-          "source": "Build apps in Copilot Cowork and Copilot Studio",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
-          "pubDate": "Thu, 10 Sep 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
           ]
         },
         {
@@ -239,14 +198,6 @@
           ]
         },
         {
-          "source": "Manage recurring billing in the Microsoft 365 admin center",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/renew-your-subscription",
-          "pubDate": "Fri, 11 Sep 2026 11:38:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
           "pubDate": "Thu, 17 Sep 2026 02:41:00 GMT",
@@ -273,9 +224,9 @@
           ]
         },
         {
-          "source": "Understand subscriptions and licenses in Microsoft 365 for business",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/subscriptions-and-licenses",
-          "pubDate": "Fri, 11 Sep 2026 11:38:00 GMT",
+          "source": "Microsoft 365 Multi-Geo - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
+          "pubDate": "Thu, 24 Sep 2026 18:53:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -414,29 +365,20 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
+          "source": "Building the system for AI at work",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
+          "pubDate": "Wed, 23 Sep 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
           "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
           "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
           "matchedKeywords": [
             "copilot",
             "ai"
-          ]
-        },
-        {
-          "source": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
-          "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
-        {
-          "source": "Build apps in Copilot Cowork and Copilot Studio",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
-          "pubDate": "Thu, 10 Sep 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
           ]
         },
         {
@@ -583,22 +525,6 @@
           ]
         },
         {
-          "source": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
-          "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
-          "source": "Build apps in Copilot Cowork and Copilot Studio",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
-          "pubDate": "Thu, 10 Sep 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
           "pubDate": "Thu, 17 Sep 2026 02:41:00 GMT",
@@ -624,7 +550,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 2
     },
     {
       "id": "teams-first-meeting",
@@ -632,7 +558,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-channels",
@@ -640,7 +566,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 3
+      "flaggedHits": 2
     },
     {
       "id": "teams-copilot",
@@ -648,7 +574,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 16
+      "flaggedHits": 14
     },
     {
       "id": "onedrive-save",
@@ -680,7 +606,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 12
+      "flaggedHits": 11
     },
     {
       "id": "mfa-setup",
@@ -704,7 +630,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 4
+      "flaggedHits": 2
     }
   ]
 }
