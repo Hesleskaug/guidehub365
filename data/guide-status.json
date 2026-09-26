@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-25T12:37:37.275Z",
+  "lastChecked": "2026-09-26T12:06:32.629Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -42,6 +42,14 @@
           ]
         },
         {
+          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
+          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
           "source": "Remove a former employee - Overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
@@ -51,16 +59,8 @@
           ]
         },
         {
-          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        },
-        {
-          "source": "Give mailbox permissions to another user - Admin Help - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user",
+          "source": "Change a user name and email address - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "email",
@@ -68,8 +68,8 @@
           ]
         },
         {
-          "source": "Change a user name and email address - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
+          "source": "Give mailbox permissions to another user - Admin Help - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "email",
@@ -104,6 +104,14 @@
           "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
           "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
           "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "An overview of Microsoft LTI apps",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/",
+          "pubDate": "Fri, 25 Sep 2026 20:35:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -240,16 +248,16 @@
           ]
         },
         {
-          "source": "Give mailbox permissions to another user - Admin Help - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user",
+          "source": "Change a user name and email address - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Change a user name and email address - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
+          "source": "Give mailbox permissions to another user - Admin Help - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "ai"
@@ -326,19 +334,19 @@
           ]
         },
         {
-          "source": "Remove a former employee - Overview - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
-          ]
-        },
-        {
           "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "word"
+          ]
+        },
+        {
+          "source": "Remove a former employee - Overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
+          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
           ]
         },
         {
@@ -423,16 +431,16 @@
           ]
         },
         {
-          "source": "Give mailbox permissions to another user - Admin Help - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user",
+          "source": "Change a user name and email address - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Change a user name and email address - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
+          "source": "Give mailbox permissions to another user - Admin Help - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "ai"
@@ -550,7 +558,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "teams-first-meeting",
