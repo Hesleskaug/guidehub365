@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-27T12:51:25.729Z",
+  "lastChecked": "2026-09-28T15:04:54.964Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -39,14 +39,6 @@
           "pubDate": "Thu, 17 Sep 2026 17:36:00 GMT",
           "matchedKeywords": [
             "mail"
-          ]
-        },
-        {
-          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "outlook"
           ]
         },
         {
@@ -122,14 +114,6 @@
           "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
           "matchedKeywords": [
             "app"
-          ]
-        },
-        {
-          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "outlook"
           ]
         },
         {
@@ -337,14 +321,6 @@
           ]
         },
         {
-          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
-          ]
-        },
-        {
           "source": "Remove a former employee - Overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
@@ -378,14 +354,6 @@
           "source": "Overview of Microsoft 365 Backup",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
           "pubDate": "Fri, 18 Sep 2026 17:32:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
-          ]
-        },
-        {
-          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "onedrive"
           ]
@@ -624,7 +592,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 8
+      "flaggedHits": 7
     },
     {
       "id": "outlook-mobile",
@@ -632,7 +600,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "teams-first-meeting",
@@ -664,7 +632,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 3
+      "flaggedHits": 2
     },
     {
       "id": "sharepoint-document-library",
@@ -680,7 +648,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 6
+      "flaggedHits": 5
     },
     {
       "id": "excel-copilot",
