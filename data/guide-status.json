@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-29T13:51:08.343Z",
+  "lastChecked": "2026-09-30T13:24:56.420Z",
   "totalGuides": 12,
   "flaggedCount": 12,
   "sources": [
@@ -42,20 +42,20 @@
           ]
         },
         {
-          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        },
-        {
           "source": "Remove a former employee - Overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "email",
             "mail"
+          ]
+        },
+        {
+          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
+          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
+          "matchedKeywords": [
+            "configure"
           ]
         },
         {
@@ -71,15 +71,6 @@
           "source": "Give mailbox permissions to another user - Admin Help - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
-          ]
-        },
-        {
-          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
-          "pubDate": "Wed, 16 Sep 2026 05:41:00 GMT",
           "matchedKeywords": [
             "email",
             "mail"
@@ -104,14 +95,6 @@
           "source": "Building the system for AI at work",
           "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
           "pubDate": "Wed, 23 Sep 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
-          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
-          "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
           "matchedKeywords": [
             "app"
           ]
@@ -161,14 +144,6 @@
           "matchedKeywords": [
             "post"
           ]
-        },
-        {
-          "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
-          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
-          "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
         }
       ]
     },
@@ -195,12 +170,12 @@
           ]
         },
         {
-          "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
-          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
-          "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
+          "source": "Baseline security mode settings",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
+          "pubDate": "Wed, 30 Sep 2026 08:50:00 GMT",
           "matchedKeywords": [
-            "copilot",
-            "ai"
+            "ai",
+            "summarize"
           ]
         },
         {
@@ -233,7 +208,7 @@
         {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
-          "pubDate": "Mon, 28 Sep 2026 20:36:00 GMT",
+          "pubDate": "Wed, 30 Sep 2026 02:48:00 GMT",
           "matchedKeywords": [
             "copilot",
             "ai",
@@ -295,14 +270,6 @@
           "matchedKeywords": [
             "ai"
           ]
-        },
-        {
-          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
-          "pubDate": "Wed, 16 Sep 2026 05:41:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
         }
       ]
     },
@@ -359,19 +326,19 @@
           ]
         },
         {
-          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "word"
-          ]
-        },
-        {
           "source": "Remove a former employee - Overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "onedrive"
+          ]
+        },
+        {
+          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
+          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
+          "matchedKeywords": [
+            "word"
           ]
         },
         {
@@ -415,11 +382,10 @@
           ]
         },
         {
-          "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
-          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
-          "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
+          "source": "Baseline security mode settings",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
+          "pubDate": "Wed, 30 Sep 2026 08:50:00 GMT",
           "matchedKeywords": [
-            "copilot",
             "ai"
           ]
         },
@@ -450,7 +416,7 @@
         {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
-          "pubDate": "Mon, 28 Sep 2026 20:36:00 GMT",
+          "pubDate": "Wed, 30 Sep 2026 02:48:00 GMT",
           "matchedKeywords": [
             "copilot",
             "ai"
@@ -487,14 +453,6 @@
           "matchedKeywords": [
             "ai"
           ]
-        },
-        {
-          "source": "Select the domain to use for email from Microsoft 365 products - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products",
-          "pubDate": "Wed, 16 Sep 2026 05:41:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
         }
       ]
     },
@@ -504,9 +462,9 @@
       "category": "Sikkerhet og innlogging",
       "hits": [
         {
-          "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
-          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
-          "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
+          "source": "Baseline security mode settings",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
+          "pubDate": "Wed, 30 Sep 2026 08:50:00 GMT",
           "matchedKeywords": [
             "security"
           ]
@@ -567,17 +525,9 @@
           ]
         },
         {
-          "source": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
-          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
-          "pubDate": "Tue, 15 Sep 2026 15:00:00 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
-          "pubDate": "Mon, 28 Sep 2026 20:36:00 GMT",
+          "pubDate": "Wed, 30 Sep 2026 02:48:00 GMT",
           "matchedKeywords": [
             "copilot"
           ]
@@ -592,7 +542,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 7
+      "flaggedHits": 6
     },
     {
       "id": "outlook-mobile",
@@ -600,7 +550,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 3
     },
     {
       "id": "teams-first-meeting",
@@ -616,7 +566,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 3
+      "flaggedHits": 2
     },
     {
       "id": "teams-copilot",
@@ -624,7 +574,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 15
+      "flaggedHits": 14
     },
     {
       "id": "onedrive-save",
@@ -656,7 +606,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 12
+      "flaggedHits": 11
     },
     {
       "id": "mfa-setup",
@@ -680,7 +630,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 3
+      "flaggedHits": 2
     }
   ]
 }
