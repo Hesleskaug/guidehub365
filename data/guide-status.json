@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-10-02T13:40:09.891Z",
+  "lastChecked": "2026-10-03T12:19:07.254Z",
   "totalGuides": 12,
-  "flaggedCount": 12,
+  "flaggedCount": 11,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -26,11 +26,11 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Overview of Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
-          "pubDate": "Fri, 18 Sep 2026 17:32:00 GMT",
+          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
+          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
-            "mail"
+            "configure"
           ]
         },
         {
@@ -40,14 +40,6 @@
           "matchedKeywords": [
             "email",
             "mail"
-          ]
-        },
-        {
-          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "configure"
           ]
         },
         {
@@ -83,6 +75,14 @@
       "guideTitle": "Outlook på mobil",
       "category": "E-post og kalender",
       "hits": [
+        {
+          "source": "Introducing the new Copilot with Home, Code and Autopilot",
+          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
         {
           "source": "Building the system for AI at work",
           "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
@@ -130,6 +130,14 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Introducing the new Copilot with Home, Code and Autopilot",
+          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
+          "matchedKeywords": [
+            "post"
+          ]
+        },
+        {
           "source": "Building the system for AI at work",
           "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
           "pubDate": "Wed, 23 Sep 2026 15:00:00 +0000",
@@ -145,6 +153,15 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Introducing the new Copilot with Home, Code and Autopilot",
+          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
+        {
           "source": "Building the system for AI at work",
           "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
           "pubDate": "Wed, 23 Sep 2026 15:00:00 +0000",
@@ -156,15 +173,6 @@
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Wed, 30 Sep 2026 08:50:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Overview of Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
-          "pubDate": "Fri, 18 Sep 2026 17:32:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -253,35 +261,11 @@
       "category": "OneDrive og SharePoint",
       "hits": [
         {
-          "source": "Overview of Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
-          "pubDate": "Fri, 18 Sep 2026 17:32:00 GMT",
-          "matchedKeywords": [
-            "onedrive",
-            "backup"
-          ]
-        },
-        {
           "source": "Remove a former employee - Overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "onedrive"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "sharepoint-document-library",
-      "guideTitle": "Jobbe med dokumentbibliotek",
-      "category": "OneDrive og SharePoint",
-      "hits": [
-        {
-          "source": "Overview of Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
-          "pubDate": "Fri, 18 Sep 2026 17:32:00 GMT",
-          "matchedKeywords": [
-            "sharepoint"
           ]
         }
       ]
@@ -292,11 +276,11 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Overview of Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
-          "pubDate": "Fri, 18 Sep 2026 17:32:00 GMT",
+          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
+          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
-            "onedrive"
+            "word"
           ]
         },
         {
@@ -305,14 +289,6 @@
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "onedrive"
-          ]
-        },
-        {
-          "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "word"
           ]
         },
         {
@@ -347,6 +323,15 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
+          "source": "Introducing the new Copilot with Home, Code and Autopilot",
+          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
+        {
           "source": "Building the system for AI at work",
           "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
           "pubDate": "Wed, 23 Sep 2026 15:00:00 +0000",
@@ -358,14 +343,6 @@
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Wed, 30 Sep 2026 08:50:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Overview of Microsoft 365 Backup",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
-          "pubDate": "Fri, 18 Sep 2026 17:32:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -482,6 +459,14 @@
       "category": "Copilot og AI",
       "hits": [
         {
+          "source": "Introducing the new Copilot with Home, Code and Autopilot",
+          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
+          "matchedKeywords": [
+            "copilot"
+          ]
+        },
+        {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
           "pubDate": "Wed, 30 Sep 2026 02:48:00 GMT",
@@ -499,7 +484,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 6
+      "flaggedHits": 5
     },
     {
       "id": "outlook-mobile",
@@ -507,7 +492,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "teams-first-meeting",
@@ -523,7 +508,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "teams-copilot",
@@ -539,15 +524,15 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "sharepoint-document-library",
       "title": "Jobbe med dokumentbibliotek",
       "category": "OneDrive og SharePoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "word-autosave",
@@ -555,7 +540,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 6
+      "flaggedHits": 5
     },
     {
       "id": "excel-copilot",
@@ -587,7 +572,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 1
+      "flaggedHits": 2
     }
   ]
 }
