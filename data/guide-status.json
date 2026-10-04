@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-03T12:19:07.254Z",
+  "lastChecked": "2026-10-04T13:04:55.762Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -25,6 +25,14 @@
       "guideTitle": "Sette opp Outlook på PC",
       "category": "E-post og kalender",
       "hits": [
+        {
+          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
+          "matchedKeywords": [
+            "outlook"
+          ]
+        },
         {
           "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
@@ -89,6 +97,14 @@
           "pubDate": "Wed, 23 Sep 2026 15:00:00 +0000",
           "matchedKeywords": [
             "app"
+          ]
+        },
+        {
+          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
+          "matchedKeywords": [
+            "outlook"
           ]
         },
         {
@@ -261,6 +277,14 @@
       "category": "OneDrive og SharePoint",
       "hits": [
         {
+          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
+        {
           "source": "Remove a former employee - Overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
@@ -275,6 +299,14 @@
       "guideTitle": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
       "hits": [
+        {
+          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
         {
           "source": "Set the password expiration policy for your organization - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/set-password-expiration-policy",
@@ -484,7 +516,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 5
+      "flaggedHits": 6
     },
     {
       "id": "outlook-mobile",
@@ -492,7 +524,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 3
+      "flaggedHits": 4
     },
     {
       "id": "teams-first-meeting",
@@ -524,7 +556,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "sharepoint-document-library",
@@ -540,7 +572,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 5
+      "flaggedHits": 6
     },
     {
       "id": "excel-copilot",
