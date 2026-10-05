@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-04T13:04:55.762Z",
+  "lastChecked": "2026-10-05T15:39:55.239Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -26,11 +26,12 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "source": "Remove a former employee - Overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
-            "outlook"
+            "email",
+            "mail"
           ]
         },
         {
@@ -39,15 +40,6 @@
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "configure"
-          ]
-        },
-        {
-          "source": "Remove a former employee - Overview - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "email",
-            "mail"
           ]
         },
         {
@@ -84,27 +76,11 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Introducing the new Copilot with Home, Code and Autopilot",
-          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
           "source": "Building the system for AI at work",
           "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
           "pubDate": "Wed, 23 Sep 2026 15:00:00 +0000",
           "matchedKeywords": [
             "app"
-          ]
-        },
-        {
-          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "outlook"
           ]
         },
         {
@@ -146,14 +122,6 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Introducing the new Copilot with Home, Code and Autopilot",
-          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
           "source": "Building the system for AI at work",
           "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
           "pubDate": "Wed, 23 Sep 2026 15:00:00 +0000",
@@ -168,15 +136,6 @@
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
-        {
-          "source": "Introducing the new Copilot with Home, Code and Autopilot",
-          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
         {
           "source": "Building the system for AI at work",
           "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
@@ -277,14 +236,6 @@
       "category": "OneDrive og SharePoint",
       "hits": [
         {
-          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "onedrive"
-          ]
-        },
-        {
           "source": "Remove a former employee - Overview - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
@@ -300,8 +251,8 @@
       "category": "Word, Excel og PowerPoint",
       "hits": [
         {
-          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "source": "Remove a former employee - Overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "onedrive"
@@ -316,16 +267,16 @@
           ]
         },
         {
-          "source": "Remove a former employee - Overview - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
+          "source": "Reset passwords - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/reset-passwords",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
-            "onedrive"
+            "word"
           ]
         },
         {
-          "source": "Reset passwords - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/reset-passwords",
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
           "matchedKeywords": [
             "word"
@@ -338,14 +289,6 @@
           "matchedKeywords": [
             "cloud"
           ]
-        },
-        {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "word"
-          ]
         }
       ]
     },
@@ -354,15 +297,6 @@
       "guideTitle": "Copilot i Excel",
       "category": "Word, Excel og PowerPoint",
       "hits": [
-        {
-          "source": "Introducing the new Copilot with Home, Code and Autopilot",
-          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
         {
           "source": "Building the system for AI at work",
           "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
@@ -491,14 +425,6 @@
       "category": "Copilot og AI",
       "hits": [
         {
-          "source": "Introducing the new Copilot with Home, Code and Autopilot",
-          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
           "pubDate": "Wed, 30 Sep 2026 02:48:00 GMT",
@@ -516,7 +442,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 6
+      "flaggedHits": 5
     },
     {
       "id": "outlook-mobile",
@@ -524,7 +450,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 4
+      "flaggedHits": 2
     },
     {
       "id": "teams-first-meeting",
@@ -540,7 +466,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-copilot",
@@ -548,7 +474,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 12
+      "flaggedHits": 11
     },
     {
       "id": "onedrive-save",
@@ -556,7 +482,7 @@
       "category": "OneDrive og SharePoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "sharepoint-document-library",
@@ -572,7 +498,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 6
+      "flaggedHits": 5
     },
     {
       "id": "excel-copilot",
@@ -580,7 +506,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 9
+      "flaggedHits": 8
     },
     {
       "id": "mfa-setup",
@@ -604,7 +530,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 2
+      "flaggedHits": 1
     }
   ]
 }
