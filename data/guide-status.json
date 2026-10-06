@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-05T15:39:55.239Z",
+  "lastChecked": "2026-10-06T14:00:41.206Z",
   "totalGuides": 12,
   "flaggedCount": 11,
   "sources": [
@@ -76,6 +76,14 @@
       "category": "E-post og kalender",
       "hits": [
         {
+          "source": "Introducing the new Copilot with Home, Code and Autopilot",
+          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
           "source": "Building the system for AI at work",
           "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
           "pubDate": "Wed, 23 Sep 2026 15:00:00 +0000",
@@ -99,14 +107,6 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Microsoft business subscriptions and billing documentation",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/commerce/",
-          "pubDate": "Wed, 30 Sep 2026 17:46:00 GMT",
-          "matchedKeywords": [
-            "video"
-          ]
-        },
-        {
           "source": "Microsoft 365 Groups overview for administrators - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups",
           "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
@@ -122,6 +122,14 @@
       "category": "Microsoft Teams",
       "hits": [
         {
+          "source": "Introducing the new Copilot with Home, Code and Autopilot",
+          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
+          "matchedKeywords": [
+            "post"
+          ]
+        },
+        {
           "source": "Building the system for AI at work",
           "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
           "pubDate": "Wed, 23 Sep 2026 15:00:00 +0000",
@@ -136,6 +144,15 @@
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
+        {
+          "source": "Introducing the new Copilot with Home, Code and Autopilot",
+          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
         {
           "source": "Building the system for AI at work",
           "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
@@ -154,11 +171,11 @@
           ]
         },
         {
-          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Tue, 22 Sep 2026 02:44:00 GMT",
+          "source": "Work IQ MCP overview (preview)",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
+          "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
           "matchedKeywords": [
-            "ai",
+            "copilot",
             "summarize"
           ]
         },
@@ -193,6 +210,23 @@
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
           "pubDate": "Thu, 24 Sep 2026 18:53:00 GMT",
           "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft Agent 365 SDK and CLI",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/developer/",
+          "pubDate": "Fri, 02 Oct 2026 01:03:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Preview Agent 365 features through the Frontier program",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/frontier",
+          "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
+          "matchedKeywords": [
+            "ai",
             "summarize"
           ]
         },
@@ -275,19 +309,19 @@
           ]
         },
         {
-          "source": "Password policy recommendations - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
-          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
-          "matchedKeywords": [
-            "word"
-          ]
-        },
-        {
           "source": "Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings",
           "pubDate": "Wed, 30 Sep 2026 20:42:00 GMT",
           "matchedKeywords": [
             "cloud"
+          ]
+        },
+        {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Wed, 23 Sep 2026 22:35:00 GMT",
+          "matchedKeywords": [
+            "word"
           ]
         }
       ]
@@ -297,6 +331,15 @@
       "guideTitle": "Copilot i Excel",
       "category": "Word, Excel og PowerPoint",
       "hits": [
+        {
+          "source": "Introducing the new Copilot with Home, Code and Autopilot",
+          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
+          "matchedKeywords": [
+            "copilot",
+            "ai"
+          ]
+        },
         {
           "source": "Building the system for AI at work",
           "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
@@ -314,11 +357,11 @@
           ]
         },
         {
-          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Tue, 22 Sep 2026 02:44:00 GMT",
+          "source": "Work IQ MCP overview (preview)",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
+          "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
           "matchedKeywords": [
-            "ai"
+            "copilot"
           ]
         },
         {
@@ -327,6 +370,14 @@
           "pubDate": "Wed, 30 Sep 2026 02:48:00 GMT",
           "matchedKeywords": [
             "copilot",
+            "ai"
+          ]
+        },
+        {
+          "source": "Preview Agent 365 features through the Frontier program",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/frontier",
+          "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
+          "matchedKeywords": [
             "ai"
           ]
         },
@@ -373,6 +424,14 @@
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Wed, 30 Sep 2026 08:50:00 GMT",
+          "matchedKeywords": [
+            "security"
+          ]
+        },
+        {
+          "source": "Microsoft Agent 365 SDK and CLI",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/developer/",
+          "pubDate": "Fri, 02 Oct 2026 01:03:00 GMT",
           "matchedKeywords": [
             "security"
           ]
@@ -425,6 +484,22 @@
       "category": "Copilot og AI",
       "hits": [
         {
+          "source": "Introducing the new Copilot with Home, Code and Autopilot",
+          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
+          "matchedKeywords": [
+            "copilot"
+          ]
+        },
+        {
+          "source": "Work IQ MCP overview (preview)",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
+          "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
+          "matchedKeywords": [
+            "copilot"
+          ]
+        },
+        {
           "source": "Get started with the Microsoft Copilot Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
           "pubDate": "Wed, 30 Sep 2026 02:48:00 GMT",
@@ -450,7 +525,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "teams-first-meeting",
@@ -458,7 +533,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-channels",
@@ -466,7 +541,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "teams-copilot",
@@ -474,7 +549,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 11
+      "flaggedHits": 14
     },
     {
       "id": "onedrive-save",
@@ -506,7 +581,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 8
+      "flaggedHits": 10
     },
     {
       "id": "mfa-setup",
@@ -514,7 +589,7 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "password-reset",
@@ -530,7 +605,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 1
+      "flaggedHits": 3
     }
   ]
 }
