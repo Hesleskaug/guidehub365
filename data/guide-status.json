@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-08T14:26:14.233Z",
+  "lastChecked": "2026-10-09T14:13:01.580Z",
   "totalGuides": 12,
   "flaggedCount": 8,
   "sources": [
@@ -49,14 +49,6 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Introducing the new Copilot with Home, Code and Autopilot",
-          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
           "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
           "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
@@ -80,14 +72,6 @@
       "category": "Microsoft Teams",
       "hits": [
         {
-          "source": "Introducing the new Copilot with Home, Code and Autopilot",
-          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
-          "matchedKeywords": [
-            "post"
-          ]
-        },
-        {
           "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
           "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
@@ -102,15 +86,6 @@
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
       "hits": [
-        {
-          "source": "Introducing the new Copilot with Home, Code and Autopilot",
-          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
@@ -155,6 +130,14 @@
           ]
         },
         {
+          "source": "Connected platforms in Microsoft Agent 365",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/connected-platforms",
+          "pubDate": "Thu, 08 Oct 2026 19:04:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Set up the Standard or Targeted release options for Microsoft 365 services - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
           "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
@@ -173,7 +156,7 @@
         {
           "source": "Microsoft 365 Multi-Geo: Overview and requirements - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
-          "pubDate": "Thu, 08 Oct 2026 08:51:00 GMT",
+          "pubDate": "Thu, 08 Oct 2026 23:39:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -209,15 +192,6 @@
       "guideTitle": "Copilot i Excel",
       "category": "Word, Excel og PowerPoint",
       "hits": [
-        {
-          "source": "Introducing the new Copilot with Home, Code and Autopilot",
-          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
-          "matchedKeywords": [
-            "copilot",
-            "ai"
-          ]
-        },
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
@@ -281,14 +255,6 @@
       "category": "Copilot og AI",
       "hits": [
         {
-          "source": "Introducing the new Copilot with Home, Code and Autopilot",
-          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-          "pubDate": "Fri, 25 Sep 2026 12:07:25 +0000",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Work IQ MCP overview (preview)",
           "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
           "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
@@ -314,7 +280,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 3
+      "flaggedHits": 2
     },
     {
       "id": "teams-first-meeting",
@@ -330,7 +296,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-copilot",
@@ -370,7 +336,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 5
+      "flaggedHits": 4
     },
     {
       "id": "mfa-setup",
@@ -394,7 +360,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 2
+      "flaggedHits": 1
     }
   ]
 }
