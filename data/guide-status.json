@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-09T14:13:01.580Z",
+  "lastChecked": "2026-10-10T13:22:50.802Z",
   "totalGuides": 12,
   "flaggedCount": 8,
   "sources": [
@@ -52,14 +52,6 @@
           "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
           "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "An overview of Microsoft LTI apps",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/lti/",
-          "pubDate": "Fri, 25 Sep 2026 20:35:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -280,7 +272,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-first-meeting",
