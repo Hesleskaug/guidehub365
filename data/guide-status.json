@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-10-10T13:22:50.802Z",
+  "lastChecked": "2026-10-11T13:50:56.375Z",
   "totalGuides": 12,
-  "flaggedCount": 8,
+  "flaggedCount": 7,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -88,15 +88,6 @@
           ]
         },
         {
-          "source": "Work IQ MCP overview (preview)",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
-          "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
-          "matchedKeywords": [
-            "copilot",
-            "summarize"
-          ]
-        },
-        {
           "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
           "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
@@ -113,19 +104,19 @@
           ]
         },
         {
+          "source": "Connected platforms in Microsoft Agent 365",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/connected-platforms",
+          "pubDate": "Thu, 08 Oct 2026 19:04:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
           "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
           "matchedKeywords": [
             "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Connected platforms in Microsoft Agent 365",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/connected-platforms",
-          "pubDate": "Thu, 08 Oct 2026 19:04:00 GMT",
-          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -161,20 +152,13 @@
             "ai",
             "summarize"
           ]
-        }
-      ]
-    },
-    {
-      "guideId": "word-autosave",
-      "guideTitle": "AutoLagre i Word",
-      "category": "Word, Excel og PowerPoint",
-      "hits": [
+        },
         {
-          "source": "Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings",
-          "pubDate": "Wed, 30 Sep 2026 20:42:00 GMT",
+          "source": "Work IQ MCP overview (preview)",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
+          "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
           "matchedKeywords": [
-            "cloud"
+            "copilot"
           ]
         }
       ]
@@ -193,14 +177,6 @@
           ]
         },
         {
-          "source": "Work IQ MCP overview (preview)",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
-          "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
-          "matchedKeywords": [
-            "copilot"
-          ]
-        },
-        {
           "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
           "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
@@ -214,6 +190,14 @@
           "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
           "matchedKeywords": [
             "ai"
+          ]
+        },
+        {
+          "source": "Work IQ MCP overview (preview)",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
+          "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
+          "matchedKeywords": [
+            "copilot"
           ]
         }
       ]
@@ -318,9 +302,9 @@
       "id": "word-autosave",
       "title": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "excel-copilot",
