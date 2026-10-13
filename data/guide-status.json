@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-12T16:34:28.498Z",
+  "lastChecked": "2026-10-13T14:52:01.251Z",
   "totalGuides": 12,
   "flaggedCount": 7,
   "sources": [
@@ -88,6 +88,15 @@
           ]
         },
         {
+          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
+          "pubDate": "Tue, 13 Oct 2026 02:58:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
           "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
@@ -96,10 +105,28 @@
           ]
         },
         {
+          "source": "Manage agents in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps",
+          "pubDate": "Tue, 13 Oct 2026 02:58:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Get started with the Microsoft Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
           "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
           "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Understand MCP server options in Agent 365",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
+          "pubDate": "Tue, 13 Oct 2026 01:03:00 GMT",
+          "matchedKeywords": [
+            "ai",
             "summarize"
           ]
         },
@@ -145,14 +172,6 @@
           ]
         },
         {
-          "source": "Managing Microsoft 365 endpoints - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/managing-office-365-endpoints",
-          "pubDate": "Thu, 08 Oct 2026 08:51:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Preview Agent 365 features through the Frontier program",
           "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/frontier",
           "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
@@ -160,13 +179,20 @@
             "ai",
             "summarize"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "guideId": "word-autosave",
+      "guideTitle": "AutoLagre i Word",
+      "category": "Word, Excel og PowerPoint",
+      "hits": [
         {
-          "source": "Work IQ MCP overview (preview)",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
-          "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
+          "source": "Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings",
+          "pubDate": "Wed, 30 Sep 2026 20:42:00 GMT",
           "matchedKeywords": [
-            "copilot"
+            "cloud"
           ]
         }
       ]
@@ -185,6 +211,30 @@
           ]
         },
         {
+          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
+          "pubDate": "Tue, 13 Oct 2026 02:58:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Manage agents in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps",
+          "pubDate": "Tue, 13 Oct 2026 02:58:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Understand MCP server options in Agent 365",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
+          "pubDate": "Tue, 13 Oct 2026 01:03:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
           "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
@@ -198,14 +248,6 @@
           "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
           "matchedKeywords": [
             "ai"
-          ]
-        },
-        {
-          "source": "Work IQ MCP overview (preview)",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
-          "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
-          "matchedKeywords": [
-            "copilot"
           ]
         }
       ]
@@ -229,21 +271,6 @@
           "pubDate": "Fri, 02 Oct 2026 01:03:00 GMT",
           "matchedKeywords": [
             "security"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "copilot-365-intro",
-      "guideTitle": "Kom i gang med Microsoft 365 Copilot",
-      "category": "Copilot og AI",
-      "hits": [
-        {
-          "source": "Work IQ MCP overview (preview)",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
-          "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
-          "matchedKeywords": [
-            "copilot"
           ]
         }
       ]
@@ -288,7 +315,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 11
+      "flaggedHits": 12
     },
     {
       "id": "onedrive-save",
@@ -310,9 +337,9 @@
       "id": "word-autosave",
       "title": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "excel-copilot",
@@ -320,7 +347,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 4
+      "flaggedHits": 6
     },
     {
       "id": "mfa-setup",
@@ -342,9 +369,9 @@
       "id": "copilot-365-intro",
       "title": "Kom i gang med Microsoft 365 Copilot",
       "category": "Copilot og AI",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 1
+      "flaggedHits": 0
     }
   ]
 }
