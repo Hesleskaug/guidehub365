@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-10-13T14:52:01.251Z",
+  "lastChecked": "2026-10-14T12:42:27.785Z",
   "totalGuides": 12,
-  "flaggedCount": 7,
+  "flaggedCount": 6,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -172,27 +172,20 @@
           ]
         },
         {
+          "source": "Managing Microsoft 365 endpoints - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/managing-office-365-endpoints",
+          "pubDate": "Thu, 08 Oct 2026 08:51:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Preview Agent 365 features through the Frontier program",
           "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/frontier",
           "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "word-autosave",
-      "guideTitle": "AutoLagre i Word",
-      "category": "Word, Excel og PowerPoint",
-      "hits": [
-        {
-          "source": "Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings",
-          "pubDate": "Wed, 30 Sep 2026 20:42:00 GMT",
-          "matchedKeywords": [
-            "cloud"
           ]
         }
       ]
@@ -315,7 +308,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 12
+      "flaggedHits": 13
     },
     {
       "id": "onedrive-save",
@@ -337,9 +330,9 @@
       "id": "word-autosave",
       "title": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "excel-copilot",
