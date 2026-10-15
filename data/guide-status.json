@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-10-14T12:42:27.785Z",
+  "lastChecked": "2026-10-15T12:30:37.414Z",
   "totalGuides": 12,
-  "flaggedCount": 6,
+  "flaggedCount": 7,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -133,7 +133,7 @@
         {
           "source": "Connected platforms in Microsoft Agent 365",
           "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/connected-platforms",
-          "pubDate": "Thu, 08 Oct 2026 19:04:00 GMT",
+          "pubDate": "Wed, 14 Oct 2026 19:04:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -178,14 +178,20 @@
           "matchedKeywords": [
             "summarize"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "guideId": "onedrive-save",
+      "guideTitle": "Lagre filer i OneDrive",
+      "category": "OneDrive og SharePoint",
+      "hits": [
         {
-          "source": "Preview Agent 365 features through the Frontier program",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/frontier",
-          "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
+          "source": "Connected platforms in Microsoft Agent 365",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/connected-platforms",
+          "pubDate": "Wed, 14 Oct 2026 19:04:00 GMT",
           "matchedKeywords": [
-            "ai",
-            "summarize"
+            "sync"
           ]
         }
       ]
@@ -231,14 +237,6 @@
           "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
           "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Preview Agent 365 features through the Frontier program",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/frontier",
-          "pubDate": "Wed, 30 Sep 2026 19:04:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -308,15 +306,15 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 13
+      "flaggedHits": 12
     },
     {
       "id": "onedrive-save",
       "title": "Lagre filer i OneDrive",
       "category": "OneDrive og SharePoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "sharepoint-document-library",
@@ -340,7 +338,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 6
+      "flaggedHits": 5
     },
     {
       "id": "mfa-setup",
