@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-10-15T12:30:37.414Z",
+  "lastChecked": "2026-10-16T12:09:11.212Z",
   "totalGuides": 12,
-  "flaggedCount": 7,
+  "flaggedCount": 6,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -28,7 +28,7 @@
         {
           "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
-          "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
+          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
           "matchedKeywords": [
             "configure"
           ]
@@ -116,7 +116,7 @@
         {
           "source": "Get started with the Microsoft Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
-          "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
+          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -133,7 +133,7 @@
         {
           "source": "Connected platforms in Microsoft Agent 365",
           "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/connected-platforms",
-          "pubDate": "Wed, 14 Oct 2026 19:04:00 GMT",
+          "pubDate": "Fri, 16 Oct 2026 01:03:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -156,14 +156,6 @@
           ]
         },
         {
-          "source": "Microsoft Agent 365 SDK and CLI",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/developer/",
-          "pubDate": "Fri, 02 Oct 2026 01:03:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
           "source": "Microsoft 365 Multi-Geo: Overview and requirements - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
           "pubDate": "Thu, 08 Oct 2026 23:39:00 GMT",
@@ -178,20 +170,13 @@
           "matchedKeywords": [
             "summarize"
           ]
-        }
-      ]
-    },
-    {
-      "guideId": "onedrive-save",
-      "guideTitle": "Lagre filer i OneDrive",
-      "category": "OneDrive og SharePoint",
-      "hits": [
+        },
         {
-          "source": "Connected platforms in Microsoft Agent 365",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/connected-platforms",
-          "pubDate": "Wed, 14 Oct 2026 19:04:00 GMT",
+          "source": "Preview Agent 365 features through the Frontier program",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/frontier",
+          "pubDate": "Thu, 15 Oct 2026 19:06:00 GMT",
           "matchedKeywords": [
-            "sync"
+            "ai"
           ]
         }
       ]
@@ -240,6 +225,14 @@
           "matchedKeywords": [
             "ai"
           ]
+        },
+        {
+          "source": "Preview Agent 365 features through the Frontier program",
+          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/frontier",
+          "pubDate": "Thu, 15 Oct 2026 19:06:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
         }
       ]
     },
@@ -252,14 +245,6 @@
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Mon, 12 Oct 2026 09:08:00 GMT",
-          "matchedKeywords": [
-            "security"
-          ]
-        },
-        {
-          "source": "Microsoft Agent 365 SDK and CLI",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/developer/",
-          "pubDate": "Fri, 02 Oct 2026 01:03:00 GMT",
           "matchedKeywords": [
             "security"
           ]
@@ -312,9 +297,9 @@
       "id": "onedrive-save",
       "title": "Lagre filer i OneDrive",
       "category": "OneDrive og SharePoint",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "sharepoint-document-library",
@@ -338,7 +323,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 5
+      "flaggedHits": 6
     },
     {
       "id": "mfa-setup",
@@ -346,7 +331,7 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "password-reset",
