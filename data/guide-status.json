@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-16T12:09:11.212Z",
+  "lastChecked": "2026-10-17T11:28:20.122Z",
   "totalGuides": 12,
   "flaggedCount": 6,
   "sources": [
@@ -133,7 +133,7 @@
         {
           "source": "Connected platforms in Microsoft Agent 365",
           "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/connected-platforms",
-          "pubDate": "Fri, 16 Oct 2026 01:03:00 GMT",
+          "pubDate": "Sat, 17 Oct 2026 01:03:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -159,14 +159,6 @@
           "source": "Microsoft 365 Multi-Geo: Overview and requirements - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
           "pubDate": "Thu, 08 Oct 2026 23:39:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Managing Microsoft 365 endpoints - Microsoft 365 Enterprise",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/managing-office-365-endpoints",
-          "pubDate": "Thu, 08 Oct 2026 08:51:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -291,7 +283,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 12
+      "flaggedHits": 11
     },
     {
       "id": "onedrive-save",
