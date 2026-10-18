@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-17T11:28:20.122Z",
+  "lastChecked": "2026-10-18T11:58:20.983Z",
   "totalGuides": 12,
   "flaggedCount": 6,
   "sources": [
@@ -26,17 +26,17 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
+          "source": "Assign or unassign licenses to a group in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licenses",
           "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
           "matchedKeywords": [
-            "configure"
+            "mail"
           ]
         },
         {
-          "source": "Get started with the Microsoft Release Communications MCP Server - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/mrc-mcp",
-          "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
+          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
+          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
           "matchedKeywords": [
             "configure"
           ]
@@ -139,6 +139,15 @@
           ]
         },
         {
+          "source": "Assign or unassign licenses to a group in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licenses",
+          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
           "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
@@ -159,6 +168,14 @@
           "source": "Microsoft 365 Multi-Geo: Overview and requirements - Microsoft 365 Enterprise",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo",
           "pubDate": "Thu, 08 Oct 2026 23:39:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Managing Microsoft 365 endpoints - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/managing-office-365-endpoints",
+          "pubDate": "Thu, 08 Oct 2026 08:51:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -211,6 +228,14 @@
           ]
         },
         {
+          "source": "Assign or unassign licenses to a group in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licenses",
+          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
           "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
@@ -237,6 +262,14 @@
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Mon, 12 Oct 2026 09:08:00 GMT",
+          "matchedKeywords": [
+            "security"
+          ]
+        },
+        {
+          "source": "Assign or unassign licenses to a group in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licenses",
+          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
           "matchedKeywords": [
             "security"
           ]
@@ -283,7 +316,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 11
+      "flaggedHits": 13
     },
     {
       "id": "onedrive-save",
@@ -315,7 +348,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 6
+      "flaggedHits": 7
     },
     {
       "id": "mfa-setup",
@@ -323,7 +356,7 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 1
+      "flaggedHits": 2
     },
     {
       "id": "password-reset",
