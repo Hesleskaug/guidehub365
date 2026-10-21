@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-20T12:35:17.944Z",
+  "lastChecked": "2026-10-21T12:46:43.037Z",
   "totalGuides": 12,
   "flaggedCount": 6,
   "sources": [
@@ -122,6 +122,15 @@
           ]
         },
         {
+          "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
+          "pubDate": "Wed, 21 Oct 2026 02:44:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
           "source": "Understand MCP server options in Agent 365",
           "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
           "pubDate": "Tue, 13 Oct 2026 01:03:00 GMT",
@@ -144,6 +153,14 @@
           "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
           "matchedKeywords": [
             "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Customize the theme for your organization - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/customize-your-organization-theme",
+          "pubDate": "Tue, 20 Oct 2026 23:36:00 GMT",
+          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -198,6 +215,14 @@
           "source": "Manage agents in the Microsoft 365 admin center - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps",
           "pubDate": "Tue, 13 Oct 2026 02:58:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
+          "pubDate": "Wed, 21 Oct 2026 02:44:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -283,7 +308,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 11
+      "flaggedHits": 13
     },
     {
       "id": "onedrive-save",
@@ -315,7 +340,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 6
+      "flaggedHits": 7
     },
     {
       "id": "mfa-setup",
