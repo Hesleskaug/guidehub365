@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-10-21T12:46:43.037Z",
+  "lastChecked": "2026-10-22T12:49:56.369Z",
   "totalGuides": 12,
-  "flaggedCount": 6,
+  "flaggedCount": 4,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -32,44 +32,6 @@
           "matchedKeywords": [
             "configure"
           ]
-        },
-        {
-          "source": "Get started with the Microsoft Release Communications MCP Server - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/mrc-mcp",
-          "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "outlook-mobile",
-      "guideTitle": "Outlook på mobil",
-      "category": "E-post og kalender",
-      "hits": [
-        {
-          "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
-          "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
-          "matchedKeywords": [
-            "app"
-          ]
-        }
-      ]
-    },
-    {
-      "guideId": "teams-channels",
-      "guideTitle": "Kanaler og chatter i Teams",
-      "category": "Microsoft Teams",
-      "hits": [
-        {
-          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
-          "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
-          "matchedKeywords": [
-            "message"
-          ]
         }
       ]
     },
@@ -93,14 +55,6 @@
           "pubDate": "Tue, 13 Oct 2026 02:58:00 GMT",
           "matchedKeywords": [
             "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
-          "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
-          "matchedKeywords": [
             "summarize"
           ]
         },
@@ -131,32 +85,6 @@
           ]
         },
         {
-          "source": "Understand MCP server options in Agent 365",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
-          "pubDate": "Tue, 13 Oct 2026 01:03:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
-          "source": "Connected platforms in Microsoft Agent 365",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/connected-platforms",
-          "pubDate": "Sat, 17 Oct 2026 01:03:00 GMT",
-          "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
-          "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Customize the theme for your organization - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/customize-your-organization-theme",
           "pubDate": "Tue, 20 Oct 2026 23:36:00 GMT",
@@ -165,10 +93,11 @@
           ]
         },
         {
-          "source": "Set up the Standard or Targeted release options for Microsoft 365 services - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
-          "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
+          "source": "Pay-as-you-go pricing for document processing for Microsoft 365",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/documentprocessing/syntex-pay-as-you-go-services",
+          "pubDate": "Mon, 12 Oct 2026 03:04:00 GMT",
           "matchedKeywords": [
+            "ai",
             "summarize"
           ]
         },
@@ -178,14 +107,6 @@
           "pubDate": "Thu, 08 Oct 2026 23:39:00 GMT",
           "matchedKeywords": [
             "summarize"
-          ]
-        },
-        {
-          "source": "Preview Agent 365 features through the Frontier program",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/frontier",
-          "pubDate": "Thu, 15 Oct 2026 19:06:00 GMT",
-          "matchedKeywords": [
-            "ai"
           ]
         }
       ]
@@ -228,25 +149,9 @@
           ]
         },
         {
-          "source": "Understand MCP server options in Agent 365",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview",
-          "pubDate": "Tue, 13 Oct 2026 01:03:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
-          "pubDate": "Wed, 07 Oct 2026 20:38:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Preview Agent 365 features through the Frontier program",
-          "link": "https://learn.microsoft.com/en-us/microsoft-agent-365/frontier",
-          "pubDate": "Thu, 15 Oct 2026 19:06:00 GMT",
+          "source": "Pay-as-you-go pricing for document processing for Microsoft 365",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/documentprocessing/syntex-pay-as-you-go-services",
+          "pubDate": "Mon, 12 Oct 2026 03:04:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -276,15 +181,15 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "outlook-mobile",
       "title": "Outlook på mobil",
       "category": "E-post og kalender",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "teams-first-meeting",
@@ -298,9 +203,9 @@
       "id": "teams-channels",
       "title": "Kanaler og chatter i Teams",
       "category": "Microsoft Teams",
-      "status": "needs_review",
+      "status": "ok",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 1
+      "flaggedHits": 0
     },
     {
       "id": "teams-copilot",
@@ -308,7 +213,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 13
+      "flaggedHits": 8
     },
     {
       "id": "onedrive-save",
@@ -340,7 +245,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 7
+      "flaggedHits": 5
     },
     {
       "id": "mfa-setup",
