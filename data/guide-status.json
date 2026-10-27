@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-10-26T13:59:40.281Z",
+  "lastChecked": "2026-10-27T13:02:22.344Z",
   "totalGuides": 12,
-  "flaggedCount": 6,
+  "flaggedCount": 8,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -40,6 +40,14 @@
           "matchedKeywords": [
             "configure"
           ]
+        },
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Mon, 26 Oct 2026 23:35:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
         }
       ]
     },
@@ -59,6 +67,37 @@
       ]
     },
     {
+      "guideId": "teams-first-meeting",
+      "guideTitle": "Første møte i Teams",
+      "category": "Microsoft Teams",
+      "hits": [
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Mon, 26 Oct 2026 23:35:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "teams-channels",
+      "guideTitle": "Kanaler og chatter i Teams",
+      "category": "Microsoft Teams",
+      "hits": [
+        {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Mon, 26 Oct 2026 23:35:00 GMT",
+          "matchedKeywords": [
+            "teams",
+            "message"
+          ]
+        }
+      ]
+    },
+    {
       "guideId": "teams-copilot",
       "guideTitle": "Bruke Copilot i Teams",
       "category": "Microsoft Teams",
@@ -73,28 +112,10 @@
           ]
         },
         {
-          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Tue, 13 Oct 2026 02:58:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Get started with the Microsoft Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
-          "pubDate": "Fri, 23 Oct 2026 20:40:00 GMT",
+          "pubDate": "Mon, 26 Oct 2026 20:39:00 GMT",
           "matchedKeywords": [
-            "summarize"
-          ]
-        },
-        {
-          "source": "Manage agents in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps",
-          "pubDate": "Tue, 13 Oct 2026 02:58:00 GMT",
-          "matchedKeywords": [
-            "ai",
             "summarize"
           ]
         },
@@ -125,6 +146,14 @@
           ]
         },
         {
+          "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
+          "pubDate": "Mon, 26 Oct 2026 23:35:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        },
+        {
           "source": "What is Microsoft Copilot Managed Runtime (preview)",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/managed-apps/",
           "pubDate": "Thu, 15 Oct 2026 20:40:00 GMT",
@@ -143,22 +172,6 @@
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Thu, 22 Oct 2026 20:36:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry",
-          "pubDate": "Tue, 13 Oct 2026 02:58:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
-          "source": "Manage agents in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps",
-          "pubDate": "Tue, 13 Oct 2026 02:58:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -235,7 +248,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 3
     },
     {
       "id": "outlook-mobile",
@@ -249,17 +262,17 @@
       "id": "teams-first-meeting",
       "title": "Første møte i Teams",
       "category": "Microsoft Teams",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "teams-channels",
       "title": "Kanaler og chatter i Teams",
       "category": "Microsoft Teams",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 0
+      "flaggedHits": 1
     },
     {
       "id": "teams-copilot",
@@ -267,7 +280,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 8
+      "flaggedHits": 7
     },
     {
       "id": "onedrive-save",
@@ -299,7 +312,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 6
+      "flaggedHits": 4
     },
     {
       "id": "mfa-setup",
