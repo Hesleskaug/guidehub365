@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-27T13:02:22.344Z",
+  "lastChecked": "2026-10-28T13:52:53.458Z",
   "totalGuides": 12,
   "flaggedCount": 8,
   "sources": [
@@ -120,18 +120,18 @@
           ]
         },
         {
-          "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
-          "pubDate": "Wed, 21 Oct 2026 02:44:00 GMT",
+          "source": "Assign or unassign licenses to a group in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licenses",
+          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
           ]
         },
         {
-          "source": "Assign or unassign licenses to a group in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licenses",
-          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
+          "source": "Pay-as-you-go pricing for document processing for Microsoft 365",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/documentprocessing/syntex-pay-as-you-go-services",
+          "pubDate": "Wed, 28 Oct 2026 02:37:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -177,17 +177,17 @@
           ]
         },
         {
-          "source": "Agent overview in Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-365-overview",
-          "pubDate": "Wed, 21 Oct 2026 02:44:00 GMT",
+          "source": "Assign or unassign licenses to a group in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licenses",
+          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
         },
         {
-          "source": "Assign or unassign licenses to a group in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licenses",
-          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
+          "source": "Pay-as-you-go pricing for document processing for Microsoft 365",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/documentprocessing/syntex-pay-as-you-go-services",
+          "pubDate": "Wed, 28 Oct 2026 02:37:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
