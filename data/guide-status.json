@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-29T13:59:07.625Z",
+  "lastChecked": "2026-10-30T13:53:55.433Z",
   "totalGuides": 12,
   "flaggedCount": 8,
   "sources": [
@@ -26,22 +26,6 @@
       "category": "E-post og kalender",
       "hits": [
         {
-          "source": "Assign or unassign licenses to a group in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licenses",
-          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
-          "matchedKeywords": [
-            "mail"
-          ]
-        },
-        {
-          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
-          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
-          "matchedKeywords": [
-            "configure"
-          ]
-        },
-        {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
           "pubDate": "Mon, 26 Oct 2026 23:35:00 GMT",
@@ -60,14 +44,6 @@
           "source": "The AI advantage your company can keep",
           "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/",
           "pubDate": "Tue, 27 Oct 2026 16:00:00 +0000",
-          "matchedKeywords": [
-            "app"
-          ]
-        },
-        {
-          "source": "What is Microsoft Copilot Managed Runtime (preview)",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/managed-apps/",
-          "pubDate": "Thu, 15 Oct 2026 20:40:00 GMT",
           "matchedKeywords": [
             "app"
           ]
@@ -145,15 +121,6 @@
           ]
         },
         {
-          "source": "Assign or unassign licenses to a group in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licenses",
-          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
-          "matchedKeywords": [
-            "ai",
-            "summarize"
-          ]
-        },
-        {
           "source": "Pay-as-you-go pricing for document processing for Microsoft 365",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/documentprocessing/syntex-pay-as-you-go-services",
           "pubDate": "Wed, 28 Oct 2026 02:37:00 GMT",
@@ -176,14 +143,6 @@
           "pubDate": "Mon, 26 Oct 2026 23:35:00 GMT",
           "matchedKeywords": [
             "teams"
-          ]
-        },
-        {
-          "source": "What is Microsoft Copilot Managed Runtime (preview)",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/managed-apps/",
-          "pubDate": "Thu, 15 Oct 2026 20:40:00 GMT",
-          "matchedKeywords": [
-            "copilot"
           ]
         }
       ]
@@ -211,27 +170,11 @@
           ]
         },
         {
-          "source": "Assign or unassign licenses to a group in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licenses",
-          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
-          "matchedKeywords": [
-            "ai"
-          ]
-        },
-        {
           "source": "Pay-as-you-go pricing for document processing for Microsoft 365",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/documentprocessing/syntex-pay-as-you-go-services",
           "pubDate": "Wed, 28 Oct 2026 02:37:00 GMT",
           "matchedKeywords": [
             "ai"
-          ]
-        },
-        {
-          "source": "What is Microsoft Copilot Managed Runtime (preview)",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/managed-apps/",
-          "pubDate": "Thu, 15 Oct 2026 20:40:00 GMT",
-          "matchedKeywords": [
-            "copilot"
           ]
         }
       ]
@@ -245,14 +188,6 @@
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
           "pubDate": "Thu, 22 Oct 2026 20:36:00 GMT",
-          "matchedKeywords": [
-            "security"
-          ]
-        },
-        {
-          "source": "Assign or unassign licenses to a group in the Microsoft 365 admin center - Microsoft 365 admin",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licenses",
-          "pubDate": "Thu, 15 Oct 2026 23:36:00 GMT",
           "matchedKeywords": [
             "security"
           ]
@@ -271,14 +206,6 @@
           "matchedKeywords": [
             "copilot"
           ]
-        },
-        {
-          "source": "What is Microsoft Copilot Managed Runtime (preview)",
-          "link": "https://learn.microsoft.com/en-us/microsoft-365/managed-apps/",
-          "pubDate": "Thu, 15 Oct 2026 20:40:00 GMT",
-          "matchedKeywords": [
-            "copilot"
-          ]
         }
       ]
     }
@@ -290,7 +217,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 3
+      "flaggedHits": 1
     },
     {
       "id": "outlook-mobile",
@@ -298,7 +225,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "teams-first-meeting",
@@ -322,7 +249,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 8
+      "flaggedHits": 6
     },
     {
       "id": "onedrive-save",
@@ -354,7 +281,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 5
+      "flaggedHits": 3
     },
     {
       "id": "mfa-setup",
@@ -362,7 +289,7 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 2
+      "flaggedHits": 1
     },
     {
       "id": "password-reset",
@@ -378,7 +305,7 @@
       "category": "Copilot og AI",
       "status": "needs_review",
       "lastUpdated": "2024-03-15",
-      "flaggedHits": 2
+      "flaggedHits": 1
     }
   ]
 }
