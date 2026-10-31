@@ -1,7 +1,7 @@
 {
-  "lastChecked": "2026-10-30T13:53:55.433Z",
+  "lastChecked": "2026-10-31T13:26:00.779Z",
   "totalGuides": 12,
-  "flaggedCount": 8,
+  "flaggedCount": 12,
   "sources": [
     {
       "name": "Microsoft 365 Blog",
@@ -26,11 +26,104 @@
       "category": "E-post og kalender",
       "hits": [
         {
+          "source": "Overview of Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "mail"
+          ]
+        },
+        {
+          "source": "Cross-tenant mailbox migration",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/cross-tenant-mailbox-migration",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "mail"
+          ]
+        },
+        {
+          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "outlook"
+          ]
+        },
+        {
+          "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
+          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
+          "source": "Remove a former employee - Overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
+          "source": "Configure new Standard and Deferred release options for Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/configure-release-options",
+          "pubDate": "Sat, 31 Oct 2026 02:35:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
           "pubDate": "Mon, 26 Oct 2026 23:35:00 GMT",
           "matchedKeywords": [
             "configure"
+          ]
+        },
+        {
+          "source": "Change a user name and email address - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
+          "source": "Get started with the Microsoft Release Communications MCP Server - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/mrc-mcp",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "configure"
+          ]
+        },
+        {
+          "source": "Give mailbox permissions to another user - Admin Help - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
+          ]
+        },
+        {
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "email",
+            "mail"
           ]
         }
       ]
@@ -47,6 +140,54 @@
           "matchedKeywords": [
             "app"
           ]
+        },
+        {
+          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "outlook"
+          ]
+        },
+        {
+          "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Understanding implications when using network Intermediation to decrypt or manipulate Microsoft 365 traffic - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/network-intermediation",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
+        },
+        {
+          "source": "Plan a Microsoft 365 tenant-to-tenant migration",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/microsoft-365-tenant-to-tenant-migrations",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "app"
+          ]
         }
       ]
     },
@@ -55,6 +196,30 @@
       "guideTitle": "Første møte i Teams",
       "category": "Microsoft Teams",
       "hits": [
+        {
+          "source": "How to check Microsoft 365 service health - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/view-service-health",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        },
+        {
+          "source": "Microsoft 365 Groups overview for administrators - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "call"
+          ]
+        },
+        {
+          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        },
         {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
@@ -76,6 +241,30 @@
           "pubDate": "Tue, 27 Oct 2026 16:00:00 +0000",
           "matchedKeywords": [
             "post"
+          ]
+        },
+        {
+          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "message"
+          ]
+        },
+        {
+          "source": "How to check Microsoft 365 service health - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/view-service-health",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "teams"
+          ]
+        },
+        {
+          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "teams"
           ]
         },
         {
@@ -106,16 +295,119 @@
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Thu, 22 Oct 2026 20:36:00 GMT",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
           ]
         },
         {
+          "source": "Overview of Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Cross-tenant mailbox migration",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/cross-tenant-mailbox-migration",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Prepare for Microsoft 365 updates with Message center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
           "source": "Get started with the Microsoft Frontier Program - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier",
-          "pubDate": "Mon, 26 Oct 2026 20:39:00 GMT",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Add users and assign licenses in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/add-users",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "How to check Microsoft 365 service health - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/view-service-health",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "teams",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Set up multifactor authentication for users - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 IP Address and URL web service - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Compare types of groups in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/compare-groups",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
           "matchedKeywords": [
             "summarize"
           ]
@@ -123,7 +415,16 @@
         {
           "source": "Pay-as-you-go pricing for document processing for Microsoft 365",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/documentprocessing/syntex-pay-as-you-go-services",
-          "pubDate": "Wed, 28 Oct 2026 02:37:00 GMT",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
           "matchedKeywords": [
             "ai",
             "summarize"
@@ -138,11 +439,276 @@
           ]
         },
         {
+          "source": "Microsoft 365 Groups overview for administrators - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/office-365-groups",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Set up the Standard or Targeted release options for Microsoft 365 services - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Pricing model for Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Assign admin roles in the Microsoft 365 admin center - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/assign-admin-roles",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "teams",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Understanding implications when using network Intermediation to decrypt or manipulate Microsoft 365 traffic - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/network-intermediation",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Managing Microsoft 365 endpoints - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/managing-office-365-endpoints",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "summarize"
+          ]
+        },
+        {
+          "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "ai",
+            "summarize"
+          ]
+        },
+        {
+          "source": "Remove a former employee - Overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
           "source": "Organizational messages in Microsoft 365 - Microsoft 365 admin",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/organizational-messages-microsoft-365",
           "pubDate": "Mon, 26 Oct 2026 23:35:00 GMT",
           "matchedKeywords": [
             "teams"
+          ]
+        },
+        {
+          "source": "Change a user name and email address - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Give mailbox permissions to another user - Admin Help - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "onedrive-save",
+      "guideTitle": "Lagre filer i OneDrive",
+      "category": "OneDrive og SharePoint",
+      "hits": [
+        {
+          "source": "Overview of Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "onedrive",
+            "backup"
+          ]
+        },
+        {
+          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
+        {
+          "source": "Pricing model for Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "backup"
+          ]
+        },
+        {
+          "source": "Remove a former employee - Overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
+        {
+          "source": "Turn off directory synchronization for Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/turn-off-directory-synchronization",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "sync"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "sharepoint-document-library",
+      "guideTitle": "Jobbe med dokumentbibliotek",
+      "category": "OneDrive og SharePoint",
+      "hits": [
+        {
+          "source": "Overview of Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
+          ]
+        },
+        {
+          "source": "Cross-tenant SharePoint site migration overview",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/cross-tenant-sharepoint-migration",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "sharepoint"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "word-autosave",
+      "guideTitle": "AutoLagre i Word",
+      "category": "Word, Excel og PowerPoint",
+      "hits": [
+        {
+          "source": "Overview of Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
+        {
+          "source": "Step 5 - Give another employee access to OneDrive and Outlook data - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-5",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        },
+        {
+          "source": "Understanding implications when using network Intermediation to decrypt or manipulate Microsoft 365 traffic - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/network-intermediation",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "cloud"
+          ]
+        },
+        {
+          "source": "Remove a former employee - Overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "onedrive"
+          ]
+        },
+        {
+          "source": "Reset passwords - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/reset-passwords",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "word"
+          ]
+        },
+        {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "word"
+          ]
+        },
+        {
+          "source": "Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings",
+          "pubDate": "Sat, 31 Oct 2026 02:35:00 GMT",
+          "matchedKeywords": [
+            "cloud"
           ]
         }
       ]
@@ -164,7 +730,55 @@
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Thu, 22 Oct 2026 20:36:00 GMT",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Overview of Microsoft 365 Backup",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Cross-tenant mailbox migration",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/migration/cross-tenant-mailbox-migration",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Set up multifactor authentication for users - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Use the Microsoft AI at Work Roadmap - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/roadmap",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Unified cloud.microsoft domain for Microsoft 365 apps - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "External Domain Name System records for Microsoft 365 - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -172,7 +786,79 @@
         {
           "source": "Pay-as-you-go pricing for document processing for Microsoft 365",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/documentprocessing/syntex-pay-as-you-go-services",
-          "pubDate": "Wed, 28 Oct 2026 02:37:00 GMT",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Add or replace a onmicrosoft.com fallback domain - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Connect DNS Records at Namecheap to Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-at-namecheap",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Remove a domain from Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/remove-a-domain",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Remove a former employee - Overview - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Change a user name and email address - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Buy a Domain Name in Microsoft 365 - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/buy-a-domain-name",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Give mailbox permissions to another user - Admin Help - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "ai"
+          ]
+        },
+        {
+          "source": "Defederation Process for Microsoft 365 Admins Using GoDaddy - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/godaddy-defederation-process",
+          "pubDate": "Fri, 30 Oct 2026 14:36:00 GMT",
           "matchedKeywords": [
             "ai"
           ]
@@ -187,9 +873,51 @@
         {
           "source": "Baseline security mode settings",
           "link": "https://learn.microsoft.com/en-us/microsoft-365/baseline-security-mode/baseline-security-mode-settings",
-          "pubDate": "Thu, 22 Oct 2026 20:36:00 GMT",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
           "matchedKeywords": [
             "security"
+          ]
+        },
+        {
+          "source": "Set up multifactor authentication for users - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "mfa",
+            "security",
+            "2fa"
+          ]
+        },
+        {
+          "source": "Microsoft 365 network connectivity principles - Microsoft 365 Enterprise",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "security"
+          ]
+        }
+      ]
+    },
+    {
+      "guideId": "password-reset",
+      "guideTitle": "Nullstille passord",
+      "category": "Sikkerhet og innlogging",
+      "hits": [
+        {
+          "source": "Reset passwords - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/reset-passwords",
+          "pubDate": "Fri, 30 Oct 2026 17:33:00 GMT",
+          "matchedKeywords": [
+            "password",
+            "reset"
+          ]
+        },
+        {
+          "source": "Password policy recommendations - Microsoft 365 admin",
+          "link": "https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations",
+          "pubDate": "Fri, 30 Oct 2026 20:32:00 GMT",
+          "matchedKeywords": [
+            "password"
           ]
         }
       ]
@@ -217,7 +945,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 1
+      "flaggedHits": 12
     },
     {
       "id": "outlook-mobile",
@@ -225,7 +953,7 @@
       "category": "E-post og kalender",
       "status": "needs_review",
       "lastUpdated": "2024-01-15",
-      "flaggedHits": 1
+      "flaggedHits": 7
     },
     {
       "id": "teams-first-meeting",
@@ -233,7 +961,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 1
+      "flaggedHits": 4
     },
     {
       "id": "teams-channels",
@@ -241,7 +969,7 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-02-01",
-      "flaggedHits": 2
+      "flaggedHits": 5
     },
     {
       "id": "teams-copilot",
@@ -249,31 +977,31 @@
       "category": "Microsoft Teams",
       "status": "needs_review",
       "lastUpdated": "2024-03-01",
-      "flaggedHits": 6
+      "flaggedHits": 34
     },
     {
       "id": "onedrive-save",
       "title": "Lagre filer i OneDrive",
       "category": "OneDrive og SharePoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 0
+      "flaggedHits": 5
     },
     {
       "id": "sharepoint-document-library",
       "title": "Jobbe med dokumentbibliotek",
       "category": "OneDrive og SharePoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-20",
-      "flaggedHits": 0
+      "flaggedHits": 2
     },
     {
       "id": "word-autosave",
       "title": "AutoLagre i Word",
       "category": "Word, Excel og PowerPoint",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-10",
-      "flaggedHits": 0
+      "flaggedHits": 8
     },
     {
       "id": "excel-copilot",
@@ -281,7 +1009,7 @@
       "category": "Word, Excel og PowerPoint",
       "status": "needs_review",
       "lastUpdated": "2024-03-10",
-      "flaggedHits": 3
+      "flaggedHits": 18
     },
     {
       "id": "mfa-setup",
@@ -289,15 +1017,15 @@
       "category": "Sikkerhet og innlogging",
       "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 1
+      "flaggedHits": 3
     },
     {
       "id": "password-reset",
       "title": "Nullstille passord",
       "category": "Sikkerhet og innlogging",
-      "status": "ok",
+      "status": "needs_review",
       "lastUpdated": "2024-01-05",
-      "flaggedHits": 0
+      "flaggedHits": 2
     },
     {
       "id": "copilot-365-intro",
