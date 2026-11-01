@@ -1,15 +1,14 @@
 name: Sjekk Microsoft 365 oppdateringer
 
 on:
-  schedule:
-    # Kjøres hver dag kl. 07:00 UTC (09:00 norsk tid)
-    - cron: '0 7 * * *'
   workflow_dispatch:
     # Kan også kjøres manuelt fra GitHub Actions-fanen
 
 jobs:
   check-updates:
     name: Sjekk M365 endringslogg
+    # Prosjektet avvikles: blokker ogsaa manuell kjoering.
+    if: ${{ false }}
     runs-on: ubuntu-latest
 
     permissions:
