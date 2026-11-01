@@ -1,8 +1,6 @@
 name: Take M365 Screenshots
 
 on:
-  schedule:
-    - cron: '0 8 * * 1'   # Ukentlig — mandag kl. 08:00 UTC
   workflow_dispatch:
     inputs:
       guide_id:
@@ -12,6 +10,8 @@ on:
 
 jobs:
   take-screenshots:
+    # Prosjektet avvikles: blokker ogsaa manuell kjoering.
+    if: ${{ false }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
